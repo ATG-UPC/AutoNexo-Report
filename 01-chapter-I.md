@@ -47,95 +47,102 @@ Las empresas pueden perder hasta un 20% más en costos de mantenimiento por no c
 ### **1.2.2. Lean UX Process**
 
 #### **1.2.2.1. Lean UX Problem Statements**
-Nuestra startup proporciona una plataforma especializada en la gestión integral del mantenimiento vehicular. Está dirigida específicamente a propietarios de vehículos y técnicos mecánicos que requieren una herramienta digital eficiente para organizar mantenimientos, controlar repuestos, calcular presupuestos y llevar un historial técnico actualizado. Nuestra solución centraliza todas estas funciones dentro de una plataforma intuitiva que optimiza el proceso de control vehicular.
-Hemos identificado un factor crítico que afecta a las personas propietarias de vehículos y mecánicos: la desorganización en el mantenimiento de vehículos, lo que genera sobrecostos, fallas mecánicas evitables y pérdida de tiempo en tareas repetitivas o improvisadas.
-Ante este problema, surge la pregunta: ¿Cómo podemos ayudar a los usuarios a gestionar de forma eficiente sus vehículos para reducir imprevistos, optimizar costos y asegurar un mantenimiento constante sin complicaciones?
+Autonexo tiene como objetivo proporcionar a los talleres mecánicos y propietarios de vehículos una plataforma digital integral que permita centralizar procesos clave del mantenimiento vehicular, como el registro de unidades, la planificación de mantenimientos, el control de repuestos, el cálculo de presupuestos y el seguimiento histórico de intervenciones.
+
+El problema se manifiesta en la manera manual, fragmentada y desorganizada con la que la mayoría de talleres y conductores gestionan actualmente el mantenimiento de sus vehículos. Hoy en día, muchos utilizan hojas de Excel, cuadernos o herramientas genéricas que no están adaptadas a las necesidades específicas del rubro automotriz. Esto genera fallas en el control de registros históricos, pérdidas económicas por mantenimientos correctivos más costosos, retrasos en la atención de servicios y decisiones poco informadas respecto al cuidado de los vehículos.
+
+Hemos identificado que esta falta de estandarización y centralización limita seriamente la eficiencia de los talleres y reduce la confianza de los propietarios de vehículos. Además, deteriora la calidad del servicio, provoca gastos imprevistos y genera tiempos muertos tanto para los mecánicos como para los conductores. La ausencia de un sistema unificado también impide dar un seguimiento transparente y ordenado del estado de cada vehículo, afectando la productividad de los técnicos y la satisfacción de los clientes.
+
+¿Cómo podríamos centralizar y digitalizar la gestión del mantenimiento vehicular de forma escalable y accesible, permitiendo a mecánicos y propietarios ahorrar tiempo, reducir costos, mejorar la trazabilidad y asegurar un mantenimiento constante sin complicaciones?
+
 <br>
+
 #### **1.2.2.2. Lean UX Assumptions**
-### Users:
-- Propietarios de vehículos particulares preocupados por el buen estado de sus autos.
-- Mecánicos que desean llevar un control digital de sus mantenimientos y repuestos.
-### User Outcomes:
-**1. ¿Quién es el usuario?** 
-Nuestros usuarios serán dueños de vehículos y mecánicos. Los propietarios de vehículos buscan una solución para encontrar mecánicos que se ajusten a las necesidades de su vehículo y hacer un seguimiento eficiente de los mantenimientos de sus vehículos mientras que los mecánicos necesitan gestionar múltiples vehículos, presupuestos y registros de mantenimientos para optimizar su operación.
-<br>
-**2. ¿Dónde encaja nuestro producto en su trabajo o vida?**
-AutoNexo se convierte en una herramienta diaria de consulta y planificación, tanto para usuarios que desean mantener su vehículo en buen estado como para mecánicos que necesitan gestionar varios vehículos con eficiencia.
-<br>
-**3. ¿Qué problemas tiene nuestro producto y cómo se puede resolver?** 
-Uno de los problemas principales es la adopción de la tecnología, ya que algunos usuarios pueden no estar familiarizados con el uso de plataformas digitales. Para resolver esto, debemos ofrecer una interfaz intuitiva y fácil de navegar, con un proceso de integración simple para que los nuevos usuarios puedan configurar rápidamente sus vehículos y 
-mantenimientos. 
-<br>
-**4. ¿Cuándo y cómo es usado nuestro producto?** 
-Será usado cada vez que los usuarios necesiten gestionar el mantenimiento de sus vehículos. El uso se realiza a través de una plataforma móvil accesible desde cualquier dispositivo, brindando flexibilidad en el momento de acceder a la información.
-<br>
-**5. ¿Qué características son importantes?** 
-Algunas características importantes son:
-* Registro integral de vehículos, usuarios y mantenimientos
-* Plataforma de búsqueda de mecánico para un mantenimiento
-* Cálculo de presupuesto de reparaciones y mantenimientos
-* Historial detallado de mantenimientos por vehículo
-* Plataforma intuitiva y accesible desde móvil
-* Servicio de mensajería entre usuario y mecánico
-<br>
+### Business Assumptions
 
-**6. ¿Cómo debe verse nuestro producto y cómo debe comportarse?** Nuestro producto debe tener un diseño limpio y moderno. La interfaz debe ser clara y accesible, con menús fáciles de navegar y funciones bien definidas, sin sobrecargar al usuario con información innecesaria. En cuanto al comportamiento, la plataforma debe contar con tiempos de carga cortos y sin interrupciones.
+1. Creemos que nuestros clientes necesitan una plataforma digital centralizada que les permita gestionar de manera integral el mantenimiento de sus vehículos.
+
+2. Estas necesidades se pueden resolver mediante un sistema especializado que integre procesos clave como el registro de vehículos, la planificación de mantenimientos, el control de repuestos, el cálculo de presupuestos y el acceso a historiales técnicos actualizados.
+
+3. Nuestros clientes iniciales serán propietarios de vehículos particulares y mecánicos independientes o de talleres pequeños que actualmente utilizan métodos manuales o herramientas genéricas para organizar sus mantenimientos.
+
+4. El valor más importante que el cliente quiere de nuestro servicio es contar con un control organizado, accesible y confiable del mantenimiento vehicular en un solo lugar, evitando olvidos y costos innecesarios.
+
+5. El cliente también puede obtener beneficios adicionales como ahorro de tiempo y dinero por mantenimientos correctivos, presupuestos claros y detallados, así como una red de búsqueda que conecta conductores con mecánicos disponibles en tiempo real.
+
+6. Vamos a adquirir la mayoría de nuestros clientes mediante marketing digital dirigido en redes sociales (Facebook, Instagram, TikTok), campañas en Google Ads y programas de referidos, además de alianzas estratégicas con talleres automotrices.
+
+7. Generaremos dinero a través de un modelo de suscripción mensual para mecánicos y talleres, otorgándoles acceso a un repertorio de conductores con vehículos registrados en la aplicación y a herramientas avanzadas de gestión.
+
+8. Nuestra competencia principal en el mercado son aplicaciones como Drivvo o Fleetio, además de softwares genéricos de gestión vehicular.
+
+9. Los venceremos debido a nuestro enfoque local, interfaz amigable y funcionalidades específicas diseñadas tanto para propietarios individuales como para técnicos mecánicos, como la búsqueda de servicios en tiempo real y la trazabilidad completa de historiales.
+
+10. El mayor riesgo del servicio es que los usuarios no adopten la plataforma por preferir métodos manuales o por falta de familiaridad con herramientas digitales.
+
+11. Resolveremos esto a través de una interfaz simple e intuitiva, capacitaciones básicas, materiales de apoyo, demostraciones gratuitas y testimonios de clientes satisfechos que incentiven la adopción.
+
   
-### Business Outcomes:
-**1. Creo que mis clientes necesitan** una plataforma que les permita gestionar de forma eficiente el mantenimiento de sus vehículos, calcular presupuestos y acceder a un historial detallado de intervenciones.
-<br>
-**2. Estas necesidades se pueden resolver** mediante una solución digital centralizada, accesible desde el móvil, que automatice procesos, reduzca la improvisación y brinde herramientas de seguimiento y planificación de mantenimiento vehicular
-<br>
-**3. Mis clientes iniciales serán** propietarios de vehículos particulares y mecánicos que buscan mayor organización y eficiencia en el manejo de mantenimientos.
-<br>
-**4. El valor #1 que un cliente quiere de mi servicio** es poder llevar un control integral y ordenado del mantenimiento de sus vehículos en un solo lugar, sin depender de registros manuales o desorganizados.
-<br>
-**5. El cliente también puede obtener estos beneficios adicionales:** 
-* Ahorro de tiempo y costos por mantenimientos tardíos o improvisados.
-* Generación de presupuestos claros y detallados.
-* Plataforma de búsqueda de mecánico para un mantenimiento en específico.
 
-**6. Voy a adquirir la mayoría de mis clientes a través de** marketing digital dirigido y programas de referidos. 
-<br>
-**7. Haré dinero a través de** planes de suscripción mensual a los mecánicos para acceso a un reperterio de conductores con vehículos registrados en la aplicación.
-<br>
-**8. Mi competencia principal en el mercado serán** aplicaciones como Drivvo o Fleetio y softwares de gestión vehicular comerciales.
-<br>
-**9. Los venceremos debido a nuestro apoyo** enfocado especialmente en el contexto local, con una interfaz amigable, enfoque específico en propietarios individuales y técnicos, y funcionalidades relevantes como historial detallado y plataforma de búsqueda de mecánicos.
-<br>
-**10. Mi mayor riesgo de producto es** que los usuarios no adopten la plataforma por considerar que sus métodos actuales (manuales o informales) ya les funcionan o por falta de conocimiento digital.
-Resolveremos esto a través de capacitación básica, demostraciones gratuitas y testimonios de clientes satisfechos.
-<br>
-**11. ¿Qué otras suposiciones tenemos?** 
-<br>
-**Suposición 1:** Los mecánicos y dueños de vehículos están dispuestos a cambiar sus métodos actuales por una solución digital.
-<br>
-**Suposición 2:** Los usuarios consideran útil llevar un historial detallado y control digital del mantenimiento.
-<br>
-**Suposición 3:** El modelo de suscripción es viable para este segmento de usuarios.
-<br>
-**Suposición 4:** Los usuarios valorarán funciones adicionales como el cálculo de presupuesto y la búsqueda de mecánicos.
-<br>
-**¿Eso, si se prueba que es falso, causará que nuestro negocio / proyecto no funcione?** 
-Si los usuarios no consideran que el cambio a una solución digital aporta suficiente valor o si no están dispuestos a pagar por ello, el modelo de negocio no será sostenible ni escalable.
+### User Assumptions
+
+**¿Quién es el usuario?**
+Nuestros usuarios son dueños de vehículos particulares que buscan cuidar su inversión y mecánicos que desean llevar un control digital eficiente de múltiples mantenimientos y repuestos.
+
+**¿Qué problema tiene nuestro producto que debe resolver?**
+El principal problema es la desorganización en la gestión del mantenimiento vehicular, que genera sobrecostos, fallas mecánicas evitables y pérdida de tiempo en tareas manuales o repetitivas.
+
+**¿Qué características son importantes?**
+- Registro integral de vehículos, usuarios y mantenimientos.
+- Plataforma de búsqueda de mecánico en tiempo real.
+- Cálculo de presupuestos de reparaciones y mantenimientos.
+- Historial detallado de mantenimientos por vehículo.
+- Servicio de mensajería entre usuario y mecánico.
+- Interfaz accesible desde dispositivos móviles.
+
+**¿Dónde encaja nuestro producto en su trabajo o vida?**
+En el día a día de los propietarios y mecánicos: los conductores lo usan para planificar y dar seguimiento a sus mantenimientos, mientras que los mecánicos lo utilizan para gestionar varios vehículos, presupuestos y repuestos desde un solo lugar.
+
+**¿Cuándo y cómo es usado nuestro producto?**
+Será utilizado cada vez que un usuario necesite planificar, registrar o dar seguimiento a un mantenimiento. Se accederá principalmente desde dispositivos móviles, lo que garantiza flexibilidad y disponibilidad inmediata.
+
+**¿Cómo debe verse nuestro producto y cómo debe comportarse?**
+Debe tener un diseño moderno, limpio y amigable, con menús simples de navegar. El sistema debe responder rápidamente, evitar interrupciones y garantizar una experiencia fluida para usuarios con o sin experiencia digital.
+
 
 #### **1.2.2.3. Lean UX Hypothesis Statements**
-**1. Creemos que** al ofrecer una plataforma centralizada para registrar vehículos, usuarios y mantenimientos, ayudaremos a los usuarios a organizar mejor sus procesos y reducir errores o pérdidas de información.
-<br>
-**Sabremos que** hemos tenido éxito cuando al menos el 70% de los usuarios registre y mantenga actualizado su historial de vehículos y mantenimientos en el primer mes.
-<br>
-**2. Creemos que** al integrar herramientas de registros de mantenimiento y cálculo automático de presupuestos, facilitaremos la gestión operativa y financiera tanto a mecánicos como a dueños de vehículos.
-<br>
-**Sabremos que** hemos tenido éxito cuando el 60% de los usuarios utilicen estas funciones para planificar o ejecutar mantenimientos dentro de la plataforma.
-<br>
-**3. Creemos que** al diseñar una interfaz móvil intuitiva y accesible, incentivaremos el uso constante de Autonexo incluso por usuarios sin experiencia técnica.
-<br>
-**Sabremos que** hemos tenido éxito cuando al menos el 75% de los usuarios activos utilicen la plataforma semanalmente para gestionar sus vehículos.
-<br>
-**4. Creemos que** al permitir el acceso al historial completo de mantenimiento, aumentaremos la confianza de los usuarios en sus decisiones de reparación o venta de vehículos.
-<br>
-**Sabremos que** hemos tenido éxito cuando el 50% de los usuarios consulten el historial como parte del proceso de evaluación del estado del vehículo.
-<br>
+### Hypothesis 01
+
+**Creemos que** al ofrecer una plataforma centralizada para registrar vehículos, usuarios y mantenimientos, ayudaremos a los usuarios a organizar mejor sus procesos y reducir errores o pérdidas de información.
+
+**Sabremos que hemos tenido éxito.**
+
+**Cuando al menos** el 70% de los usuarios registre y mantenga actualizado su historial de vehículos y mantenimientos en el primer mes.
+
+### Hypothesis 02
+
+**Creemos que** al integrar herramientas de registros de mantenimiento y cálculo automático de presupuestos, facilitaremos la gestión operativa y financiera tanto a mecánicos como a dueños de vehículos.
+
+**Sabremos que hemos tenido éxito.**
+
+**Cuando al menos** el 60% de los usuarios utilicen estas funciones para planificar o ejecutar mantenimientos dentro de la plataforma.
+
+### Hypothesis 03
+
+**Creemos que** al diseñar una interfaz móvil intuitiva y accesible, incentivaremos el uso constante de Autonexo incluso por usuarios sin experiencia técnica.
+
+**Sabremos que hemos tenido éxito.**
+
+**Cuando al menos** el 75% de los usuarios activos utilicen la plataforma semanalmente para gestionar sus vehículos.
+
+### Hypothesis 04
+
+**Creemos que** al permitir el acceso al historial completo de mantenimiento, aumentaremos la confianza de los usuarios en sus decisiones de reparación o venta de vehículos.
+
+**Sabremos que hemos tenido éxito.**
+
+**Cuando al menos** el 50% de los usuarios consulten el historial como parte del proceso de evaluación del estado del vehículo.
+
 #### **1.2.2.4. Lean UX Canvas**
 |  | | |
 |-------------|--------------|--------------|
