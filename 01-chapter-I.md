@@ -3,11 +3,11 @@
 ## **1.1. Startup Profile**
 
 ### **1.1.1. Descripción de la Startup**
-Autonexo es un software especializado en la gestión integral del mantenimiento vehicular, diseñado para resolver los principales problemas que enfrentan los mecánicos. Su objetivo es optimizar la organización, el seguimiento histórico y facilitar la conexión entre mecánicos y conductores dentro de un sistema centralizado y fácil de usar.
+Autonexo es un software especializado en la gestión integral del mantenimiento vehicular, diseñado para resolver los principales problemas que enfrentan los mecánicos. Su objetivo es optimizar la organización, el seguimiento histórico y facilitar la conexión entre mecánicos y propietarios dentro de un sistema centralizado y fácil de usar.
 
 La plataforma permite registrar vehículos, usuarios y mantenimientos. Según un estudio realizado por Innocar en colaboración con la empresa mexicana Roshfrans, solo el 23.5% de los talleres mecánicos en América Latina utilizan software especializado para gestionar sus operaciones y aspectos administrativos. Este bajo nivel de adopción tecnológica resalta la necesidad de soluciones digitales que optimicen la eficiencia operativa en la gestión de vehículos.
 
-Autonexo también conexión entre conductores y mecánicos mediante un sistema de búsqueda de mantenimiento iniciado por el conductor donde los mecánicos registrados podrán acceder y responder en tiempo real a su petición.
+Autonexo también conexión entre propietarios y mecánicos mediante un sistema de búsqueda de mantenimiento iniciado por el conductor donde los mecánicos registrados podrán acceder y responder en tiempo real a su petición.
 <br><br>
 A continuación, exponemos un preliminar de, cuadro comparativo de nuestros competidores que será detallado más adelante en el segundo capítulo.
 |  **Nombre**    | **Perfil (Overview)** |
@@ -49,9 +49,9 @@ Las empresas pueden perder hasta un 20% más en costos de mantenimiento por no c
 #### **1.2.2.1. Lean UX Problem Statements**
 Autonexo tiene como objetivo proporcionar a los talleres mecánicos y propietarios de vehículos una plataforma digital integral que permita centralizar procesos clave del mantenimiento vehicular, como el registro de unidades, la planificación de mantenimientos, el control de repuestos, el cálculo de presupuestos y el seguimiento histórico de intervenciones.
 
-El problema se manifiesta en la manera manual, fragmentada y desorganizada con la que la mayoría de talleres y conductores gestionan actualmente el mantenimiento de sus vehículos. Hoy en día, muchos utilizan hojas de Excel, cuadernos o herramientas genéricas que no están adaptadas a las necesidades específicas del rubro automotriz. Esto genera fallas en el control de registros históricos, pérdidas económicas por mantenimientos correctivos más costosos, retrasos en la atención de servicios y decisiones poco informadas respecto al cuidado de los vehículos.
+El problema se manifiesta en la manera manual, fragmentada y desorganizada con la que la mayoría de talleres y propietarios gestionan actualmente el mantenimiento de sus vehículos. Hoy en día, muchos utilizan hojas de Excel, cuadernos o herramientas genéricas que no están adaptadas a las necesidades específicas del rubro automotriz. Esto genera fallas en el control de registros históricos, pérdidas económicas por mantenimientos correctivos más costosos, retrasos en la atención de servicios y decisiones poco informadas respecto al cuidado de los vehículos.
 
-Hemos identificado que esta falta de estandarización y centralización limita seriamente la eficiencia de los talleres y reduce la confianza de los propietarios de vehículos. Además, deteriora la calidad del servicio, provoca gastos imprevistos y genera tiempos muertos tanto para los mecánicos como para los conductores. La ausencia de un sistema unificado también impide dar un seguimiento transparente y ordenado del estado de cada vehículo, afectando la productividad de los técnicos y la satisfacción de los clientes.
+Hemos identificado que esta falta de estandarización y centralización limita seriamente la eficiencia de los talleres y reduce la confianza de los propietarios de vehículos. Además, deteriora la calidad del servicio, provoca gastos imprevistos y genera tiempos muertos tanto para los mecánicos como para los propietarios. La ausencia de un sistema unificado también impide dar un seguimiento transparente y ordenado del estado de cada vehículo, afectando la productividad de los técnicos y la satisfacción de los clientes.
 
 ¿Cómo podríamos centralizar y digitalizar la gestión del mantenimiento vehicular de forma escalable y accesible, permitiendo a mecánicos y propietarios ahorrar tiempo, reducir costos, mejorar la trazabilidad y asegurar un mantenimiento constante sin complicaciones?
 
@@ -68,11 +68,11 @@ Hemos identificado que esta falta de estandarización y centralización limita s
 
 4. El valor más importante que el cliente quiere de nuestro servicio es contar con un control organizado, accesible y confiable del mantenimiento vehicular en un solo lugar, evitando olvidos y costos innecesarios.
 
-5. El cliente también puede obtener beneficios adicionales como ahorro de tiempo y dinero por mantenimientos correctivos, presupuestos claros y detallados, así como una red de búsqueda que conecta conductores con mecánicos disponibles en tiempo real.
+5. El cliente también puede obtener beneficios adicionales como ahorro de tiempo y dinero por mantenimientos correctivos, presupuestos claros y detallados, así como una red de búsqueda que conecta propietarios con mecánicos disponibles en tiempo real.
 
 6. Vamos a adquirir la mayoría de nuestros clientes mediante marketing digital dirigido en redes sociales (Facebook, Instagram, TikTok), campañas en Google Ads y programas de referidos, además de alianzas estratégicas con talleres automotrices.
 
-7. Generaremos dinero a través de un modelo de suscripción mensual para mecánicos y talleres, otorgándoles acceso a un repertorio de conductores con vehículos registrados en la aplicación y a herramientas avanzadas de gestión.
+7. Generaremos dinero a través de un modelo de suscripción mensual para mecánicos y talleres, otorgándoles acceso a un repertorio de propietarios con vehículos registrados en la aplicación y a herramientas avanzadas de gestión.
 
 8. Nuestra competencia principal en el mercado son aplicaciones como Drivvo o Fleetio, además de softwares genéricos de gestión vehicular.
 
@@ -101,7 +101,7 @@ El principal problema es la desorganización en la gestión del mantenimiento ve
 - Interfaz accesible desde dispositivos móviles.
 
 **¿Dónde encaja nuestro producto en su trabajo o vida?**
-En el día a día de los propietarios y mecánicos: los conductores lo usan para planificar y dar seguimiento a sus mantenimientos, mientras que los mecánicos lo utilizan para gestionar varios vehículos, presupuestos y repuestos desde un solo lugar.
+En el día a día de los propietarios y mecánicos: los propietarios lo usan para planificar y dar seguimiento a sus mantenimientos, mientras que los mecánicos lo utilizan para gestionar varios vehículos, presupuestos y repuestos desde un solo lugar.
 
 **¿Cuándo y cómo es usado nuestro producto?**
 Será utilizado cada vez que un usuario necesite planificar, registrar o dar seguimiento a un mantenimiento. Se accederá principalmente desde dispositivos móviles, lo que garantiza flexibilidad y disponibilidad inmediata.
@@ -147,15 +147,15 @@ Debe tener un diseño moderno, limpio y amigable, con menús simples de navegar.
 |  | | |
 |-------------|--------------|--------------|
 | **Business Problem**<br>Autonexo es una plataforma que combina la eficiencia de un sistema digital con la gestión integral del mantenimiento vehicular. Su objetivo es ayudar a mecánicos a controlar y optimizar las actividades relacionadas con el mantenimiento de vehículos desde una sola herramienta. Ante la falta de seguimiento histórico y la dificultad para presupuestar y programar mantenimientos, muchos usuarios recurren a métodos manuales o herramientas poco integradas que generan errores, pérdidas económicas y tiempos de inactividad. Además, enfrentan una experiencia fragmentada al usar múltiples sistemas para registrar vehículos, calcular costos o acceder a información técnica. | **Features**<br>- Registro integral de vehículos, usuarios y mantenimientos <br>- Plataforma de búsqueda de mecánico para un mantenimiento <br>- Cálculo de presupuesto de mantenimientos <br>- Historial detallado de mantenimientos por vehículo <br>- Plataforma intuitiva y accesible desde móvil <br>- Servicio de mensajería entre usuario y mecánico | **Business Outcomes**<br>- Reducir mantenimientos olvidados o tardíos mediante recordatorios y seguimiento digital <br>- Fidelizar a los usuarios con historial completo y recomendaciones personalizadas <br>- Posicionar a Autonexo como líder en Perú <br>- Mejorar la productividad de mecánicos y talleres reduciendo errores y tiempos de espera |
-| **Customers**<br>Autonexo está dirigido a dueños de vehículos que buscan controlar sus mantenimientos de forma práctica y a técnicos o talleres que desean optimizar su gestión operativa. Ambos valoran soluciones digitales que les permitan organizar historiales, prevenir fallas, reducir costos y tomar decisiones informadas. | **Customer Benefits**<br>- Confianza y transparencia en reparaciones <br>- Mejora en la toma de decisiones <br>- Disminución de costos operativos <br>- Mejora de la reputación profesional (mecánicos) <br>- Optimización de conexiones entre mecánicos y conductores | **Hypothesis**<br>- Plataforma centralizada reducirá errores y mejorará la organización. Éxito: 70% mantiene historial en el primer mes. <br>- Mantenimientos y presupuestos facilitarán la gestión. Éxito: 60% los usa para planificar o ejecutar mantenimientos. <br>- Interfaz intuitiva incentivará el uso. Éxito: 75% usa la plataforma semanalmente. |
-| **¿Qué debemos aprender primero?**<br>Debemos entender cómo los técnicos y conductores actualmente organizan sus mantenimientos, qué herramientas usan, qué problemas enfrentan al llevar control manual, y si realmente valoran una solución integral que incluya nuestras funcionalidades. | **¿Cuál es el menor esfuerzo para validar?**<br>- Desarrollar versión básica para registrar vehículos, usuarios y mantenimientos <br>- Implementar funciones esenciales: historial y presupuesto simple <br>- Diseñar una interfaz móvil sencilla e intuitiva <br>- Aplicar encuestas a un grupo reducido de mecánicos para validar si la solución resuelve sus principales problemas operativos |  |
+| **Customers**<br>Autonexo está dirigido a dueños de vehículos que buscan controlar sus mantenimientos de forma práctica y a técnicos o talleres que desean optimizar su gestión operativa. Ambos valoran soluciones digitales que les permitan organizar historiales, prevenir fallas, reducir costos y tomar decisiones informadas. | **Customer Benefits**<br>- Confianza y transparencia en reparaciones <br>- Mejora en la toma de decisiones <br>- Disminución de costos operativos <br>- Mejora de la reputación profesional (mecánicos) <br>- Optimización de conexiones entre mecánicos y propietarios | **Hypothesis**<br>- Plataforma centralizada reducirá errores y mejorará la organización. Éxito: 70% mantiene historial en el primer mes. <br>- Mantenimientos y presupuestos facilitarán la gestión. Éxito: 60% los usa para planificar o ejecutar mantenimientos. <br>- Interfaz intuitiva incentivará el uso. Éxito: 75% usa la plataforma semanalmente. |
+| **¿Qué debemos aprender primero?**<br>Debemos entender cómo los técnicos y propietarios actualmente organizan sus mantenimientos, qué herramientas usan, qué problemas enfrentan al llevar control manual, y si realmente valoran una solución integral que incluya nuestras funcionalidades. | **¿Cuál es el menor esfuerzo para validar?**<br>- Desarrollar versión básica para registrar vehículos, usuarios y mantenimientos <br>- Implementar funciones esenciales: historial y presupuesto simple <br>- Diseñar una interfaz móvil sencilla e intuitiva <br>- Aplicar encuestas a un grupo reducido de mecánicos para validar si la solución resuelve sus principales problemas operativos |  |
 <br>
 
 ## **1.3. Segmentos objetivo**
 Con el propósito de llegar de manera efectiva a posibles clientes, Autonexo ha definido dos segmentos principales como público objetivo.
 <br>
 
-**Segmento objetivo \#1: Dueños de flota o conductores**
+**Segmento objetivo \#1: Propietarios**
 Personas que poseen uno o más vehículos personales y desean gestionar de forma eficiente el mantenimiento, control de gastos y estado general de su unidad, evitando olvidos o problemas mecánicos por falta de seguimiento.
 <br>
    Aspectos demográficos:
