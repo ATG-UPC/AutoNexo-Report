@@ -20,26 +20,26 @@
             <th style="text-align:center;">Member</th>
             <th style="text-align:center;">Code</th>
         </tr>
-        <tr>
-            <td>Sergio Sebastián Iglesias Pérez</td>
-            <td>u202316118</td>
-        </tr>
-        <tr>
-            <td>Henry Kalet Esteban Roman</td>
-            <td>u202310210</td>
-        </tr>
-        <tr>
-            <td>Victor Andres Cruz Ibarra</td>
-            <td>u202311053</td>
-        </tr>
-        <tr>
-            <td>Angelo Hector Solano Armas</td>
-            <td>u20231B775</td>
-        </tr>
-        <tr>
-            <td>Rafael Andres Vivanco Salazar</td>
-            <td>u202311064</td>
-        </tr>
+       <tr>
+    <td>Cruz Ibarra, Victor Andres</td>
+    <td>u202311053</td>
+</tr>
+<tr>
+    <td>Iglesias Pérez, Sergio Sebastián</td>
+    <td>u202316118</td>
+</tr>
+<tr>
+    <td>Roman Esteban, Henry Kalet</td>
+    <td>u202310210</td>
+</tr>
+<tr>
+    <td>Solano Armas, Angelo Hector</td>
+    <td>u20231B775</td>
+</tr>
+<tr>
+    <td>Vivanco Salazar, Rafael Andres</td>
+    <td>u202311064</td>
+</tr>
     </table>
 </div>
 
