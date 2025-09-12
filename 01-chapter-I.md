@@ -20,7 +20,7 @@ El objetivo de Autonexo es transformar la experiencia de mantenimiento vehicular
 | <img src="" alt="Henry Esteban" width="300"/> | **Henry Esteban \- u202310210** <br>  |
 | <img src="" alt="Sergio Iglesias" width="300"/> | **Sergio Iglesias \- u202316118** <br>  |
 | <img width="219" height="255" alt="VictorCruz" src="https://github.com/user-attachments/assets/b9690f0d-310b-4fdd-8ca4-7b642066a0ca"/> | **Victor Cruz \- u202311053** <br> Mi nombre es Victor Cruz, tengo 19 años y estoy cursando mi 5to ciclo de la carrera de Ingeniería de Software en la UPC. Soy una persona entusiasta, creativa y comprometida con cada actividad que realizo. Estoy decidido a dar lo mejor de mi en este proyecto para lograr resultados de calidad. |
-|<img width="149" height="178" alt="RafaelVivanco" src="https://github.com/user-attachments/assets/a3c5d073-74bf-43a5-a1d9-557ec4c23edd" />| **Rafael Vivanco \- u202311064** <br> Mi nombre es Rafael Vivanco, tengo 19 años y actualmente curso el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable con facilidad para adaptarme a distintos entornos y manejar varias tareas a la vez. Siempre doy lo mejor de mí en cada proyecto, aportando dedicación, esfuerzo y actitud positiva. |
+|<img width="149" height="178" alt="RafaelVivanco" src="assets/chapter-I-assets/photo-Rafael-Vivanco.jpg" />| **Rafael Vivanco \- u202311064** <br> Mi nombre es Rafael Vivanco, tengo 19 años y actualmente curso el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable con facilidad para adaptarme a distintos entornos y manejar varias tareas a la vez. Siempre doy lo mejor de mí en cada proyecto, aportando dedicación, esfuerzo y actitud positiva. |
 
 ## **1.2. Solution Profile**
 ### **1.2.1. Antecedentes y problemática**
@@ -129,8 +129,13 @@ El diseño y comportamiento del producto deben reflejar un **diseño moderno, li
 
 
 #### **1.2.2.4. Lean UX Canvas**
+<br>
+|<img alt="Lean-Ux-Canvas-Autonexo" src="assets/chapter-I-assets/lean-ux-canvas-autonexo.jpg" />
 
-FALTA COLOCAR EL MIRRROR (LA IMAGEN Y ABAJO EL ENLACE QUE TE MANDE AHI)
+<br>
+
+Realizado en Miro:
+https://miro.com/app/board/uXjVJItnvtg=/?share_link_id=393083500430
 
 ## **1.3. Segmentos objetivo**
 Con el propósito de llegar de manera efectiva a posibles clientes, Autonexo ha definido dos segmentos principales como público objetivo.
