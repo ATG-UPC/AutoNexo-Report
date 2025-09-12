@@ -299,7 +299,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <th>Edad</th>
     <td>49</td>
     <th>Distrito</th>
-    <td>Surquillo</td>
+    <td>Suquillo</td>
   </tr>
   <tr>
     <th>Captura de la entrevista: <img src="assets/Chapter-2/seg2-carlitos.png" alt="Captura de la entrevista" width="200"></th>
