@@ -335,3 +335,37 @@ Las entrevistas se realizaron entre el 5 y el 15 de septiembre de 2025 a un tota
 • Desean que la plataforma incluya valoraciones y comentarios de otros usuarios como guía: 2/2 (100%)
 
 • Muestran disposición a usar una app siempre que sea intuitiva y rápida: 2/2 (100%)
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+<br>
+
+### 2.3.2. User Task Matrix
+<br>
+
+### 2.3.3. User Journey Mapping
+Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagramas nos ayudarán a identificar y comprender las dificultades que enfrentan en cada fase, desde el momento en que conocen nuestra aplicación hasta la etapa en la que comparten sus experiencias y opiniones sobre su uso.
+<br>
+
+- User Journey Map de José Quispe (mecánico)
+<br>
+
+<img alt="Journey-Map-José-Quispe" src="assets/chapter-IIjourney-map-jose.png" />
+
+[Ver mapa completo en UxPressia](https://uxpressia.com/w/SIllD/m/hC0Ry?tagId=noTag)
+<br>
+
+- User Journey Map de Marina Salinas (propietaria)
+<br>
+
+<img alt="Journey-Map-Maria-Salinas" src="assets/chapter-IIjourney-map-marina.png" />
+
+[Ver mapa completo en UxPressia](https://uxpressia.com/w/GpJxm/m/0nPh7?tagId=noTag)
+<br>
+
+### 2.3.4. Empathy Mapping
+<br>
+
+### 2.3.5. Ubiquitous Language
+<br>
