@@ -351,7 +351,7 @@ Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagram
 - User Journey Map de José Quispe (mecánico)
 <br>
 
-<img alt="Journey-Map-José-Quispe" src="assets/chapter-IIjourney-map-jose.png" />
+<img alt="Journey-Map-José-Quispe" src="assets/chapter-II/journey-map-jose.png" />
 
 [Ver mapa completo en UxPressia](https://uxpressia.com/w/SIllD/m/hC0Ry?tagId=noTag)
 <br>
@@ -359,7 +359,7 @@ Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagram
 - User Journey Map de Marina Salinas (propietaria)
 <br>
 
-<img alt="Journey-Map-Maria-Salinas" src="assets/chapter-IIjourney-map-marina.png" />
+<img alt="Journey-Map-Maria-Salinas" src="assets/chapter-II/journey-map-marina.png" />
 
 [Ver mapa completo en UxPressia](https://uxpressia.com/w/GpJxm/m/0nPh7?tagId=noTag)
 <br>
