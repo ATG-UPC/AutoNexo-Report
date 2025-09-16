@@ -7,20 +7,104 @@
 ## ¿Por qué llevar a cabo este análisis?
 
 El objetivo es definir el posicionamiento de Autonexo frente a soluciones de gestión de flotas y mantenimiento vehicular, identificando diferenciadores de valor y riesgos competitivos para el mercado local.
-
-| | | AutoNexo | Fleetio | Drivvo | Whip Around |
-|---|---|---|---|---|---|
-| **Perfil** | Overview | Software especializado para gestión integral del mantenimiento vehicular que conecta conductores y mecánicos, centralizando historial, presupuestos y coordinación de servicios. | Plataforma robusta de gestión y mantenimiento de flotas (vehículos, conductores, combustible, inspecciones) con móvil y web, orientada a optimizar operaciones con datos. | App de gestión de vehículo/flota ligera para uso personal o pequeños negocios: control de combustible, gastos y mantenimientos; versión gratuita y planes Pro. | Plataforma para inspecciones digitales (DVIR), cumplimiento y mantenimiento para flotas comerciales, con foco en reducir downtime y riesgos. |
-| | Ventaja competitiva – ¿Qué valor ofrece al cliente? | Digitaliza y automatiza el proceso de mantenimiento; conecta demanda (conductores) con oferta (mecánicos) y da trazabilidad del historial. | Gestión centralizada y basada en datos para reducir costos (mantenimiento, combustible) y mejorar decisiones; módulos de inspección, órdenes de trabajo y fuel tracking. | Accesibilidad y simplicidad móvil para controlar gastos y recordatorios de servicio; apta para usuarios individuales. | Cumplimiento y seguridad: inspecciones digitalizadas y flujos mecánico–conductor para atender defectos rápido y cumplir normas (CSA/DOT). |
-| **Perfil de marketing** | Mercado objetivo | Dueños de flotas o conductores individuales y mecánicos/talleres. | Gestores de flota en transporte, construcción, servicios y sector público. | Conductores y pequeños negocios que desean controlar gastos/consumo del vehículo. | Gerentes de flota, supervisores de operaciones y conductores en flotas comerciales. |
-| | Estrategias de marketing | Performance en redes, programa de referidos y alianzas con talleres. | Contenido y recursos para fleet managers (guías, plantillas, blog), demos y pruebas gratuitas. | Web/app store pages + educación ligera (contenido de uso, ventajas). | Campañas orientadas a cumplimiento y reducción de riesgos; trial/demo. |
-| **Perfil de producto** | Productos & servicios | Registro de vehículos/usuarios, planificación y seguimiento de mantenimientos, búsqueda de mecánico, mensajería y presupuestos. | Gestión de activos, mantenimiento preventivo/WO, inspecciones, combustible, partes/inventario, reportes y mobile app Fleetio Go. | Registro de gastos, combustible, recordatorios de servicio, reportes; opciones de Fleet para múltiples vehículos. | Inspecciones DVIR personalizables, mantenimiento, órdenes de reparación y reporting para compliance. |
-| | Precios & costos | Suscripción por plan (accesible) para talleres y mecánicos; conductor gratuito o incluido (definición interna). | Suscripción mensual por plan (Essential/Professional) con usuarios ilimitados; add-ons por herramienta/activo; precios varían por tamaño. | Gratis (básico) + in-app purchases para Pro; en App Store figuran opciones mensuales/anuales y tiers de flota. | Suscripción por plan; mínimo mensual publicado: USD $120 (Standard) y $220 (Pro) en mes a mes; opciones "FixedUnlimited" para activos ilimitados. |
-| | Canales de distribución | Web y app móvil. | Web + app móvil; usuarios ilimitados incluidos. | App móvil (iOS/Android); web principalmente informativa. | Web y app móvil. |
-| **Análisis SWOT** | Fortalezas | Enfoque local, matching conductor–mecánico, trazabilidad del historial. | Cobertura funcional amplia y ecosistema maduro; fuerte orientación a datos. | Barrera de entrada baja y usabilidad móvil para usuario individual. | Especialista en inspecciones y cumplimiento; valor claro para safety/compliance. |
-| | Debilidades | Requiere onboarding/educación para talleres no digitalizados. | Coste total puede crecer con activos/add-ons en flotas grandes. | Menor cobertura "enterprise"; dependiente del móvil. | Menor foco en gestión integral de costos/combustible vs. suites completas. |
-| | Oportunidades | Digitalización del sector y integraciones (facturación, GPS). | Creciente adopción SaaS en LATAM/SMBs. | Extender funciones de flota ligera/pequeñas empresas. | Integrarse con plataformas de gestión de flotas y TMS. |
-| | Amenazas | UX inicial: si es compleja, podría afectar adopción temprana. | Competidores de menor costo o suites verticales. | Usuarios migran a soluciones más completas a medida que crecen. | Cambios normativos que reduzcan inspecciones obligatorias. |
+<table border="1">
+  <tr>
+    <th></th>
+        <th></th>
+    <th>AutoNexo</th>
+    <th>Fleetio</th>
+    <th>Drivvo</th>
+    <th>Whip Around</th>
+  </tr>
+  <tr>
+    <td><strong>Perfil</strong></td>
+    <td>Overview</td>
+    <td>Software especializado para gestión integral del mantenimiento vehicular que conecta conductores y mecánicos, centralizando historial, presupuestos y coordinación de servicios.</td>
+    <td>Plataforma robusta de gestión y mantenimiento de flotas (vehículos, conductores, combustible, inspecciones) con móvil y web, orientada a optimizar operaciones con datos.</td>
+    <td>App de gestión de vehículo/flota ligera para uso personal o pequeños negocios: control de combustible, gastos y mantenimientos; versión gratuita y planes Pro.</td>
+    <td>Plataforma para inspecciones digitales (DVIR), cumplimiento y mantenimiento para flotas comerciales, con foco en reducir downtime y riesgos.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><strong>Ventaja competitiva – ¿Qué valor ofrece al cliente?</strong></td>
+    <td>Digitaliza y automatiza el proceso de mantenimiento; conecta demanda (conductores) con oferta (mecánicos) y da trazabilidad del historial.</td>
+    <td>Gestión centralizada y basada en datos para reducir costos (mantenimiento, combustible) y mejorar decisiones; módulos de inspección, órdenes de trabajo y fuel tracking.</td>
+    <td>Accesibilidad y simplicidad móvil para controlar gastos y recordatorios de servicio; apta para usuarios individuales.</td>
+    <td>Cumplimiento y seguridad: inspecciones digitalizadas y flujos mecánico–conductor para atender defectos rápido y cumplir normas (CSA/DOT).</td>
+  </tr>
+  <tr>
+    <td><strong>Perfil de marketing</strong></td>
+    <td><strong>Mercado objetivo</strong></td>
+    <td>Dueños de flotas o conductores individuales y mecánicos/talleres.</td>
+    <td>Gestores de flota en transporte, construcción, servicios y sector público.</td>
+    <td>Conductores y pequeños negocios que desean controlar gastos/consumo del vehículo.</td>
+    <td>Gerentes de flota, supervisores de operaciones y conductores en flotas comerciales.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><strong>Estrategias de marketing</strong></td>
+    <td>Performance en redes, programa de referidos y alianzas con talleres.</td>
+    <td>Contenido y recursos para fleet managers (guías, plantillas, blog), demos y pruebas gratuitas.</td>
+    <td>Web/app store pages + educación ligera (contenido de uso, ventajas).</td>
+    <td>Campañas orientadas a cumplimiento y reducción de riesgos; trial/demo.</td>
+  </tr>
+  <tr>
+    <td><strong>Perfil de producto</strong></td>
+    <td><strong>Productos & servicios</strong></td>
+    <td>Registro de vehículos/usuarios, planificación y seguimiento de mantenimientos, búsqueda de mecánico, mensajería y presupuestos.</td>
+    <td>Gestión de activos, mantenimiento preventivo/WO, inspecciones, combustible, partes/inventario, reportes y mobile app Fleetio Go.</td>
+    <td>Registro de gastos, combustible, recordatorios de servicio, reportes; opciones de Fleet para múltiples vehículos.</td>
+    <td>Inspecciones DVIR personalizables, mantenimiento, órdenes de reparación y reporting para compliance.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><strong>Precios & costos</strong></td>
+    <td>Suscripción por plan (accesible) para talleres y mecánicos; conductor gratuito o incluido (definición interna).</td>
+    <td>Suscripción mensual por plan (Essential/Professional) con usuarios ilimitados; add-ons por herramienta/activo; precios varían por tamaño.</td>
+    <td>Gratis (básico) + in-app purchases para Pro; en App Store figuran opciones mensuales/anuales y tiers de flota.</td>
+    <td>Suscripción por plan; mínimo mensual publicado: USD $120 (Standard) y $220 (Pro) en mes a mes; opciones "FixedUnlimited" para activos ilimitados.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><strong>Canales de distribución</strong></td>
+    <td>Web y app móvil.</td>
+    <td>Web + app móvil; usuarios ilimitados incluidos.</td>
+    <td>App móvil (iOS/Android); web principalmente informativa.</td>
+    <td>Web y app móvil.</td>
+  </tr>
+  <tr>
+    <td><strong>Análisis SWOT</strong></td>
+    <td><strong>Fortalezas</strong></td>
+    <td>Enfoque local, matching conductor–mecánico, trazabilidad del historial.</td>
+    <td>Cobertura funcional amplia y ecosistema maduro; fuerte orientación a datos.</td>
+    <td>Barrera de entrada baja y usabilidad móvil para usuario individual.</td>
+    <td>Especialista en inspecciones y cumplimiento; valor claro para safety/compliance.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><strong>Debilidades</strong></td>
+    <td>Requiere onboarding/educación para talleres no digitalizados.</td>
+    <td>Coste total puede crecer con activos/add-ons en flotas grandes.</td>
+    <td>Menor cobertura "enterprise"; dependiente del móvil.</td>
+    <td>Menor foco en gestión integral de costos/combustible vs. suites completas.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><strong>Oportunidades</strong></td>
+    <td>Digitalización del sector y integraciones (facturación, GPS).</td>
+    <td>Creciente adopción SaaS en LATAM/SMBs.</td>
+    <td>Extender funciones de flota ligera/pequeñas empresas.</td>
+    <td>Integrarse con plataformas de gestión de flotas y TMS.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><strong>Amenazas</strong></td>
+    <td>UX inicial: si es compleja, podría afectar adopción temprana.</td>
+    <td>Competidores de menor costo o suites verticales.</td>
+    <td>Usuarios migran a soluciones más completas a medida que crecen.</td>
+    <td>Cambios normativos que reduzcan inspecciones obligatorias.</td>
+  </tr>
+</table>
 
 ## 2.1.2. Estrategias y tácticas frente a competidores
 
