@@ -16,10 +16,10 @@
     <tr>
       <th></th>
       <th></th>
-      <th>AutoNexo <img src="assets\chapter-II\competidor_1.png" alt="Fleetio Logo" height="50" width="200"></th>
-      <th>Fleetio <img src="assets\chapter-II\competidor_1.png" alt="Drivvo Logo" height="50" width="200"></th>
-      <th>Drivvo <img src="assets\chapter-II\competidor_2.png" alt="Drivvo Logo" height="50" width="200"></th>
-      <th>Whip Around <img src="assets\chapter-II\competidor_3.png" alt="Whip Around Logo" height="50" width="200"></th>
+      <th>AutoNexo <img src="assets\chapter-II-assets\logo-1.png.jpg" alt="Fleetio Logo" height="70" width="120"></th>
+      <th>Fleetio <img src="assets\chapter-II\competidor_1.png" alt="Drivvo Logo" height="70" width="120"></th>
+      <th>Drivvo <img src="assets\chapter-II\competidor_2.png" alt="Drivvo Logo" height="70" width="120"></th>
+      <th>Whip Around <img src="assets\chapter-II\competidor_3.png" alt="Whip Around Logo" height="70" width="120"></th>
     </tr>
     <tr>
       <td><strong>Perfil</strong></td>
