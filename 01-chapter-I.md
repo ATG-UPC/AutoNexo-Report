@@ -46,7 +46,7 @@ Las empresas pueden perder hasta un 20% más en costos de mantenimiento por no c
 
 ### **1.2.2. Lean UX Process**
 
-#### **1.2.2.1. Lean UX Problem Statements**
+#### **1.2.2.1. Lean UX Problem Statements**  
 Autonexo tiene como objetivo proporcionar a los talleres mecánicos y propietarios de vehículos una plataforma digital integral que permita centralizar procesos clave del mantenimiento vehicular, como el registro de unidades, la planificación de mantenimientos, el control de repuestos, el cálculo de presupuestos y el seguimiento histórico de intervenciones.
 
 El problema se manifiesta en la manera manual, fragmentada y desorganizada con la que la mayoría de talleres y conductores gestionan actualmente el mantenimiento de sus vehículos. Hoy en día, muchos utilizan hojas de Excel, cuadernos o herramientas genéricas que no están adaptadas a las necesidades específicas del rubro automotriz. Esto genera fallas en el control de registros históricos, pérdidas económicas por mantenimientos correctivos más costosos, retrasos en la atención de servicios y decisiones poco informadas respecto al cuidado de los vehículos.
