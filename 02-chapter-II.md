@@ -530,17 +530,24 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>No corresponde</td>
             <td>US24, US25, US26, US27</td>
         </tr>
+           <tr>
+            <td>EP08</td>
+            <td>Servicios técnicos y APIs REST</td>
+            <td>Como equipo de desarrollo, quiero exponer endpoints REST bien documentados y seguros, para facilitar la integración, el mantenimiento y la escalabilidad del sistema.</td>
+            <td>No corresponde</td>
+            <td>TS01, TS02, TS03, TS04, TS05, TS06, TS07, TS08, TS09, TS10, TS11, TS12, TS13, TS14, TS15</td>
+        </tr>
         <tr>
             <td>US01</td>
             <td>Registro de vehículo</td>
             <td>Como propietario, quiero registrar mi vehículo ingresando sus datos básicos, para que quede vinculado a mi perfil.</td>
             <td>
-                <p><strong>Escenario 1 — Registro exitoso:</strong><br>
+                <p><strong>Scenario 1 — Registro exitoso:</strong><br>
                     • Given que el propietario proporciona todos los datos requeridos del vehículo (marca, modelo, año, placa, etc.)<br>
                     • When solicita guardar el registro<br>
                     • Then el sistema asocia y almacena el vehículo en el perfil del propietario.
                 </p>
-                <p><strong>Escenario 2 — Registro incompleto:</strong><br>
+                <p><strong>Scenario 2 — Registro incompleto:</strong><br>
                     • Given que el propietario omite uno o más campos obligatorios<br>
                     • When intenta guardar el registro<br>
                     • Then el sistema devuelve un error indicando los campos faltantes y no crea el registro.
@@ -553,12 +560,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Adjuntar historial inicial</td>
             <td>Como propietario, quiero adjuntar el historial de mantenimiento de mi vehículo, para que el taller conozca trabajos previos.</td>
             <td>
-                <p><strong>Escenario 1 — Historial adjuntado:</strong><br>
+                <p><strong>Scenario 1 — Historial adjuntado:</strong><br>
                     • Given que el propietario dispone de documentos o datos de mantenimientos previos<br>
                     • When incorpora la información o adjunta los documentos y confirma el registro del vehículo<br>
                     • Then el sistema guarda el historial asociado al vehículo y lo marca como disponible para talleres autorizados.
                 </p>
-                <p><strong>Escenario 2 — Sin historial:</strong><br>
+                <p><strong>Scenario 2 — Sin historial:</strong><br>
                     • Given que el propietario no tiene historial disponible<br>
                     • When finaliza el registro del vehículo<br>
                     • Then el sistema crea el registro del vehículo sin historial asociado y lo deja marcado como “sin historial”.
@@ -571,12 +578,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Visualizar historial de vehículo</td>
             <td>Como taller, quiero visualizar el historial de mantenimientos de un vehículo registrado, para conocer antecedentes y diagnósticos previos.</td>
             <td>
-                <p><strong>Escenario 1 — Vehículo con historial:</strong><br>
+                <p><strong>Scenario 1 — Vehículo con historial:</strong><br>
                     • Given que el vehículo tiene registros previos de mantenimiento<br>
                     • When el taller solicita consultar el historial del vehículo<br>
                     • Then el sistema entrega la lista de registros previos (fechas, tipo de servicio, taller, notas) de forma completa y ordenada.
                 </p>
-                <p><strong>Escenario 2 — Vehículo sin historial:</strong><br>
+                <p><strong>Scenario 2 — Vehículo sin historial:</strong><br>
                     • Given que el vehículo no tiene registros previos<br>
                     • When el taller solicita el historial<br>
                     • Then el sistema indica que no existen registros previos para ese vehículo.
@@ -589,12 +596,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Actualización automática del historial</td>
             <td>Como taller, quiero que el historial del vehículo se actualice automáticamente al finalizar un mantenimiento, para mantener la información al día sin tener que hacerlo manualmente.</td>
             <td>
-                <p><strong>Escenario 1 — Mantenimiento finalizado:</strong><br>
+                <p><strong>Scenario 1 — Mantenimiento finalizado:</strong><br>
                     • Given que el taller marca un mantenimiento como finalizado y registra los resultados (servicios realizados, repuestos, observaciones)<br>
                     • When el registro de cierre queda confirmado<br>
                     • Then el sistema añade automáticamente ese mantenimiento al historial del vehículo y lo hace visible en el historial.
                 </p>
-                <p><strong>Escenario 2 — Mantenimiento cancelado:</strong><br>
+                <p><strong>Scenario 2 — Mantenimiento cancelado:</strong><br>
                     • When que un mantenimiento es cancelado antes de su finalización<br>
                     • When el taller registra la cancelación con motivo<br>
                     • Then el sistema no añade el mantenimiento al historial y marca el evento como cancelado (sin entrada en historial de servicios realizados).
@@ -607,22 +614,22 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Catálogo de servicios de taller</td>
             <td>Como taller, quiero publicar ofertas de mantenimiento (ej. cambio de aceite, frenos, afinamiento) con precio, duración y cobertura, para que los propietarios las encuentren y reserven.</td>
             <td>
-                <p><strong>Escenario 1 — Publicación válida:</strong><br>
+                <p><strong>Scenario 1 — Publicación válida:</strong><br>
                     • Given que el taller proporciona título, descripción, precio, duración, categorías y compatibilidades mínimas<br>
                     • When solicita publicar la oferta<br>
                     • Then el sistema guarda la oferta con estado publicada, registra timestamps y la hace visible en el catálogo.
                 </p>
-                <p><strong>Escenario 2 — Campos obligatorios incompletos:</strong><br>
+                <p><strong>Scenario 2 — Campos obligatorios incompletos:</strong><br>
                     • Given que el taller omite campos obligatorios (ej. precio o categoría)<br>
                     • When intenta publicar la oferta<br>
                     • Then el sistema rechaza la publicación y devuelve la lista de campos obligatorios faltantes.
                 </p>
-                <p><strong>Escenario 3 — Imágenes/validación:</strong><br>
+                <p><strong>Scenario 3 — Imágenes/validación:</strong><br>
                     • Given que el taller adjunta imágenes que exceden límites permitidos<br>
                     • When intenta subir las imágenes<br>
                     • Then el sistema rechaza las imágenes que exceden el tamaño y acepta las válidas.
                 </p>
-                <p><strong>Escenario 4 — Estados de oferta:</strong><br>
+                <p><strong>Scenario 4 — Estados de oferta:</strong><br>
                     • Given que la oferta existe en el sistema<br>
                     • When el taller cambia su estado a pausada o borrador<br>
                     • Then el sistema actualiza el estado y la visibilidad según la nueva condición.
@@ -635,17 +642,17 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Explorar catálogo y búsqueda</td>
             <td>Como propietario, quiero explorar y buscar ofertas de mantenimiento por palabras clave y categorías, para comparar opciones.</td>
             <td>
-                <p><strong>Escenario 1 — Búsqueda con resultados:</strong><br>
+                <p><strong>Scenario 1 — Búsqueda con resultados:</strong><br>
                     • Given que existen ofertas que coinciden con término o categoría<br>
                     • When el propietario busca por palabra clave, categoría o filtro<br>
                     • Then el sistema devuelve una lista de ofertas coincidentes paginada y ordenable por distancia, precio, rating o relevancia.
                 </p>
-                <p><strong>Escenario 2 — Sin resultados:</strong><br>
+                <p><strong>Scenario 2 — Sin resultados:</strong><br>
                     • Given que no hay ofertas que coincidan con los criterios de búsqueda<br>
                     • When el propietario realiza la búsqueda<br>
                     • Then el sistema devuelve una lista vacía y sugiere alternativas (otras categorías o ampliar rango).
                 </p>
-                <p><strong>Escenario 3 — Vista detalle:</strong><br>
+                <p><strong>Scenario 3 — Vista detalle:</strong><br>
                     • Given que el propietario solicita info de una oferta<br>
                     • When solicita ver el detalle de la oferta<br>
                     • Then el sistema entrega la información completa de la oferta y los datos del taller (rating, ubicación, términos).
@@ -658,12 +665,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Cancelar reserva de mantenimiento</td>
             <td>Como propietario, quiero cancelar una reserva de mantenimiento programada, para reprogramar si tengo un imprevisto.</td>
             <td>
-                <p><strong>Escenario 1 — Cancelación dentro de ventana permitida:</strong><br>
+                <p><strong>Scenario 1 — Cancelación dentro de ventana permitida:</strong><br>
                     • Given que la cancelación se realiza dentro de la ventana configurable (ej. >3h antes de la cita)<br>
                     • When el propietario solicita cancelar la reserva<br>
                     • Then el sistema cambia el estado a cancelada, notifica al taller y aplica la política sin penalidad.
                 </p>
-                <p><strong>Escenario 2 — Cancelación fuera de ventana:</strong><br>
+                <p><strong>Scenario 2 — Cancelación fuera de ventana:</strong><br>
                     • Given que la cancelación se realiza fuera de la ventana permitida (ej. <3h antes)<br>
                     • When el propietario solicita cancelar<br>
                     • Then el sistema rechaza o aplica la política de penalidad según reglas y notifica al taller.
@@ -676,12 +683,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Filtrar por servicio</td>
             <td>Como usuario, quiero filtrar por categorías de servicio (ej. cambio de aceite, frenos, afinamiento), para ver solo ofertas relevantes.</td>
             <td>
-                <p><strong>Escenario 1 — Filtros básicos:</strong><br>
+                <p><strong>Scenario 1 — Filtros básicos:</strong><br>
                     • Given que existen ofertas con distintas categorías<br>
                     • When el usuario aplica filtros por categoría o subcategoría<br>
                     • Then el sistema devuelve únicamente las ofertas que cumplen los criterios seleccionados.
                 </p>
-                <p><strong>Escenario 2 — Filtros avanzados:</strong><br>
+                <p><strong>Scenario 2 — Filtros avanzados:</strong><br>
                     • Given que el usuario aplica filtros por compatibilidad (marca/motor/combustible)<br>
                     • When aplica dichos filtros<br>
                     • Then el sistema muestra las ofertas compatibles y oculta las no compatibles.
@@ -694,17 +701,17 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Recomendación por geolocalización</td>
             <td>Como propietario, quiero ver talleres cercanos según rango, para coordinar fácil.</td>
             <td>
-                <p><strong>Escenario 1 — Talleres dentro del rango:</strong><br>
+                <p><strong>Scenario 1 — Talleres dentro del rango:</strong><br>
                     • Given que existen talleres disponibles dentro del rango definido por el propietario<br>
                     • When solicita ver talleres cercanos<br>
                     • Then el sistema lista los talleres ordenados por distancia.
                 </p>
-                <p><strong>Escenario 2 — Fallback por código postal:</strong><br>
+                <p><strong>Scenario 2 — Fallback por código postal:</strong><br>
                     • Given que el propietario no permite ubicación por GPS o GPS falla<br>
                     • When el propietario suministra código postal o ciudad<br>
                     • Then el sistema busca talleres dentro del área indicada y devuelve resultados.
                 </p>
-                <p><strong>Escenario 3 — Sin talleres en rango:</strong><br>
+                <p><strong>Scenario 3 — Sin talleres en rango:</strong><br>
                     • Given que no hay talleres en el rango definido<br>
                     • When solicita buscar<br>
                     • Then el sistema muestra un mensaje indicando ausencia de talleres en ese rango y sugiere ampliar búsqueda.
@@ -717,12 +724,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Taller favorito</td>
             <td>Como propietario, quiero marcar un taller como favorito, para priorizarlo en futuras reservas.</td>
             <td>
-                <p><strong>Escenario 1 — Agregar a favoritos:</strong><br>
+                <p><strong>Scenario 1 — Agregar a favoritos:</strong><br>
                     • Given que el propietario identifica un taller que desea priorizar<br>
                     • When añade el taller a su lista de favoritos<br>
                     • Then el sistema almacena el taller en la lista de favoritos del propietario.
                 </p>
-                <p><strong>Escenario 2 — Quitar de favoritos:</strong><br>
+                <p><strong>Scenario 2 — Quitar de favoritos:</strong><br>
                     • Given que el taller está en la lista de favoritos<br>
                     • When el propietario lo elimina<br>
                     • Then el sistema lo retira de la lista de favoritos.
@@ -735,12 +742,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Promociones de taller de confianza</td>
             <td>Como propietario, quiero ver promociones de mis talleres favoritos, para decidir antes que el resto.</td>
             <td>
-                <p><strong>Escenario 1 — Promos disponibles de favoritos:</strong><br>
+                <p><strong>Scenario 1 — Promos disponibles de favoritos:</strong><br>
                     • Given que existen promociones activas de los talleres favoritos del propietario<br>
                     • When el propietario consulta el feed de promociones<br>
                     • Then el sistema destaca las promociones de favoritos con datos de vigencia, cupos y precio promocional.
                 </p>
-                <p><strong>Escenario 2 — Mostrar condiciones de promo:</strong><br>
+                <p><strong>Scenario 2 — Mostrar condiciones de promo:</strong><br>
                     • Given que una promoción tiene condiciones (cupos limitados, vigencia)<br>
                     • When el propietario revisa la promo<br>
                     • Then el sistema muestra las condiciones completas y la disponibilidad actual.
@@ -753,22 +760,22 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Sistema de mensajería</td>
             <td>Como usuario, quiero contar con un chat integrado, para coordinar detalles del mantenimiento.</td>
             <td>
-                <p><strong>Escenario 1 — Envío / recepción de mensajes:</strong><br>
+                <p><strong>Scenario 1 — Envío / recepción de mensajes:</strong><br>
                     • Given que dos usuarios (propietario y taller) desean comunicarse<br>
                     • When uno envía un mensaje<br>
                     • Then el sistema entrega el mensaje al destinatario y registra la conversación.
                 </p>
-                <p><strong>Escenario 2 — Adjuntar fotos:</strong><br>
+                <p><strong>Scenario 2 — Adjuntar fotos:</strong><br>
                     • Given que el remitente adjunta imágenes del vehículo<br>
                     • When envía el mensaje con adjuntos<br>
                     • Then el sistema acepta imágenes dentro de los límites establecidos y las asocia a la conversación.
                 </p>
-                <p><strong>Escenario 3 — Notificación de nuevo mensaje:</strong><br>
+                <p><strong>Scenario 3 — Notificación de nuevo mensaje:</strong><br>
                     • Given que llega un nuevo mensaje<br>
                     • When el destinatario está offline o en otra sección<br>
                     • Then el sistema genera una notificación que informa la llegada del nuevo mensaje.
                 </p>
-                <p><strong>Escenario 4 — Reporte de abuso:</strong><br>
+                <p><strong>Scenario 4 — Reporte de abuso:</strong><br>
                     • Given que un usuario recibe mensajes inapropiados<br>
                     • When reporta la conversación por abuso<br>
                     • Then el sistema registra la denuncia y marca la conversación para revisión.
@@ -781,17 +788,17 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Coordinación de citas de mantenimiento</td>
             <td>Como usuario, quiero proponer/aceptar una cita con fecha/hora, para agendar el servicio.</td>
             <td>
-                <p><strong>Escenario 1 — Proponer y aceptar cita:</strong><br>
+                <p><strong>Scenario 1 — Proponer y aceptar cita:</strong><br>
                     • Given que el taller dispone de slots y el propietario solicita servicio<br>
                     • When el taller propone una fecha/hora y el propietario la acepta<br>
                     • Then el sistema registra la cita en ambas agendas y la confirma a ambas partes.
                 </p>
-                <p><strong>Escenario 2 — Reprogramación:</strong><br>
+                <p><strong>Scenario 2 — Reprogramación:</strong><br>
                     • Given que existe una cita programada<br>
                     • When una de las partes solicita reprogramar y la otra acepta un nuevo slot disponible<br>
                     • Then el sistema actualiza la cita y notifica los cambios.
                 </p>
-                <p><strong>Escenario 3 — Conflicto de agenda:</strong><br>
+                <p><strong>Scenario 3 — Conflicto de agenda:</strong><br>
                     • Given que el slot propuesto ya está ocupado en la agenda del taller<br>
                     • When se intenta confirmar una cita que choca con otra<br>
                     • Then el sistema rechaza la confirmación y solicita seleccionar otro slot.
@@ -804,17 +811,17 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Notificaciones push</td>
             <td>Como usuario, quiero recibir notificaciones push, para estar informado de eventos relacionados con mis vehículos y mantenimientos.</td>
             <td>
-                <p><strong>Escenario 1 — Mensaje nuevo:</strong><br>
+                <p><strong>Scenario 1 — Mensaje nuevo:</strong><br>
                     • Given que llega un mensaje nuevo al usuario<br>
                     • When el mensaje es enviado por el remitente<br>
                     • Then el sistema notifica al destinatario mediante notificación push.
                 </p>
-                <p><strong>Escenario 2 — Reserva confirmada:</strong><br>
+                <p><strong>Scenario 2 — Reserva confirmada:</strong><br>
                     • Given que una reserva o cita es confirmada<br>
                     • When la confirmación queda registrada<br>
                     • Then el sistema notifica push a ambas partes.
                 </p>
-                <p><strong>Escenario 3 — Avance del mantenimiento:</strong><br>
+                <p><strong>Scenario 3 — Avance del mantenimiento:</strong><br>
                     • Given que el taller actualiza la checklist con un hito relevante<br>
                     • When el hito se marca como completado<br>
                     • Then el sistema notifica al propietario el avance del servicio.
@@ -827,7 +834,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Actualización de checklist en mantenimiento</td>
             <td>Como taller, quiero marcar tareas en la checklist de un mantenimiento en tiempo real, para registrar los avances del servicio.</td>
             <td>
-                <p><strong>Escenario — Actualización de tareas (taller):</strong><br>
+                <p><strong>Scenario 1 — Actualización de tareas (taller):</strong><br>
                     • Given que el taller está realizando un mantenimiento y existe una checklist asociada<br>
                     • When el taller marca una o varias tareas como realizadas<br>
                     • Then el sistema actualiza el estado del mantenimiento y registra la marcación en la trazabilidad del servicio, además notifica el cambio al propietario.
@@ -840,7 +847,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Creación de mantenimiento confirmado</td>
             <td>Como taller, quiero crear un mantenimiento confirmado a partir de una reserva aceptada, para dar inicio al servicio.</td>
             <td>
-                <p><strong>Escenario — Creación desde reserva aceptada:</strong><br>
+                <p><strong>Scenario 1 — Creación desde reserva aceptada:</strong><br>
                     • Given que el propietario ha aceptado una propuesta o reserva<br>
                     • When el taller confirma el inicio del servicio<br>
                     • Then el sistema crea el registro de mantenimiento pendiente, genera la checklist inicial y asocia la reserva al mantenimiento.
@@ -853,12 +860,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Visualización de mantenimientos pendientes</td>
             <td>Como usuario, quiero visualizar los mantenimientos pendientes, para dar seguimiento al servicio.</td>
             <td>
-                <p><strong>Escenario 1 — Taller: lista de pendientes:</strong><br>
+                <p><strong>Scenario 1 — Taller: lista de pendientes:</strong><br>
                     • Given que el taller tiene mantenimientos asignados<br>
                     • When consulta su listado de trabajos<br>
                     • Then el sistema muestra la lista de servicios pendientes con su estado y prioridades.
                 </p>
-                <p><strong>Escenario 2 — Propietario: detalle de su mantenimiento:</strong><br>
+                <p><strong>Scenario 2 — Propietario: detalle de su mantenimiento:</strong><br>
                     • Given que el vehículo del propietario está en mantenimiento<br>
                     • When el propietario consulta el detalle del servicio en curso<br>
                     • Then el sistema muestra el estado actual y la checklist asociada en tiempo real.
@@ -871,17 +878,17 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Visualización de checklist en mantenimiento</td>
             <td>Como propietario, quiero visualizar en tiempo real el progreso de la checklist del mantenimiento, para conocer el avance del servicio.</td>
             <td>
-                <p><strong>Escenario 1 — Visualización Completa de Checklist:</strong><br>
+                <p><strong>Scenario 1 — Visualización Completa de Checklist:</strong><br>
                     • Given que el vehículo está en mantenimiento y la checklist está completa<br>
                     • When el propietario solicita el detalle del servicio<br>
                     • Then el sistema muestra todas las tareas completadas y las pendientes, con marcas temporales de cada avance, y resalta las tareas que han sido completadas.
                 </p>
-                <p><strong>Escenario 2 — Checklist en Progreso:</strong><br>
+                <p><strong>Scenario 2 — Checklist en Progreso:</strong><br>
                     • Given que el vehículo está en mantenimiento y la checklist tiene tareas en progreso<br>
                     • When el propietario solicita el detalle del servicio<br>
                     • Then el sistema muestra las tareas pendientes y las que están en progreso, con un indicador visual de progreso (por ejemplo, barra de progreso o porcentaje completado).
                 </p>
-                <p><strong>Escenario 3 — Actualización en Tiempo Real:</strong><br>
+                <p><strong>Scenario 3 — Actualización en Tiempo Real:</strong><br>
                     • Given que el vehículo está siendo atendido y las tareas de la checklist están siendo actualizadas<br>
                     • When el propietario visualiza la checklist<br>
                     • Then el sistema actualiza la información en tiempo real, reflejando cualquier cambio en el estado de las tareas sin necesidad de recargar la página.
@@ -894,12 +901,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Finalización de mantenimiento</td>
             <td>Como taller, quiero finalizar un mantenimiento y registrar los resultados, para cerrar correctamente el servicio.</td>
             <td>
-                <p><strong>Escenario 1 — Confirmación de Finalización:</strong><br>
+                <p><strong>Scenario 1 — Confirmación de Finalización:</strong><br>
                     • Given que el taller ha completado todas las tareas de la checklist<br>
                     • When el taller marca el mantenimiento como finalizado<br>
                     • Then el sistema solicita una confirmación de la finalización antes de cerrar el servicio, asegurando que no falten tareas.
                 </p>
-                <p><strong>Escenario 2 — Generación de Informe de Mantenimiento:</strong><br>
+                <p><strong>Scenario 2 — Generación de Informe de Mantenimiento:</strong><br>
                     • Given que el mantenimiento ha sido finalizado y los resultados registrados<br>
                     • When el taller finaliza el servicio<br>
                     • Then el sistema genera un informe final que incluye todos los detalles del mantenimiento (trabajos realizados, repuestos, observaciones, fechas) y lo guarda para su futura consulta en el historial del vehículo.
@@ -912,12 +919,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Calificación de taller</td>
             <td>Como propietario, quiero calificar al taller después de un mantenimiento, para reflejar la calidad del servicio recibido.</td>
             <td>
-                <p><strong>Escenario 1 — Calificación válida:</strong><br>
+                <p><strong>Scenario 1 — Calificación válida:</strong><br>
                     • Given que el mantenimiento está finalizado y el servicio está asociado al propietario<br>
                     • When el propietario registra una calificación (1–5) y un comentario para ese servicio<br>
                     • Then el sistema guarda la reseña, la asocia al servicio y actualiza la calificación promedio del taller.
                 </p>
-                <p><strong>Escenario 2 — Restricción de una reseña por servicio:</strong><br>
+                <p><strong>Scenario 2 — Restricción de una reseña por servicio:</strong><br>
                     • Given que el propietario ya calificó ese servicio<br>
                     • When intenta agregar una segunda reseña para el mismo servicio<br>
                     • Then el sistema impide la duplicación y sugiere editar la reseña existente.
@@ -930,7 +937,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Calificación de propietario</td>
             <td>Como taller, quiero calificar al propietario después de un mantenimiento, para reflejar mi experiencia trabajando con él.</td>
             <td>
-                <p><strong>Escenario — Calificación de propietario:</strong><br>
+                <p><strong>Scenario 1 — Calificación de propietario:</strong><br>
                     • Given que el mantenimiento fue finalizado y corresponde al taller que presta el servicio<br>
                     • When el taller registra una calificación y comentario sobre el propietario para ese servicio<br>
                     • Then el sistema guarda la evaluación y la asocia al perfil del propietario, contribuyendo a su reputación.
@@ -943,12 +950,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Consulta de reputación de taller</td>
             <td>Como propietario, quiero consultar la reputación de un taller antes de reservar, para decidir si es confiable.</td>
             <td>
-                <p><strong>Escenario — Consulta de reputación:</strong><br>
+                <p><strong>Scenario 1 — Consulta de reputación:</strong><br>
                     • Given que el taller tiene reseñas y calificaciones previas<br>
                     • When el propietario solicita la reputación del taller<br>
                     • Then el sistema muestra calificación promedio, número de reseñas, comentarios recientes y total de servicios realizados, con opciones de ordenar/comparar.
                 </p>
-                <p><strong>Escenario de Filtro por Rango de Calificación:</strong><br>
+                <p><strong>Scenario 2 — Filtro por Rango de Calificación:</strong><br>
                     • Given que el propietario desea consultar talleres con cierta calificación<br>
                     • When el propietario aplica un filtro de calificación<br>
                     • Then el sistema muestra únicamente los talleres que cumplen con el rango de calificación seleccionado (por ejemplo, calificación de 4 estrellas o más).
@@ -961,7 +968,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Consulta de reputación de propietario</td>
             <td>Como taller, quiero consultar la reputación de un propietario antes de aceptar su reserva, para saber si es confiable.</td>
             <td>
-                <p><strong>Escenario — Consulta de reputación del propietario:</strong><br>
+                <p><strong>Scenario 1 — Consulta de reputación del propietario:</strong><br>
                     • Given que el propietario tiene calificaciones previas de otros talleres<br>
                     • When el taller solicita la reputación del propietario asociada a la reserva<br>
                     • Then el sistema muestra la calificación promedio, comentarios y número de mantenimientos previos.
@@ -974,7 +981,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Visualizar información y beneficios</td>
             <td>Como visitante, quiero visualizar la información general de la aplicación y sus beneficios, para entender qué ofrece antes de registrarme.</td>
             <td>
-                <p><strong>Escenario — Landing informativa:</strong><br>
+                <p><strong>Scenario 1 — Landing informativa:</strong><br>
                     • Given que un visitante accede a la landing page<br>
                     • When navega por la sección de información<br>
                     • Then el sistema (o la página) presenta claramente los beneficios, secciones y llamados a la acción con información completa sobre el servicio.
@@ -987,12 +994,12 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Registro de usuario (propietario o taller)</td>
             <td>Como visitante, quiero registrarme como propietario o taller desde la landing page, para poder empezar a usar la aplicación.</td>
             <td>
-                <p><strong>Escenario 1 — Registro exitoso:</strong><br>
+                <p><strong>Scenario 1 — Registro exitoso:</strong><br>
                     • Given que el visitante proporciona los datos necesarios y usa un email único<br>
                     • When confirma el registro<br>
                     • Then el sistema crea la cuenta, la asocia al rol elegido y envía confirmación por correo.
                 </p>
-                <p><strong>Escenario 2 — Email duplicado:</strong><br>
+                <p><strong>Scenario 2 — Email duplicado:</strong><br>
                     • Given que el email ya está registrado en el sistema<br>
                     • When el visitante intenta registrarse con ese email<br>
                     • Then el sistema impide la duplicación y sugiere recuperar la cuenta o usar otro email.
@@ -1005,7 +1012,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Preguntas frecuentes y soporte</td>
             <td>Como visitante, quiero consultar una sección de preguntas frecuentes y soporte, para resolver dudas comunes antes de usar la aplicación.</td>
             <td>
-                <p><strong>Escenario — Acceso a FAQ y contacto:</strong><br>
+                <p><strong>Scenario 1 — Acceso a FAQ y contacto:</strong><br>
                     • Given que el visitante necesita información o tiene una duda común<br>
                     • When accede a la sección de FAQ o al enlace de soporte<br>
                     • Then el sistema presenta respuestas categorizadas y ofrece un medio de contacto para soporte en caso de requerir atención personalizada.
@@ -1018,7 +1025,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             <td>Contacto y descarga de la app</td>
             <td>Como visitante, quiero acceder a una sección de contacto y call to action para descargar la app, para comunicarme con el equipo o instalar la aplicación fácilmente.</td>
             <td>
-                <p><strong>Escenario — Contacto y CTA de descarga:</strong><br>
+                <p><strong>Scenario 1 — Contacto y CTA de descarga:</strong><br>
                     • Given que el visitante busca contactar al equipo o descargar la app<br>
                     • When consulta la sección de contacto y descarga<br>
                     • Then el sistema (la landing) muestra un formulario de contacto funcional y enlaces claros para descargar la app en tiendas compatibles.
@@ -1227,8 +1234,222 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
             </td>
             <td>EP08</td>
         </tr>
-    </tbody>
+            <tr>
+      <td>TS08</td>
+      <td>Implementar endpoint para filtros y geolocalización de talleres (GET /workshops?location=)</td>
+      <td>Como developer, quiero exponer un endpoint para filtrar talleres por servicio, ubicación (GPS/código postal) y compatibilidad, para que los propietarios tengan resultados relevantes.</td>
+      <td>
+        <p><strong>Scenario 1 — Talleres dentro del rango:</strong><br>
+            • Given que existen talleres en el rango definido<br>
+            • When se consulta el endpoint<br>
+            • Then se responde con 200 OK con lista ordenada por distancia.
+        </p>
+        <p><strong>Scenario 2 — GPS no disponible:</strong><br>
+            • Given que no se puede usar la ubicación por GPS<br>
+            • When se consulta con código postal<br>
+            • Then se responde con 200 OK con talleres en esa zona.
+        </p>
+        <p><strong>Scenario 3 — Sin talleres:</strong><br>
+            • Given que no hay talleres disponibles<br>
+            • When se realiza la búsqueda<br>
+            • Then se responde con 200 OK con un arreglo vacío y sugerencia de ampliar rango.
+        </p>
+      </td>
+      <td>EP08</td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Implementar endpoint para gestión de favoritos (POST, DELETE, GET /favorites)</td>
+      <td>Como developer, quiero exponer endpoints para agregar, eliminar y listar talleres favoritos, para que los propietarios puedan priorizarlos.</td>
+      <td>
+        <p><strong>Scenario 1 — Agregar taller a favoritos:</strong><br>
+            • Given que el taller existe<br>
+            • When se envía la solicitud de agregar<br>
+            • Then se responde con 201 Created.
+        </p>
+        <p><strong>Scenario 2 — Quitar de favoritos:</strong><br>
+            • Given que el taller está en la lista de favoritos<br>
+            • When se envía la solicitud de eliminar<br>
+            • Then se responde con 204 No Content.
+        </p>
+        <p><strong>Scenario 3 — Listar favoritos:</strong><br>
+            • Given que el usuario tiene talleres favoritos<br>
+            • When se consulta el endpoint<br>
+            • Then se responde con 200 OK con la lista.
+        </p>
+        <p><strong>Scenario 4 — Taller no encontrado:</strong><br>
+            • Given que el taller no existe<br>
+            • When se consulta o elimina<br>
+            • Then se responde con 404 Not Found.
+        </p>
+      </td>
+      <td>EP08</td>
+    </tr>
+    <tr>
+      <td>TS10</td>
+      <td>Implementar endpoint para promociones de talleres (GET /promotions)</td>
+      <td>Como developer, quiero exponer un endpoint para listar promociones de talleres, con especial énfasis en los favoritos del propietario.</td>
+      <td>
+        <p><strong>Scenario 1 — Promociones disponibles:</strong><br>
+            • Given que existen promociones activas<br>
+            • When se consulta el endpoint<br>
+            • Then se responde con 200 OK con condiciones.
+        </p>
+        <p><strong>Scenario 2 — Sin promociones activas:</strong><br>
+            • Given que no existen promociones<br>
+            • When se consulta el endpoint<br>
+            • Then se responde con 204 No Content.
+        </p>
+      </td>
+      <td>EP08</td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Implementar endpoint para coordinación de citas (POST, PUT /appointments)</td>
+      <td>Como developer, quiero exponer endpoints para proponer, aceptar y reprogramar citas de mantenimiento, para sincronizar agendas.</td>
+      <td>
+        <p><strong>Scenario 1 — Cita propuesta y aceptada:</strong><br>
+            • Given que el taller propone una cita y el propietario la acepta<br>
+            • When se confirma la solicitud<br>
+            • Then se responde con 201 Created.
+        </p>
+        <p><strong>Scenario 2 — Reprogramación exitosa:</strong><br>
+            • Given que existe una cita programada<br>
+            • When se solicita reprogramar con un nuevo slot válido<br>
+            • Then se responde con 200 OK.
+        </p>
+        <p><strong>Scenario 3 — Conflicto de agenda:</strong><br>
+            • Given que el slot ya está ocupado<br>
+            • When se intenta confirmar<br>
+            • Then se responde con 409 Conflict.
+        </p>
+      </td>
+      <td>EP08</td>
+    </tr>
+    <tr>
+      <td>TS12</td>
+      <td>Implementar endpoint para notificaciones push (POST /notifications)</td>
+      <td>Como developer, quiero exponer un endpoint que dispare notificaciones push al móvil/web, para informar sobre mensajes, reservas y mantenimientos.</td>
+      <td>
+        <p><strong>Scenario 1 — Mensaje nuevo:</strong><br>
+            • Given que un usuario recibe un mensaje<br>
+            • When el sistema lo registra<br>
+            • Then se envía una notificación push.
+        </p>
+        <p><strong>Scenario 2 — Reserva confirmada:</strong><br>
+            • Given que se confirma una reserva<br>
+            • When el sistema guarda la confirmación<br>
+            • Then se envía una notificación push a ambas partes.
+        </p>
+        <p><strong>Scenario 3 — Avance checklist:</strong><br>
+            • Given que el taller actualiza un hito de la checklist<br>
+            • When el cambio se guarda<br>
+            • Then se envía una notificación push al propietario.
+        </p>
+      </td>
+      <td>EP08</td>
+    </tr>
+    <tr>
+      <td>TS13</td>
+      <td>Implementar endpoint para gestión de mantenimientos (POST, PUT, GET, DELETE /maintenances)</td>
+      <td>Como developer, quiero exponer endpoints para crear, listar, actualizar (checklist, estado) y finalizar mantenimientos, para garantizar trazabilidad.</td>
+      <td>
+        <p><strong>Scenario 1 — Creación desde reserva:</strong><br>
+            • Given que existe una reserva aceptada<br>
+            • When el taller confirma el inicio<br>
+            • Then se responde con 201 Created.
+        </p>
+        <p><strong>Scenario 2 — Actualización de checklist:</strong><br>
+            • Given que existe un mantenimiento activo<br>
+            • When se marcan tareas como realizadas<br>
+            • Then se responde con 200 OK.
+        </p>
+        <p><strong>Scenario 3 — Visualizar mantenimientos pendientes:</strong><br>
+            • Given que existen mantenimientos activos<br>
+            • When se consulta la lista<br>
+            • Then se responde con 200 OK.
+        </p>
+        <p><strong>Scenario 4 — Finalización:</strong><br>
+            • Given que todas las tareas están completadas<br>
+            • When se marca como finalizado<br>
+            • Then se responde con 200 OK con registro completo.
+        </p>
+        <p><strong>Scenario 5 — ID no encontrado:</strong><br>
+            • Given que el mantenimiento no existe<br>
+            • When se consulta o actualiza<br>
+            • Then se responde con 404 Not Found.
+        </p>
+      </td>
+      <td>EP08</td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Implementar endpoint para landing page y registro de usuarios (POST, GET /users)</td>
+      <td>Como developer, quiero exponer endpoints para registrar propietarios/talleres desde la landing y obtener datos de usuarios, para iniciar la experiencia digital.</td>
+      <td>
+        <p><strong>Scenario 1 — Registro exitoso:</strong><br>
+            • Given que el visitante proporciona datos válidos<br>
+            • When se envía la solicitud<br>
+            • Then se responde con 201 Created con rol asignado.
+        </p>
+        <p><strong>Scenario 2 — Email duplicado:</strong><br>
+            • Given que el email ya está registrado<br>
+            • When se intenta registrar<br>
+            • Then se responde con 409 Conflict.
+        </p>
+        <p><strong>Scenario 3 — Consulta de usuario existente:</strong><br>
+            • Given que el usuario existe<br>
+            • When se consulta su información<br>
+            • Then se responde con 200 OK.
+        </p>
+        <p><strong>Scenario 4 — Usuario no encontrado:</strong><br>
+            • Given que el usuario no existe<br>
+            • When se consulta el endpoint<br>
+            • Then se responde con 404 Not Found.
+        </p>
+      </td>
+      <td>EP08</td>
+    </tr>
+    <tr>
+  <td>TS15</td>
+  <td>Implementar endpoint para soporte, FAQ y contacto (GET /faq, POST /support, POST /contact)</td>
+  <td>Como developer, quiero exponer endpoints que devuelvan FAQ, gestionen tickets de soporte y permitan contacto, para resolver dudas de visitantes.</td>
+  <td>
+    <p><strong>Scenario 1 — FAQ con registros:</strong><br>
+        • Given que existen entradas en la FAQ<br>
+        • When se consulta el endpoint<br>
+        • Then se responde con 200 OK con la lista.
+    </p>
+    <p><strong>Scenario 2 — FAQ vacío:</strong><br>
+        • Given que no hay registros en FAQ<br>
+        • When se consulta el endpoint<br>
+        • Then se responde con 204 No Content.
+    </p>
+    <p><strong>Scenario 3 — Ticket de soporte creado:</strong><br>
+        • Given que un visitante envía un ticket válido<br>
+        • When se procesa la solicitud<br>
+        • Then se responde con 201 Created.
+    </p>
+    <p><strong>Scenario 4 — Contacto enviado:</strong><br>
+        • Given que un visitante completa el formulario de contacto<br>
+        • When se envía la solicitud<br>
+        • Then se responde con 201 Created.
+    </p>
+  </td>
+  <td>EP08</td>
+</tr>
+  </tbody>
 </table>
+
+
+
+
+
+
+  </tbody>
+</table>
+
+
 
 
 <h2>Spike 1: Investigación de la Integración de Stripe para el Procesamiento de Pagos</h2>
@@ -1394,10 +1615,174 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 
 
-
-
 ### 2.3.2. User Task Matrix
-<br>
+
+<h3>User Task Matrix</h3>
+<p>En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Persona (que representan a cada segmento) realizan para cumplir sus objetivos. No confundir tareas (tasks) con opciones o características de software, pues las tareas deben ser realizadas por los segmentos independientemente de la existencia de su solución de software.</p>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>TASK</th>
+      <th>Propietario de vehículo</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Mecánico</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Iniciar sesión en la app</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Consultar historial de mantenimiento</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Rarely</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Solicitar cita de mantenimiento</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Confirmar cita de mantenimiento</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Ver estado de mantenimiento</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Dejar reseña de taller</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+      <td>Rarely</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Recibir notificación de avance de mantenimiento</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Consultar disponibilidad de mecánicos</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Ver precios de servicios de taller</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Recibir confirmación de cita</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Registrar un incidente o reclamo</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Consultar mapa de talleres cercanos</td>
+      <td>Often</td>
+      <td>Medium</td>
+      <td>Rarely</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Ver promociones de talleres favoritos</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+      <td>Rarely</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Confirmar disponibilidad de citas con mecánicos</td>
+      <td>Never</td>
+      <td>Low</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Ver historial de calificaciones de talleres</td>
+      <td>Often</td>
+      <td>Medium</td>
+      <td>Rarely</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Ver detalles del mantenimiento realizado</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Comunicación con el propietario (mensaje/chat)</td>
+      <td>Never</td>
+      <td>Low</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Consultar disponibilidad de mecánicos por ubicación geográfica</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Recibir alertas de cambios en mantenimiento o citas</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Ver estado de pagos y facturación</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Actualizar datos personales (vehículo, dirección)</td>
+      <td>Rarely</td>
+      <td>Medium</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### 2.3.3. User Journey Mapping
 Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagramas nos ayudarán a identificar y comprender las dificultades que enfrentan en cada fase, desde el momento en que conocen nuestra aplicación hasta la etapa en la que comparten sus experiencias y opiniones sobre su uso.
@@ -1406,7 +1791,7 @@ Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagram
 - User Journey Map de José Quispe (mecánico)
 <br>
 
-<img alt="Journey-Map-José-Quispe" src="assets/chapter-II/journey-map-jose.png" />
+<img alt="Journey-Map-José-Quispe" src="assets\chapter-II-assets\journey-map-jose.png" />
 
 [Ver mapa completo en UxPressia](https://uxpressia.com/w/SIllD/m/hC0Ry?tagId=noTag)
 <br>
@@ -1414,7 +1799,7 @@ Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagram
 - User Journey Map de Marina Salinas (propietaria)
 <br>
 
-<img alt="Journey-Map-Maria-Salinas" src="assets/chapter-II/journey-map-marina.png" />
+<img alt="Journey-Map-Maria-Salinas" src="assets\chapter-II-assets\journey-map-marina.png" />
 
 [Ver mapa completo en UxPressia](https://uxpressia.com/w/GpJxm/m/0nPh7?tagId=noTag)
 <br>
