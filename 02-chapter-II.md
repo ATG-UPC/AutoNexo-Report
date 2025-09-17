@@ -257,7 +257,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ERJ8Xb5H93hGrCMlwwGrXAoBQhQYCzamRvJsaONqWyGJLw?e=NDdOwH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -265,7 +265,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        05:24 -11:12
+        00:00 -08:02
     </td>
   </tr>
 </table>
@@ -293,7 +293,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ERJ8Xb5H93hGrCMlwwGrXAoBQhQYCzamRvJsaONqWyGJLw?e=NDdOwH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -301,7 +301,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        11:12 - 17:11
+        08:07 - 14:58
     </td>
   </tr>
 </table>
@@ -315,24 +315,24 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <th>Entrevista</th>
     <td>3</td>
     <th>Nombre</th>
-    <td>Alexander Miranda</td>
+    <td>José Angel Castillo Miranda</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>25</td>
+    <td>40</td>
     <th>Distrito</th>
     <td>San Luis</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/segmento2 - Alexander Miranda.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-II/Entrevista 3 Mecánico.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        En la entrevista, Alexander Miranda comentó que se dedica a la venta texti. Explicó que hace sus registros de manera manual lo que es agotador para él y que siente que pierde mucho tiempo ya que le puede tomar horas. Mediante excel controla sus ingresos y luego revisa las boletas para actualziar el inventario y llevar un conteo general. Nos dice que le gustaría automatizar sus procesos y ha considerado emplear tecnologías que le apoyen a modernizar su negocio para la gestión de inventarios. 
+        El entrevistado, ingeniero en mantenimiento mecánico, señaló como problemas principales la falta de planificación preventiva, la mala comunicación con los conductores y la ausencia de historial organizado de cada vehículo. Consideró esenciales procesos como registro de solicitudes, calendario de mantenimientos, alertas automáticas y reportes de avance. Prefiere interfaces visuales tipo panel con indicadores y acceso rápido al historial, así como notificaciones en tiempo real. También valoró funcionalidades de seguimiento de solicitudes, métodos de pago variados (digitales o tarjeta), retroalimentación clara mediante calificaciones y la posibilidad de organizar trabajos según especialidad y disponibilidad. 
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ERJ8Xb5H93hGrCMlwwGrXAoBQhQYCzamRvJsaONqWyGJLw?e=NDdOwH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -340,7 +340,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        20:45 - 23:50
+        14:59 - 30:08
     </td>
   </tr>
 </table>
@@ -348,26 +348,26 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
 <table border="1">
   <tr>
     <th>Entrevista</th>
-    <td>5</td>
+    <td>4</td>
     <th>Nombre</th>
-    <td>Juan Carlos Ramírez</td>
+    <td>Rando Calero</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>49</td>
+    <td>45</td>
     <th>Distrito</th>
     <td>Suquillo</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg2-carlitos.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-II/Entrevista 4 Mecánico.jpg" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        Juan Carlos Ramírez, emprendedor de 49 años, gestiona su inventario principalmente de forma manual, registrando entradas y salidas mediante boletas y facturas sin un control digital completo. Actualmente está en proceso de digitalizar su sistema con un programa y una máquina POS que escanea códigos de barra, aunque aún no emite boletas ni facturas electrónicas. La revisión del stock se realiza visualmente y las ventas se gestionan principalmente por WhatsApp con entrega a domicilio. Busca mejorar la eficiencia y liberar tiempo mediante la implementación de herramientas digitales más integradas.
+        Rando Calero, mecánico especialista en la marca Scania y dueño de un taller con un año en el mercado, destacó que los principales problemas en la gestión del mantenimiento son la falta de planificación preventiva y la dependencia de recordatorios manuales o escáneres del vehículo. Actualmente utilizan WhatsApp y registros básicos para coordinar mantenimientos, pero considera que una app debería centralizar el historial por placa, facilitar la comunicación y agilizar el flujo de trabajo. También valoró que la aplicación sea sencilla, con lenguaje accesible, opciones de retroalimentación de clientes, alertas de mantenimientos próximos y reportes claros para dueños, conductores y talleres. Además, ve como oportunidad incluir funciones de promoción de talleres, estadísticas de satisfacción y un flujo automatizado que informe al cliente en cada etapa del servicio.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ERJ8Xb5H93hGrCMlwwGrXAoBQhQYCzamRvJsaONqWyGJLw?e=NDdOwH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -375,7 +375,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        17:11 - 20:45
+        30:09 - 40:34
     </td>
   </tr>
 </table>
@@ -426,10 +426,59 @@ Las entrevistas se realizaron entre el 5 y el 15 de septiembre de 2025 a un tota
 
 • Muestran disposición a usar una app siempre que sea intuitiva y rápida: 2/2 (100%)
 
+**Segmento: Mecánicos**
+
+**Total entrevistados**: 2
+
+**Edades**: 40 y 45 años
+
+**Distritos**: San Luis  y Surquillo
+
+
+**Experiencia**:
+- José Castillo: Ingeniero en mantenimiento mecánico con experiencia en diagnósticos, mantenimientos preventivos y gestión operativa.
+- Rando Calero: Mecánico especialista en Scania, dueño de taller con 1 año en el mercado.
+
+**Fechas**: Entre el 13 y 15 de septiembre
+
+**Características objetivas**
+
+• Identifican la falta de planificación preventiva como el principal problema de gestión: 2/2 (100%)  
+• Consideran esencial el historial digital de cada vehículo para diagnósticos más rápidos: 2/2 (100%)  
+• Utilizan actualmente métodos básicos de comunicación (WhatsApp, llamadas): 2/2 (100%)  
+• Valoran procesos como registro de solicitudes, seguimiento, alertas y reportes: 2/2 (100%)  
+• Prefieren una interfaz clara e intuitiva, con indicadores y paneles visuales: 2/2 (100%)  
+• Están abiertos a que los clientes dejen valoraciones y comentarios sobre el servicio: 2/2 (100%)  
+• Usan o han considerado usar herramientas digitales complementarias (escáner de vehículos, páginas web, redes sociales): 2/2 (100%)
+
+**Características subjetivas**
+
+• Perciben que la mala comunicación con conductores aumenta costos y retrasa soluciones: 2/2 (100%)  
+• Valoran la organización de solicitudes para evitar confusiones o duplicaciones: 2/2 (100%)  
+• Consideran clave las notificaciones automáticas de mantenimientos: 2/2 (100%)  
+• Desean que la app tenga lenguaje accesible y no excesivamente técnico, para facilitar la adopción: 1/2 (50%)  
+• Piensan que la plataforma debe incluir flujo automatizado de trabajo (inicio, mantenimiento en proceso, finalización): 1/2 (50%)  
+• Ven con buenos ojos la idea de un sistema de membresías o suscripción para cobros recurrentes: 1/2 (50%)  
+• Reconocen que las reseñas negativas pueden dañar la reputación, pero aun así valoran su utilidad para mejorar: 1/2 (50%)
+
 ## 2.3. Needfinding
 
+En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
+
+
 ### 2.3.1. User Personas
-<br>
+
+**Segmento 1: Propietarios de vehículos**
+
+<img src="assets/Chapter-II/María Salinas.png" alt="User persona - segmento 1" width="600"/>
+
+*Imagen (N°2). Elaboración propia. Realizado en UXPressia*
+
+**Segmento 2: Mecánicos**
+
+<img src="assets/Chapter-II/José Quispe.png" alt="User persona - segmento 2" width="600"/>
+
+*Imagen (N°3). Elaboración propia. Realizado en UXPressia*
 
 ### 2.3.2. User Task Matrix
 <br>
