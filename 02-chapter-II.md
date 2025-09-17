@@ -677,6 +677,23 @@ Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagram
 <br>
 
 ### 2.3.4. Empathy Mapping
+En esta sección, se elaboró un Empathy Map para analizar a nuestros usuarios, comprendiendo completamente el entorno en el que se desenvuelven. Este proceso nos permitirá profundizar en sus necesidades y orientarnos hacia la oferta de servicios que realmente les sean útiles.
+<br>
+
+- Empathy Map de José Quispe (mecánico)
+<br>
+
+<img alt="Empathy-Map-José-Quispe" src="assets\chapter-II-assets\empathy-map-jose.png" />
+
+[Ver mapa completo hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/1SIQ263bxvb-gNEhv7TxBklQGdferWbHq?usp=sharing)
+<br>
+
+- Empathy Map de Marina Salinas (propietaria)
+<br>
+
+<img alt="Empathy-Map-Maria-Salinas" src="assets\chapter-II-assets\empathy-map-marina.png" />
+
+[Ver mapa completo hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/1SIQ263bxvb-gNEhv7TxBklQGdferWbHq?usp=sharing)
 <br>
 
 ### 2.3.5. Ubiquitous Language
