@@ -426,10 +426,59 @@ Las entrevistas se realizaron entre el 5 y el 15 de septiembre de 2025 a un tota
 
 • Muestran disposición a usar una app siempre que sea intuitiva y rápida: 2/2 (100%)
 
+**Segmento: Mecánicos**
+
+**Total entrevistados**: 2
+
+**Edades**: 40 y 45 años
+
+**Distritos**: San Luis  y Surquillo
+
+
+**Experiencia**:
+- José Castillo: Ingeniero en mantenimiento mecánico con experiencia en diagnósticos, mantenimientos preventivos y gestión operativa.
+- Rando Calero: Mecánico especialista en Scania, dueño de taller con 1 año en el mercado.
+
+**Fechas**: Entre el 13 y 15 de septiembre
+
+**Características objetivas**
+
+• Identifican la falta de planificación preventiva como el principal problema de gestión: 2/2 (100%)  
+• Consideran esencial el historial digital de cada vehículo para diagnósticos más rápidos: 2/2 (100%)  
+• Utilizan actualmente métodos básicos de comunicación (WhatsApp, llamadas): 2/2 (100%)  
+• Valoran procesos como registro de solicitudes, seguimiento, alertas y reportes: 2/2 (100%)  
+• Prefieren una interfaz clara e intuitiva, con indicadores y paneles visuales: 2/2 (100%)  
+• Están abiertos a que los clientes dejen valoraciones y comentarios sobre el servicio: 2/2 (100%)  
+• Usan o han considerado usar herramientas digitales complementarias (escáner de vehículos, páginas web, redes sociales): 2/2 (100%)
+
+**Características subjetivas**
+
+• Perciben que la mala comunicación con conductores aumenta costos y retrasa soluciones: 2/2 (100%)  
+• Valoran la organización de solicitudes para evitar confusiones o duplicaciones: 2/2 (100%)  
+• Consideran clave las notificaciones automáticas de mantenimientos: 2/2 (100%)  
+• Desean que la app tenga lenguaje accesible y no excesivamente técnico, para facilitar la adopción: 1/2 (50%)  
+• Piensan que la plataforma debe incluir flujo automatizado de trabajo (inicio, mantenimiento en proceso, finalización): 1/2 (50%)  
+• Ven con buenos ojos la idea de un sistema de membresías o suscripción para cobros recurrentes: 1/2 (50%)  
+• Reconocen que las reseñas negativas pueden dañar la reputación, pero aun así valoran su utilidad para mejorar: 1/2 (50%)
+
 ## 2.3. Needfinding
 
+En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
+
+
 ### 2.3.1. User Personas
-<br>
+
+**Segmento 1: Propietarios de vehículos**
+
+<img src="assets/Chapter-II/María Salinas.png" alt="User persona - segmento 1" width="600"/>
+
+*Imagen (N°2). Elaboración propia. Realizado en UXPressia*
+
+**Segmento 2: Mecánicos**
+
+<img src="assets/Chapter-II/José Quispe.png" alt="User persona - segmento 2" width="600"/>
+
+*Imagen (N°3). Elaboración propia. Realizado en UXPressia*
 
 ### 2.3.2. User Task Matrix
 <br>
