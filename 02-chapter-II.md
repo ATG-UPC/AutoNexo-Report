@@ -742,503 +742,541 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
             <td>No corresponde</td>
             <td>TS01, TS02, TS03, TS04, TS05, TS06, TS07, TS08, TS09, TS10, TS11, TS12, TS13, TS14, TS15</td>
         </tr>
+    <tr>
+      <td>US01</td>
+      <td>Visualizar información y beneficios (Landing Page)</td>
+      <td>Como visitante, quiero visualizar la información general de la aplicación y sus beneficios, para entender qué ofrece antes de registrarme.</td>
+      <td>
+        <p><strong>Scenario 1 — Landing informativa:</strong><br>
+          • Given que un visitante accede a la landing page<br>
+          • When navega por la sección de información<br>
+          • Then el sistema (o la página) presenta claramente los beneficios, secciones y llamados a la acción con información completa sobre el servicio.
+        </p>
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Catálogo de servicios de taller</td>
+      <td>Como taller, quiero publicar ofertas de mantenimiento (ej. cambio de aceite, frenos, afinamiento) con precio, duración y cobertura, para que los propietarios las encuentren y reserven.</td>
+      <td>
+        <p><strong>Scenario 1 — Publicación válida:</strong><br>
+          • Given que el taller proporciona título, descripción, precio, duración, categorías y compatibilidades mínimas<br>
+          • When solicita publicar la oferta<br>
+          • Then el sistema guarda la oferta con estado publicada, registra timestamps y la hace visible en el catálogo.
+        </p>
+        <p><strong>Scenario 2 — Campos obligatorios incompletos:</strong><br>
+          • Given que el taller omite campos obligatorios (ej. precio o categoría)<br>
+          • When intenta publicar la oferta<br>
+          • Then el sistema rechaza la publicación y devuelve la lista de campos obligatorios faltantes.
+        </p>
+        <p><strong>Scenario 3 — Imágenes/validación:</strong><br>
+          • Given que el taller adjunta imágenes que exceden límites permitidos<br>
+          • When intenta subir las imágenes<br>
+          • Then el sistema rechaza las imágenes que exceden el tamaño y acepta las válidas.
+        </p>
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Explorar catálogo y búsqueda</td>
+      <td>Como propietario, quiero explorar y buscar ofertas de mantenimiento por palabras clave y categorías, para comparar opciones.</td>
+      <td>
+        <p><strong>Scenario 1 — Búsqueda con resultados:</strong><br>
+          • Given que existen ofertas que coinciden con término o categoría<br>
+          • When el propietario busca por palabra clave, categoría o filtro<br>
+          • Then el sistema devuelve una lista de ofertas coincidentes paginada y ordenable por distancia, precio, rating o relevancia.
+        </p>
+        <p><strong>Scenario 2 — Sin resultados:</strong><br>
+          • Given que no hay ofertas que coincidan con los criterios de búsqueda<br>
+          • When el propietario realiza la búsqueda<br>
+          • Then el sistema devuelve una lista vacía y sugiere alternativas (otras categorías o ampliar rango).
+        </p>
+        <p><strong>Scenario 3 — Vista detalle:</strong><br>
+          • Given que el propietario solicita info de una oferta<br>
+          • When solicita ver el detalle de la oferta<br>
+          • Then el sistema entrega la información completa de la oferta y los datos del taller (rating, ubicación, términos).
+        </p>
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Filtrar por servicio</td>
+      <td>Como usuario, quiero filtrar por categorías de servicio (ej. cambio de aceite, frenos, afinamiento), para ver solo ofertas relevantes.</td>
+      <td>
+        <p><strong>Scenario 1 — Filtros básicos:</strong><br>
+          • Given que existen ofertas con distintas categorías<br>
+          • When el usuario aplica filtros por categoría o subcategoría<br>
+          • Then el sistema devuelve únicamente las ofertas que cumplen los criterios seleccionados.
+        </p>
+        <p><strong>Scenario 2 — Filtros avanzados:</strong><br>
+          • Given que el usuario aplica filtros por compatibilidad (marca/motor/combustible)<br>
+          • When aplica dichos filtros<br>
+          • Then el sistema muestra las ofertas compatibles y oculta las no compatibles.
+        </p>
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Recomendación por geolocalización</td>
+      <td>Como propietario, quiero ver talleres cercanos según rango, para coordinar fácil.</td>
+      <td>
+        <p><strong>Scenario 1 — Talleres dentro del rango:</strong><br>
+          • Given que existen talleres disponibles dentro del rango definido por el propietario<br>
+          • When solicita ver talleres cercanos<br>
+          • Then el sistema lista los talleres ordenados por distancia.
+        </p>
+        <p><strong>Scenario 2 — Fallback por código postal:</strong><br>
+          • Given que el propietario no permite ubicación por GPS o GPS falla<br>
+          • When el propietario suministra código postal o ciudad<br>
+          • Then el sistema busca talleres dentro del área indicada y devuelve resultados.
+        </p>
+        <p><strong>Scenario 3 — Sin talleres en rango:</strong><br>
+          • Given que no hay talleres en el rango definido<br>
+          • When solicita buscar<br>
+          • Then el sistema muestra un mensaje indicando ausencia de talleres en ese rango y sugiere ampliar búsqueda.
+        </p>
+      </td>
+      <td>EP03</td>
+    </tr>
+    <!-- FASE 2: CONFIGURACIÓN BÁSICA -->
+    <tr>
+      <td>US06</td>
+      <td>Registro de vehículo</td>
+      <td>Como propietario, quiero registrar mi vehículo ingresando sus datos básicos, para que quede vinculado a mi perfil.</td>
+      <td>
+        <p><strong>Scenario 1 — Registro exitoso:</strong><br>
+          • Given que el propietario proporciona todos los datos requeridos del vehículo (marca, modelo, año, placa, etc.)<br>
+          • When solicita guardar el registro<br>
+          • Then el sistema asocia y almacena el vehículo en el perfil del propietario.
+        </p>
+        <p><strong>Scenario 2 — Registro incompleto:</strong><br>
+          • Given que el propietario omite uno o más campos obligatorios<br>
+          • When intenta guardar el registro<br>
+          • Then el sistema devuelve un error indicando los campos faltantes y no crea el registro.
+        </p>
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Adjuntar historial inicial</td>
+      <td>Como propietario, quiero adjuntar el historial de mantenimiento de mi vehículo, para que el taller conozca trabajos previos.</td>
+      <td>
+        <p><strong>Scenario 1 — Historial adjuntado:</strong><br>
+          • Given que el propietario dispone de documentos o datos de mantenimientos previos<br>
+          • When incorpora la información o adjunta los documentos y confirma el registro del vehículo<br>
+          • Then el sistema guarda el historial asociado al vehículo y lo marca como disponible para talleres autorizados.
+        </p>
+        <p><strong>Scenario 2 — Sin historial:</strong><br>
+          • Given que el propietario no tiene historial disponible<br>
+          • When finaliza el registro del vehículo<br>
+          • Then el sistema crea el registro del vehículo sin historial asociado y lo deja marcado como “sin historial”.
+        </p>
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US08</td>
+      <td>Visualizar historial de vehículo</td>
+      <td>Como taller, quiero visualizar el historial de mantenimientos de un vehículo registrado, para conocer antecedentes y diagnósticos previos.</td>
+      <td>
+        <p><strong>Scenario 1 — Vehículo con historial:</strong><br>
+          • Given que el vehículo tiene registros previos de mantenimiento<br>
+          • When el taller solicita consultar el historial del vehículo<br>
+          • Then el sistema entrega la lista de registros previos (fechas, tipo de servicio, taller, notas) de forma completa y ordenada.
+        </p>
+        <p><strong>Scenario 2 — Vehículo sin historial:</strong><br>
+          • Given que el vehículo no tiene registros previos<br>
+          • When el taller solicita el historial<br>
+          • Then el sistema indica que no existen registros previos para ese vehículo.
+        </p>
+      </td>
+      <td>EP01</td>
+    </tr>
+    <!-- FASE 3: COMUNICACIÓN Y COORDINACIÓN -->
+    <tr>
+      <td>US09</td>
+      <td>Sistema de mensajería</td>
+      <td>Como usuario, quiero contar con un chat integrado, para coordinar detalles del mantenimiento.</td>
+      <td>
+        <p><strong>Scenario 1 — Envío / recepción de mensajes:</strong><br>
+          • Given que dos usuarios (propietario y taller) desean comunicarse<br>
+          • When uno envía un mensaje<br>
+          • Then el sistema entrega el mensaje al destinatario y registra la conversación.
+        </p>
+        <p><strong>Scenario 2 — Adjuntar fotos:</strong><br>
+          • Given que el remitente adjunta imágenes del vehículo<br>
+          • When envía el mensaje con adjuntos<br>
+          • Then el sistema acepta imágenes dentro de los límites establecidos y las asocia a la conversación.
+        </p>
+        <p><strong>Scenario 3 — Notificación de nuevo mensaje:</strong><br>
+          • Given que llega un nuevo mensaje<br>
+          • When el destinatario está offline o en otra sección<br>
+          • Then el sistema genera una notificación que informa la llegada del nuevo mensaje.
+        </p>
+        <p><strong>Scenario 4 — Reporte de abuso:</strong><br>
+          • Given que un usuario recibe mensajes inapropiados<br>
+          • When reporta la conversación por abuso<br>
+          • Then el sistema registra la denuncia y marca la conversación para revisión.
+        </p>
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Coordinación de citas de mantenimiento</td>
+      <td>Como usuario, quiero proponer/aceptar una cita con fecha/hora, para agendar el servicio.</td>
+      <td>
+        <p><strong>Scenario 1 — Proponer y aceptar cita:</strong><br>
+          • Given que el taller dispone de slots y el propietario solicita servicio<br>
+          • When el taller propone una fecha/hora y el propietario la acepta<br>
+          • Then el sistema registra la cita en ambas agendas y la confirma a ambas partes.
+        </p>
+        <p><strong>Scenario 2 — Reprogramación:</strong><br>
+          • Given que existe una cita programada<br>
+          • When una de las partes solicita reprogramar y la otra acepta un nuevo slot disponible<br>
+          • Then el sistema actualiza la cita y notifica los cambios.
+        </p>
+        <p><strong>Scenario 3 — Conflicto de agenda:</strong><br>
+          • Given que el slot propuesto ya está ocupado en la agenda del taller<br>
+          • When se intenta confirmar una cita que choca con otra<br>
+          • Then el sistema rechaza la confirmación y solicita seleccionar otro slot.
+        </p>
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Notificaciones push</td>
+      <td>Como usuario, quiero recibir notificaciones push, para estar informado de eventos relacionados con mis vehículos y mantenimientos.</td>
+      <td>
+        <p><strong>Scenario 1 — Mensaje nuevo:</strong><br>
+          • Given que llega un mensaje nuevo al usuario<br>
+          • When el mensaje es enviado por el remitente<br>
+          • Then el sistema notifica al destinatario mediante notificación push.
+        </p>
+        <p><strong>Scenario 2 — Reserva confirmada:</strong><br>
+          • Given que una reserva o cita es confirmada<br>
+          • When la confirmación queda registrada<br>
+          • Then el sistema notifica push a ambas partes.
+        </p>
+        <p><strong>Scenario 3 — Avance del mantenimiento:</strong><br>
+          • Given que el taller actualiza la checklist con un hito relevante<br>
+          • When el hito se marca como completado<br>
+          • Then el sistema notifica al propietario el avance del servicio.
+        </p>
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td>Actualización de checklist en mantenimiento</td>
+      <td>Como taller, quiero marcar tareas en la checklist de un mantenimiento en tiempo real, para registrar los avances del servicio.</td>
+      <td>
+        <p><strong>Scenario 1 — Actualización de tareas (taller):</strong><br>
+          • Given que el taller está realizando un mantenimiento y existe una checklist asociada<br>
+          • When el taller marca una o varias tareas como realizadas<br>
+          • Then el sistema actualiza el estado del mantenimiento y registra la marcación en la trazabilidad del servicio, además notifica el cambio al propietario.
+        </p>
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US13</td>
+      <td>Creación de mantenimiento confirmado</td>
+      <td>Como taller, quiero crear un mantenimiento confirmado a partir de una reserva aceptada, para dar inicio al servicio.</td>
+      <td>
+        <p><strong>Scenario 1 — Creación desde reserva aceptada:</strong><br>
+          • Given que el propietario ha aceptado una propuesta o reserva<br>
+          • When el taller confirma el inicio del servicio<br>
+          • Then el sistema crea el registro de mantenimiento pendiente, genera la checklist inicial y asocia la reserva al mantenimiento.
+        </p>
+        <p><strong>Scenario 2 — Validación de datos antes de crear:</strong><br>
+          • Given que el taller intenta crear un mantenimiento desde una reserva<br>
+          • When el sistema valida que la reserva esté en estado "aceptada" y que todos los datos requeridos estén completos<br>
+          • Then el sistema verifica la validez de la reserva antes de proceder con la creación del mantenimiento.
+        </p>
+        <p><strong>Scenario 3 — Generación automática de checklist:</strong><br>
+          • Given que se está creando un mantenimiento confirmado<br>
+          • When el sistema genera la checklist inicial basada en el tipo de servicio solicitado<br>
+          • Then el sistema crea automáticamente las tareas estándar para ese tipo de mantenimiento y las marca como pendientes.
+        </p>
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Visualización de mantenimientos pendientes</td>
+      <td>Como usuario, quiero visualizar los mantenimientos pendientes, para dar seguimiento al servicio.</td>
+      <td>
+        <p><strong>Scenario 1 — Taller: lista de pendientes:</strong><br>
+          • Given que el taller tiene mantenimientos asignados<br>
+          • When consulta su listado de trabajos<br>
+          • Then el sistema muestra la lista de servicios pendientes con su estado y prioridades.
+        </p>
+        <p><strong>Scenario 2 — Propietario: detalle de su mantenimiento:</strong><br>
+          • Given que el vehículo del propietario está en mantenimiento<br>
+          • When el propietario consulta el detalle del servicio en curso<br>
+          • Then el sistema muestra el estado actual y la checklist asociada en tiempo real.
+        </p>
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td>Visualización de checklist en mantenimiento</td>
+      <td>Como propietario, quiero visualizar en tiempo real el progreso de la checklist del mantenimiento, para conocer el avance del servicio.</td>
+      <td>
+        <p><strong>Scenario 1 — Visualización Completa de Checklist:</strong><br>
+          • Given que el vehículo está en mantenimiento y la checklist está completa<br>
+          • When el propietario solicita el detalle del servicio<br>
+          • Then el sistema muestra todas las tareas completadas y las pendientes, con marcas temporales de cada avance, y resalta las tareas que han sido completadas.
+        </p>
+        <p><strong>Scenario 2 — Checklist en Progreso:</strong><br>
+          • Given que el vehículo está en mantenimiento y la checklist tiene tareas en progreso<br>
+          • When el propietario solicita el detalle del servicio<br>
+          • Then el sistema muestra las tareas pendientes y las que están en progreso, con un indicador visual de progreso (por ejemplo, barra de progreso o porcentaje completado).
+        </p>
+        <p><strong>Scenario 3 — Actualización en Tiempo Real:</strong><br>
+          • Given que el vehículo está siendo atendido y las tareas de la checklist están siendo actualizadas<br>
+          • When el propietario visualiza la checklist<br>
+          • Then el sistema actualiza la información en tiempo real, reflejando cualquier cambio en el estado de las tareas sin necesidad de recargar la página.
+        </p>
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US16</td>
+      <td>Finalización de mantenimiento</td>
+      <td>Como taller, quiero finalizar un mantenimiento y registrar los resultados, para cerrar correctamente el servicio.</td>
+      <td>
+        <p><strong>Scenario 1 — Confirmación de Finalización:</strong><br>
+          • Given que el taller ha completado todas las tareas de la checklist<br>
+          • When el taller marca el mantenimiento como finalizado<br>
+          • Then el sistema solicita una confirmación de la finalización antes de cerrar el servicio, asegurando que no falten tareas.
+        </p>
+        <p><strong>Scenario 2 — Generación de Informe de Mantenimiento:</strong><br>
+          • Given que el mantenimiento ha sido finalizado y los resultados registrados<br>
+          • When el taller finaliza el servicio<br>
+          • Then el sistema genera un informe final que incluye todos los detalles del mantenimiento (trabajos realizados, repuestos, observaciones, fechas) y lo guarda para su futura consulta en el historial del vehículo.
+        </p>
+      </td>
+      <td>EP05</td>
+    </tr>
+    <!-- FASE 5: PERSONALIZACIÓN Y CONVENIENCIA -->
+    <tr>
+      <td>US17</td>
+      <td>Taller favorito</td>
+      <td>Como propietario, quiero marcar un taller como favorito, para priorizarlo en futuras reservas.</td>
+      <td>
+        <p><strong>Scenario 1 — Agregar a favoritos:</strong><br>
+          • Given que el propietario identifica un taller que desea priorizar<br>
+          • When añade el taller a su lista de favoritos<br>
+          • Then el sistema almacena el taller en la lista de favoritos del propietario.
+        </p>
+        <p><strong>Scenario 2 — Quitar de favoritos:</strong><br>
+          • Given que el taller está en la lista de favoritos<br>
+          • When el propietario lo elimina<br>
+          • Then el sistema lo retira de la lista de favoritos.
+        </p>
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US18</td>
+      <td>Promociones de taller de confianza</td>
+      <td>Como propietario, quiero ver promociones de mis talleres favoritos, para decidir antes que el resto.</td>
+      <td>
+        <p><strong>Scenario 1 — Promos disponibles de favoritos:</strong><br>
+          • Given que existen promociones activas de los talleres favoritos del propietario<br>
+          • When el propietario consulta el feed de promociones<br>
+          • Then el sistema destaca las promociones de favoritos con datos de vigencia, cupos y precio promocional.
+        </p>
+        <p><strong>Scenario 2 — Mostrar condiciones de promo:</strong><br>
+          • Given que una promoción tiene condiciones (cupos limitados, vigencia)<br>
+          • When el propietario revisa la promo<br>
+          • Then el sistema muestra las condiciones completas y la disponibilidad actual.
+        </p>
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US19</td>
+      <td>Cancelar reserva de mantenimiento</td>
+      <td>Como propietario, quiero cancelar una reserva de mantenimiento programada, para reprogramar si tengo un imprevisto.</td>
+      <td>
+        <p><strong>Scenario 1 — Cancelación dentro de ventana permitida:</strong><br>
+          • Given que la cancelación se realiza dentro de la ventana configurable (ej. >3h antes de la cita)<br>
+          • When el propietario solicita cancelar la reserva<br>
+          • Then el sistema cambia el estado a cancelada, notifica al taller y aplica la política sin penalidad.
+        </p>
+        <p><strong>Scenario 2 — Cancelación fuera de ventana:</strong><br>
+          • Given que la cancelación se realiza fuera de la ventana permitida (ej. <3h antes)<br>
+          • When el propietario solicita cancelar<br>
+          • Then el sistema rechaza o aplica la política de penalidad según reglas y notifica al taller.
+        </p>
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US20</td>
+      <td>Actualización automática del historial</td>
+      <td>Como taller, quiero que el historial del vehículo se actualice automáticamente al finalizar un mantenimiento, para mantener la información al día sin tener que hacerlo manualmente.</td>
+      <td>
+        <p><strong>Scenario 1 — Mantenimiento finalizado:</strong><br>
+          • Given que el taller marca un mantenimiento como finalizado y registra los resultados (servicios realizados, repuestos, observaciones)<br>
+          • When el registro de cierre queda confirmado<br>
+          • Then el sistema añade automáticamente ese mantenimiento al historial del vehículo y lo hace visible en el historial.
+        </p>
+        <p><strong>Scenario 2 — Mantenimiento cancelado:</strong><br>
+          • When que un mantenimiento es cancelado antes de su finalización<br>
+          • When el taller registra la cancelación con motivo<br>
+          • Then el sistema no añade el mantenimiento al historial y marca el evento como cancelado (sin entrada en historial de servicios realizados).
+        </p>
+      </td>
+      <td>EP01</td>
+    </tr>
+    <!-- FASE 6: REGISTRO Y SOPORTE -->
+    <tr>
+      <td>US21</td>
+      <td>Registro de usuario (propietario o taller)</td>
+      <td>Como visitante, quiero registrarme como propietario o taller desde la landing page, para poder empezar a usar la aplicación.</td>
+      <td>
+        <p><strong>Scenario 1 — Registro exitoso:</strong><br>
+          • Given que el visitante proporciona los datos necesarios y usa un email único<br>
+          • When confirma el registro<br>
+          • Then el sistema crea la cuenta, la asocia al rol elegido y envía confirmación por correo.
+        </p>
+        <p><strong>Scenario 2 — Email duplicado:</strong><br>
+          • Given que el email ya está registrado en el sistema<br>
+          • When el visitante intenta registrarse con ese email<br>
+          • Then el sistema impide la duplicación y sugiere recuperar la cuenta o usar otro email.
+        </p>
+      </td>
+      <td>EP07</td>
+    </tr>
         <tr>
-            <td>US01</td>
-            <td>Registro de vehículo</td>
-            <td>Como propietario, quiero registrar mi vehículo ingresando sus datos básicos, para que quede vinculado a mi perfil.</td>
-            <td>
-                <p><strong>Scenario 1 — Registro exitoso:</strong><br>
-                    • Given que el propietario proporciona todos los datos requeridos del vehículo (marca, modelo, año, placa, etc.)<br>
-                    • When solicita guardar el registro<br>
-                    • Then el sistema asocia y almacena el vehículo en el perfil del propietario.
-                </p>
-                <p><strong>Scenario 2 — Registro incompleto:</strong><br>
-                    • Given que el propietario omite uno o más campos obligatorios<br>
-                    • When intenta guardar el registro<br>
-                    • Then el sistema devuelve un error indicando los campos faltantes y no crea el registro.
-                </p>
-            </td>
-            <td>EP01</td>
-        </tr>
-        <tr>
-            <td>US02</td>
-            <td>Adjuntar historial inicial</td>
-            <td>Como propietario, quiero adjuntar el historial de mantenimiento de mi vehículo, para que el taller conozca trabajos previos.</td>
-            <td>
-                <p><strong>Scenario 1 — Historial adjuntado:</strong><br>
-                    • Given que el propietario dispone de documentos o datos de mantenimientos previos<br>
-                    • When incorpora la información o adjunta los documentos y confirma el registro del vehículo<br>
-                    • Then el sistema guarda el historial asociado al vehículo y lo marca como disponible para talleres autorizados.
-                </p>
-                <p><strong>Scenario 2 — Sin historial:</strong><br>
-                    • Given que el propietario no tiene historial disponible<br>
-                    • When finaliza el registro del vehículo<br>
-                    • Then el sistema crea el registro del vehículo sin historial asociado y lo deja marcado como “sin historial”.
-                </p>
-            </td>
-            <td>EP01</td>
-        </tr>
-        <tr>
-            <td>US03</td>
-            <td>Visualizar historial de vehículo</td>
-            <td>Como taller, quiero visualizar el historial de mantenimientos de un vehículo registrado, para conocer antecedentes y diagnósticos previos.</td>
-            <td>
-                <p><strong>Scenario 1 — Vehículo con historial:</strong><br>
-                    • Given que el vehículo tiene registros previos de mantenimiento<br>
-                    • When el taller solicita consultar el historial del vehículo<br>
-                    • Then el sistema entrega la lista de registros previos (fechas, tipo de servicio, taller, notas) de forma completa y ordenada.
-                </p>
-                <p><strong>Scenario 2 — Vehículo sin historial:</strong><br>
-                    • Given que el vehículo no tiene registros previos<br>
-                    • When el taller solicita el historial<br>
-                    • Then el sistema indica que no existen registros previos para ese vehículo.
-                </p>
-            </td>
-            <td>EP01</td>
-        </tr>
-        <tr>
-            <td>US04</td>
-            <td>Actualización automática del historial</td>
-            <td>Como taller, quiero que el historial del vehículo se actualice automáticamente al finalizar un mantenimiento, para mantener la información al día sin tener que hacerlo manualmente.</td>
-            <td>
-                <p><strong>Scenario 1 — Mantenimiento finalizado:</strong><br>
-                    • Given que el taller marca un mantenimiento como finalizado y registra los resultados (servicios realizados, repuestos, observaciones)<br>
-                    • When el registro de cierre queda confirmado<br>
-                    • Then el sistema añade automáticamente ese mantenimiento al historial del vehículo y lo hace visible en el historial.
-                </p>
-                <p><strong>Scenario 2 — Mantenimiento cancelado:</strong><br>
-                    • When que un mantenimiento es cancelado antes de su finalización<br>
-                    • When el taller registra la cancelación con motivo<br>
-                    • Then el sistema no añade el mantenimiento al historial y marca el evento como cancelado (sin entrada en historial de servicios realizados).
-                </p>
-            </td>
-            <td>EP01</td>
-        </tr>
-        <tr>
-            <td>US05</td>
-            <td>Catálogo de servicios de taller</td>
-            <td>Como taller, quiero publicar ofertas de mantenimiento (ej. cambio de aceite, frenos, afinamiento) con precio, duración y cobertura, para que los propietarios las encuentren y reserven.</td>
-            <td>
-                <p><strong>Scenario 1 — Publicación válida:</strong><br>
-                    • Given que el taller proporciona título, descripción, precio, duración, categorías y compatibilidades mínimas<br>
-                    • When solicita publicar la oferta<br>
-                    • Then el sistema guarda la oferta con estado publicada, registra timestamps y la hace visible en el catálogo.
-                </p>
-                <p><strong>Scenario 2 — Campos obligatorios incompletos:</strong><br>
-                    • Given que el taller omite campos obligatorios (ej. precio o categoría)<br>
-                    • When intenta publicar la oferta<br>
-                    • Then el sistema rechaza la publicación y devuelve la lista de campos obligatorios faltantes.
-                </p>
-                <p><strong>Scenario 3 — Imágenes/validación:</strong><br>
-                    • Given que el taller adjunta imágenes que exceden límites permitidos<br>
-                    • When intenta subir las imágenes<br>
-                    • Then el sistema rechaza las imágenes que exceden el tamaño y acepta las válidas.
-                </p>
-                <p><strong>Scenario 4 — Estados de oferta:</strong><br>
-                    • Given que la oferta existe en el sistema<br>
-                    • When el taller cambia su estado a pausada o borrador<br>
-                    • Then el sistema actualiza el estado y la visibilidad según la nueva condición.
-                </p>
-            </td>
-            <td>EP02</td>
-        </tr>
-        <tr>
-            <td>US06</td>
-            <td>Explorar catálogo y búsqueda</td>
-            <td>Como propietario, quiero explorar y buscar ofertas de mantenimiento por palabras clave y categorías, para comparar opciones.</td>
-            <td>
-                <p><strong>Scenario 1 — Búsqueda con resultados:</strong><br>
-                    • Given que existen ofertas que coinciden con término o categoría<br>
-                    • When el propietario busca por palabra clave, categoría o filtro<br>
-                    • Then el sistema devuelve una lista de ofertas coincidentes paginada y ordenable por distancia, precio, rating o relevancia.
-                </p>
-                <p><strong>Scenario 2 — Sin resultados:</strong><br>
-                    • Given que no hay ofertas que coincidan con los criterios de búsqueda<br>
-                    • When el propietario realiza la búsqueda<br>
-                    • Then el sistema devuelve una lista vacía y sugiere alternativas (otras categorías o ampliar rango).
-                </p>
-                <p><strong>Scenario 3 — Vista detalle:</strong><br>
-                    • Given que el propietario solicita info de una oferta<br>
-                    • When solicita ver el detalle de la oferta<br>
-                    • Then el sistema entrega la información completa de la oferta y los datos del taller (rating, ubicación, términos).
-                </p>
-            </td>
-            <td>EP02</td>
-        </tr>
-        <tr>
-            <td>US07</td>
-            <td>Cancelar reserva de mantenimiento</td>
-            <td>Como propietario, quiero cancelar una reserva de mantenimiento programada, para reprogramar si tengo un imprevisto.</td>
-            <td>
-                <p><strong>Scenario 1 — Cancelación dentro de ventana permitida:</strong><br>
-                    • Given que la cancelación se realiza dentro de la ventana configurable (ej. >3h antes de la cita)<br>
-                    • When el propietario solicita cancelar la reserva<br>
-                    • Then el sistema cambia el estado a cancelada, notifica al taller y aplica la política sin penalidad.
-                </p>
-                <p><strong>Scenario 2 — Cancelación fuera de ventana:</strong><br>
-                    • Given que la cancelación se realiza fuera de la ventana permitida (ej. <3h antes)<br>
-                    • When el propietario solicita cancelar<br>
-                    • Then el sistema rechaza o aplica la política de penalidad según reglas y notifica al taller.
-                </p>
-            </td>
-            <td>EP02</td>
-        </tr>
-        <tr>
-            <td>US08</td>
-            <td>Filtrar por servicio</td>
-            <td>Como usuario, quiero filtrar por categorías de servicio (ej. cambio de aceite, frenos, afinamiento), para ver solo ofertas relevantes.</td>
-            <td>
-                <p><strong>Scenario 1 — Filtros básicos:</strong><br>
-                    • Given que existen ofertas con distintas categorías<br>
-                    • When el usuario aplica filtros por categoría o subcategoría<br>
-                    • Then el sistema devuelve únicamente las ofertas que cumplen los criterios seleccionados.
-                </p>
-                <p><strong>Scenario 2 — Filtros avanzados:</strong><br>
-                    • Given que el usuario aplica filtros por compatibilidad (marca/motor/combustible)<br>
-                    • When aplica dichos filtros<br>
-                    • Then el sistema muestra las ofertas compatibles y oculta las no compatibles.
-                </p>
-            </td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US09</td>
-            <td>Recomendación por geolocalización</td>
-            <td>Como propietario, quiero ver talleres cercanos según rango, para coordinar fácil.</td>
-            <td>
-                <p><strong>Scenario 1 — Talleres dentro del rango:</strong><br>
-                    • Given que existen talleres disponibles dentro del rango definido por el propietario<br>
-                    • When solicita ver talleres cercanos<br>
-                    • Then el sistema lista los talleres ordenados por distancia.
-                </p>
-                <p><strong>Scenario 2 — Fallback por código postal:</strong><br>
-                    • Given que el propietario no permite ubicación por GPS o GPS falla<br>
-                    • When el propietario suministra código postal o ciudad<br>
-                    • Then el sistema busca talleres dentro del área indicada y devuelve resultados.
-                </p>
-                <p><strong>Scenario 3 — Sin talleres en rango:</strong><br>
-                    • Given que no hay talleres en el rango definido<br>
-                    • When solicita buscar<br>
-                    • Then el sistema muestra un mensaje indicando ausencia de talleres en ese rango y sugiere ampliar búsqueda.
-                </p>
-            </td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US10</td>
-            <td>Taller favorito</td>
-            <td>Como propietario, quiero marcar un taller como favorito, para priorizarlo en futuras reservas.</td>
-            <td>
-                <p><strong>Scenario 1 — Agregar a favoritos:</strong><br>
-                    • Given que el propietario identifica un taller que desea priorizar<br>
-                    • When añade el taller a su lista de favoritos<br>
-                    • Then el sistema almacena el taller en la lista de favoritos del propietario.
-                </p>
-                <p><strong>Scenario 2 — Quitar de favoritos:</strong><br>
-                    • Given que el taller está en la lista de favoritos<br>
-                    • When el propietario lo elimina<br>
-                    • Then el sistema lo retira de la lista de favoritos.
-                </p>
-            </td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US11</td>
-            <td>Promociones de taller de confianza</td>
-            <td>Como propietario, quiero ver promociones de mis talleres favoritos, para decidir antes que el resto.</td>
-            <td>
-                <p><strong>Scenario 1 — Promos disponibles de favoritos:</strong><br>
-                    • Given que existen promociones activas de los talleres favoritos del propietario<br>
-                    • When el propietario consulta el feed de promociones<br>
-                    • Then el sistema destaca las promociones de favoritos con datos de vigencia, cupos y precio promocional.
-                </p>
-                <p><strong>Scenario 2 — Mostrar condiciones de promo:</strong><br>
-                    • Given que una promoción tiene condiciones (cupos limitados, vigencia)<br>
-                    • When el propietario revisa la promo<br>
-                    • Then el sistema muestra las condiciones completas y la disponibilidad actual.
-                </p>
-            </td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US12</td>
-            <td>Sistema de mensajería</td>
-            <td>Como usuario, quiero contar con un chat integrado, para coordinar detalles del mantenimiento.</td>
-            <td>
-                <p><strong>Scenario 1 — Envío / recepción de mensajes:</strong><br>
-                    • Given que dos usuarios (propietario y taller) desean comunicarse<br>
-                    • When uno envía un mensaje<br>
-                    • Then el sistema entrega el mensaje al destinatario y registra la conversación.
-                </p>
-                <p><strong>Scenario 2 — Adjuntar fotos:</strong><br>
-                    • Given que el remitente adjunta imágenes del vehículo<br>
-                    • When envía el mensaje con adjuntos<br>
-                    • Then el sistema acepta imágenes dentro de los límites establecidos y las asocia a la conversación.
-                </p>
-                <p><strong>Scenario 3 — Notificación de nuevo mensaje:</strong><br>
-                    • Given que llega un nuevo mensaje<br>
-                    • When el destinatario está offline o en otra sección<br>
-                    • Then el sistema genera una notificación que informa la llegada del nuevo mensaje.
-                </p>
-                <p><strong>Scenario 4 — Reporte de abuso:</strong><br>
-                    • Given que un usuario recibe mensajes inapropiados<br>
-                    • When reporta la conversación por abuso<br>
-                    • Then el sistema registra la denuncia y marca la conversación para revisión.
-                </p>
-            </td>
-            <td>EP04</td>
-        </tr>
-                <tr>
-            <td>US13</td>
-            <td>Coordinación de citas de mantenimiento</td>
-            <td>Como usuario, quiero proponer/aceptar una cita con fecha/hora, para agendar el servicio.</td>
-            <td>
-                <p><strong>Scenario 1 — Proponer y aceptar cita:</strong><br>
-                    • Given que el taller dispone de slots y el propietario solicita servicio<br>
-                    • When el taller propone una fecha/hora y el propietario la acepta<br>
-                    • Then el sistema registra la cita en ambas agendas y la confirma a ambas partes.
-                </p>
-                <p><strong>Scenario 2 — Reprogramación:</strong><br>
-                    • Given que existe una cita programada<br>
-                    • When una de las partes solicita reprogramar y la otra acepta un nuevo slot disponible<br>
-                    • Then el sistema actualiza la cita y notifica los cambios.
-                </p>
-                <p><strong>Scenario 3 — Conflicto de agenda:</strong><br>
-                    • Given que el slot propuesto ya está ocupado en la agenda del taller<br>
-                    • When se intenta confirmar una cita que choca con otra<br>
-                    • Then el sistema rechaza la confirmación y solicita seleccionar otro slot.
-                </p>
-            </td>
-            <td>EP04</td>
-        </tr>
-        <tr>
-            <td>US14</td>
-            <td>Notificaciones push</td>
-            <td>Como usuario, quiero recibir notificaciones push, para estar informado de eventos relacionados con mis vehículos y mantenimientos.</td>
-            <td>
-                <p><strong>Scenario 1 — Mensaje nuevo:</strong><br>
-                    • Given que llega un mensaje nuevo al usuario<br>
-                    • When el mensaje es enviado por el remitente<br>
-                    • Then el sistema notifica al destinatario mediante notificación push.
-                </p>
-                <p><strong>Scenario 2 — Reserva confirmada:</strong><br>
-                    • Given que una reserva o cita es confirmada<br>
-                    • When la confirmación queda registrada<br>
-                    • Then el sistema notifica push a ambas partes.
-                </p>
-                <p><strong>Scenario 3 — Avance del mantenimiento:</strong><br>
-                    • Given que el taller actualiza la checklist con un hito relevante<br>
-                    • When el hito se marca como completado<br>
-                    • Then el sistema notifica al propietario el avance del servicio.
-                </p>
-            </td>
-            <td>EP04</td>
-        </tr>
-        <tr>
-            <td>US15</td>
-            <td>Actualización de checklist en mantenimiento</td>
-            <td>Como taller, quiero marcar tareas en la checklist de un mantenimiento en tiempo real, para registrar los avances del servicio.</td>
-            <td>
-                <p><strong>Scenario 1 — Actualización de tareas (taller):</strong><br>
-                    • Given que el taller está realizando un mantenimiento y existe una checklist asociada<br>
-                    • When el taller marca una o varias tareas como realizadas<br>
-                    • Then el sistema actualiza el estado del mantenimiento y registra la marcación en la trazabilidad del servicio, además notifica el cambio al propietario.
-                </p>
-            </td>
-            <td>EP05</td>
-        </tr>
-        <tr>
-            <td>US16</td>
-            <td>Creación de mantenimiento confirmado</td>
-            <td>Como taller, quiero crear un mantenimiento confirmado a partir de una reserva aceptada, para dar inicio al servicio.</td>
-            <td>
-                <p><strong>Scenario 1 — Creación desde reserva aceptada:</strong><br>
-                    • Given que el propietario ha aceptado una propuesta o reserva<br>
-                    • When el taller confirma el inicio del servicio<br>
-                    • Then el sistema crea el registro de mantenimiento pendiente, genera la checklist inicial y asocia la reserva al mantenimiento.
-                </p>
-            </td>
-            <td>EP05</td>
-        </tr>
-        <tr>
-            <td>US17</td>
-            <td>Visualización de mantenimientos pendientes</td>
-            <td>Como usuario, quiero visualizar los mantenimientos pendientes, para dar seguimiento al servicio.</td>
-            <td>
-                <p><strong>Scenario 1 — Taller: lista de pendientes:</strong><br>
-                    • Given que el taller tiene mantenimientos asignados<br>
-                    • When consulta su listado de trabajos<br>
-                    • Then el sistema muestra la lista de servicios pendientes con su estado y prioridades.
-                </p>
-                <p><strong>Scenario 2 — Propietario: detalle de su mantenimiento:</strong><br>
-                    • Given que el vehículo del propietario está en mantenimiento<br>
-                    • When el propietario consulta el detalle del servicio en curso<br>
-                    • Then el sistema muestra el estado actual y la checklist asociada en tiempo real.
-                </p>
-            </td>
-            <td>EP05</td>
-        </tr>
-        <tr>
-            <td>US18</td>
-            <td>Visualización de checklist en mantenimiento</td>
-            <td>Como propietario, quiero visualizar en tiempo real el progreso de la checklist del mantenimiento, para conocer el avance del servicio.</td>
-            <td>
-                <p><strong>Scenario 1 — Visualización Completa de Checklist:</strong><br>
-                    • Given que el vehículo está en mantenimiento y la checklist está completa<br>
-                    • When el propietario solicita el detalle del servicio<br>
-                    • Then el sistema muestra todas las tareas completadas y las pendientes, con marcas temporales de cada avance, y resalta las tareas que han sido completadas.
-                </p>
-                <p><strong>Scenario 2 — Checklist en Progreso:</strong><br>
-                    • Given que el vehículo está en mantenimiento y la checklist tiene tareas en progreso<br>
-                    • When el propietario solicita el detalle del servicio<br>
-                    • Then el sistema muestra las tareas pendientes y las que están en progreso, con un indicador visual de progreso (por ejemplo, barra de progreso o porcentaje completado).
-                </p>
-                <p><strong>Scenario 3 — Actualización en Tiempo Real:</strong><br>
-                    • Given que el vehículo está siendo atendido y las tareas de la checklist están siendo actualizadas<br>
-                    • When el propietario visualiza la checklist<br>
-                    • Then el sistema actualiza la información en tiempo real, reflejando cualquier cambio en el estado de las tareas sin necesidad de recargar la página.
-                </p>
-            </td>
-            <td>EP05</td>
-        </tr>
-        <tr>
-            <td>US19</td>
-            <td>Finalización de mantenimiento</td>
-            <td>Como taller, quiero finalizar un mantenimiento y registrar los resultados, para cerrar correctamente el servicio.</td>
-            <td>
-                <p><strong>Scenario 1 — Confirmación de Finalización:</strong><br>
-                    • Given que el taller ha completado todas las tareas de la checklist<br>
-                    • When el taller marca el mantenimiento como finalizado<br>
-                    • Then el sistema solicita una confirmación de la finalización antes de cerrar el servicio, asegurando que no falten tareas.
-                </p>
-                <p><strong>Scenario 2 — Generación de Informe de Mantenimiento:</strong><br>
-                    • Given que el mantenimiento ha sido finalizado y los resultados registrados<br>
-                    • When el taller finaliza el servicio<br>
-                    • Then el sistema genera un informe final que incluye todos los detalles del mantenimiento (trabajos realizados, repuestos, observaciones, fechas) y lo guarda para su futura consulta en el historial del vehículo.
-                </p>
-            </td>
-            <td>EP05</td>
-        </tr>
-        <tr>
-            <td>US20</td>
-            <td>Calificación de taller</td>
-            <td>Como propietario, quiero calificar al taller después de un mantenimiento, para reflejar la calidad del servicio recibido.</td>
-            <td>
-                <p><strong>Scenario 1 — Calificación válida:</strong><br>
-                    • Given que el mantenimiento está finalizado y el servicio está asociado al propietario<br>
-                    • When el propietario registra una calificación (1–5) y un comentario para ese servicio<br>
-                    • Then el sistema guarda la reseña, la asocia al servicio y actualiza la calificación promedio del taller.
-                </p>
-                <p><strong>Scenario 2 — Restricción de una reseña por servicio:</strong><br>
-                    • Given que el propietario ya calificó ese servicio<br>
-                    • When intenta agregar una segunda reseña para el mismo servicio<br>
-                    • Then el sistema impide la duplicación y sugiere editar la reseña existente.
-                </p>
-            </td>
-            <td>EP06</td>
-        </tr>
-        <tr>
-            <td>US21</td>
-            <td>Calificación de propietario</td>
-            <td>Como taller, quiero calificar al propietario después de un mantenimiento, para reflejar mi experiencia trabajando con él.</td>
-            <td>
-                <p><strong>Scenario 1 — Calificación de propietario:</strong><br>
-                    • Given que el mantenimiento fue finalizado y corresponde al taller que presta el servicio<br>
-                    • When el taller registra una calificación y comentario sobre el propietario para ese servicio<br>
-                    • Then el sistema guarda la evaluación y la asocia al perfil del propietario, contribuyendo a su reputación.
-                </p>
-            </td>
-            <td>EP06</td>
-        </tr>
-        <tr>
-            <td>US22</td>
-            <td>Consulta de reputación de taller</td>
-            <td>Como propietario, quiero consultar la reputación de un taller antes de reservar, para decidir si es confiable.</td>
-            <td>
-                <p><strong>Scenario 1 — Consulta de reputación:</strong><br>
-                    • Given que el taller tiene reseñas y calificaciones previas<br>
-                    • When el propietario solicita la reputación del taller<br>
-                    • Then el sistema muestra calificación promedio, número de reseñas, comentarios recientes y total de servicios realizados, con opciones de ordenar/comparar.
-                </p>
-                <p><strong>Scenario 2 — Filtro por Rango de Calificación:</strong><br>
-                    • Given que el propietario desea consultar talleres con cierta calificación<br>
-                    • When el propietario aplica un filtro de calificación<br>
-                    • Then el sistema muestra únicamente los talleres que cumplen con el rango de calificación seleccionado (por ejemplo, calificación de 4 estrellas o más).
-                </p>
-            </td>
-            <td>EP06</td>
-        </tr>
-        <tr>
-            <td>US23</td>
-            <td>Consulta de reputación de propietario</td>
-            <td>Como taller, quiero consultar la reputación de un propietario antes de aceptar su reserva, para saber si es confiable.</td>
-            <td>
-                <p><strong>Scenario 1 — Consulta de reputación del propietario:</strong><br>
-                    • Given que el propietario tiene calificaciones previas de otros talleres<br>
-                    • When el taller solicita la reputación del propietario asociada a la reserva<br>
-                    • Then el sistema muestra la calificación promedio, comentarios y número de mantenimientos previos.
-                </p>
-            </td>
-            <td>EP06</td>
-        </tr>
-        <tr>
-            <td>US24</td>
-            <td>Visualizar información y beneficios</td>
-            <td>Como visitante, quiero visualizar la información general de la aplicación y sus beneficios, para entender qué ofrece antes de registrarme.</td>
-            <td>
-                <p><strong>Scenario 1 — Landing informativa:</strong><br>
-                    • Given que un visitante accede a la landing page<br>
-                    • When navega por la sección de información<br>
-                    • Then el sistema (o la página) presenta claramente los beneficios, secciones y llamados a la acción con información completa sobre el servicio.
-                </p>
-            </td>
-            <td>EP07</td>
-        </tr>
-        <tr>
-            <td>US25</td>
-            <td>Registro de usuario (propietario o taller)</td>
-            <td>Como visitante, quiero registrarme como propietario o taller desde la landing page, para poder empezar a usar la aplicación.</td>
-            <td>
-                <p><strong>Scenario 1 — Registro exitoso:</strong><br>
-                    • Given que el visitante proporciona los datos necesarios y usa un email único<br>
-                    • When confirma el registro<br>
-                    • Then el sistema crea la cuenta, la asocia al rol elegido y envía confirmación por correo.
-                </p>
-                <p><strong>Scenario 2 — Email duplicado:</strong><br>
-                    • Given que el email ya está registrado en el sistema<br>
-                    • When el visitante intenta registrarse con ese email<br>
-                    • Then el sistema impide la duplicación y sugiere recuperar la cuenta o usar otro email.
-                </p>
-            </td>
-            <td>EP07</td>
-        </tr>
-        <tr>
-            <td>US26</td>
-            <td>Preguntas frecuentes y soporte</td>
-            <td>Como visitante, quiero consultar una sección de preguntas frecuentes y soporte, para resolver dudas comunes antes de usar la aplicación.</td>
-            <td>
-                <p><strong>Scenario 1 — Acceso a FAQ y contacto:</strong><br>
-                    • Given que el visitante necesita información o tiene una duda común<br>
-                    • When accede a la sección de FAQ o al enlace de soporte<br>
-                    • Then el sistema presenta respuestas categorizadas y ofrece un medio de contacto para soporte en caso de requerir atención personalizada.
-                </p>
-            </td>
-            <td>EP07</td>
-        </tr>
-        <tr>
-            <td>US27</td>
-            <td>Contacto y descarga de la app</td>
-            <td>Como visitante, quiero acceder a una sección de contacto y call to action para descargar la app, para comunicarme con el equipo o instalar la aplicación fácilmente.</td>
-            <td>
-                <p><strong>Scenario 1 — Contacto y CTA de descarga:</strong><br>
-                    • Given que el visitante busca contactar al equipo o descargar la app<br>
-                    • When consulta la sección de contacto y descarga<br>
-                    • Then el sistema (la landing) muestra un formulario de contacto funcional y enlaces claros para descargar la app en tiendas compatibles.
-                </p>
-            </td>
-            <td>EP07</td>
-        </tr>
-        <tr>
+      <td>US22</td>
+      <td>Preguntas frecuentes y soporte</td>
+      <td>Como visitante, quiero consultar una sección de preguntas frecuentes y soporte, para resolver dudas comunes antes de usar la aplicación.</td>
+      <td>
+        <p><strong>Scenario 1 — Acceso a FAQ y contacto:</strong><br>
+          • Given que el visitante necesita información o tiene una duda común<br>
+          • When accede a la sección de FAQ o al enlace de soporte<br>
+          • Then el sistema presenta respuestas categorizadas y ofrece un medio de contacto para soporte en caso de requerir atención personalizada.
+        </p>
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>US23</td>
+      <td>Contacto y descarga de la app</td>
+      <td>Como visitante, quiero acceder a una sección de contacto y call to action para descargar la app, para comunicarme con el equipo o instalar la aplicación fácilmente.</td>
+      <td>
+        <p><strong>Scenario 1 — Contacto y CTA de descarga:</strong><br>
+          • Given que el visitante busca contactar al equipo o descargar la app<br>
+          • When consulta la sección de contacto y descarga<br>
+          • Then el sistema (la landing) muestra un formulario de contacto funcional y enlaces claros para descargar la app en tiendas compatibles.
+        </p>
+        <p><strong>Scenario 2 — Envío de formulario de contacto:</strong><br>
+          • Given que el visitante completa el formulario de contacto con datos válidos<br>
+          • When envía el formulario<br>
+          • Then el sistema procesa el mensaje, envía confirmación al visitante y notifica al equipo de soporte sobre la nueva consulta.
+        </p>
+        <p><strong>Scenario 3 — Descarga según dispositivo:</strong><br>
+          • Given que el visitante accede desde diferentes dispositivos (iOS, Android, desktop)<br>
+          • When hace clic en el enlace de descarga<br>
+          • Then el sistema redirige automáticamente a la tienda de aplicaciones correspondiente (App Store, Google Play) o muestra opciones para ambos sistemas.
+        </p>
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>US24</td>
+      <td>Calificación de taller</td>
+      <td>Como propietario, quiero calificar al taller después de un mantenimiento, para reflejar la calidad del servicio recibido.</td>
+      <td>
+        <p><strong>Scenario 1 — Calificación válida:</strong><br>
+          • Given que el mantenimiento está finalizado y el servicio está asociado al propietario<br>
+          • When el propietario registra una calificación (1–5) y un comentario para ese servicio<br>
+          • Then el sistema guarda la reseña, la asocia al servicio y actualiza la calificación promedio del taller.
+        </p>
+        <p><strong>Scenario 2 — Restricción de una reseña por servicio:</strong><br>
+          • Given que el propietario ya calificó ese servicio<br>
+          • When intenta agregar una segunda reseña para el mismo servicio<br>
+          • Then el sistema impide la duplicación y sugiere editar la reseña existente.
+        </p>
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>US25</td>
+      <td>Calificación de propietario</td>
+      <td>Como taller, quiero calificar al propietario después de un mantenimiento, para reflejar mi experiencia trabajando con él.</td>
+      <td>
+        <p><strong>Scenario 1 — Calificación de propietario:</strong><br>
+          • Given que el mantenimiento fue finalizado y corresponde al taller que presta el servicio<br>
+          • When el taller registra una calificación y comentario sobre el propietario para ese servicio<br>
+          • Then el sistema guarda la evaluación y la asocia al perfil del propietario, contribuyendo a su reputación.
+        </p>
+        <p><strong>Scenario 2 — Restricción de calificación duplicada:</strong><br>
+          • Given que el taller ya calificó al propietario para un servicio específico<br>
+          • When intenta calificar nuevamente al mismo propietario para el mismo servicio<br>
+          • Then el sistema impide la calificación duplicada y sugiere editar la calificación existente.
+        </p>
+        <p><strong>Scenario 3 — Calificación con comentario opcional:</strong><br>
+          • Given que el taller desea calificar al propietario<br>
+          • When proporciona una calificación numérica (1-5) y opcionalmente un comentario<br>
+          • Then el sistema acepta la calificación con o sin comentario y actualiza la reputación promedio del propietario.
+        </p>
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>US26</td>
+      <td>Consulta de reputación de taller</td>
+      <td>Como propietario, quiero consultar la reputación de un taller antes de reservar, para decidir si es confiable.</td>
+      <td>
+        <p><strong>Scenario 1 — Consulta de reputación:</strong><br>
+          • Given que el taller tiene reseñas y calificaciones previas<br>
+          • When el propietario solicita la reputación del taller<br>
+          • Then el sistema muestra calificación promedio, número de reseñas, comentarios recientes y total de servicios realizados, con opciones de ordenar/comparar.
+        </p>
+        <p><strong>Scenario 2 — Filtro por Rango de Calificación:</strong><br>
+          • Given que el propietario desea consultar talleres con cierta calificación<br>
+          • When el propietario aplica un filtro de calificación<br>
+          • Then el sistema muestra únicamente los talleres que cumplen con el rango de calificación seleccionado (por ejemplo, calificación de 4 estrellas o más).
+        </p>
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>US27</td>
+      <td>Consulta de reputación de propietario</td>
+      <td>Como taller, quiero consultar la reputación de un propietario antes de aceptar su reserva, para saber si es confiable.</td>
+      <td>
+        <p><strong>Scenario 1 — Consulta de reputación del propietario:</strong><br>
+          • Given que el propietario tiene calificaciones previas de otros talleres<br>
+          • When el taller solicita la reputación del propietario asociada a la reserva<br>
+          • Then el sistema muestra la calificación promedio, comentarios y número de mantenimientos previos.
+        </p>
+        <p><strong>Scenario 2 — Propietario sin historial:</strong><br>
+          • Given que el propietario no tiene calificaciones previas en el sistema<br>
+          • When el taller consulta la reputación del propietario<br>
+          • Then el sistema indica que es un usuario nuevo sin historial de calificaciones y muestra información básica del perfil.
+        </p>
+        <p><strong>Scenario 3 — Filtrado por tipo de servicio:</strong><br>
+          • Given que el propietario tiene calificaciones de diferentes tipos de servicios<br>
+          • When el taller consulta la reputación específica para el tipo de servicio solicitado<br>
+          • Then el sistema muestra calificaciones relevantes al tipo de servicio y un promedio específico para esa categoría.
+        </p>
+      </td>
+      <td>EP06</td>
+    </tr>
             <td>TS01</td>
             <td>Implementar endpoint para registrar y gestionar vehículos (POST, PUT, DELETE /vehicles)</td>
             <td>Como developer, quiero exponer endpoints para registrar, actualizar y eliminar vehículos, para que los propietarios puedan gestionar sus datos básicos.</td>
@@ -1849,135 +1887,135 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     </tr>
     <tr>
       <td>2</td>
-      <td>US25</td>
-      <td>Registro de usuario (propietario o taller)</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>US26</td>
-      <td>Preguntas frecuentes y soporte</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>US27</td>
-      <td>Contacto y descarga de la app</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>US01</td>
-      <td>Registro de vehículo</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>US02</td>
-      <td>Adjuntar historial inicial</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>US03</td>
-      <td>Visualizar historial de vehículo</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>US04</td>
-      <td>Actualización automática del historial</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>9</td>
       <td>US05</td>
       <td>Catálogo de servicios de taller</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>10</td>
+      <td>3</td>
       <td>US06</td>
       <td>Explorar catálogo y búsqueda</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>11</td>
-      <td>US07</td>
-      <td>Cancelar reserva de mantenimiento</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>12</td>
+      <td>4</td>
       <td>US08</td>
       <td>Filtrar por servicio</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>13</td>
+      <td>5</td>
       <td>US09</td>
       <td>Recomendación por geolocalización</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>14</td>
-      <td>US10</td>
-      <td>Taller favorito</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>US11</td>
-      <td>Promociones de taller de confianza</td>
+      <td>6</td>
+      <td>US01</td>
+      <td>Registro de vehículo</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>16</td>
+      <td>7</td>
+      <td>US02</td>
+      <td>Adjuntar historial inicial</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US03</td>
+      <td>Visualizar historial de vehículo</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
       <td>US12</td>
       <td>Sistema de mensajería</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>17</td>
+      <td>10</td>
       <td>US13</td>
       <td>Coordinación de citas de mantenimiento</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>18</td>
+      <td>11</td>
       <td>US14</td>
       <td>Notificaciones push</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>19</td>
+      <td>12</td>
       <td>US15</td>
       <td>Actualización de checklist en mantenimiento</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>20</td>
+      <td>13</td>
       <td>US16</td>
       <td>Creación de mantenimiento confirmado</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>21</td>
+      <td>14</td>
       <td>US17</td>
       <td>Visualización de mantenimientos pendientes</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>22</td>
+      <td>15</td>
       <td>US18</td>
       <td>Visualización de checklist en mantenimiento</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>23</td>
+      <td>16</td>
       <td>US19</td>
       <td>Finalización de mantenimiento</td>
       <td>3</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>US10</td>
+      <td>Taller favorito</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>US11</td>
+      <td>Promociones de taller de confianza</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>US07</td>
+      <td>Cancelar reserva de mantenimiento</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>US04</td>
+      <td>Actualización automática del historial</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>US25</td>
+      <td>Registro de usuario (propietario o taller)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>US26</td>
+      <td>Preguntas frecuentes y soporte</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>US27</td>
+      <td>Contacto y descarga de la app</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>24</td>
