@@ -652,7 +652,7 @@ Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagram
 
 <img alt="Journey-Map-José-Quispe" src="assets\chapter-II-assets\journey-map-jose.png" />
 
-[Ver mapa completo en UxPressia](https://uxpressia.com/w/SIllD/m/hC0Ry?tagId=noTag)
+[Ver mapa completo hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/10U-cHuHY3O-ueZ04tsT49D_9nUT28R7v?usp=drive_link)
 <br>
 
 - User Journey Map de Marina Salinas (propietaria)
@@ -660,7 +660,7 @@ Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagram
 
 <img alt="Journey-Map-Maria-Salinas" src="assets\chapter-II-assets\journey-map-marina.png" />
 
-[Ver mapa completo en UxPressia](https://uxpressia.com/w/GpJxm/m/0nPh7?tagId=noTag)
+[Ver mapa completo hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/10U-cHuHY3O-ueZ04tsT49D_9nUT28R7v?usp=drive_link)
 <br>
 
 ### 2.3.4. Empathy Mapping
@@ -1825,7 +1825,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 
 <img alt="Journey-Map-José-Quispe" src="assets\chapter-II\impact-mapping.png" />
 
-[Ver mapa completo en UxPressia](https://uxpressia.com/w/SIllD/m/hC0Ry?tagId=noTag)
+[Ver mapa completo hecho en UxPressia guardado en Drive](https://drive.google.com/file/d/1v3L6OcPESk6r_FUhPRhijSQP3rokYtJJ/view?usp=sharing)
 
 <br>
 
