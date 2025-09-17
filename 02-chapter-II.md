@@ -5,7 +5,7 @@
 <table border="1">
   <thead>
     <tr>
-      <th colspan="7" align="center"><b>Competitive Analysis Landscape</b></th>
+      <th colspan="7" style="text-align: center;"><b>Competitive Analysis Landscape</b></th>
     </tr>
   </thead>
   <tbody>
@@ -16,18 +16,18 @@
     <tr>
       <th></th>
       <th></th>
-      <th>AutoNexo</th>
-      <th>Fleetio</th>
-      <th>Drivvo</th>
-      <th>Whip Around</th>
+      <th>AutoNexo <img src="assets\chapter-II\competidor_1.png" alt="Fleetio Logo" height="50" width="200"></th>
+      <th>Fleetio <img src="assets\chapter-II\competidor_2.png" alt="Drivvo Logo" height="50" width="200"></th>
+      <th>Drivvo <img src="assets\chapter-II\competidor_2.png" alt="Drivvo Logo" height="50" width="200"></th>
+      <th>Whip Around <img src="assets\chapter-II\competidor_3.png" alt="Whip Around Logo" height="50" width="200"></th>
     </tr>
     <tr>
       <td><strong>Perfil</strong></td>
       <td>Overview</td>
-      <td>Software especializado para gestión integral del mantenimiento vehicular que conecta conductores y mecánicos, centralizando historial, presupuestos y coordinación de servicios.</td>
-      <td>Plataforma robusta de gestión y mantenimiento de flotas (vehículos, conductores, combustible, inspecciones) con móvil y web, orientada a optimizar operaciones con datos.</td>
-      <td>App de gestión de vehículo/flota ligera para uso personal o pequeños negocios: control de combustible, gastos y mantenimientos; versión gratuita y planes Pro.</td>
-      <td>Plataforma para inspecciones digitales (DVIR), cumplimiento y mantenimiento para flotas comerciales, con foco en reducir downtime y riesgos.</td>
+      <td>Autonexo es una aplicación móvil que conecta propietarios de vehículos con mecánicos especializados, facilitando la gestión integral del mantenimiento vehicular mediante un sistema centralizado que incluye registro de vehículos, historial de mantenimientos, búsqueda de servicios y comunicación directa entre usuarios.</td>
+      <td>Fleetio es una plataforma SaaS integral de gestión de flotas empresariales que ofrece herramientas avanzadas para el mantenimiento preventivo, seguimiento de combustible, gestión de activos, inspecciones digitales y análisis de datos para optimizar operaciones de flotas comerciales.</td>
+      <td>Drivvo es una aplicación móvil orientada a conductores particulares y pequeñas empresas que permite registrar gastos de vehículo, programar recordatorios de mantenimiento, controlar consumo de combustible y generar reportes básicos de costos vehiculares de forma simple e intuitiva.</td>
+      <td>Whip Around es una plataforma especializada en inspecciones digitales y mantenimiento para flotas comerciales, enfocada en cumplimiento regulatorio, inspecciones DVIR personalizables, gestión de órdenes de reparación y reporting para compliance con normas de seguridad vehicular.</td>
     </tr>
     <tr>
       <td></td>
@@ -111,6 +111,8 @@
     </tr>
   </tbody>
 </table>
+
+
 
 ## 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -467,18 +469,7 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 
 ### 2.3.1. User Personas
-
-**Segmento 1: Propietarios de vehículos**
-
-<img src="assets/Chapter-II/María Salinas.png" alt="User persona - segmento 1" width="600"/>
-
-*Imagen (N°2). Elaboración propia. Realizado en UXPressia*
-
-**Segmento 2: Mecánicos**
-
-<img src="assets/Chapter-II/José Quispe.png" alt="User persona - segmento 2" width="600"/>
-
-*Imagen (N°3). Elaboración propia. Realizado en UXPressia*
+<br>
 
 ### 2.3.2. User Task Matrix
 <br>
