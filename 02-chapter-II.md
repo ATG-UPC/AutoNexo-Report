@@ -1192,189 +1192,167 @@ Las entrevistas se realizaron entre el 5 y el 15 de septiembre de 2025 a un tota
 </table>
 
 
+<h2>Spike 1: Investigación de la Integración de Stripe para el Procesamiento de Pagos</h2>
+
+<p><strong>Descripción:</strong></p>
+<p>Como equipo de desarrollo, queremos investigar cómo integrar Stripe para el procesamiento de pagos en la plataforma Autonexo, para asegurarnos de que sea una solución adecuada para manejar pagos de manera segura y eficiente.</p>
+
+<p><strong>Criterios de Aceptación:</strong></p>
+<ul>
+  <li><strong>Given</strong> acceso a la documentación de la API de Stripe, <strong>When</strong> se revisan las opciones disponibles para el procesamiento de pagos (como Payments, Checkout, Mobile SDKs, Stripe.js), <strong>Then</strong> se debe definir si Stripe es adecuado para la integración en Autonexo.</li>
+  <li><strong>Given</strong> las tarifas de Stripe, <strong>When</strong> se comparan los costos con otros sistemas de pagos en el mercado, <strong>Then</strong> se debe decidir si Stripe es la opción más económica para Autonexo.</li>
+  <li><strong>Given</strong> las opciones de suscripción de Stripe, <strong>When</strong> se determina si la plataforma de Autonexo requiere un modelo de suscripción mensual, <strong>Then</strong> se debe confirmar que Stripe es compatible con este modelo y con las necesidades de Autonexo.</li>
+  <li><strong>Given</strong> las capacidades de integración de Stripe con plataformas móviles (iOS/Android), <strong>When</strong> se verifica la documentación de integración con plataformas móviles a través de los Mobile SDKs de Stripe, <strong>Then</strong> se debe confirmar que Stripe es fácil de integrar con las aplicaciones móviles de Autonexo.</li>
+  <li><strong>Given</strong> que la integración de Stripe se prueba en un entorno de pruebas, <strong>When</strong> se realiza una transacción de pago utilizando un flujo de pago de prueba, <strong>Then</strong> se debe verificar que el pago se procese correctamente y que la información de pago se guarde de manera segura.</li>
+  <li><strong>Given</strong> que el procesamiento de pagos debe ser seguro, <strong>When</strong> se revisa el cumplimiento de las normativas de seguridad de Stripe (como PCI-DSS y tokenización), <strong>Then</strong> se debe garantizar que Stripe cumpla con los estándares de seguridad necesarios.</li>
+  <li><strong>Given</strong> que la integración de Stripe afecta tanto al frontend como al backend, <strong>When</strong> se verifica la compatibilidad de Stripe con el backend (Spring Boot), <strong>Then</strong> se debe asegurar que los endpoints RESTful y los webhooks de Stripe funcionen correctamente con el sistema backend de Autonexo.</li>
+  <li><strong>Given</strong> que la plataforma Autonexo podría tener un alto volumen de transacciones, <strong>When</strong> se realizan pruebas de carga en la integración de Stripe, <strong>Then</strong> se debe asegurar que Stripe pueda manejar un gran volumen de pagos sin afectar el rendimiento.</li>
+  <li><strong>Given</strong> que el procesamiento de pagos debe ser rápido, <strong>When</strong> se miden los tiempos de latencia al realizar pagos con Stripe, <strong>Then</strong> los tiempos de procesamiento de pagos no deben exceder los 3 segundos.</li>
+  <li><strong>Given</strong> que la integración de Stripe requiere documentación clara, <strong>When</strong> se documentan los pasos de integración, <strong>Then</strong> se debe crear un informe detallado que describa cómo integrar Stripe en Autonexo, incluyendo cualquier problema encontrado y las soluciones propuestas.</li>
+  <li><strong>Given</strong> que el flujo de pago debe ser fácil de usar para los clientes de Autonexo, <strong>When</strong> se prueba el flujo de pago en un entorno de pruebas con usuarios simulados, <strong>Then</strong> se debe asegurar que la experiencia del usuario sea intuitiva, rápida y sin errores.</li>
+</ul>
+
+<h2>Spike 2: Investigación de Google Maps para la Localización de Mecánicos</h2>
+
+<p><strong>Descripción:</strong></p>
+<p>Como equipo de desarrollo, quiero investigar la integración de Google Maps para la localización de mecánicos, para ofrecer a los conductores la capacidad de encontrar mecánicos cercanos de manera rápida y eficiente.</p>
+
+<p><strong>Criterios de Aceptación:</strong></p>
+<ul>
+  <li><strong>Given</strong> que el equipo tiene acceso a la documentación de la API de Google Maps, <strong>When</strong> el equipo investigue las opciones para implementar mapas interactivos y localización, <strong>Then</strong> deberán determinar si la Google Maps API es adecuada para la integración en Autonexo.</li>
+  <li><strong>Given</strong> que el equipo ha analizado los costos asociados a Google Maps API, <strong>When</strong> comparen los costos con los beneficios que aportará la integración de la localización, <strong>Then</strong> deberán decidir si Google Maps es económicamente viable para la plataforma.</li>
+  <li><strong>Given</strong> que el equipo ha implementado la API de Google Maps para la localización, <strong>When</strong> realicen pruebas con la función de búsqueda de mecánicos, <strong>Then</strong> deberán asegurarse de que los resultados sean rápidos y precisos.</li>
+  <li><strong>Given</strong> que se ha integrado la Google Maps API, <strong>When</strong> realicen pruebas de rendimiento en la carga del mapa y los resultados de búsqueda, <strong>Then</strong> deberán garantizar que el sistema cargue los resultados en menos de 3 segundos.</li>
+  <li><strong>Given</strong> que la API de Google Maps está implementada, <strong>When</strong> un usuario busque mecánicos cercanos, <strong>Then</strong> deberán asegurarse de que la ubicación del mecánico sea precisa en el mapa.</li>
+  <li><strong>Given</strong> que Autonexo debe ser compatible con dispositivos móviles, <strong>When</strong> el equipo prueba la integración en dispositivos móviles (iOS/Android), <strong>Then</strong> deberán garantizar que la localización funcione correctamente en ambas plataformas.</li>
+  <li><strong>Given</strong> que la experiencia del usuario es crucial, <strong>When</strong> implementen la funcionalidad de localización en las aplicaciones móviles y web, <strong>Then</strong> deberán asegurarse de que la interfaz de usuario sea fácil de usar y eficiente.</li>
+  <li><strong>Given</strong> que la integración de Google Maps debe trabajar con el backend, <strong>When</strong> el equipo verifique la comunicación entre la API de Google Maps y el backend de Autonexo, <strong>Then</strong> deberán asegurarse de que los datos de ubicación se sincronicen correctamente en tiempo real.</li>
+</ul>
 
 
+<h2>Spike 3: Evaluación de Sistemas de Notificaciones Push</h2>
 
-<table border="1">
-  <thead>
-    <tr>
-      <th>Story ID</th>
-      <th>User</th>
-      <th>Priority</th>
-      <th>Epic</th>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Acceptance Criteria</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Spike 1: Investigación de la Integración de Stripe para el Procesamiento de Pagos -->
-    <tr>
-      <td>SS001</td>
-      <td>Equipo de Desarrollo</td>
-      <td>Alta</td>
-      <td>EP06</td>
-      <td>Investigación de la Integración de Stripe para el Procesamiento de Pagos</td>
-      <td>Como equipo de desarrollo, quiero investigar cómo integrar Stripe para el procesamiento de pagos en la plataforma, para asegurarnos de que sea una solución adecuada para manejar pagos de manera segura y eficiente.</td>
-      <td>
-        <ul>
-          <li><strong>Given</strong> que el equipo ha accedido a la documentación de la API de Stripe, <strong>When</strong> revisen las opciones disponibles para el procesamiento de pagos, <strong>Then</strong> deberán definir si Stripe es adecuado para la integración en Autonexo.</li>
-          <li><strong>Given</strong> que el equipo ha revisado las tarifas de Stripe, <strong>When</strong> comparen los costos con otros sistemas de pagos, <strong>Then</strong> deberán decidir si Stripe es la opción más económica.</li>
-          <li><strong>Given</strong> que el equipo ha analizado las opciones de suscripción de Stripe, <strong>When</strong> determinen si la plataforma admite el modelo de suscripción mensual, <strong>Then</strong> deberán confirmar si Stripe es compatible con las necesidades de Autonexo.</li>
-          <li><strong>Given</strong> que el equipo ha analizado las capacidades de integración de Stripe con sistemas móviles, <strong>When</strong> verifiquen la documentación de integración con plataformas móviles (iOS/Android), <strong>Then</strong> deberán confirmar que Stripe es fácil de integrar con las aplicaciones móviles de Autonexo.</li>
-          <li><strong>Given</strong> que el equipo ha probado la integración de Stripe en un entorno de pruebas, <strong>When</strong> realicen una transacción de pago, <strong>Then</strong> deberán verificar que el pago se procese correctamente y la información de pago se guarde de manera segura.</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- Spike 2: Investigación de Librerías de Generación de Códigos QR -->
-    <tr>
-      <td>SS002</td>
-      <td>Equipo de Desarrollo</td>
-      <td>Media</td>
-      <td>EP07</td>
-      <td>Investigación de Librerías de Generación de Códigos QR</td>
-      <td>Como equipo de desarrollo, quiero investigar y probar librerías de generación de códigos QR, para seleccionar la más adecuada que permita integrar esta funcionalidad de manera eficiente en Autonexo.</td>
-      <td>
-        <ul>
-          <li><strong>Given</strong> que el equipo ha identificado al menos 3 librerías populares para generar códigos QR, <strong>When</strong> investiguen la documentación y características de cada librería, <strong>Then</strong> deberán crear una lista de las mejores opciones basadas en rendimiento y compatibilidad.</li>
-          <li><strong>Given</strong> que el equipo ha elegido una librería para probar, <strong>When</strong> implementen la librería seleccionada en un entorno de pruebas, <strong>Then</strong> deberán evaluar la calidad y velocidad de los códigos QR generados.</li>
-          <li><strong>Given</strong> que el equipo ha realizado las pruebas, <strong>When</strong> comparen los resultados de las librerías probadas, <strong>Then</strong> deberán elegir la librería más adecuada para integrar en Autonexo.</li>
-          <li><strong>Given</strong> que el equipo ha probado diferentes librerías, <strong>When</strong> comparen la facilidad de uso de cada librería, <strong>Then</strong> deberán decidir cuál es la librería más fácil de integrar y mantener.</li>
-          <li><strong>Given</strong> que el equipo ha implementado una librería en el entorno de pruebas, <strong>When</strong> los códigos QR generados sean escaneados en dispositivos móviles, <strong>Then</strong> deberán asegurarse de que los códigos sean legibles y funcionen correctamente.</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- Spike 3: Investigación de Google Maps para la Localización de Mecánicos -->
-    <tr>
-      <td>SS003</td>
-      <td>Equipo de Desarrollo</td>
-      <td>Alta</td>
-      <td>EP03</td>
-      <td>Investigación de Google Maps para la Localización de Mecánicos</td>
-      <td>Como equipo de desarrollo, quiero investigar la integración de Google Maps para la localización de mecánicos, para ofrecer a los conductores la capacidad de encontrar mecánicos cercanos de manera rápida y eficiente.</td>
-      <td>
-        <ul>
-          <li><strong>Given</strong> que el equipo ha revisado la documentación de la Google Maps API, <strong>When</strong> investiguen las opciones para implementar mapas interactivos y localización, <strong>Then</strong> deberán determinar si la Google Maps API es adecuada para la integración en Autonexo.</li>
-          <li><strong>Given</strong> que el equipo ha analizado los costos asociados a Google Maps API, <strong>When</strong> comparen los costos con los beneficios que aportará la integración de la localización, <strong>Then</strong> deberán decidir si Google Maps es económicamente viable para la plataforma.</li>
-          <li><strong>Given</strong> que el equipo ha implementado la API de Google Maps para la localización, <strong>When</strong> realicen pruebas con la función de búsqueda de mecánicos, <strong>Then</strong> deberán asegurarse de que los resultados sean rápidos y precisos.</li>
-          <li><strong>Given</strong> que el equipo ha utilizado la Google Maps API, <strong>When</strong> realicen pruebas de rendimiento en la carga del mapa y los resultados de búsqueda, <strong>Then</strong> deberán garantizar que el sistema cargue los resultados en menos de 3 segundos.</li>
-          <li><strong>Given</strong> que el equipo ha implementado la Google Maps API, <strong>When</strong> un usuario busque mecánicos cercanos, <strong>Then</strong> deberán asegurarse de que la ubicación del mecánico sea precisa en el mapa.</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- Spike 4: Evaluación de Sistemas de Notificaciones Push -->
-    <tr>
-      <td>SS004</td>
-      <td>Equipo de Desarrollo</td>
-      <td>Alta</td>
-      <td>EP04</td>
-      <td>Evaluación de Sistemas de Notificaciones Push</td>
-      <td>Como equipo de desarrollo, quiero investigar los sistemas de notificaciones push para enviar alertas de mantenimientos próximos a los usuarios, para mejorar la experiencia del usuario y asegurarnos de que nunca se olviden de los mantenimientos.</td>
-      <td>
-        <ul>
-          <li><strong>Given</strong> que el equipo ha identificado varias opciones de sistemas de notificaciones push como Firebase y OneSignal, <strong>When</strong> investiguen las características y capacidades de cada uno, <strong>Then</strong> deberán decidir cuál es el más adecuado para la plataforma Autonexo.</li>
-          <li><strong>Given</strong> que el equipo ha probado la implementación de Firebase Cloud Messaging, <strong>When</strong> envíen una notificación push de prueba, <strong>Then</strong> deberán confirmar que la notificación se recibe correctamente en dispositivos iOS y Android.</li>
-          <li><strong>Given</strong> que el equipo ha implementado las notificaciones push, <strong>When</strong> un usuario reciba una notificación sobre un mantenimiento próximo, <strong>Then</strong> deberán asegurarse de que la notificación sea clara, visible y llegue sin demoras.</li>
-          <li><strong>Given</strong> que el equipo ha implementado la función de notificaciones push, <strong>When</strong> el usuario reciba una notificación, <strong>Then</strong> deberán verificar que la notificación sea entregada en el momento adecuado (por ejemplo, 24 horas antes del mantenimiento).</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- Spike 5: Investigación de Herramientas de Reportes de Mantenimiento -->
-    <tr>
-      <td>SS005</td>
-      <td>Equipo de Desarrollo</td>
-      <td>Media</td>
-      <td>EP05</td>
-      <td>Investigación de Herramientas de Reportes de Mantenimiento</td>
-      <td>Como equipo de desarrollo, quiero investigar herramientas como Power BI o Tableau para generar informes detallados sobre el mantenimiento de los vehículos, para mejorar la toma de decisiones y dar a los usuarios acceso a datos importantes.</td>
-      <td>
-        <ul>
-          <li><strong>Given</strong> que el equipo ha encontrado herramientas como Power BI o Tableau, <strong>When</strong> investiguen las características de cada herramienta, <strong>Then</strong> deberán determinar cuál ofrece la mejor integración con los datos de Autonexo.</li>
-          <li><strong>Given</strong> que el equipo ha probado Power BI con datos de prueba, <strong>When</strong> creen un reporte básico, <strong>Then</strong> deberán evaluar si la herramienta proporciona visualizaciones claras y útiles para los usuarios.</li>
-          <li><strong>Given</strong> que el equipo ha probado Tableau para la creación de reportes, <strong>When</strong> realicen un análisis de desempeño, <strong>Then</strong> deberán asegurar que Tableau sea capaz de manejar grandes volúmenes de datos de manera eficiente.</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- Spike 6: Investigación de Integración de API de Pagos con MercadoPago -->
-    <tr>
-      <td>SS006</td>
-      <td>Equipo de Desarrollo</td>
-      <td>Alta</td>
-      <td>EP06</td>
-      <td>Investigación de Integración de API de Pagos con MercadoPago</td>
-      <td>Como equipo de desarrollo, quiero investigar cómo integrar la API de MercadoPago para procesar pagos, para ofrecer una solución de pagos alternativa para los usuarios en la plataforma.</td>
-      <td>
-        <ul>
-          <li><strong>Given</strong> que el equipo ha revisado la documentación de MercadoPago, <strong>When</strong> investiguen las opciones para integrar métodos de pago como tarjetas de crédito y débito, <strong>Then</strong> deberán definir si MercadoPago es adecuado para la plataforma.</li>
-          <li><strong>Given</strong> que el equipo ha realizado una prueba de pago con MercadoPago, <strong>When</strong> verifiquen que el proceso de pago se complete correctamente, <strong>Then</strong> deberán confirmar si MercadoPago es viable como solución de pagos.</li>
-          <li><strong>Given</strong> que el equipo ha probado MercadoPago para una compra de prueba, <strong>When</strong> verifiquen que el pago se procese en tiempo real, <strong>Then</strong> deberán asegurarse de que el proceso de pago sea rápido y sin errores.</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- Spike 7: Investigación de Técnicas de Caching para Mejorar el Rendimiento -->
-    <tr>
-      <td>SS007</td>
-      <td>Equipo de Desarrollo</td>
-      <td>Media</td>
-      <td>EP02</td>
-      <td>Investigación de Técnicas de Caching para Mejorar el Rendimiento</td>
-      <td>Como equipo de desarrollo, quiero investigar técnicas de caching como Redis o Memcached, para mejorar el rendimiento de la plataforma y reducir los tiempos de carga.</td>
-      <td>
-        <ul>
-          <li><strong>Given</strong> que el equipo ha considerado opciones como Redis y Memcached, <strong>When</strong> investiguen las características y ventajas de cada uno, <strong>Then</strong> deberán seleccionar la opción que mejor se adapte a las necesidades de Autonexo.</li>
-          <li><strong>Given</strong> que el equipo ha implementado una solución de caching en Redis, <strong>When</strong> realicen pruebas de rendimiento en una función crítica, <strong>Then</strong> deberán verificar si el tiempo de respuesta mejora significativamente.</li>
-          <li><strong>Given</strong> que el equipo ha probado el caching de Memcached, <strong>When</strong> comparen los tiempos de respuesta en diferentes pruebas de carga, <strong>Then</strong> deberán decidir si Memcached es adecuado para el uso en Autonexo.</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- Spike 8: Evaluación de Herramientas de Seguridad para la Plataforma -->
-    <tr>
-      <td>SS008</td>
-      <td>Equipo de Seguridad</td>
-      <td>Alta</td>
-      <td>EP06</td>
-      <td>Evaluación de Herramientas de Seguridad para la Plataforma</td>
-      <td>Como equipo de seguridad, quiero investigar herramientas de seguridad como OWASP ZAP o Burp Suite para realizar pruebas de penetración y asegurarnos de que la plataforma esté segura.</td>
-      <td>
-        <ul>
-          <li><strong>Given</strong> que el equipo ha considerado herramientas como OWASP ZAP y Burp Suite, <strong>When</strong> investiguen las características de cada una, <strong>Then</strong> deberán decidir cuál es la mejor herramienta para realizar pruebas de seguridad en Autonexo.</li>
-          <li><strong>Given</strong> que el equipo ha implementado una prueba de seguridad con OWASP ZAP, <strong>When</strong> realicen un escaneo de vulnerabilidades, <strong>Then</strong> deberán identificar todas las posibles brechas de seguridad en el sistema.</li>
-          <li><strong>Given</strong> que el equipo ha implementado Burp Suite para pruebas de seguridad, <strong>When</strong> realicen pruebas de penetración, <strong>Then</strong> deberán asegurarse de que la plataforma esté segura contra ataques comunes.</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- Spike 9: Investigación de Plataforma para Gestión de Suscripciones -->
-    <tr>
-      <td>SS009</td>
-      <td>Equipo de Desarrollo</td>
-      <td>Media</td>
-      <td>EP06</td>
-      <td>Investigación de Plataforma para Gestión de Suscripciones</td>
-      <td>Como equipo de desarrollo, quiero investigar plataformas como Recurly o Stripe Billing para gestionar suscripciones y automatizar el proceso de pagos recurrentes en la plataforma.</td>
-      <td>
-        <ul>
-          <li><strong>Given</strong> que el equipo ha investigado opciones como Recurly y Stripe Billing, <strong>When</strong> comparen sus funcionalidades y precios, <strong>Then</strong> deberán seleccionar la plataforma más adecuada para gestionar las suscripciones de Autonexo.</li>
-          <li><strong>Given</strong> que el equipo ha probado la implementación de Recurly con datos de prueba, <strong>When</strong> creen un ciclo de suscripción y realicen un pago de prueba, <strong>Then</strong> deberán verificar que la plataforma maneje correctamente los pagos recurrentes.</li>
-        </ul>
-      </td>
-    </tr>
-    <!-- Spike 10: Investigación de API de Localización para Mejorar la Búsqueda de Mecánicos -->
-    <tr>
-      <td>SS010</td>
-      <td>Equipo de Desarrollo</td>
-      <td>Alta</td>
-      <td>EP03</td>
-      <td>Investigación de API de Localización para Mejorar la Búsqueda de Mecánicos</td>
-      <td>Como equipo de desarrollo, quiero investigar APIs de localización como Mapbox o Here para mejorar la búsqueda de mecánicos cercanos, ofreciendo una experiencia más eficiente y precisa a los conductores.</td>
-      <td>
-        <ul>
-          <li><strong>Given</strong> que el equipo ha considerado APIs como Mapbox o Here, <strong>When</strong> investiguen sus características y opciones de integración, <strong>Then</strong> deberán seleccionar la mejor API para la localización en Autonexo.</li>
-          <li><strong>Given</strong> que el equipo ha implementado la API de Mapbox para la localización, <strong>When</strong> realicen pruebas de búsqueda de mecánicos cercanos, <strong>Then</strong> deberán asegurarse de que la función de localización sea precisa y eficiente.</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<p><strong>Descripción:</strong></p>
+<p>Como equipo de desarrollo, quiero investigar los sistemas de notificaciones push para enviar alertas de mantenimientos próximos a los usuarios, para mejorar la experiencia del usuario y asegurarnos de que nunca se olviden de los mantenimientos.</p>
+
+<p><strong>Criterios de Aceptación:</strong></p>
+<ul>
+  <li><strong>Given</strong> que el equipo ha identificado varias opciones de sistemas de notificaciones push como Firebase y OneSignal, <strong>When</strong> investiguen las características y capacidades de cada uno, <strong>Then</strong> deberán decidir cuál es el más adecuado para la plataforma Autonexo.</li>
+  <li><strong>Given</strong> que el equipo ha probado la implementación de Firebase Cloud Messaging, <strong>When</strong> envíen una notificación push de prueba, <strong>Then</strong> deberán confirmar que la notificación se recibe correctamente en dispositivos iOS y Android.</li>
+  <li><strong>Given</strong> que el equipo ha implementado Firebase Cloud Messaging, <strong>When</strong> evalúen la facilidad de integración en el frontend y backend, <strong>Then</strong> deberán determinar si la integración es sencilla y eficiente para la plataforma.</li>
+  <li><strong>Given</strong> que el equipo ha implementado la función de notificaciones push, <strong>When</strong> un usuario reciba una notificación sobre un mantenimiento próximo, <strong>Then</strong> deberán asegurarse de que la notificación sea clara, visible y llegue sin demoras.</li>
+  <li><strong>Given</strong> que el equipo ha implementado la funcionalidad de notificaciones programadas, <strong>When</strong> se configure una notificación para ser enviada 24 horas antes de un mantenimiento, <strong>Then</strong> se deberá verificar que la notificación se envíe correctamente en el momento programado.</li>
+  <li><strong>Given</strong> que se han considerado otras opciones de notificaciones push como OneSignal, <strong>When</strong> se investigan sus características y ventajas comparativas, <strong>Then</strong> deberán decidir si OneSignal es una alternativa viable a Firebase para la plataforma.</li>
+  <li><strong>Given</strong> que el equipo ha implementado la función de notificaciones push, <strong>When</strong> se personaliza el contenido de las notificaciones (como texto, imágenes, botones), <strong>Then</strong> deberán asegurar que las notificaciones sean personalizables según las necesidades del usuario.</li>
+  <li><strong>Given</strong> que la plataforma Autonexo puede crecer en número de usuarios, <strong>When</strong> se evalúa la capacidad de Firebase y otras opciones para manejar un gran volumen de notificaciones, <strong>Then</strong> deberán determinar si el sistema puede escalar eficientemente sin afectar el rendimiento.</li>
+  <li><strong>Given</strong> que la seguridad de las notificaciones es crucial, <strong>When</strong> se revisa la seguridad en el envío de las notificaciones (como autenticación, encriptación), <strong>Then</strong> deberán garantizar que el sistema de notificaciones cumpla con los estándares de seguridad necesarios.</li>
+</ul>
+
+<h2>Spike 4: Investigación de Herramientas de Reportes de Mantenimiento</h2>
+
+<p><strong>Descripción:</strong></p>
+<p>Como equipo de desarrollo, quiero investigar herramientas como Power BI o Tableau para generar informes detallados sobre el mantenimiento de los vehículos, para mejorar la toma de decisiones y dar a los usuarios acceso a datos importantes.</p>
+
+<p><strong>Criterios de Aceptación:</strong></p>
+<ul>
+  <li><strong>Given</strong> que el equipo ha identificado herramientas como Power BI y Tableau, <strong>When</strong> investiguen las características y capacidades de cada herramienta, <strong>Then</strong> deberán seleccionar la herramienta que mejor se adapte a las necesidades de informes de mantenimiento de Autonexo.</li>
+  <li><strong>Given</strong> que el equipo ha probado Power BI con datos de prueba, <strong>When</strong> creen un reporte básico, <strong>Then</strong> deberán evaluar si la herramienta proporciona visualizaciones claras y útiles para los usuarios.</li>
+  <li><strong>Given</strong> que el equipo ha probado Tableau para la creación de reportes, <strong>When</strong> realicen un análisis de desempeño, <strong>Then</strong> deberán asegurar que Tableau sea capaz de manejar grandes volúmenes de datos de manera eficiente.</li>
+  <li><strong>Given</strong> que Power BI y Tableau tienen interfaces diferentes, <strong>When</strong> se comparan la facilidad de uso de ambas herramientas, <strong>Then</strong> deberán elegir la herramienta más fácil de usar para el equipo de desarrollo y los usuarios finales.</li>
+  <li><strong>Given</strong> que ambas herramientas tienen modelos de precios distintos, <strong>When</strong> se comparan los costos de uso de Power BI y Tableau, <strong>Then</strong> deberán decidir cuál herramienta ofrece la mejor relación calidad-precio para Autonexo.</li>
+  <li><strong>Given</strong> que los informes deben adaptarse a diferentes necesidades, <strong>When</strong> el equipo personaliza los informes en Power BI y Tableau, <strong>Then</strong> deberán garantizar que las herramientas permitan una amplia personalización de los informes, incluyendo gráficos, tablas y filtros.</li>
+  <li><strong>Given</strong> que se requiere una visualización clara de los datos de mantenimiento, <strong>When</strong> se comparan las capacidades de visualización de Power BI y Tableau, <strong>Then</strong> deberán decidir cuál herramienta ofrece las mejores opciones de visualización para facilitar la toma de decisiones.</li>
+  <li><strong>Given</strong> que los datos de mantenimiento de Autonexo están almacenados en una base de datos, <strong>When</strong> el equipo integra Power BI y Tableau con los datos de mantenimiento, <strong>Then</strong> deberán asegurar que ambas herramientas puedan acceder a los datos de manera eficiente y sin errores.</li>
+  <li><strong>Given</strong> que la plataforma Autonexo puede crecer en volumen de datos, <strong>When</strong> el equipo evalúa la escalabilidad de Power BI y Tableau, <strong>Then</strong> deberán determinar si ambas herramientas pueden manejar el crecimiento futuro de los datos sin afectar el rendimiento.</li>
+</ul>
+
+
+<h2>Spike 5: Investigación de Integración de API de Pagos con MercadoPago</h2>
+
+<p><strong>Descripción:</strong></p>
+<p>Como equipo de desarrollo, quiero investigar cómo integrar la API de MercadoPago para procesar pagos, para ofrecer una solución de pagos alternativa para los usuarios en la plataforma.</p>
+
+<p><strong>Criterios de Aceptación:</strong></p>
+<ul>
+  <li><strong>Given</strong> que el equipo tiene acceso a la documentación de la API de MercadoPago, <strong>When</strong> el equipo investiga las opciones para integrar métodos de pago como tarjetas de crédito y débito, <strong>Then</strong> deberá definir si MercadoPago es adecuado para la integración en Autonexo.</li>
+  <li><strong>Given</strong> que el equipo ha realizado una prueba de pago con MercadoPago, <strong>When</strong> el equipo verifique que el proceso de pago se complete correctamente, <strong>Then</strong> deberá confirmar si MercadoPago es viable como solución de pagos para la plataforma.</li>
+  <li><strong>Given</strong> que MercadoPago ofrece tarifas para diferentes tipos de transacciones, <strong>When</strong> el equipo compare los costos de MercadoPago con otras soluciones de pagos, <strong>Then</strong> deberá decidir si MercadoPago es económicamente viable para Autonexo.</li>
+  <li><strong>Given</strong> que la integración de MercadoPago afecta el backend de Autonexo, <strong>When</strong> el equipo evalúe la compatibilidad de MercadoPago con el backend (Spring Boot), <strong>Then</strong> deberá garantizar que la API de MercadoPago se pueda integrar sin problemas con los servicios RESTful del backend.</li>
+  <li><strong>Given</strong> que el equipo requiere personalización en el flujo de pagos, <strong>When</strong> el equipo explore las opciones de personalización de pagos de MercadoPago (páginas de pago, métodos de pago), <strong>Then</strong> deberá determinar si MercadoPago ofrece suficientes opciones de personalización para satisfacer las necesidades de Autonexo.</li>
+  <li><strong>Given</strong> que MercadoPago ofrece diferentes métodos de pago, <strong>When</strong> el equipo realice pruebas de pago con diferentes métodos (tarjetas, débito, transferencias), <strong>Then</strong> deberá asegurarse de que todos los métodos de pago funcionen correctamente en la plataforma.</li>
+  <li><strong>Given</strong> que la seguridad es fundamental en el procesamiento de pagos, <strong>When</strong> el equipo revise las medidas de seguridad que ofrece MercadoPago (encriptación, cumplimiento con PCI-DSS), <strong>Then</strong> deberá confirmar que MercadoPago cumple con los estándares de seguridad necesarios.</li>
+  <li><strong>Given</strong> que MercadoPago utiliza webhooks para notificar cambios de estado en pagos, <strong>When</strong> el equipo implemente y pruebe los webhooks de MercadoPago, <strong>Then</strong> deberá asegurarse de que los webhooks funcionen correctamente y sin errores.</li>
+</ul>
+
+<h2>Spike 6: Investigación de Técnicas de Caching para Mejorar el Rendimiento</h2>
+
+<p><strong>Descripción:</strong></p>
+<p>Como equipo de desarrollo, quiero investigar técnicas de caching como Redis o Memcached, para mejorar el rendimiento de la plataforma y reducir los tiempos de carga.</p>
+
+<p><strong>Criterios de Aceptación:</strong></p>
+<ul>
+  <li><strong>Given</strong> que el equipo ha considerado opciones como Redis y Memcached, <strong>When</strong> investiguen las características y ventajas de cada uno, <strong>Then</strong> deberán seleccionar la opción que mejor se adapte a las necesidades de Autonexo.</li>
+  <li><strong>Given</strong> que el equipo ha implementado una solución de caching en Redis, <strong>When</strong> realicen pruebas de rendimiento en una función crítica, <strong>Then</strong> deberán verificar si el tiempo de respuesta mejora significativamente.</li>
+  <li><strong>Given</strong> que el equipo ha probado el caching de Memcached, <strong>When</strong> comparen los tiempos de respuesta en diferentes pruebas de carga, <strong>Then</strong> deberán decidir si Memcached es adecuado para el uso en Autonexo.</li>
+  <li><strong>Given</strong> que Redis y Memcached tienen implementaciones y configuraciones distintas, <strong>When</strong> el equipo evalúa la facilidad de integración de cada sistema en la arquitectura de Autonexo, <strong>Then</strong> deberán determinar cuál es más sencillo de implementar y mantener.</li>
+  <li><strong>Given</strong> que Autonexo puede crecer en volumen de usuarios y datos, <strong>When</strong> se evalúa la escalabilidad de Redis y Memcached, <strong>Then</strong> deberán garantizar que la opción seleccionada pueda manejar un crecimiento significativo sin afectar el rendimiento.</li>
+  <li><strong>Given</strong> que la seguridad es un factor crítico en la integración de caching, <strong>When</strong> se revisan las medidas de seguridad de Redis y Memcached (como la encriptación de datos), <strong>Then</strong> deberán confirmar que la solución de caching cumple con los requisitos de seguridad necesarios.</li>
+  <li><strong>Given</strong> que las soluciones de caching deben ser eficientes en el uso de recursos, <strong>When</strong> se mide el consumo de CPU y memoria al implementar Redis o Memcached, <strong>Then</strong> deberán asegurar que la solución elegida no afecte negativamente los recursos de Autonexo.</li>
+  <li><strong>Given</strong> que la alta disponibilidad es crucial para el sistema de caching, <strong>When</strong> se simulan fallos en Redis o Memcached, <strong>Then</strong> deberán verificar que la solución seleccionada pueda recuperarse correctamente sin perder datos importantes.</li>
+</ul>
+
+<h2>Spike 7: Evaluación de Herramientas de Seguridad para la Plataforma</h2>
+
+<p><strong>Descripción:</strong></p>
+<p>Como equipo de seguridad, quiero investigar herramientas de seguridad como OWASP ZAP o Burp Suite para realizar pruebas de penetración y asegurarnos de que la plataforma esté segura.</p>
+
+<p><strong>Criterios de Aceptación:</strong></p>
+<ul>
+  <li><strong>Given</strong> que el equipo ha considerado herramientas como OWASP ZAP y Burp Suite, <strong>When</strong> investiguen las características de cada una, <strong>Then</strong> deberán decidir cuál es la mejor herramienta para realizar pruebas de seguridad en Autonexo.</li>
+  <li><strong>Given</strong> que el equipo ha implementado una prueba de seguridad con OWASP ZAP, <strong>When</strong> realicen un escaneo de vulnerabilidades, <strong>Then</strong> deberán identificar todas las posibles brechas de seguridad en el sistema.</li>
+  <li><strong>Given</strong> que el equipo ha implementado Burp Suite para pruebas de seguridad, <strong>When</strong> realicen pruebas de penetración, <strong>Then</strong> deberán asegurarse de que la plataforma esté segura contra ataques comunes.</li>
+  <li><strong>Given</strong> que OWASP ZAP y Burp Suite tienen interfaces y configuraciones distintas, <strong>When</strong> el equipo evalúa la facilidad de uso de ambas herramientas, <strong>Then</strong> deberán decidir cuál herramienta es más fácil de integrar y utilizar en el flujo de trabajo de Autonexo.</li>
+  <li><strong>Given</strong> que el objetivo es detectar vulnerabilidades críticas en la plataforma, <strong>When</strong> el equipo prueba las capacidades de detección de vulnerabilidades de OWASP ZAP y Burp Suite, <strong>Then</strong> deberán asegurarse de que ambas herramientas detecten las vulnerabilidades clave en Autonexo.</li>
+  <li><strong>Given</strong> que las configuraciones de seguridad son esenciales en las pruebas de penetración, <strong>When</strong> el equipo evalúa las configuraciones de seguridad de OWASP ZAP y Burp Suite, <strong>Then</strong> deberán determinar si las herramientas permiten una configuración detallada y personalizada según las necesidades de Autonexo.</li>
+  <li><strong>Given</strong> que las pruebas de seguridad deben integrarse con el flujo de desarrollo de Autonexo, <strong>When</strong> el equipo evalúa cómo OWASP ZAP y Burp Suite se integran con las herramientas y procesos de desarrollo existentes, <strong>Then</strong> deberán garantizar que las herramientas se integren sin interrumpir el flujo de trabajo de desarrollo.</li>
+  <li><strong>Given</strong> que los informes de seguridad son cruciales para la corrección de vulnerabilidades, <strong>When</strong> el equipo revisa los informes generados por OWASP ZAP y Burp Suite, <strong>Then</strong> deberán asegurarse de que los informes sean claros, detallados y proporcionen las recomendaciones necesarias para corregir las vulnerabilidades encontradas.</li>
+</ul>
+
+<h2>Spike 8: Investigación de Plataforma para Gestión de Suscripciones</h2>
+
+<p><strong>Descripción:</strong></p>
+<p>Como equipo de desarrollo, quiero investigar plataformas como Recurly o Stripe Billing para gestionar suscripciones y automatizar el proceso de pagos recurrentes en la plataforma.</p>
+
+<p><strong>Criterios de Aceptación:</strong></p>
+<ul>
+  <li><strong>Given</strong> que el equipo ha considerado plataformas como Recurly y Stripe Billing, <strong>When</strong> investiguen las funcionalidades y capacidades de cada plataforma, <strong>Then</strong> deberán seleccionar la plataforma más adecuada para gestionar las suscripciones de Autonexo.</li>
+  <li><strong>Given</strong> que el equipo ha probado la implementación de Recurly con datos de prueba, <strong>When</strong> creen un ciclo de suscripción y realicen un pago de prueba, <strong>Then</strong> deberán verificar que la plataforma maneje correctamente los pagos recurrentes.</li>
+  <li><strong>Given</strong> que el equipo ha probado Stripe Billing para gestionar suscripciones, <strong>When</strong> realicen una prueba de suscripción con Stripe Billing, <strong>Then</strong> deberán asegurarse de que la plataforma maneje correctamente los pagos recurrentes.</li>
+  <li><strong>Given</strong> que ambas plataformas tienen estructuras de precios diferentes, <strong>When</strong> se comparen los costos de Recurly y Stripe Billing, <strong>Then</strong> deberán decidir cuál plataforma ofrece la mejor relación calidad-precio para Autonexo.</li>
+  <li><strong>Given</strong> que la plataforma de suscripciones debe integrarse con el backend de Autonexo, <strong>When</strong> el equipo evalúa la facilidad de integración de Recurly y Stripe Billing con el backend (Spring Boot), <strong>Then</strong> deberán garantizar que ambas plataformas se integren de manera sencilla y eficiente.</li>
+  <li><strong>Given</strong> que la seguridad es fundamental en los pagos recurrentes, <strong>When</strong> el equipo revise las medidas de seguridad de Recurly y Stripe Billing, <strong>Then</strong> deberán garantizar que ambas plataformas cumplan con los estándares de seguridad necesarios, como PCI-DSS.</li>
+  <li><strong>Given</strong> que es necesario gestionar los datos de clientes y suscripciones, <strong>When</strong> se utilicen las herramientas de reportes de Recurly y Stripe Billing, <strong>Then</strong> deberán asegurarse de que las plataformas generen informes detallados y fáciles de usar sobre las suscripciones.</li>
+</ul>
+
+<h2>Spike 9: Investigación de API de Localización para Mejorar la Búsqueda de Mecánicos</h2>
+
+<p><strong>Descripción:</strong></p>
+<p>Como equipo de desarrollo, quiero investigar APIs de localización como Google Maps, Mapbox o Here para mejorar la búsqueda de mecánicos cercanos, ofreciendo una experiencia más eficiente y precisa a los conductores.</p>
+
+<p><strong>Criterios de Aceptación:</strong></p>
+<ul>
+  <li><strong>Given</strong> que el equipo ha considerado APIs como Google Maps, Mapbox o Here, <strong>When</strong> investiguen las características y opciones de integración de cada API, <strong>Then</strong> deberán seleccionar la mejor API para la localización en Autonexo.</li>
+  <li><strong>Given</strong> que el equipo ha implementado la API de Google Maps para la localización, <strong>When</strong> realicen pruebas de búsqueda de mecánicos cercanos, <strong>Then</strong> deberán asegurarse de que la función de localización sea precisa y eficiente.</li>
+  <li><strong>Given</strong> que el equipo ha implementado la API de Mapbox para la localización, <strong>When</strong> realicen pruebas de búsqueda de mecánicos cercanos, <strong>Then</strong> deberán asegurarse de que la función de localización sea precisa y eficiente.</li>
+  <li><strong>Given</strong> que el equipo ha implementado la API de Here para la localización, <strong>When</strong> realicen pruebas de búsqueda de mecánicos cercanos, <strong>Then</strong> deberán asegurarse de que la función de localización sea precisa y eficiente.</li>
+  <li><strong>Given</strong> que cada API tiene diferentes modelos de precios, <strong>When</strong> comparen los costos de Google Maps, Mapbox y Here, <strong>Then</strong> deberán decidir cuál API ofrece la mejor relación calidad-precio para la plataforma.</li>
+  <li><strong>Given</strong> que Google Maps, Mapbox y Here tienen implementaciones y configuraciones distintas, <strong>When</strong> el equipo evalúe la facilidad de integración de cada API con la plataforma Autonexo, <strong>Then</strong> deberán determinar cuál API es más sencilla de implementar y mantener.</li>
+  <li><strong>Given</strong> que la plataforma Autonexo puede crecer en volumen de usuarios y mecánicos, <strong>When</strong> el equipo evalúe la escalabilidad de Google Maps, Mapbox y Here, <strong>Then</strong> deberán asegurarse de que todas las APIs puedan manejar un gran volumen de solicitudes sin afectar el rendimiento.</li>
+  <li><strong>Given</strong> que la precisión es clave en la búsqueda de mecánicos cercanos, <strong>When</strong> el equipo pruebe las APIs de Google Maps, Mapbox y Here en diferentes ubicaciones, <strong>Then</strong> deberán asegurarse de que todas las APIs proporcionen ubicaciones precisas y fiables.</li>
+  <li><strong>Given</strong> que las aplicaciones de Autonexo están disponibles en dispositivos móviles, <strong>When</strong> el equipo evalúe la compatibilidad de Google Maps, Mapbox y Here con dispositivos móviles (iOS/Android), <strong>Then</strong> deberán asegurarse de que todas las APIs funcionen correctamente en plataformas móviles.</li>
+  <li><strong>Given</strong> que tanto Google Maps, Mapbox y Here ofrecen características adicionales (como rutas optimizadas, tráfico en tiempo real, etc.), <strong>When</strong> el equipo explore estas características, <strong>Then</strong> deberán decidir si alguna de estas funcionalidades adicionales es relevante y útil para la plataforma Autonexo.</li>
+</ul>
+
 
 
 ### 2.3.2. User Task Matrix
