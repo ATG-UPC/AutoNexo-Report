@@ -473,7 +473,6 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 ### 2.3.2. User Task Matrix
 
-<h3>User Task Matrix</h3>
 <p>En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Persona (que representan a cada segmento) realizan para cumplir sus objetivos. No confundir tareas (tasks) con opciones o características de software, pues las tareas deben ser realizadas por los segmentos independientemente de la existencia de su solución de software.</p>
 
 <table border="1" cellpadding="6" cellspacing="0">
