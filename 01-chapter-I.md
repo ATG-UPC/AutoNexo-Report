@@ -14,13 +14,28 @@ La plataforma no solo mejora la accesibilidad al servicio automotriz, sino que t
 El objetivo de Autonexo es transformar la experiencia de mantenimiento vehicular, ofreciendo una solución accesible, transparente y efectiva tanto para los conductores como para los mecánicos. Al mismo tiempo, fomenta la adopción de la tecnología en un sector que históricamente ha dependido de métodos tradicionales y manuales, mejorando la eficiencia y el control sobre los costos de mantenimiento.
 
 ### **1.1.2. Perfiles de integrantes del equipo**
-
-| <img src="" alt="Angelo Solano" width="300"/> | **Angelo Solano \- u20231B775** <br>  |
-| :---: | ----- |
-| <img src="" alt="Henry Esteban" width="300"/> | **Henry Esteban \- u202310210** <br>  |
-| <img src="" alt="Sergio Iglesias" width="300"/> | **Sergio Iglesias \- u202316118** <br>  |
-| <img width="219" height="255" alt="VictorCruz" src="https://github.com/user-attachments/assets/b9690f0d-310b-4fdd-8ca4-7b642066a0ca"/> | **Victor Cruz \- u202311053** <br> Mi nombre es Victor Cruz, tengo 19 años y estoy cursando mi 5to ciclo de la carrera de Ingeniería de Software en la UPC. Soy una persona entusiasta, creativa y comprometida con cada actividad que realizo. Estoy decidido a dar lo mejor de mi en este proyecto para lograr resultados de calidad. |
-|<img width="149" height="178" alt="RafaelVivanco" src="https://github.com/user-attachments/assets/a3c5d073-74bf-43a5-a1d9-557ec4c23edd" />| **Rafael Vivanco \- u202311064** <br> Mi nombre es Rafael Vivanco, tengo 19 años y actualmente curso el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable con facilidad para adaptarme a distintos entornos y manejar varias tareas a la vez. Siempre doy lo mejor de mí en cada proyecto, aportando dedicación, esfuerzo y actitud positiva. |
+<table border="1">
+  <tr>
+      <td style="text-align:center;"><img src="https://github.com/ATG-UPC/AutoNexo-Report/blob/acfeb463d4d95b34589fc359d589992ccfb8465b/assets/chapter-I-assets/photo-Angelo.png?raw=true" alt="Angelo Solano" /></td>
+      <td><strong>Angelo Solano - u20231B775</strong><br>Mi nombre es Angelo Solano, soy estudiante de Ingeniería de Software en la UPC. Me apasiona la tecnología y todo lo relacionado con el desarrollo de software. Me gusta enfrentarme a desafíos complejos y encontrar soluciones creativas. Estoy en constante aprendizaje, siempre buscando mejorar mis habilidades en programación y análisis de sistemas. Me considero una persona comprometida con mis proyectos y con ganas de crecer tanto profesionalmente como personalmente. Disfruto trabajar en equipo y siempre trato de aportar lo mejor de mí en todo lo que hago.</td>
+  </tr>
+  <tr>
+      <td style="text-align:center;"><img src="https://github.com/ATG-UPC/AutoNexo-Report/blob/acfeb463d4d95b34589fc359d589992ccfb8465b/assets/chapter-I-assets/photo-kalet.png?raw=true" alt="Henry Esteban"/></td>
+      <td><strong>Henry Esteban - u202310210</strong><br>Mi nombre es Henry Esteban, tengo 20 años y estoy cursando mi 6to ciclo de la carrera de Ingeniería de Software en la UPC. Soy una persona dedicada, analítica y con gran interés en el desarrollo de soluciones tecnológicas innovadoras. Me caracterizo por mi capacidad de trabajo en equipo y mi compromiso con la excelencia en cada proyecto que realizo. Estoy enfocado en aprender constantemente y aplicar mis conocimientos para crear aplicaciones que generen un impacto positivo en la sociedad.</td>
+  </tr>
+  <tr>
+      <td style="text-align:center;"><img src="https://github.com/ATG-UPC/AutoNexo-Report/blob/acfeb463d4d95b34589fc359d589992ccfb8465b/assets/chapter-I-assets/photo-Sergio.png?raw=true" alt="Sergio Iglesias"/></td>
+      <td><strong>Sergio Iglesias - u202316118</strong><br>Mi nombre es Sergio Iglesias, tengo 19 años y estoy cursando mi 6to ciclo de la carrera de Ingeniería de Software en la UPC. Soy una persona proactiva, creativa y con gran pasión por la tecnología. Me destaco por mi capacidad de resolver problemas de manera eficiente y mi habilidad para trabajar colaborativamente en proyectos complejos. Estoy comprometido con el aprendizaje continuo y siempre busco aplicar las mejores prácticas en el desarrollo de software. Mi objetivo es contribuir significativamente al éxito de este proyecto y crecer profesionalmente en el campo de la ingeniería de software.</td>
+  </tr>
+  <tr>
+      <td style="text-align:center;"><img width="200" height="200" alt="Victor Cruz" src="https://github.com/user-attachments/assets/b9690f0d-310b-4fdd-8ca4-7b642066a0ca?raw=true" /></td>
+      <td><strong>Victor Cruz - u202311053</strong><br>Mi nombre es Victor Cruz, tengo 19 años y estoy cursando mi 6to ciclo de la carrera de Ingeniería de Software en la UPC. Soy una persona entusiasta, creativa y comprometida con cada actividad que realizo. Estoy decidido a dar lo mejor de mí en este proyecto para lograr resultados de calidad.</td>
+  </tr>
+  <tr>
+      <td style="text-align:center;"><img width="200" height="200" alt="Rafael Vivanco" src="https://github.com/ATG-UPC/AutoNexo-Report/blob/acfeb463d4d95b34589fc359d589992ccfb8465b/assets/chapter-I-assets/photo-Rafael-Vivanco.jpg?raw=true" /></td>
+      <td><strong>Rafael Vivanco - u202311064</strong><br>Mi nombre es Rafael Vivanco, tengo 19 años y actualmente curso el 6to ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable con facilidad para adaptarme a distintos entornos y manejar varias tareas a la vez. Siempre doy lo mejor de mí en cada proyecto, aportando dedicación, esfuerzo y actitud positiva.</td>
+  </tr>
+</table>
 
 ## **1.2. Solution Profile**
 ### **1.2.1. Antecedentes y problemática**
