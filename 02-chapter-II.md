@@ -259,7 +259,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ERJ8Xb5H93hGrCMlwwGrXAoBQhQYCzamRvJsaONqWyGJLw?e=NDdOwH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -267,7 +267,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        05:24 -11:12
+        00:00 -08:02
     </td>
   </tr>
 </table>
@@ -295,7 +295,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ERJ8Xb5H93hGrCMlwwGrXAoBQhQYCzamRvJsaONqWyGJLw?e=NDdOwH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -303,7 +303,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        11:12 - 17:11
+        08:07 - 14:58
     </td>
   </tr>
 </table>
@@ -317,24 +317,24 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <th>Entrevista</th>
     <td>3</td>
     <th>Nombre</th>
-    <td>Alexander Miranda</td>
+    <td>José Angel Castillo Miranda</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>25</td>
+    <td>40</td>
     <th>Distrito</th>
     <td>San Luis</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/segmento2 - Alexander Miranda.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-II/Entrevista 3 Mecánico.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        En la entrevista, Alexander Miranda comentó que se dedica a la venta texti. Explicó que hace sus registros de manera manual lo que es agotador para él y que siente que pierde mucho tiempo ya que le puede tomar horas. Mediante excel controla sus ingresos y luego revisa las boletas para actualziar el inventario y llevar un conteo general. Nos dice que le gustaría automatizar sus procesos y ha considerado emplear tecnologías que le apoyen a modernizar su negocio para la gestión de inventarios. 
+        El entrevistado, ingeniero en mantenimiento mecánico, señaló como problemas principales la falta de planificación preventiva, la mala comunicación con los conductores y la ausencia de historial organizado de cada vehículo. Consideró esenciales procesos como registro de solicitudes, calendario de mantenimientos, alertas automáticas y reportes de avance. Prefiere interfaces visuales tipo panel con indicadores y acceso rápido al historial, así como notificaciones en tiempo real. También valoró funcionalidades de seguimiento de solicitudes, métodos de pago variados (digitales o tarjeta), retroalimentación clara mediante calificaciones y la posibilidad de organizar trabajos según especialidad y disponibilidad. 
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ERJ8Xb5H93hGrCMlwwGrXAoBQhQYCzamRvJsaONqWyGJLw?e=NDdOwH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -342,7 +342,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        20:45 - 23:50
+        14:59 - 30:08
     </td>
   </tr>
 </table>
@@ -350,26 +350,26 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
 <table border="1">
   <tr>
     <th>Entrevista</th>
-    <td>5</td>
+    <td>4</td>
     <th>Nombre</th>
-    <td>Juan Carlos Ramírez</td>
+    <td>Rando Calero</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>49</td>
+    <td>45</td>
     <th>Distrito</th>
     <td>Suquillo</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg2-carlitos.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-II/Entrevista 4 Mecánico.jpg" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        Juan Carlos Ramírez, emprendedor de 49 años, gestiona su inventario principalmente de forma manual, registrando entradas y salidas mediante boletas y facturas sin un control digital completo. Actualmente está en proceso de digitalizar su sistema con un programa y una máquina POS que escanea códigos de barra, aunque aún no emite boletas ni facturas electrónicas. La revisión del stock se realiza visualmente y las ventas se gestionan principalmente por WhatsApp con entrega a domicilio. Busca mejorar la eficiencia y liberar tiempo mediante la implementación de herramientas digitales más integradas.
+        Rando Calero, mecánico especialista en la marca Scania y dueño de un taller con un año en el mercado, destacó que los principales problemas en la gestión del mantenimiento son la falta de planificación preventiva y la dependencia de recordatorios manuales o escáneres del vehículo. Actualmente utilizan WhatsApp y registros básicos para coordinar mantenimientos, pero considera que una app debería centralizar el historial por placa, facilitar la comunicación y agilizar el flujo de trabajo. También valoró que la aplicación sea sencilla, con lenguaje accesible, opciones de retroalimentación de clientes, alertas de mantenimientos próximos y reportes claros para dueños, conductores y talleres. Además, ve como oportunidad incluir funciones de promoción de talleres, estadísticas de satisfacción y un flujo automatizado que informe al cliente en cada etapa del servicio.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ERJ8Xb5H93hGrCMlwwGrXAoBQhQYCzamRvJsaONqWyGJLw?e=NDdOwH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -377,7 +377,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        17:11 - 20:45
+        30:09 - 40:34
     </td>
   </tr>
 </table>
@@ -428,932 +428,48 @@ Las entrevistas se realizaron entre el 5 y el 15 de septiembre de 2025 a un tota
 
 • Muestran disposición a usar una app siempre que sea intuitiva y rápida: 2/2 (100%)
 
+**Segmento: Mecánicos**
+
+**Total entrevistados**: 2
+
+**Edades**: 40 y 45 años
+
+**Distritos**: San Luis  y Surquillo
+
+
+**Experiencia**:
+- José Castillo: Ingeniero en mantenimiento mecánico con experiencia en diagnósticos, mantenimientos preventivos y gestión operativa.
+- Rando Calero: Mecánico especialista en Scania, dueño de taller con 1 año en el mercado.
+
+**Fechas**: Entre el 13 y 15 de septiembre
+
+**Características objetivas**
+
+• Identifican la falta de planificación preventiva como el principal problema de gestión: 2/2 (100%)  
+• Consideran esencial el historial digital de cada vehículo para diagnósticos más rápidos: 2/2 (100%)  
+• Utilizan actualmente métodos básicos de comunicación (WhatsApp, llamadas): 2/2 (100%)  
+• Valoran procesos como registro de solicitudes, seguimiento, alertas y reportes: 2/2 (100%)  
+• Prefieren una interfaz clara e intuitiva, con indicadores y paneles visuales: 2/2 (100%)  
+• Están abiertos a que los clientes dejen valoraciones y comentarios sobre el servicio: 2/2 (100%)  
+• Usan o han considerado usar herramientas digitales complementarias (escáner de vehículos, páginas web, redes sociales): 2/2 (100%)
+
+**Características subjetivas**
+
+• Perciben que la mala comunicación con conductores aumenta costos y retrasa soluciones: 2/2 (100%)  
+• Valoran la organización de solicitudes para evitar confusiones o duplicaciones: 2/2 (100%)  
+• Consideran clave las notificaciones automáticas de mantenimientos: 2/2 (100%)  
+• Desean que la app tenga lenguaje accesible y no excesivamente técnico, para facilitar la adopción: 1/2 (50%)  
+• Piensan que la plataforma debe incluir flujo automatizado de trabajo (inicio, mantenimiento en proceso, finalización): 1/2 (50%)  
+• Ven con buenos ojos la idea de un sistema de membresías o suscripción para cobros recurrentes: 1/2 (50%)  
+• Reconocen que las reseñas negativas pueden dañar la reputación, pero aun así valoran su utilidad para mejorar: 1/2 (50%)
+
 ## 2.3. Needfinding
 
+En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
+
+
 ### 2.3.1. User Personas
-<table border="1">
-    <thead>
-        <tr>
-            <th>Story ID</th>
-            <th>Título</th>
-            <th>Descripción</th>
-            <th>Acceptance Criteria</th>
-            <th>Linked ID</th>
-        </tr>
-    </thead>
-    <tbody>
-            <tr>
-            <td>EP01</td>
-            <td>Registro y organización inicial</td>
-            <td>Como propietario y taller, quiero registrar vehículos e historiales, para organizar la información base de mantenimiento.</td>
-            <td>No corresponde</td>
-            <td>US01, US02, US03, US04</td>
-        </tr>
-        <tr>
-            <td>EP02</td>
-            <td>Gestión de servicios y reservas</td>
-            <td>Como taller y propietario, quiero gestionar ofertas de mantenimiento y reservas, para asegurar que las tareas se coordinen en tiempo y forma.</td>
-            <td>No corresponde</td>
-            <td>US05, US06, US07</td>
-        </tr>
-        <tr>
-            <td>EP03</td>
-            <td>Descubrimiento y personalización</td>
-            <td>Como propietario, quiero encontrar talleres y servicios mediante filtros, ubicación y promociones, para elegir la mejor opción.</td>
-            <td>No corresponde</td>
-            <td>US08, US09, US10, US11</td>
-        </tr>
-        <tr>
-            <td>EP04</td>
-            <td>Comunicación y coordinación</td>
-            <td>Como usuario, quiero comunicarme y coordinar con el taller en tiempo real, para asegurar un servicio claro y sin errores.</td>
-            <td>No corresponde</td>
-            <td>US12, US13, US14</td>
-        </tr>
-        <tr>
-            <td>EP05</td>
-            <td>Gestión de mantenimientos</td>
-            <td>Como usuario, quiero gestionar los mantenimientos desde la creación hasta la finalización, para asegurar el control y trazabilidad de cada servicio.</td>
-            <td>No corresponde</td>
-            <td>US15, US16, US17, US18, US19</td>
-        </tr>
-        <tr>
-            <td>EP06</td>
-            <td>Calificaciones y reputación</td>
-            <td>Como usuarios (propietario y taller), queremos calificarnos mutuamente y consultar reputaciones, para fomentar confianza y calidad en el servicio.</td>
-            <td>No corresponde</td>
-            <td>US20, US21, US22, US23</td>
-        </tr>
-        <tr>
-            <td>EP07</td>
-            <td>Landing Page (visitantes)</td>
-            <td>Como visitante, quiero acceder a información, registro y soporte desde la landing page, para conocer y empezar a usar la aplicación.</td>
-            <td>No corresponde</td>
-            <td>US24, US25, US26, US27</td>
-        </tr>
-        <tr>
-            <td>US01</td>
-            <td>Registro de vehículo</td>
-            <td>Como propietario, quiero registrar mi vehículo ingresando sus datos básicos, para que quede vinculado a mi perfil.</td>
-            <td>
-                <p><strong>Escenario 1 — Registro exitoso:</strong><br>
-                    • Given que el propietario proporciona todos los datos requeridos del vehículo (marca, modelo, año, placa, etc.)<br>
-                    • When solicita guardar el registro<br>
-                    • Then el sistema asocia y almacena el vehículo en el perfil del propietario.
-                </p>
-                <p><strong>Escenario 2 — Registro incompleto:</strong><br>
-                    • Given que el propietario omite uno o más campos obligatorios<br>
-                    • When intenta guardar el registro<br>
-                    • Then el sistema devuelve un error indicando los campos faltantes y no crea el registro.
-                </p>
-            </td>
-            <td>EP01</td>
-        </tr>
-        <tr>
-            <td>US02</td>
-            <td>Adjuntar historial inicial</td>
-            <td>Como propietario, quiero adjuntar el historial de mantenimiento de mi vehículo, para que el taller conozca trabajos previos.</td>
-            <td>
-                <p><strong>Escenario 1 — Historial adjuntado:</strong><br>
-                    • Given que el propietario dispone de documentos o datos de mantenimientos previos<br>
-                    • When incorpora la información o adjunta los documentos y confirma el registro del vehículo<br>
-                    • Then el sistema guarda el historial asociado al vehículo y lo marca como disponible para talleres autorizados.
-                </p>
-                <p><strong>Escenario 2 — Sin historial:</strong><br>
-                    • Given que el propietario no tiene historial disponible<br>
-                    • When finaliza el registro del vehículo<br>
-                    • Then el sistema crea el registro del vehículo sin historial asociado y lo deja marcado como “sin historial”.
-                </p>
-            </td>
-            <td>EP01</td>
-        </tr>
-        <tr>
-            <td>US03</td>
-            <td>Visualizar historial de vehículo</td>
-            <td>Como taller, quiero visualizar el historial de mantenimientos de un vehículo registrado, para conocer antecedentes y diagnósticos previos.</td>
-            <td>
-                <p><strong>Escenario 1 — Vehículo con historial:</strong><br>
-                    • Given que el vehículo tiene registros previos de mantenimiento<br>
-                    • When el taller solicita consultar el historial del vehículo<br>
-                    • Then el sistema entrega la lista de registros previos (fechas, tipo de servicio, taller, notas) de forma completa y ordenada.
-                </p>
-                <p><strong>Escenario 2 — Vehículo sin historial:</strong><br>
-                    • Given que el vehículo no tiene registros previos<br>
-                    • When el taller solicita el historial<br>
-                    • Then el sistema indica que no existen registros previos para ese vehículo.
-                </p>
-            </td>
-            <td>EP01</td>
-        </tr>
-        <tr>
-            <td>US04</td>
-            <td>Actualización automática del historial</td>
-            <td>Como taller, quiero que el historial del vehículo se actualice automáticamente al finalizar un mantenimiento, para mantener la información al día sin tener que hacerlo manualmente.</td>
-            <td>
-                <p><strong>Escenario 1 — Mantenimiento finalizado:</strong><br>
-                    • Given que el taller marca un mantenimiento como finalizado y registra los resultados (servicios realizados, repuestos, observaciones)<br>
-                    • When el registro de cierre queda confirmado<br>
-                    • Then el sistema añade automáticamente ese mantenimiento al historial del vehículo y lo hace visible en el historial.
-                </p>
-                <p><strong>Escenario 2 — Mantenimiento cancelado:</strong><br>
-                    • When que un mantenimiento es cancelado antes de su finalización<br>
-                    • When el taller registra la cancelación con motivo<br>
-                    • Then el sistema no añade el mantenimiento al historial y marca el evento como cancelado (sin entrada en historial de servicios realizados).
-                </p>
-            </td>
-            <td>EP01</td>
-        </tr>
-        <tr>
-            <td>US05</td>
-            <td>Catálogo de servicios de taller</td>
-            <td>Como taller, quiero publicar ofertas de mantenimiento (ej. cambio de aceite, frenos, afinamiento) con precio, duración y cobertura, para que los propietarios las encuentren y reserven.</td>
-            <td>
-                <p><strong>Escenario 1 — Publicación válida:</strong><br>
-                    • Given que el taller proporciona título, descripción, precio, duración, categorías y compatibilidades mínimas<br>
-                    • When solicita publicar la oferta<br>
-                    • Then el sistema guarda la oferta con estado publicada, registra timestamps y la hace visible en el catálogo.
-                </p>
-                <p><strong>Escenario 2 — Campos obligatorios incompletos:</strong><br>
-                    • Given que el taller omite campos obligatorios (ej. precio o categoría)<br>
-                    • When intenta publicar la oferta<br>
-                    • Then el sistema rechaza la publicación y devuelve la lista de campos obligatorios faltantes.
-                </p>
-                <p><strong>Escenario 3 — Imágenes/validación:</strong><br>
-                    • Given que el taller adjunta imágenes que exceden límites permitidos<br>
-                    • When intenta subir las imágenes<br>
-                    • Then el sistema rechaza las imágenes que exceden el tamaño y acepta las válidas.
-                </p>
-                <p><strong>Escenario 4 — Estados de oferta:</strong><br>
-                    • Given que la oferta existe en el sistema<br>
-                    • When el taller cambia su estado a pausada o borrador<br>
-                    • Then el sistema actualiza el estado y la visibilidad según la nueva condición.
-                </p>
-            </td>
-            <td>EP02</td>
-        </tr>
-        <tr>
-            <td>US06</td>
-            <td>Explorar catálogo y búsqueda</td>
-            <td>Como propietario, quiero explorar y buscar ofertas de mantenimiento por palabras clave y categorías, para comparar opciones.</td>
-            <td>
-                <p><strong>Escenario 1 — Búsqueda con resultados:</strong><br>
-                    • Given que existen ofertas que coinciden con término o categoría<br>
-                    • When el propietario busca por palabra clave, categoría o filtro<br>
-                    • Then el sistema devuelve una lista de ofertas coincidentes paginada y ordenable por distancia, precio, rating o relevancia.
-                </p>
-                <p><strong>Escenario 2 — Sin resultados:</strong><br>
-                    • Given que no hay ofertas que coincidan con los criterios de búsqueda<br>
-                    • When el propietario realiza la búsqueda<br>
-                    • Then el sistema devuelve una lista vacía y sugiere alternativas (otras categorías o ampliar rango).
-                </p>
-                <p><strong>Escenario 3 — Vista detalle:</strong><br>
-                    • Given que el propietario solicita info de una oferta<br>
-                    • When solicita ver el detalle de la oferta<br>
-                    • Then el sistema entrega la información completa de la oferta y los datos del taller (rating, ubicación, términos).
-                </p>
-            </td>
-            <td>EP02</td>
-        </tr>
-        <tr>
-            <td>US07</td>
-            <td>Cancelar reserva de mantenimiento</td>
-            <td>Como propietario, quiero cancelar una reserva de mantenimiento programada, para reprogramar si tengo un imprevisto.</td>
-            <td>
-                <p><strong>Escenario 1 — Cancelación dentro de ventana permitida:</strong><br>
-                    • Given que la cancelación se realiza dentro de la ventana configurable (ej. >3h antes de la cita)<br>
-                    • When el propietario solicita cancelar la reserva<br>
-                    • Then el sistema cambia el estado a cancelada, notifica al taller y aplica la política sin penalidad.
-                </p>
-                <p><strong>Escenario 2 — Cancelación fuera de ventana:</strong><br>
-                    • Given que la cancelación se realiza fuera de la ventana permitida (ej. <3h antes)<br>
-                    • When el propietario solicita cancelar<br>
-                    • Then el sistema rechaza o aplica la política de penalidad según reglas y notifica al taller.
-                </p>
-            </td>
-            <td>EP02</td>
-        </tr>
-        <tr>
-            <td>US08</td>
-            <td>Filtrar por servicio</td>
-            <td>Como usuario, quiero filtrar por categorías de servicio (ej. cambio de aceite, frenos, afinamiento), para ver solo ofertas relevantes.</td>
-            <td>
-                <p><strong>Escenario 1 — Filtros básicos:</strong><br>
-                    • Given que existen ofertas con distintas categorías<br>
-                    • When el usuario aplica filtros por categoría o subcategoría<br>
-                    • Then el sistema devuelve únicamente las ofertas que cumplen los criterios seleccionados.
-                </p>
-                <p><strong>Escenario 2 — Filtros avanzados:</strong><br>
-                    • Given que el usuario aplica filtros por compatibilidad (marca/motor/combustible)<br>
-                    • When aplica dichos filtros<br>
-                    • Then el sistema muestra las ofertas compatibles y oculta las no compatibles.
-                </p>
-            </td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US09</td>
-            <td>Recomendación por geolocalización</td>
-            <td>Como propietario, quiero ver talleres cercanos según rango, para coordinar fácil.</td>
-            <td>
-                <p><strong>Escenario 1 — Talleres dentro del rango:</strong><br>
-                    • Given que existen talleres disponibles dentro del rango definido por el propietario<br>
-                    • When solicita ver talleres cercanos<br>
-                    • Then el sistema lista los talleres ordenados por distancia.
-                </p>
-                <p><strong>Escenario 2 — Fallback por código postal:</strong><br>
-                    • Given que el propietario no permite ubicación por GPS o GPS falla<br>
-                    • When el propietario suministra código postal o ciudad<br>
-                    • Then el sistema busca talleres dentro del área indicada y devuelve resultados.
-                </p>
-                <p><strong>Escenario 3 — Sin talleres en rango:</strong><br>
-                    • Given que no hay talleres en el rango definido<br>
-                    • When solicita buscar<br>
-                    • Then el sistema muestra un mensaje indicando ausencia de talleres en ese rango y sugiere ampliar búsqueda.
-                </p>
-            </td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US10</td>
-            <td>Taller favorito</td>
-            <td>Como propietario, quiero marcar un taller como favorito, para priorizarlo en futuras reservas.</td>
-            <td>
-                <p><strong>Escenario 1 — Agregar a favoritos:</strong><br>
-                    • Given que el propietario identifica un taller que desea priorizar<br>
-                    • When añade el taller a su lista de favoritos<br>
-                    • Then el sistema almacena el taller en la lista de favoritos del propietario.
-                </p>
-                <p><strong>Escenario 2 — Quitar de favoritos:</strong><br>
-                    • Given que el taller está en la lista de favoritos<br>
-                    • When el propietario lo elimina<br>
-                    • Then el sistema lo retira de la lista de favoritos.
-                </p>
-            </td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US11</td>
-            <td>Promociones de taller de confianza</td>
-            <td>Como propietario, quiero ver promociones de mis talleres favoritos, para decidir antes que el resto.</td>
-            <td>
-                <p><strong>Escenario 1 — Promos disponibles de favoritos:</strong><br>
-                    • Given que existen promociones activas de los talleres favoritos del propietario<br>
-                    • When el propietario consulta el feed de promociones<br>
-                    • Then el sistema destaca las promociones de favoritos con datos de vigencia, cupos y precio promocional.
-                </p>
-                <p><strong>Escenario 2 — Mostrar condiciones de promo:</strong><br>
-                    • Given que una promoción tiene condiciones (cupos limitados, vigencia)<br>
-                    • When el propietario revisa la promo<br>
-                    • Then el sistema muestra las condiciones completas y la disponibilidad actual.
-                </p>
-            </td>
-            <td>EP03</td>
-        </tr>
-        <tr>
-            <td>US12</td>
-            <td>Sistema de mensajería</td>
-            <td>Como usuario, quiero contar con un chat integrado, para coordinar detalles del mantenimiento.</td>
-            <td>
-                <p><strong>Escenario 1 — Envío / recepción de mensajes:</strong><br>
-                    • Given que dos usuarios (propietario y taller) desean comunicarse<br>
-                    • When uno envía un mensaje<br>
-                    • Then el sistema entrega el mensaje al destinatario y registra la conversación.
-                </p>
-                <p><strong>Escenario 2 — Adjuntar fotos:</strong><br>
-                    • Given que el remitente adjunta imágenes del vehículo<br>
-                    • When envía el mensaje con adjuntos<br>
-                    • Then el sistema acepta imágenes dentro de los límites establecidos y las asocia a la conversación.
-                </p>
-                <p><strong>Escenario 3 — Notificación de nuevo mensaje:</strong><br>
-                    • Given que llega un nuevo mensaje<br>
-                    • When el destinatario está offline o en otra sección<br>
-                    • Then el sistema genera una notificación que informa la llegada del nuevo mensaje.
-                </p>
-                <p><strong>Escenario 4 — Reporte de abuso:</strong><br>
-                    • Given que un usuario recibe mensajes inapropiados<br>
-                    • When reporta la conversación por abuso<br>
-                    • Then el sistema registra la denuncia y marca la conversación para revisión.
-                </p>
-            </td>
-            <td>EP04</td>
-        </tr>
-                <tr>
-            <td>US13</td>
-            <td>Coordinación de citas de mantenimiento</td>
-            <td>Como usuario, quiero proponer/aceptar una cita con fecha/hora, para agendar el servicio.</td>
-            <td>
-                <p><strong>Escenario 1 — Proponer y aceptar cita:</strong><br>
-                    • Given que el taller dispone de slots y el propietario solicita servicio<br>
-                    • When el taller propone una fecha/hora y el propietario la acepta<br>
-                    • Then el sistema registra la cita en ambas agendas y la confirma a ambas partes.
-                </p>
-                <p><strong>Escenario 2 — Reprogramación:</strong><br>
-                    • Given que existe una cita programada<br>
-                    • When una de las partes solicita reprogramar y la otra acepta un nuevo slot disponible<br>
-                    • Then el sistema actualiza la cita y notifica los cambios.
-                </p>
-                <p><strong>Escenario 3 — Conflicto de agenda:</strong><br>
-                    • Given que el slot propuesto ya está ocupado en la agenda del taller<br>
-                    • When se intenta confirmar una cita que choca con otra<br>
-                    • Then el sistema rechaza la confirmación y solicita seleccionar otro slot.
-                </p>
-            </td>
-            <td>EP04</td>
-        </tr>
-        <tr>
-            <td>US14</td>
-            <td>Notificaciones push</td>
-            <td>Como usuario, quiero recibir notificaciones push, para estar informado de eventos relacionados con mis vehículos y mantenimientos.</td>
-            <td>
-                <p><strong>Escenario 1 — Mensaje nuevo:</strong><br>
-                    • Given que llega un mensaje nuevo al usuario<br>
-                    • When el mensaje es enviado por el remitente<br>
-                    • Then el sistema notifica al destinatario mediante notificación push.
-                </p>
-                <p><strong>Escenario 2 — Reserva confirmada:</strong><br>
-                    • Given que una reserva o cita es confirmada<br>
-                    • When la confirmación queda registrada<br>
-                    • Then el sistema notifica push a ambas partes.
-                </p>
-                <p><strong>Escenario 3 — Avance del mantenimiento:</strong><br>
-                    • Given que el taller actualiza la checklist con un hito relevante<br>
-                    • When el hito se marca como completado<br>
-                    • Then el sistema notifica al propietario el avance del servicio.
-                </p>
-            </td>
-            <td>EP04</td>
-        </tr>
-        <tr>
-            <td>US15</td>
-            <td>Actualización de checklist en mantenimiento</td>
-            <td>Como taller, quiero marcar tareas en la checklist de un mantenimiento en tiempo real, para registrar los avances del servicio.</td>
-            <td>
-                <p><strong>Escenario — Actualización de tareas (taller):</strong><br>
-                    • Given que el taller está realizando un mantenimiento y existe una checklist asociada<br>
-                    • When el taller marca una o varias tareas como realizadas<br>
-                    • Then el sistema actualiza el estado del mantenimiento y registra la marcación en la trazabilidad del servicio, además notifica el cambio al propietario.
-                </p>
-            </td>
-            <td>EP05</td>
-        </tr>
-        <tr>
-            <td>US16</td>
-            <td>Creación de mantenimiento confirmado</td>
-            <td>Como taller, quiero crear un mantenimiento confirmado a partir de una reserva aceptada, para dar inicio al servicio.</td>
-            <td>
-                <p><strong>Escenario — Creación desde reserva aceptada:</strong><br>
-                    • Given que el propietario ha aceptado una propuesta o reserva<br>
-                    • When el taller confirma el inicio del servicio<br>
-                    • Then el sistema crea el registro de mantenimiento pendiente, genera la checklist inicial y asocia la reserva al mantenimiento.
-                </p>
-            </td>
-            <td>EP05</td>
-        </tr>
-        <tr>
-            <td>US17</td>
-            <td>Visualización de mantenimientos pendientes</td>
-            <td>Como usuario, quiero visualizar los mantenimientos pendientes, para dar seguimiento al servicio.</td>
-            <td>
-                <p><strong>Escenario 1 — Taller: lista de pendientes:</strong><br>
-                    • Given que el taller tiene mantenimientos asignados<br>
-                    • When consulta su listado de trabajos<br>
-                    • Then el sistema muestra la lista de servicios pendientes con su estado y prioridades.
-                </p>
-                <p><strong>Escenario 2 — Propietario: detalle de su mantenimiento:</strong><br>
-                    • Given que el vehículo del propietario está en mantenimiento<br>
-                    • When el propietario consulta el detalle del servicio en curso<br>
-                    • Then el sistema muestra el estado actual y la checklist asociada en tiempo real.
-                </p>
-            </td>
-            <td>EP05</td>
-        </tr>
-        <tr>
-            <td>US18</td>
-            <td>Visualización de checklist en mantenimiento</td>
-            <td>Como propietario, quiero visualizar en tiempo real el progreso de la checklist del mantenimiento, para conocer el avance del servicio.</td>
-            <td>
-                <p><strong>Escenario 1 — Visualización Completa de Checklist:</strong><br>
-                    • Given que el vehículo está en mantenimiento y la checklist está completa<br>
-                    • When el propietario solicita el detalle del servicio<br>
-                    • Then el sistema muestra todas las tareas completadas y las pendientes, con marcas temporales de cada avance, y resalta las tareas que han sido completadas.
-                </p>
-                <p><strong>Escenario 2 — Checklist en Progreso:</strong><br>
-                    • Given que el vehículo está en mantenimiento y la checklist tiene tareas en progreso<br>
-                    • When el propietario solicita el detalle del servicio<br>
-                    • Then el sistema muestra las tareas pendientes y las que están en progreso, con un indicador visual de progreso (por ejemplo, barra de progreso o porcentaje completado).
-                </p>
-                <p><strong>Escenario 3 — Actualización en Tiempo Real:</strong><br>
-                    • Given que el vehículo está siendo atendido y las tareas de la checklist están siendo actualizadas<br>
-                    • When el propietario visualiza la checklist<br>
-                    • Then el sistema actualiza la información en tiempo real, reflejando cualquier cambio en el estado de las tareas sin necesidad de recargar la página.
-                </p>
-            </td>
-            <td>EP05</td>
-        </tr>
-        <tr>
-            <td>US19</td>
-            <td>Finalización de mantenimiento</td>
-            <td>Como taller, quiero finalizar un mantenimiento y registrar los resultados, para cerrar correctamente el servicio.</td>
-            <td>
-                <p><strong>Escenario 1 — Confirmación de Finalización:</strong><br>
-                    • Given que el taller ha completado todas las tareas de la checklist<br>
-                    • When el taller marca el mantenimiento como finalizado<br>
-                    • Then el sistema solicita una confirmación de la finalización antes de cerrar el servicio, asegurando que no falten tareas.
-                </p>
-                <p><strong>Escenario 2 — Generación de Informe de Mantenimiento:</strong><br>
-                    • Given que el mantenimiento ha sido finalizado y los resultados registrados<br>
-                    • When el taller finaliza el servicio<br>
-                    • Then el sistema genera un informe final que incluye todos los detalles del mantenimiento (trabajos realizados, repuestos, observaciones, fechas) y lo guarda para su futura consulta en el historial del vehículo.
-                </p>
-            </td>
-            <td>EP05</td>
-        </tr>
-        <tr>
-            <td>US20</td>
-            <td>Calificación de taller</td>
-            <td>Como propietario, quiero calificar al taller después de un mantenimiento, para reflejar la calidad del servicio recibido.</td>
-            <td>
-                <p><strong>Escenario 1 — Calificación válida:</strong><br>
-                    • Given que el mantenimiento está finalizado y el servicio está asociado al propietario<br>
-                    • When el propietario registra una calificación (1–5) y un comentario para ese servicio<br>
-                    • Then el sistema guarda la reseña, la asocia al servicio y actualiza la calificación promedio del taller.
-                </p>
-                <p><strong>Escenario 2 — Restricción de una reseña por servicio:</strong><br>
-                    • Given que el propietario ya calificó ese servicio<br>
-                    • When intenta agregar una segunda reseña para el mismo servicio<br>
-                    • Then el sistema impide la duplicación y sugiere editar la reseña existente.
-                </p>
-            </td>
-            <td>EP06</td>
-        </tr>
-        <tr>
-            <td>US21</td>
-            <td>Calificación de propietario</td>
-            <td>Como taller, quiero calificar al propietario después de un mantenimiento, para reflejar mi experiencia trabajando con él.</td>
-            <td>
-                <p><strong>Escenario — Calificación de propietario:</strong><br>
-                    • Given que el mantenimiento fue finalizado y corresponde al taller que presta el servicio<br>
-                    • When el taller registra una calificación y comentario sobre el propietario para ese servicio<br>
-                    • Then el sistema guarda la evaluación y la asocia al perfil del propietario, contribuyendo a su reputación.
-                </p>
-            </td>
-            <td>EP06</td>
-        </tr>
-        <tr>
-            <td>US22</td>
-            <td>Consulta de reputación de taller</td>
-            <td>Como propietario, quiero consultar la reputación de un taller antes de reservar, para decidir si es confiable.</td>
-            <td>
-                <p><strong>Escenario — Consulta de reputación:</strong><br>
-                    • Given que el taller tiene reseñas y calificaciones previas<br>
-                    • When el propietario solicita la reputación del taller<br>
-                    • Then el sistema muestra calificación promedio, número de reseñas, comentarios recientes y total de servicios realizados, con opciones de ordenar/comparar.
-                </p>
-                <p><strong>Escenario de Filtro por Rango de Calificación:</strong><br>
-                    • Given que el propietario desea consultar talleres con cierta calificación<br>
-                    • When el propietario aplica un filtro de calificación<br>
-                    • Then el sistema muestra únicamente los talleres que cumplen con el rango de calificación seleccionado (por ejemplo, calificación de 4 estrellas o más).
-                </p>
-            </td>
-            <td>EP06</td>
-        </tr>
-        <tr>
-            <td>US23</td>
-            <td>Consulta de reputación de propietario</td>
-            <td>Como taller, quiero consultar la reputación de un propietario antes de aceptar su reserva, para saber si es confiable.</td>
-            <td>
-                <p><strong>Escenario — Consulta de reputación del propietario:</strong><br>
-                    • Given que el propietario tiene calificaciones previas de otros talleres<br>
-                    • When el taller solicita la reputación del propietario asociada a la reserva<br>
-                    • Then el sistema muestra la calificación promedio, comentarios y número de mantenimientos previos.
-                </p>
-            </td>
-            <td>EP06</td>
-        </tr>
-        <tr>
-            <td>US24</td>
-            <td>Visualizar información y beneficios</td>
-            <td>Como visitante, quiero visualizar la información general de la aplicación y sus beneficios, para entender qué ofrece antes de registrarme.</td>
-            <td>
-                <p><strong>Escenario — Landing informativa:</strong><br>
-                    • Given que un visitante accede a la landing page<br>
-                    • When navega por la sección de información<br>
-                    • Then el sistema (o la página) presenta claramente los beneficios, secciones y llamados a la acción con información completa sobre el servicio.
-                </p>
-            </td>
-            <td>EP07</td>
-        </tr>
-        <tr>
-            <td>US25</td>
-            <td>Registro de usuario (propietario o taller)</td>
-            <td>Como visitante, quiero registrarme como propietario o taller desde la landing page, para poder empezar a usar la aplicación.</td>
-            <td>
-                <p><strong>Escenario 1 — Registro exitoso:</strong><br>
-                    • Given que el visitante proporciona los datos necesarios y usa un email único<br>
-                    • When confirma el registro<br>
-                    • Then el sistema crea la cuenta, la asocia al rol elegido y envía confirmación por correo.
-                </p>
-                <p><strong>Escenario 2 — Email duplicado:</strong><br>
-                    • Given que el email ya está registrado en el sistema<br>
-                    • When el visitante intenta registrarse con ese email<br>
-                    • Then el sistema impide la duplicación y sugiere recuperar la cuenta o usar otro email.
-                </p>
-            </td>
-            <td>EP07</td>
-        </tr>
-        <tr>
-            <td>US26</td>
-            <td>Preguntas frecuentes y soporte</td>
-            <td>Como visitante, quiero consultar una sección de preguntas frecuentes y soporte, para resolver dudas comunes antes de usar la aplicación.</td>
-            <td>
-                <p><strong>Escenario — Acceso a FAQ y contacto:</strong><br>
-                    • Given que el visitante necesita información o tiene una duda común<br>
-                    • When accede a la sección de FAQ o al enlace de soporte<br>
-                    • Then el sistema presenta respuestas categorizadas y ofrece un medio de contacto para soporte en caso de requerir atención personalizada.
-                </p>
-            </td>
-            <td>EP07</td>
-        </tr>
-        <tr>
-            <td>US27</td>
-            <td>Contacto y descarga de la app</td>
-            <td>Como visitante, quiero acceder a una sección de contacto y call to action para descargar la app, para comunicarme con el equipo o instalar la aplicación fácilmente.</td>
-            <td>
-                <p><strong>Escenario — Contacto y CTA de descarga:</strong><br>
-                    • Given que el visitante busca contactar al equipo o descargar la app<br>
-                    • When consulta la sección de contacto y descarga<br>
-                    • Then el sistema (la landing) muestra un formulario de contacto funcional y enlaces claros para descargar la app en tiendas compatibles.
-                </p>
-            </td>
-            <td>EP07</td>
-        </tr>
-        <tr>
-            <td>TS01</td>
-            <td>Implementar endpoint para registrar y gestionar vehículos (POST, PUT, DELETE /vehicles)</td>
-            <td>Como developer, quiero exponer endpoints para registrar, actualizar y eliminar vehículos, para que los propietarios puedan gestionar sus datos básicos.</td>
-            <td>
-                <p><strong>Scenario 1 — Registro exitoso:</strong><br>
-                    • Given que el cuerpo contiene datos válidos<br>
-                    • When se envía la solicitud<br>
-                    • Then se responde con 201 Created y el vehículo queda vinculado al propietario.
-                </p>
-                <p><strong>Scenario 2 — Registro incompleto:</strong><br>
-                    • Given que faltan campos obligatorios<br>
-                    • When se envía la solicitud<br>
-                    • Then se responde con 400 Bad Request indicando los campos faltantes.
-                </p>
-                <p><strong>Scenario 3 — Actualización exitosa:</strong><br>
-                    • Given que el ID del vehículo existe<br>
-                    • When se actualiza con datos válidos<br>
-                    • Then se responde con 200 OK y los datos se reflejan.
-                </p>
-                <p><strong>Scenario 4 — Eliminación exitosa:</strong><br>
-                    • Given que el ID existe<br>
-                    • When se solicita eliminar<br>
-                    • Then se responde con 204 No Content.
-                </p>
-                <p><strong>Scenario 5 — ID no encontrado:</strong><br>
-                    • Given que el vehículo no existe<br>
-                    • When se intenta actualizar o eliminar<br>
-                    • Then se responde con 404 Not Found.
-                </p>
-            </td>
-            <td>EP08</td>
-        </tr>
-        <tr>
-            <td>TS02</td>
-            <td>Implementar endpoint para adjuntar y consultar historial de mantenimiento (POST, GET /vehicles/{id}/history)</td>
-            <td>Como developer, quiero exponer endpoints para adjuntar y consultar historiales, para que talleres y propietarios accedan a información previa de mantenimientos.</td>
-            <td>
-                <p><strong>Scenario 1 — Historial adjuntado exitosamente:</strong><br>
-                    • Given que el cuerpo tiene documentos válidos<br>
-                    • When se envía la solicitud<br>
-                    • Then se responde con 201 Created y se vincula al vehículo.
-                </p>
-                <p><strong>Scenario 2 — Consulta de historial existente:</strong><br>
-                    • Given que el vehículo tiene historial<br>
-                    • When se consulta el endpoint<br>
-                    • Then se responde con 200 OK y la lista de mantenimientos.
-                </p>
-                <p><strong>Scenario 3 — Vehículo sin historial:</strong><br>
-                    • Given que no hay registros previos<br>
-                    • When se consulta el historial<br>
-                    • Then se responde con 204 No Content.
-                </p>
-                <p><strong>Scenario 4 — Vehículo no encontrado:</strong><br>
-                    • Given que el ID no existe<br>
-                    • When se consulta el historial<br>
-                    • Then se responde con 404 Not Found.
-                </p>
-            </td>
-            <td>EP08</td>
-        </tr>
-        <tr>
-            <td>TS03</td>
-            <td>Implementar endpoint para catálogo de servicios de taller (POST, PUT, DELETE, GET /services)</td>
-            <td>Como developer, quiero exponer endpoints para publicar, actualizar, eliminar y listar servicios de los talleres, para que los propietarios puedan explorarlos.</td>
-            <td>
-                <p><strong>Scenario 1 — Publicación válida:</strong><br>
-                    • Given que los datos requeridos son completos<br>
-                    • When se publica el servicio<br>
-                    • Then se responde con 201 Created.
-                </p>
-                <p><strong>Scenario 2 — Campos incompletos:</strong><br>
-                    • Given que faltan datos obligatorios<br>
-                    • When se envía la solicitud<br>
-                    • Then se responde con 400 Bad Request.
-                </p>
-                <p><strong>Scenario 3 — Actualización exitosa:</strong><br>
-                    • Given que el servicio existe<br>
-                    • When se actualiza con datos válidos<br>
-                    • Then se responde con 200 OK.
-                </p>
-                <p><strong>Scenario 4 — Eliminación exitosa:</strong><br>
-                    • Given que el servicio existe<br>
-                    • When se solicita eliminar<br>
-                    • Then se responde con 204 No Content.
-                </p>
-                <p><strong>Scenario 5 — ID no encontrado:</strong><br>
-                    • Given que el servicio no existe<br>
-                    • When se intenta actualizar o eliminar<br>
-                    • Then se responde con 404 Not Found.
-                </p>
-            </td>
-            <td>EP08</td>
-        </tr>
-        <tr>
-            <td>TS04</td>
-            <td>Implementar endpoint para gestión de reservas de mantenimiento (POST, PUT, DELETE, GET /reservations)</td>
-            <td>Como developer, quiero exponer endpoints para crear, actualizar, cancelar y consultar reservas, para que talleres y propietarios puedan coordinar mantenimientos.</td>
-            <td>
-                <p><strong>Scenario 1 — Reserva creada exitosamente:</strong><br>
-                    • Given que los datos son válidos<br>
-                    • When se crea una reserva<br>
-                    • Then se responde con 201 Created.
-                </p>
-                <p><strong>Scenario 2 — Cancelación dentro de ventana permitida:</strong><br>
-                    • Given que la cancelación cumple las reglas<br>
-                    • When se solicita cancelar la reserva<br>
-                    • Then se responde con 200 OK y estado “cancelada”.
-                </p>
-                <p><strong>Scenario 3 — Cancelación fuera de ventana:</strong><br>
-                    • Given que la cancelación no cumple la política<br>
-                    • When se solicita cancelar<br>
-                    • Then se responde con 409 Conflict o la política definida.
-                </p>
-                <p><strong>Scenario 4 — Reserva no encontrada:</strong><br>
-                    • Given que el ID no existe<br>
-                    • When se consulta o cancela la reserva<br>
-                    • Then se responde con 404 Not Found.
-                </p>
-            </td>
-            <td>EP08</td>
-        </tr>
-        <tr>
-            <td>TS05</td>
-            <td>Implementar endpoint para sistema de mensajería (POST, GET /messages)</td>
-            <td>Como developer, quiero exponer endpoints para enviar y consultar mensajes, para que propietarios y talleres puedan coordinarse vía chat.</td>
-            <td>
-                <p><strong>Scenario 1 — Envío exitoso:</strong><br>
-                    • Given que el cuerpo es válido<br>
-                    • When se envía un mensaje<br>
-                    • Then se responde con 201 Created y se almacena la conversación.
-                </p>
-                <p><strong>Scenario 2 — Adjuntar imágenes:</strong><br>
-                    • Given que se adjuntan imágenes dentro de límites permitidos<br>
-                    • When se envía el mensaje<br>
-                    • Then se responde con 201 Created y archivos asociados.
-                </p>
-                <p><strong>Scenario 3 — Consulta de mensajes:</strong><br>
-                    • Given que existen mensajes previos<br>
-                    • When se consulta la conversación<br>
-                    • Then se responde con 200 OK y la lista.
-                </p>
-                <p><strong>Scenario 4 — Conversación inexistente:</strong><br>
-                    • Given que no hay mensajes<br>
-                    • When se consulta la conversación<br>
-                    • Then se responde con 204 No Content.
-                </p>
-            </td>
-            <td>EP08</td>
-        </tr>
-        <tr>
-            <td>TS06</td>
-            <td>Implementar endpoint para calificaciones y reputación (POST, GET /ratings)</td>
-            <td>Como developer, quiero exponer endpoints para registrar calificaciones y consultar reputaciones de talleres/propietarios, para fomentar confianza en el sistema.</td>
-            <td>
-                <p><strong>Scenario 1 — Calificación registrada exitosamente:</strong><br>
-                    • Given que los datos son válidos<br>
-                    • When se registra la reseña<br>
-                    • Then se responde con 201 Created.
-                </p>
-                <p><strong>Scenario 2 — Calificación duplicada:</strong><br>
-                    • Given que ya existe una reseña para el mismo servicio<br>
-                    • When se intenta registrar otra<br>
-                    • Then se responde con 409 Conflict.
-                </p>
-                <p><strong>Scenario 3 — Consulta de reputación existente:</strong><br>
-                    • Given que el taller o propietario tiene reseñas<br>
-                    • When se consulta la reputación<br>
-                    • Then se responde con 200 OK con estadísticas.
-                </p>
-                <p><strong>Scenario 4 — Sin calificaciones previas:</strong><br>
-                    • Given que no existen reseñas<br>
-                    • When se consulta la reputación<br>
-                    • Then se responde con 204 No Content.
-                </p>
-            </td>
-            <td>EP08</td>
-        </tr>
-        <tr>
-            <td>TS07</td>
-            <td>Implementar endpoint para exploración y búsqueda de servicios (GET /services?filters=)</td>
-            <td>Como developer, quiero exponer un endpoint que permita buscar y filtrar servicios por palabras clave, categorías, compatibilidad y orden, para que los propietarios encuentren opciones fácilmente.</td>
-            <td>
-                <p><strong>Scenario 1 — Búsqueda con resultados:</strong><br>
-                    • Given que existen servicios que coinciden con los filtros<br>
-                    • When se consulta el endpoint<br>
-                    • Then se responde con 200 OK con arreglo de servicios.
-                </p>
-                <p><strong>Scenario 2 — Sin resultados:</strong><br>
-                    • Given que no existen coincidencias<br>
-                    • When se consulta el endpoint<br>
-                    • Then se responde con 200 OK con un arreglo vacío y sugerencias.
-                </p>
-                <p><strong>Scenario 3 — Vista detalle de servicio:</strong><br>
-                    • Given que se solicita ver un servicio específico<br>
-                    • When se consulta el detalle<br>
-                    • Then se responde con 200 OK con la información completa.
-                </p>
-            </td>
-            <td>EP08</td>
-        </tr>
-    </tbody>
-</table>
-
-
-<h2>Spike 1: Investigación de la Integración de Stripe para el Procesamiento de Pagos</h2>
-
-<p><strong>Descripción:</strong></p>
-<p>Como equipo de desarrollo, queremos investigar cómo integrar Stripe para el procesamiento de pagos en la plataforma Autonexo, para asegurarnos de que sea una solución adecuada para manejar pagos de manera segura y eficiente.</p>
-
-<p><strong>Criterios de Aceptación:</strong></p>
-<ul>
-  <li><strong>Given</strong> acceso a la documentación de la API de Stripe, <strong>When</strong> se revisan las opciones disponibles para el procesamiento de pagos (como Payments, Checkout, Mobile SDKs, Stripe.js), <strong>Then</strong> se debe definir si Stripe es adecuado para la integración en Autonexo.</li>
-  <li><strong>Given</strong> las tarifas de Stripe, <strong>When</strong> se comparan los costos con otros sistemas de pagos en el mercado, <strong>Then</strong> se debe decidir si Stripe es la opción más económica para Autonexo.</li>
-  <li><strong>Given</strong> las opciones de suscripción de Stripe, <strong>When</strong> se determina si la plataforma de Autonexo requiere un modelo de suscripción mensual, <strong>Then</strong> se debe confirmar que Stripe es compatible con este modelo y con las necesidades de Autonexo.</li>
-  <li><strong>Given</strong> las capacidades de integración de Stripe con plataformas móviles (iOS/Android), <strong>When</strong> se verifica la documentación de integración con plataformas móviles a través de los Mobile SDKs de Stripe, <strong>Then</strong> se debe confirmar que Stripe es fácil de integrar con las aplicaciones móviles de Autonexo.</li>
-  <li><strong>Given</strong> que la integración de Stripe se prueba en un entorno de pruebas, <strong>When</strong> se realiza una transacción de pago utilizando un flujo de pago de prueba, <strong>Then</strong> se debe verificar que el pago se procese correctamente y que la información de pago se guarde de manera segura.</li>
-  <li><strong>Given</strong> que el procesamiento de pagos debe ser seguro, <strong>When</strong> se revisa el cumplimiento de las normativas de seguridad de Stripe (como PCI-DSS y tokenización), <strong>Then</strong> se debe garantizar que Stripe cumpla con los estándares de seguridad necesarios.</li>
-  <li><strong>Given</strong> que la integración de Stripe afecta tanto al frontend como al backend, <strong>When</strong> se verifica la compatibilidad de Stripe con el backend (Spring Boot), <strong>Then</strong> se debe asegurar que los endpoints RESTful y los webhooks de Stripe funcionen correctamente con el sistema backend de Autonexo.</li>
-  <li><strong>Given</strong> que la plataforma Autonexo podría tener un alto volumen de transacciones, <strong>When</strong> se realizan pruebas de carga en la integración de Stripe, <strong>Then</strong> se debe asegurar que Stripe pueda manejar un gran volumen de pagos sin afectar el rendimiento.</li>
-  <li><strong>Given</strong> que el procesamiento de pagos debe ser rápido, <strong>When</strong> se miden los tiempos de latencia al realizar pagos con Stripe, <strong>Then</strong> los tiempos de procesamiento de pagos no deben exceder los 3 segundos.</li>
-  <li><strong>Given</strong> que la integración de Stripe requiere documentación clara, <strong>When</strong> se documentan los pasos de integración, <strong>Then</strong> se debe crear un informe detallado que describa cómo integrar Stripe en Autonexo, incluyendo cualquier problema encontrado y las soluciones propuestas.</li>
-  <li><strong>Given</strong> que el flujo de pago debe ser fácil de usar para los clientes de Autonexo, <strong>When</strong> se prueba el flujo de pago en un entorno de pruebas con usuarios simulados, <strong>Then</strong> se debe asegurar que la experiencia del usuario sea intuitiva, rápida y sin errores.</li>
-</ul>
-
-<h2>Spike 2: Investigación de Google Maps para la Localización de Mecánicos</h2>
-
-<p><strong>Descripción:</strong></p>
-<p>Como equipo de desarrollo, quiero investigar la integración de Google Maps para la localización de mecánicos, para ofrecer a los conductores la capacidad de encontrar mecánicos cercanos de manera rápida y eficiente.</p>
-
-<p><strong>Criterios de Aceptación:</strong></p>
-<ul>
-  <li><strong>Given</strong> que el equipo tiene acceso a la documentación de la API de Google Maps, <strong>When</strong> el equipo investigue las opciones para implementar mapas interactivos y localización, <strong>Then</strong> deberán determinar si la Google Maps API es adecuada para la integración en Autonexo.</li>
-  <li><strong>Given</strong> que el equipo ha analizado los costos asociados a Google Maps API, <strong>When</strong> comparen los costos con los beneficios que aportará la integración de la localización, <strong>Then</strong> deberán decidir si Google Maps es económicamente viable para la plataforma.</li>
-  <li><strong>Given</strong> que el equipo ha implementado la API de Google Maps para la localización, <strong>When</strong> realicen pruebas con la función de búsqueda de mecánicos, <strong>Then</strong> deberán asegurarse de que los resultados sean rápidos y precisos.</li>
-  <li><strong>Given</strong> que se ha integrado la Google Maps API, <strong>When</strong> realicen pruebas de rendimiento en la carga del mapa y los resultados de búsqueda, <strong>Then</strong> deberán garantizar que el sistema cargue los resultados en menos de 3 segundos.</li>
-  <li><strong>Given</strong> que la API de Google Maps está implementada, <strong>When</strong> un usuario busque mecánicos cercanos, <strong>Then</strong> deberán asegurarse de que la ubicación del mecánico sea precisa en el mapa.</li>
-  <li><strong>Given</strong> que Autonexo debe ser compatible con dispositivos móviles, <strong>When</strong> el equipo prueba la integración en dispositivos móviles (iOS/Android), <strong>Then</strong> deberán garantizar que la localización funcione correctamente en ambas plataformas.</li>
-  <li><strong>Given</strong> que la experiencia del usuario es crucial, <strong>When</strong> implementen la funcionalidad de localización en las aplicaciones móviles y web, <strong>Then</strong> deberán asegurarse de que la interfaz de usuario sea fácil de usar y eficiente.</li>
-  <li><strong>Given</strong> que la integración de Google Maps debe trabajar con el backend, <strong>When</strong> el equipo verifique la comunicación entre la API de Google Maps y el backend de Autonexo, <strong>Then</strong> deberán asegurarse de que los datos de ubicación se sincronicen correctamente en tiempo real.</li>
-</ul>
-
-
-<h2>Spike 3: Evaluación de Sistemas de Notificaciones Push</h2>
-
-<p><strong>Descripción:</strong></p>
-<p>Como equipo de desarrollo, quiero investigar los sistemas de notificaciones push para enviar alertas de mantenimientos próximos a los usuarios, para mejorar la experiencia del usuario y asegurarnos de que nunca se olviden de los mantenimientos.</p>
-
-<p><strong>Criterios de Aceptación:</strong></p>
-<ul>
-  <li><strong>Given</strong> que el equipo ha identificado varias opciones de sistemas de notificaciones push como Firebase y OneSignal, <strong>When</strong> investiguen las características y capacidades de cada uno, <strong>Then</strong> deberán decidir cuál es el más adecuado para la plataforma Autonexo.</li>
-  <li><strong>Given</strong> que el equipo ha probado la implementación de Firebase Cloud Messaging, <strong>When</strong> envíen una notificación push de prueba, <strong>Then</strong> deberán confirmar que la notificación se recibe correctamente en dispositivos iOS y Android.</li>
-  <li><strong>Given</strong> que el equipo ha implementado Firebase Cloud Messaging, <strong>When</strong> evalúen la facilidad de integración en el frontend y backend, <strong>Then</strong> deberán determinar si la integración es sencilla y eficiente para la plataforma.</li>
-  <li><strong>Given</strong> que el equipo ha implementado la función de notificaciones push, <strong>When</strong> un usuario reciba una notificación sobre un mantenimiento próximo, <strong>Then</strong> deberán asegurarse de que la notificación sea clara, visible y llegue sin demoras.</li>
-  <li><strong>Given</strong> que el equipo ha implementado la funcionalidad de notificaciones programadas, <strong>When</strong> se configure una notificación para ser enviada 24 horas antes de un mantenimiento, <strong>Then</strong> se deberá verificar que la notificación se envíe correctamente en el momento programado.</li>
-  <li><strong>Given</strong> que se han considerado otras opciones de notificaciones push como OneSignal, <strong>When</strong> se investigan sus características y ventajas comparativas, <strong>Then</strong> deberán decidir si OneSignal es una alternativa viable a Firebase para la plataforma.</li>
-  <li><strong>Given</strong> que el equipo ha implementado la función de notificaciones push, <strong>When</strong> se personaliza el contenido de las notificaciones (como texto, imágenes, botones), <strong>Then</strong> deberán asegurar que las notificaciones sean personalizables según las necesidades del usuario.</li>
-  <li><strong>Given</strong> que la plataforma Autonexo puede crecer en número de usuarios, <strong>When</strong> se evalúa la capacidad de Firebase y otras opciones para manejar un gran volumen de notificaciones, <strong>Then</strong> deberán determinar si el sistema puede escalar eficientemente sin afectar el rendimiento.</li>
-  <li><strong>Given</strong> que la seguridad de las notificaciones es crucial, <strong>When</strong> se revisa la seguridad en el envío de las notificaciones (como autenticación, encriptación), <strong>Then</strong> deberán garantizar que el sistema de notificaciones cumpla con los estándares de seguridad necesarios.</li>
-</ul>
-
-<h2>Spike 4: Investigación de Herramientas de Reportes de Mantenimiento</h2>
-
-<p><strong>Descripción:</strong></p>
-<p>Como equipo de desarrollo, quiero investigar herramientas como Power BI o Tableau para generar informes detallados sobre el mantenimiento de los vehículos, para mejorar la toma de decisiones y dar a los usuarios acceso a datos importantes.</p>
-
-<p><strong>Criterios de Aceptación:</strong></p>
-<ul>
-  <li><strong>Given</strong> que el equipo ha identificado herramientas como Power BI y Tableau, <strong>When</strong> investiguen las características y capacidades de cada herramienta, <strong>Then</strong> deberán seleccionar la herramienta que mejor se adapte a las necesidades de informes de mantenimiento de Autonexo.</li>
-  <li><strong>Given</strong> que el equipo ha probado Power BI con datos de prueba, <strong>When</strong> creen un reporte básico, <strong>Then</strong> deberán evaluar si la herramienta proporciona visualizaciones claras y útiles para los usuarios.</li>
-  <li><strong>Given</strong> que el equipo ha probado Tableau para la creación de reportes, <strong>When</strong> realicen un análisis de desempeño, <strong>Then</strong> deberán asegurar que Tableau sea capaz de manejar grandes volúmenes de datos de manera eficiente.</li>
-  <li><strong>Given</strong> que Power BI y Tableau tienen interfaces diferentes, <strong>When</strong> se comparan la facilidad de uso de ambas herramientas, <strong>Then</strong> deberán elegir la herramienta más fácil de usar para el equipo de desarrollo y los usuarios finales.</li>
-  <li><strong>Given</strong> que ambas herramientas tienen modelos de precios distintos, <strong>When</strong> se comparan los costos de uso de Power BI y Tableau, <strong>Then</strong> deberán decidir cuál herramienta ofrece la mejor relación calidad-precio para Autonexo.</li>
-  <li><strong>Given</strong> que los informes deben adaptarse a diferentes necesidades, <strong>When</strong> el equipo personaliza los informes en Power BI y Tableau, <strong>Then</strong> deberán garantizar que las herramientas permitan una amplia personalización de los informes, incluyendo gráficos, tablas y filtros.</li>
-  <li><strong>Given</strong> que se requiere una visualización clara de los datos de mantenimiento, <strong>When</strong> se comparan las capacidades de visualización de Power BI y Tableau, <strong>Then</strong> deberán decidir cuál herramienta ofrece las mejores opciones de visualización para facilitar la toma de decisiones.</li>
-  <li><strong>Given</strong> que los datos de mantenimiento de Autonexo están almacenados en una base de datos, <strong>When</strong> el equipo integra Power BI y Tableau con los datos de mantenimiento, <strong>Then</strong> deberán asegurar que ambas herramientas puedan acceder a los datos de manera eficiente y sin errores.</li>
-  <li><strong>Given</strong> que la plataforma Autonexo puede crecer en volumen de datos, <strong>When</strong> el equipo evalúa la escalabilidad de Power BI y Tableau, <strong>Then</strong> deberán determinar si ambas herramientas pueden manejar el crecimiento futuro de los datos sin afectar el rendimiento.</li>
-</ul>
-
-
-<h2>Spike 5: Investigación de Integración de API de Pagos con MercadoPago</h2>
-
-<p><strong>Descripción:</strong></p>
-<p>Como equipo de desarrollo, quiero investigar cómo integrar la API de MercadoPago para procesar pagos, para ofrecer una solución de pagos alternativa para los usuarios en la plataforma.</p>
-
-<p><strong>Criterios de Aceptación:</strong></p>
-<ul>
-  <li><strong>Given</strong> que el equipo tiene acceso a la documentación de la API de MercadoPago, <strong>When</strong> el equipo investiga las opciones para integrar métodos de pago como tarjetas de crédito y débito, <strong>Then</strong> deberá definir si MercadoPago es adecuado para la integración en Autonexo.</li>
-  <li><strong>Given</strong> que el equipo ha realizado una prueba de pago con MercadoPago, <strong>When</strong> el equipo verifique que el proceso de pago se complete correctamente, <strong>Then</strong> deberá confirmar si MercadoPago es viable como solución de pagos para la plataforma.</li>
-  <li><strong>Given</strong> que MercadoPago ofrece tarifas para diferentes tipos de transacciones, <strong>When</strong> el equipo compare los costos de MercadoPago con otras soluciones de pagos, <strong>Then</strong> deberá decidir si MercadoPago es económicamente viable para Autonexo.</li>
-  <li><strong>Given</strong> que la integración de MercadoPago afecta el backend de Autonexo, <strong>When</strong> el equipo evalúe la compatibilidad de MercadoPago con el backend (Spring Boot), <strong>Then</strong> deberá garantizar que la API de MercadoPago se pueda integrar sin problemas con los servicios RESTful del backend.</li>
-  <li><strong>Given</strong> que el equipo requiere personalización en el flujo de pagos, <strong>When</strong> el equipo explore las opciones de personalización de pagos de MercadoPago (páginas de pago, métodos de pago), <strong>Then</strong> deberá determinar si MercadoPago ofrece suficientes opciones de personalización para satisfacer las necesidades de Autonexo.</li>
-  <li><strong>Given</strong> que MercadoPago ofrece diferentes métodos de pago, <strong>When</strong> el equipo realice pruebas de pago con diferentes métodos (tarjetas, débito, transferencias), <strong>Then</strong> deberá asegurarse de que todos los métodos de pago funcionen correctamente en la plataforma.</li>
-  <li><strong>Given</strong> que la seguridad es fundamental en el procesamiento de pagos, <strong>When</strong> el equipo revise las medidas de seguridad que ofrece MercadoPago (encriptación, cumplimiento con PCI-DSS), <strong>Then</strong> deberá confirmar que MercadoPago cumple con los estándares de seguridad necesarios.</li>
-  <li><strong>Given</strong> que MercadoPago utiliza webhooks para notificar cambios de estado en pagos, <strong>When</strong> el equipo implemente y pruebe los webhooks de MercadoPago, <strong>Then</strong> deberá asegurarse de que los webhooks funcionen correctamente y sin errores.</li>
-</ul>
-
-<h2>Spike 6: Investigación de Técnicas de Caching para Mejorar el Rendimiento</h2>
-
-<p><strong>Descripción:</strong></p>
-<p>Como equipo de desarrollo, quiero investigar técnicas de caching como Redis o Memcached, para mejorar el rendimiento de la plataforma y reducir los tiempos de carga.</p>
-
-<p><strong>Criterios de Aceptación:</strong></p>
-<ul>
-  <li><strong>Given</strong> que el equipo ha considerado opciones como Redis y Memcached, <strong>When</strong> investiguen las características y ventajas de cada uno, <strong>Then</strong> deberán seleccionar la opción que mejor se adapte a las necesidades de Autonexo.</li>
-  <li><strong>Given</strong> que el equipo ha implementado una solución de caching en Redis, <strong>When</strong> realicen pruebas de rendimiento en una función crítica, <strong>Then</strong> deberán verificar si el tiempo de respuesta mejora significativamente.</li>
-  <li><strong>Given</strong> que el equipo ha probado el caching de Memcached, <strong>When</strong> comparen los tiempos de respuesta en diferentes pruebas de carga, <strong>Then</strong> deberán decidir si Memcached es adecuado para el uso en Autonexo.</li>
-  <li><strong>Given</strong> que Redis y Memcached tienen implementaciones y configuraciones distintas, <strong>When</strong> el equipo evalúa la facilidad de integración de cada sistema en la arquitectura de Autonexo, <strong>Then</strong> deberán determinar cuál es más sencillo de implementar y mantener.</li>
-  <li><strong>Given</strong> que Autonexo puede crecer en volumen de usuarios y datos, <strong>When</strong> se evalúa la escalabilidad de Redis y Memcached, <strong>Then</strong> deberán garantizar que la opción seleccionada pueda manejar un crecimiento significativo sin afectar el rendimiento.</li>
-  <li><strong>Given</strong> que la seguridad es un factor crítico en la integración de caching, <strong>When</strong> se revisan las medidas de seguridad de Redis y Memcached (como la encriptación de datos), <strong>Then</strong> deberán confirmar que la solución de caching cumple con los requisitos de seguridad necesarios.</li>
-  <li><strong>Given</strong> que las soluciones de caching deben ser eficientes en el uso de recursos, <strong>When</strong> se mide el consumo de CPU y memoria al implementar Redis o Memcached, <strong>Then</strong> deberán asegurar que la solución elegida no afecte negativamente los recursos de Autonexo.</li>
-  <li><strong>Given</strong> que la alta disponibilidad es crucial para el sistema de caching, <strong>When</strong> se simulan fallos en Redis o Memcached, <strong>Then</strong> deberán verificar que la solución seleccionada pueda recuperarse correctamente sin perder datos importantes.</li>
-</ul>
-
-<h2>Spike 7: Evaluación de Herramientas de Seguridad para la Plataforma</h2>
-
-<p><strong>Descripción:</strong></p>
-<p>Como equipo de seguridad, quiero investigar herramientas de seguridad como OWASP ZAP o Burp Suite para realizar pruebas de penetración y asegurarnos de que la plataforma esté segura.</p>
-
-<p><strong>Criterios de Aceptación:</strong></p>
-<ul>
-  <li><strong>Given</strong> que el equipo ha considerado herramientas como OWASP ZAP y Burp Suite, <strong>When</strong> investiguen las características de cada una, <strong>Then</strong> deberán decidir cuál es la mejor herramienta para realizar pruebas de seguridad en Autonexo.</li>
-  <li><strong>Given</strong> que el equipo ha implementado una prueba de seguridad con OWASP ZAP, <strong>When</strong> realicen un escaneo de vulnerabilidades, <strong>Then</strong> deberán identificar todas las posibles brechas de seguridad en el sistema.</li>
-  <li><strong>Given</strong> que el equipo ha implementado Burp Suite para pruebas de seguridad, <strong>When</strong> realicen pruebas de penetración, <strong>Then</strong> deberán asegurarse de que la plataforma esté segura contra ataques comunes.</li>
-  <li><strong>Given</strong> que OWASP ZAP y Burp Suite tienen interfaces y configuraciones distintas, <strong>When</strong> el equipo evalúa la facilidad de uso de ambas herramientas, <strong>Then</strong> deberán decidir cuál herramienta es más fácil de integrar y utilizar en el flujo de trabajo de Autonexo.</li>
-  <li><strong>Given</strong> que el objetivo es detectar vulnerabilidades críticas en la plataforma, <strong>When</strong> el equipo prueba las capacidades de detección de vulnerabilidades de OWASP ZAP y Burp Suite, <strong>Then</strong> deberán asegurarse de que ambas herramientas detecten las vulnerabilidades clave en Autonexo.</li>
-  <li><strong>Given</strong> que las configuraciones de seguridad son esenciales en las pruebas de penetración, <strong>When</strong> el equipo evalúa las configuraciones de seguridad de OWASP ZAP y Burp Suite, <strong>Then</strong> deberán determinar si las herramientas permiten una configuración detallada y personalizada según las necesidades de Autonexo.</li>
-  <li><strong>Given</strong> que las pruebas de seguridad deben integrarse con el flujo de desarrollo de Autonexo, <strong>When</strong> el equipo evalúa cómo OWASP ZAP y Burp Suite se integran con las herramientas y procesos de desarrollo existentes, <strong>Then</strong> deberán garantizar que las herramientas se integren sin interrumpir el flujo de trabajo de desarrollo.</li>
-  <li><strong>Given</strong> que los informes de seguridad son cruciales para la corrección de vulnerabilidades, <strong>When</strong> el equipo revisa los informes generados por OWASP ZAP y Burp Suite, <strong>Then</strong> deberán asegurarse de que los informes sean claros, detallados y proporcionen las recomendaciones necesarias para corregir las vulnerabilidades encontradas.</li>
-</ul>
-
-<h2>Spike 8: Investigación de Plataforma para Gestión de Suscripciones</h2>
-
-<p><strong>Descripción:</strong></p>
-<p>Como equipo de desarrollo, quiero investigar plataformas como Recurly o Stripe Billing para gestionar suscripciones y automatizar el proceso de pagos recurrentes en la plataforma.</p>
-
-<p><strong>Criterios de Aceptación:</strong></p>
-<ul>
-  <li><strong>Given</strong> que el equipo ha considerado plataformas como Recurly y Stripe Billing, <strong>When</strong> investiguen las funcionalidades y capacidades de cada plataforma, <strong>Then</strong> deberán seleccionar la plataforma más adecuada para gestionar las suscripciones de Autonexo.</li>
-  <li><strong>Given</strong> que el equipo ha probado la implementación de Recurly con datos de prueba, <strong>When</strong> creen un ciclo de suscripción y realicen un pago de prueba, <strong>Then</strong> deberán verificar que la plataforma maneje correctamente los pagos recurrentes.</li>
-  <li><strong>Given</strong> que el equipo ha probado Stripe Billing para gestionar suscripciones, <strong>When</strong> realicen una prueba de suscripción con Stripe Billing, <strong>Then</strong> deberán asegurarse de que la plataforma maneje correctamente los pagos recurrentes.</li>
-  <li><strong>Given</strong> que ambas plataformas tienen estructuras de precios diferentes, <strong>When</strong> se comparen los costos de Recurly y Stripe Billing, <strong>Then</strong> deberán decidir cuál plataforma ofrece la mejor relación calidad-precio para Autonexo.</li>
-  <li><strong>Given</strong> que la plataforma de suscripciones debe integrarse con el backend de Autonexo, <strong>When</strong> el equipo evalúa la facilidad de integración de Recurly y Stripe Billing con el backend (Spring Boot), <strong>Then</strong> deberán garantizar que ambas plataformas se integren de manera sencilla y eficiente.</li>
-  <li><strong>Given</strong> que la seguridad es fundamental en los pagos recurrentes, <strong>When</strong> el equipo revise las medidas de seguridad de Recurly y Stripe Billing, <strong>Then</strong> deberán garantizar que ambas plataformas cumplan con los estándares de seguridad necesarios, como PCI-DSS.</li>
-  <li><strong>Given</strong> que es necesario gestionar los datos de clientes y suscripciones, <strong>When</strong> se utilicen las herramientas de reportes de Recurly y Stripe Billing, <strong>Then</strong> deberán asegurarse de que las plataformas generen informes detallados y fáciles de usar sobre las suscripciones.</li>
-</ul>
-
-<h2>Spike 9: Investigación de API de Localización para Mejorar la Búsqueda de Mecánicos</h2>
-
-<p><strong>Descripción:</strong></p>
-<p>Como equipo de desarrollo, quiero investigar APIs de localización como Google Maps, Mapbox o Here para mejorar la búsqueda de mecánicos cercanos, ofreciendo una experiencia más eficiente y precisa a los conductores.</p>
-
-<p><strong>Criterios de Aceptación:</strong></p>
-<ul>
-  <li><strong>Given</strong> que el equipo ha considerado APIs como Google Maps, Mapbox o Here, <strong>When</strong> investiguen las características y opciones de integración de cada API, <strong>Then</strong> deberán seleccionar la mejor API para la localización en Autonexo.</li>
-  <li><strong>Given</strong> que el equipo ha implementado la API de Google Maps para la localización, <strong>When</strong> realicen pruebas de búsqueda de mecánicos cercanos, <strong>Then</strong> deberán asegurarse de que la función de localización sea precisa y eficiente.</li>
-  <li><strong>Given</strong> que el equipo ha implementado la API de Mapbox para la localización, <strong>When</strong> realicen pruebas de búsqueda de mecánicos cercanos, <strong>Then</strong> deberán asegurarse de que la función de localización sea precisa y eficiente.</li>
-  <li><strong>Given</strong> que el equipo ha implementado la API de Here para la localización, <strong>When</strong> realicen pruebas de búsqueda de mecánicos cercanos, <strong>Then</strong> deberán asegurarse de que la función de localización sea precisa y eficiente.</li>
-  <li><strong>Given</strong> que cada API tiene diferentes modelos de precios, <strong>When</strong> comparen los costos de Google Maps, Mapbox y Here, <strong>Then</strong> deberán decidir cuál API ofrece la mejor relación calidad-precio para la plataforma.</li>
-  <li><strong>Given</strong> que Google Maps, Mapbox y Here tienen implementaciones y configuraciones distintas, <strong>When</strong> el equipo evalúe la facilidad de integración de cada API con la plataforma Autonexo, <strong>Then</strong> deberán determinar cuál API es más sencilla de implementar y mantener.</li>
-  <li><strong>Given</strong> que la plataforma Autonexo puede crecer en volumen de usuarios y mecánicos, <strong>When</strong> el equipo evalúe la escalabilidad de Google Maps, Mapbox y Here, <strong>Then</strong> deberán asegurarse de que todas las APIs puedan manejar un gran volumen de solicitudes sin afectar el rendimiento.</li>
-  <li><strong>Given</strong> que la precisión es clave en la búsqueda de mecánicos cercanos, <strong>When</strong> el equipo pruebe las APIs de Google Maps, Mapbox y Here en diferentes ubicaciones, <strong>Then</strong> deberán asegurarse de que todas las APIs proporcionen ubicaciones precisas y fiables.</li>
-  <li><strong>Given</strong> que las aplicaciones de Autonexo están disponibles en dispositivos móviles, <strong>When</strong> el equipo evalúe la compatibilidad de Google Maps, Mapbox y Here con dispositivos móviles (iOS/Android), <strong>Then</strong> deberán asegurarse de que todas las APIs funcionen correctamente en plataformas móviles.</li>
-  <li><strong>Given</strong> que tanto Google Maps, Mapbox y Here ofrecen características adicionales (como rutas optimizadas, tráfico en tiempo real, etc.), <strong>When</strong> el equipo explore estas características, <strong>Then</strong> deberán decidir si alguna de estas funcionalidades adicionales es relevante y útil para la plataforma Autonexo.</li>
-</ul>
-
-
+<br>
 
 ### 2.3.2. User Task Matrix
 <br>
