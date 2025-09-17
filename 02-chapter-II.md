@@ -257,7 +257,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ERJ8Xb5H93hGrCMlwwGrXAoBQhQYCzamRvJsaONqWyGJLw?e=NDdOwH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -265,7 +265,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        05:24 -11:12
+        00:00 -08:02
     </td>
   </tr>
 </table>
@@ -293,7 +293,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ERJ8Xb5H93hGrCMlwwGrXAoBQhQYCzamRvJsaONqWyGJLw?e=NDdOwH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -301,7 +301,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        11:12 - 17:11
+        08:07 - 14:58
     </td>
   </tr>
 </table>
@@ -315,24 +315,24 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <th>Entrevista</th>
     <td>3</td>
     <th>Nombre</th>
-    <td>Alexander Miranda</td>
+    <td>José Angel Castillo Miranda</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>25</td>
+    <td>40</td>
     <th>Distrito</th>
     <td>San Luis</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/segmento2 - Alexander Miranda.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-II/Entrevista 3 Mecánico.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        En la entrevista, Alexander Miranda comentó que se dedica a la venta texti. Explicó que hace sus registros de manera manual lo que es agotador para él y que siente que pierde mucho tiempo ya que le puede tomar horas. Mediante excel controla sus ingresos y luego revisa las boletas para actualziar el inventario y llevar un conteo general. Nos dice que le gustaría automatizar sus procesos y ha considerado emplear tecnologías que le apoyen a modernizar su negocio para la gestión de inventarios. 
+        El entrevistado, ingeniero en mantenimiento mecánico, señaló como problemas principales la falta de planificación preventiva, la mala comunicación con los conductores y la ausencia de historial organizado de cada vehículo. Consideró esenciales procesos como registro de solicitudes, calendario de mantenimientos, alertas automáticas y reportes de avance. Prefiere interfaces visuales tipo panel con indicadores y acceso rápido al historial, así como notificaciones en tiempo real. También valoró funcionalidades de seguimiento de solicitudes, métodos de pago variados (digitales o tarjeta), retroalimentación clara mediante calificaciones y la posibilidad de organizar trabajos según especialidad y disponibilidad. 
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ERJ8Xb5H93hGrCMlwwGrXAoBQhQYCzamRvJsaONqWyGJLw?e=NDdOwH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -340,7 +340,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        20:45 - 23:50
+        14:59 - 30:08
     </td>
   </tr>
 </table>
@@ -348,26 +348,26 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
 <table border="1">
   <tr>
     <th>Entrevista</th>
-    <td>5</td>
+    <td>4</td>
     <th>Nombre</th>
-    <td>Juan Carlos Ramírez</td>
+    <td>Rando Calero</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>49</td>
+    <td>45</td>
     <th>Distrito</th>
     <td>Suquillo</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-2/seg2-carlitos.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/Chapter-II/Entrevista 4 Mecánico.jpg" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        Juan Carlos Ramírez, emprendedor de 49 años, gestiona su inventario principalmente de forma manual, registrando entradas y salidas mediante boletas y facturas sin un control digital completo. Actualmente está en proceso de digitalizar su sistema con un programa y una máquina POS que escanea códigos de barra, aunque aún no emite boletas ni facturas electrónicas. La revisión del stock se realiza visualmente y las ventas se gestionan principalmente por WhatsApp con entrega a domicilio. Busca mejorar la eficiencia y liberar tiempo mediante la implementación de herramientas digitales más integradas.
+        Rando Calero, mecánico especialista en la marca Scania y dueño de un taller con un año en el mercado, destacó que los principales problemas en la gestión del mantenimiento son la falta de planificación preventiva y la dependencia de recordatorios manuales o escáneres del vehículo. Actualmente utilizan WhatsApp y registros básicos para coordinar mantenimientos, pero considera que una app debería centralizar el historial por placa, facilitar la comunicación y agilizar el flujo de trabajo. También valoró que la aplicación sea sencilla, con lenguaje accesible, opciones de retroalimentación de clientes, alertas de mantenimientos próximos y reportes claros para dueños, conductores y talleres. Además, ve como oportunidad incluir funciones de promoción de talleres, estadísticas de satisfacción y un flujo automatizado que informe al cliente en cada etapa del servicio.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/EcdO_7IMHslJvnfLQriZz-ABm7y1EeoaVKtpaloN3Upm4A?e=2MviFe&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310210_upc_edu_pe/ERJ8Xb5H93hGrCMlwwGrXAoBQhQYCzamRvJsaONqWyGJLw?e=NDdOwH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">
         Ver grabación
       </a>
     </td>
@@ -375,7 +375,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        17:11 - 20:45
+        30:09 - 40:34
     </td>
   </tr>
 </table>
