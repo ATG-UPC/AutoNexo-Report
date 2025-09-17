@@ -17,7 +17,7 @@
       <th></th>
       <th></th>
       <th>AutoNexo <img src="assets\chapter-II\competidor_1.png" alt="Fleetio Logo" height="50" width="200"></th>
-      <th>Fleetio <img src="assets\chapter-II\competidor_2.png" alt="Drivvo Logo" height="50" width="200"></th>
+      <th>Fleetio <img src="assets\chapter-II\competidor_1.png" alt="Drivvo Logo" height="50" width="200"></th>
       <th>Drivvo <img src="assets\chapter-II\competidor_2.png" alt="Drivvo Logo" height="50" width="200"></th>
       <th>Whip Around <img src="assets\chapter-II\competidor_3.png" alt="Whip Around Logo" height="50" width="200"></th>
     </tr>
@@ -326,7 +326,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <td>San Luis</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-II/Entrevista 3 Mecánico.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets\chapter-II\Entrevista 3 Mecánico.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         El entrevistado, ingeniero en mantenimiento mecánico, señaló como problemas principales la falta de planificación preventiva, la mala comunicación con los conductores y la ausencia de historial organizado de cada vehículo. Consideró esenciales procesos como registro de solicitudes, calendario de mantenimientos, alertas automáticas y reportes de avance. Prefiere interfaces visuales tipo panel con indicadores y acceso rápido al historial, así como notificaciones en tiempo real. También valoró funcionalidades de seguimiento de solicitudes, métodos de pago variados (digitales o tarjeta), retroalimentación clara mediante calificaciones y la posibilidad de organizar trabajos según especialidad y disponibilidad. 
     </td>
@@ -361,7 +361,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <td>Suquillo</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/Chapter-II/Entrevista 4 Mecánico.jpg" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets\chapter-II\Entrevista 4 Mecánico.jpg" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Rando Calero, mecánico especialista en la marca Scania y dueño de un taller con un año en el mercado, destacó que los principales problemas en la gestión del mantenimiento son la falta de planificación preventiva y la dependencia de recordatorios manuales o escáneres del vehículo. Actualmente utilizan WhatsApp y registros básicos para coordinar mantenimientos, pero considera que una app debería centralizar el historial por placa, facilitar la comunicación y agilizar el flujo de trabajo. También valoró que la aplicación sea sencilla, con lenguaje accesible, opciones de retroalimentación de clientes, alertas de mantenimientos próximos y reportes claros para dueños, conductores y talleres. Además, ve como oportunidad incluir funciones de promoción de talleres, estadísticas de satisfacción y un flujo automatizado que informe al cliente en cada etapa del servicio.
     </td>
