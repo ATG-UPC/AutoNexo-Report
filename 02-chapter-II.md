@@ -470,6 +470,211 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 ### 2.3.1. User Personas
 
+
+### 2.3.2. User Task Matrix
+
+<h3>User Task Matrix</h3>
+<p>En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Persona (que representan a cada segmento) realizan para cumplir sus objetivos. No confundir tareas (tasks) con opciones o características de software, pues las tareas deben ser realizadas por los segmentos independientemente de la existencia de su solución de software.</p>
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th rowspan="2">TASK</th>
+      <th colspan="2">Propietario de vehículo</th>
+      <th colspan="2">Mecánico</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Iniciar sesión en la app</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Consultar historial de mantenimiento</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Rarely</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Solicitar cita de mantenimiento</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Confirmar cita de mantenimiento</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Ver estado de mantenimiento</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Dejar reseña de taller</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+      <td>Rarely</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Recibir notificación de avance de mantenimiento</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Consultar disponibilidad de mecánicos</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Ver precios de servicios de taller</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Recibir confirmación de cita</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Registrar un incidente o reclamo</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Consultar mapa de talleres cercanos</td>
+      <td>Often</td>
+      <td>Medium</td>
+      <td>Rarely</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Ver promociones de talleres favoritos</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+      <td>Rarely</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Confirmar disponibilidad de citas con mecánicos</td>
+      <td>Never</td>
+      <td>Low</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Ver historial de calificaciones de talleres</td>
+      <td>Often</td>
+      <td>Medium</td>
+      <td>Rarely</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Ver detalles del mantenimiento realizado</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Comunicación con el propietario (mensaje/chat)</td>
+      <td>Never</td>
+      <td>Low</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Consultar disponibilidad de mecánicos por ubicación geográfica</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Recibir alertas de cambios en mantenimiento o citas</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Always</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Ver estado de pagos y facturación</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Actualizar datos personales (vehículo, dirección)</td>
+      <td>Rarely</td>
+      <td>Medium</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+### 2.3.3. User Journey Mapping
+Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagramas nos ayudarán a identificar y comprender las dificultades que enfrentan en cada fase, desde el momento en que conocen nuestra aplicación hasta la etapa en la que comparten sus experiencias y opiniones sobre su uso.
+<br>
+
+- User Journey Map de José Quispe (mecánico)
+<br>
+
+<img alt="Journey-Map-José-Quispe" src="assets\chapter-II-assets\journey-map-jose.png" />
+
+[Ver mapa completo en UxPressia](https://uxpressia.com/w/SIllD/m/hC0Ry?tagId=noTag)
+<br>
+
+- User Journey Map de Marina Salinas (propietaria)
+<br>
+
+<img alt="Journey-Map-Maria-Salinas" src="assets\chapter-II-assets\journey-map-marina.png" />
+
+[Ver mapa completo en UxPressia](https://uxpressia.com/w/GpJxm/m/0nPh7?tagId=noTag)
+<br>
+
+### 2.3.4. Empathy Mapping
+<br>
+
+### 2.3.5. Ubiquitous Language
+<br>
+
+## 2.4. Requirements specification
+
+### 2.4.1. User Stories
+
+Las historias de usuario constituyen una herramienta fundamental para traducir las necesidades detectadas en entrevistas con usuarios potenciales en especificaciones funcionales del sistema. Su adecuada formulación permite estructurar requisitos claros, priorizados y orientados al usuario final, facilitando así su interpretación por parte del equipo de desarrollo. Esta práctica no solo garantiza una mejor alineación entre las expectativas del cliente y las funcionalidades desarrolladas, sino que también mejora la planificación y asignación de tareas en el ciclo de vida del software. En el caso del proyecto TrackLab, se ha definido un conjunto estructurado de épicas e historias de usuario que sirven como base para el diseño de la landing page, el desarrollo de la aplicación web y la definición de los requerimientos técnicos asociados.
+
 <table border="1">
     <thead>
         <tr>
@@ -1614,198 +1819,11 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 </ul>
 
 
-
-### 2.3.2. User Task Matrix
-
-<h3>User Task Matrix</h3>
-<p>En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Persona (que representan a cada segmento) realizan para cumplir sus objetivos. No confundir tareas (tasks) con opciones o características de software, pues las tareas deben ser realizadas por los segmentos independientemente de la existencia de su solución de software.</p>
-
-<table border="1">
-  <thead>
-    <tr>
-      <th>TASK</th>
-      <th>Propietario de vehículo</th>
-      <th>Frecuencia</th>
-      <th>Importancia</th>
-      <th>Mecánico</th>
-      <th>Frecuencia</th>
-      <th>Importancia</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Iniciar sesión en la app</td>
-      <td>Always</td>
-      <td>High</td>
-      <td>Always</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Consultar historial de mantenimiento</td>
-      <td>Often</td>
-      <td>High</td>
-      <td>Rarely</td>
-      <td>Medium</td>
-    </tr>
-    <tr>
-      <td>Solicitar cita de mantenimiento</td>
-      <td>Always</td>
-      <td>High</td>
-      <td>Sometimes</td>
-      <td>Medium</td>
-    </tr>
-    <tr>
-      <td>Confirmar cita de mantenimiento</td>
-      <td>Always</td>
-      <td>High</td>
-      <td>Always</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Ver estado de mantenimiento</td>
-      <td>Often</td>
-      <td>High</td>
-      <td>Always</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Dejar reseña de taller</td>
-      <td>Sometimes</td>
-      <td>Medium</td>
-      <td>Rarely</td>
-      <td>Low</td>
-    </tr>
-    <tr>
-      <td>Recibir notificación de avance de mantenimiento</td>
-      <td>Always</td>
-      <td>High</td>
-      <td>Always</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Consultar disponibilidad de mecánicos</td>
-      <td>Always</td>
-      <td>High</td>
-      <td>Sometimes</td>
-      <td>Medium</td>
-    </tr>
-    <tr>
-      <td>Ver precios de servicios de taller</td>
-      <td>Often</td>
-      <td>High</td>
-      <td>Sometimes</td>
-      <td>Medium</td>
-    </tr>
-    <tr>
-      <td>Recibir confirmación de cita</td>
-      <td>Always</td>
-      <td>High</td>
-      <td>Always</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Registrar un incidente o reclamo</td>
-      <td>Sometimes</td>
-      <td>High</td>
-      <td>Sometimes</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Consultar mapa de talleres cercanos</td>
-      <td>Often</td>
-      <td>Medium</td>
-      <td>Rarely</td>
-      <td>Low</td>
-    </tr>
-    <tr>
-      <td>Ver promociones de talleres favoritos</td>
-      <td>Sometimes</td>
-      <td>Medium</td>
-      <td>Rarely</td>
-      <td>Low</td>
-    </tr>
-    <tr>
-      <td>Confirmar disponibilidad de citas con mecánicos</td>
-      <td>Never</td>
-      <td>Low</td>
-      <td>Always</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Ver historial de calificaciones de talleres</td>
-      <td>Often</td>
-      <td>Medium</td>
-      <td>Rarely</td>
-      <td>Low</td>
-    </tr>
-    <tr>
-      <td>Ver detalles del mantenimiento realizado</td>
-      <td>Sometimes</td>
-      <td>High</td>
-      <td>Always</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Comunicación con el propietario (mensaje/chat)</td>
-      <td>Never</td>
-      <td>Low</td>
-      <td>Always</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Consultar disponibilidad de mecánicos por ubicación geográfica</td>
-      <td>Often</td>
-      <td>High</td>
-      <td>Sometimes</td>
-      <td>Medium</td>
-    </tr>
-    <tr>
-      <td>Recibir alertas de cambios en mantenimiento o citas</td>
-      <td>Sometimes</td>
-      <td>High</td>
-      <td>Always</td>
-      <td>High</td>
-    </tr>
-    <tr>
-      <td>Ver estado de pagos y facturación</td>
-      <td>Always</td>
-      <td>High</td>
-      <td>Never</td>
-      <td>Low</td>
-    </tr>
-    <tr>
-      <td>Actualizar datos personales (vehículo, dirección)</td>
-      <td>Rarely</td>
-      <td>Medium</td>
-      <td>Never</td>
-      <td>Low</td>
-    </tr>
-  </tbody>
-</table>
+### 2.4.2. Impact Mapping
 
 
-### 2.3.3. User Journey Mapping
-Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagramas nos ayudarán a identificar y comprender las dificultades que enfrentan en cada fase, desde el momento en que conocen nuestra aplicación hasta la etapa en la que comparten sus experiencias y opiniones sobre su uso.
-<br>
 
-- User Journey Map de José Quispe (mecánico)
-<br>
+### 2.4.2. Product Backlog
 
-<img alt="Journey-Map-José-Quispe" src="assets\chapter-II-assets\journey-map-jose.png" />
 
-[Ver mapa completo en UxPressia](https://uxpressia.com/w/SIllD/m/hC0Ry?tagId=noTag)
-<br>
 
-- User Journey Map de Marina Salinas (propietaria)
-<br>
-
-<img alt="Journey-Map-Maria-Salinas" src="assets\chapter-II-assets\journey-map-marina.png" />
-
-[Ver mapa completo en UxPressia](https://uxpressia.com/w/GpJxm/m/0nPh7?tagId=noTag)
-<br>
-
-### 2.3.4. Empathy Mapping
-<br>
-
-### 2.3.5. Ubiquitous Language
-<br>
