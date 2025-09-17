@@ -469,6 +469,20 @@ En el siguiente apartado, analizaremos a nuestros segmentos objetivos para ident
 
 
 ### 2.3.1. User Personas
+Las siguientes User Persona representan a los diferentes tipos de usuarios que interactúan con nuestra aplicación. Estos perfiles nos permiten comprender sus características, motivaciones, necesidades y comportamientos, lo que facilita identificar cómo se relacionan con la solución desde su contexto personal hasta el uso activo de la misma.
+<br>
+
+- User Persona de José Quispe (mecánico)
+<img alt="User-Persona-José-Quispe" src="assets\chapter-II\user-persona-jose.jpg" />
+
+[Ver mapa user persona hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/1Ng0UPewRqDezQuOSRunusah6vk5xM6lg?usp=sharing)
+
+<br>
+
+- User Persona de Marina Salinas (propietaria)
+<img alt="User-Persona-Marina-Salinas" src="assets\chapter-II\user-persona-marina.jpg" />
+
+[Ver mapa user persona hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/1Ng0UPewRqDezQuOSRunusah6vk5xM6lg?usp=sharing)
 
 
 ### 2.3.2. User Task Matrix
