@@ -1821,6 +1821,13 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 
 ### 2.4.2. Impact Mapping
 
+<br>
+
+<img alt="Journey-Map-José-Quispe" src="assets\chapter-II\impact-mapping.png" />
+
+[Ver mapa completo en UxPressia](https://uxpressia.com/w/SIllD/m/hC0Ry?tagId=noTag)
+
+<br>
 
 ### 2.4.2. Product Backlog
 
