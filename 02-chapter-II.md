@@ -1822,8 +1822,273 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 ### 2.4.2. Impact Mapping
 
 
-
 ### 2.4.2. Product Backlog
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>US24</td>
+      <td>Visualizar información y beneficios (Landing Page)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>US25</td>
+      <td>Registro de usuario (propietario o taller)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>US26</td>
+      <td>Preguntas frecuentes y soporte</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>US27</td>
+      <td>Contacto y descarga de la app</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>US01</td>
+      <td>Registro de vehículo</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>US02</td>
+      <td>Adjuntar historial inicial</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US03</td>
+      <td>Visualizar historial de vehículo</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US04</td>
+      <td>Actualización automática del historial</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US05</td>
+      <td>Catálogo de servicios de taller</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US06</td>
+      <td>Explorar catálogo y búsqueda</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>US07</td>
+      <td>Cancelar reserva de mantenimiento</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>US08</td>
+      <td>Filtrar por servicio</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>US09</td>
+      <td>Recomendación por geolocalización</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>US10</td>
+      <td>Taller favorito</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>US11</td>
+      <td>Promociones de taller de confianza</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>US12</td>
+      <td>Sistema de mensajería</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>US13</td>
+      <td>Coordinación de citas de mantenimiento</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>US14</td>
+      <td>Notificaciones push</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>US15</td>
+      <td>Actualización de checklist en mantenimiento</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>US16</td>
+      <td>Creación de mantenimiento confirmado</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>US17</td>
+      <td>Visualización de mantenimientos pendientes</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>US18</td>
+      <td>Visualización de checklist en mantenimiento</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>US19</td>
+      <td>Finalización de mantenimiento</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>US20</td>
+      <td>Calificación de taller</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>US21</td>
+      <td>Calificación de propietario</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>US22</td>
+      <td>Consulta de reputación de taller</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>US23</td>
+      <td>Consulta de reputación de propietario</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>TS01</td>
+      <td>Implementar endpoint para registrar y gestionar vehículos (/vehicles)</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>TS02</td>
+      <td>Implementar endpoint para adjuntar y consultar historial (/vehicles/{id}/history)</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>TS03</td>
+      <td>Implementar endpoint para catálogo de servicios de taller (/services)</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>TS04</td>
+      <td>Implementar endpoint para gestión de reservas de mantenimiento (/reservations)</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>TS05</td>
+      <td>Implementar endpoint para sistema de mensajería (/messages)</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>TS06</td>
+      <td>Implementar endpoint para calificaciones y reputación (/ratings)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>TS07</td>
+      <td>Implementar endpoint para exploración y búsqueda de servicios (/services?filters=)</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>TS08</td>
+      <td>Implementar endpoint para filtros y geolocalización de talleres (/workshops?location=)</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>TS09</td>
+      <td>Implementar endpoint para gestión de favoritos (/favorites)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>TS10</td>
+      <td>Implementar endpoint para promociones de talleres (/promotions)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>TS11</td>
+      <td>Implementar endpoint para coordinación de citas (/appointments)</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>TS12</td>
+      <td>Implementar endpoint para notificaciones push (/notifications)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>TS13</td>
+      <td>Implementar endpoint para gestión de mantenimientos (/maintenances)</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>TS14</td>
+      <td>Implementar endpoint para landing page y registro de usuarios (/users)</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>TS15</td>
+      <td>Implementar endpoint para soporte, FAQ y contacto (/faq, /support, /contact)</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
