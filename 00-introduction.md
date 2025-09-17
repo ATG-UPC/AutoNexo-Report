@@ -50,9 +50,21 @@
 
 # <font color="skyblue">**Registro de Versiones del Informe**</font>
 
-| Versión | Fecha      | Autor                          | Descripción de modificación      |
-|---------|------------|--------------------------------|----------------------------------|
-| TB1     | 07/09/2025 | Todos los integrantes del grupo aportaron  | Reporte, capítulos 1, 2, 3 y 4|
+<table border="1">
+  <tr>
+    <th>Versión</th>
+    <th>Fecha</th>
+    <th>Autor</th>
+    <th>Descripción de modificación</th>
+  </tr>
+  <tr>
+    <td>TB1</td>
+    <td>07/09/2025</td>
+    <td>Todos los integrantes del grupo aportaron</td>
+    <td>Reporte, capítulos 1 y 2</td>
+  </tr>
+</table>
+
 
 # <font color="skyblue">**Project Report Collaboration Insights**</font>
 
@@ -62,13 +74,33 @@ Enlace de la organización del proyecto: https://github.com/ATG-UPC
 
 Para el desarrollo del informe correspondiente a la entrega TB1, se repartieron las tareas de la siguiente manera para cada integrante del equipo:
 
-|Integrante|Tareas Asignadas|
-|-|-|
-|Victor Andres Cruz Ibarra| |
-|Rafael Andres Vivanco Salazar| |
-|Sergio Sebastián Iglesias Pérez | |
-|Henry Kalet Esteban Roman | |
-|Angelo Hector Solano Armas| |
+<table border="1">
+  <tr>
+    <th>Integrante</th>
+    <th>Tareas Asignadas</th>
+  </tr>
+  <tr>
+    <td>Victor Andres Cruz Ibarra</td>
+    <td>Descripción de la Startup, Perfiles de integrantes del equipo, Lean UX Problem Statements, Lean UX Assumptions, User Stories, Impact Mapping, Product Backlog, Application Layer, Infrastructure Layer</td>
+  </tr>
+  <tr>
+    <td>Rafael Andres Vivanco Salazar</td>
+    <td>Antecedentes y problemática, Lean UX Hypothesis Statements, Lean UX Canvas, EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Software Architecture Component Level Diagrams, Software Architecture Code Level Diagrams</td>
+  </tr>
+  <tr>
+    <td>Sergio Sebastián Iglesias Pérez</td>
+    <td>Segmentos objetivo, Análisis competitivo, Estrategias frente a competidores, Bounded Context Canvases, Context Mapping, Software Architecture Context Level Diagrams, Software Architecture Container Level Diagrams</td>
+  </tr>
+  <tr>
+    <td>Henry Kalet Esteban Roman</td>
+    <td>Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas, Software Architecture Deployment Diagrams</td>
+  </tr>
+  <tr>
+    <td>Angelo Hector Solano Armas</td>
+    <td>Needfinding, User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, Ubiquitous Language, Bounded Context: <Bounded Context Name>, Domain Layer, Interface Layer</td>
+  </tr>
+</table>
+
 
 # <font color="skyblue">**Contenido**</font>
 
