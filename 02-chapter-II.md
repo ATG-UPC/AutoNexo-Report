@@ -17,9 +17,9 @@
       <th></th>
       <th></th>
       <th>AutoNexo <img src="assets\chapter-II-assets\logo-1.png.jpg" alt="Fleetio Logo" height="70" width="120"></th>
-      <th>Fleetio <img src="assets\chapter-II-assets\competidor_1.png" alt="Drivvo Logo" height="70" width="120"></th>
-      <th>Drivvo <img src="assets\chapter-II-assets\competidor_2.png" alt="Drivvo Logo" height="70" width="120"></th>
-      <th>Whip Around <img src="assets\chapter-II-assets\competidor_3.png" alt="Whip Around Logo" height="70" width="120"></th>
+      <th>Fleetio <img src="assets\chapter-II\competidor_1.png" alt="Drivvo Logo" height="70" width="120"></th>
+      <th>Drivvo <img src="assets\chapter-II\competidor_2.png" alt="Drivvo Logo" height="70" width="120"></th>
+      <th>Whip Around <img src="assets\chapter-II\competidor_3.png" alt="Whip Around Logo" height="70" width="120"></th>
     </tr>
     <tr>
       <td><strong>Perfil</strong></td>
@@ -2471,85 +2471,8 @@ A partir de esto, se definieron los bounded contexts:
 - Matching&Booking Context: Engloba el proceso de búsqueda, booking y ejecución del servicio.
 - Notifications: Hace referencia a las notificaciones del sistema.
 
-#### 2.5.1.2. Domain Message Flows Modeling
-
-### **Descripción**
-
-Esta sección describe los flujos de mensajes que se generan entre los Bounded Contexts, mostrando cómo los diferentes dominios del sistema colaboran a través de eventos y comandos. Cada flujo refleja un escenario de negocio completo que integra múltiples contextos en sus interacciones.
-
-### **Escenarios de Integración**
-
-#### **1. Solicitud y Reserva de Mantenimiento**
-
-<img alt="scn_Solicitud y Reserva de Mantenimiento" src="assets\chapter-II-assets\scn_Soli.png" />
-
-**Flujo de Integración:**
-- El propietario solicita crear una reserva en **Matching & Booking(Command → CreateReservation)**
-- **Matching & Booking** valida la información del vehículo consultando a **Vehicle & Maintenance (Query → CheckVehicleData).**
-- **Matching & Booking** envía una consulta de disponibilidad a **Workshop (Query → CheckAvailability).**
-- Si hay disponibilidad,**Workshop** responde con horarios válidos (Event → AvailabilityConfirmed).
-- **Matching & Booking** confirma la reserva y emite ReservationConfirmed.
-- **Notification** escucha el evento y envía una notificación push al propietario y al taller.
-
-
-**Bounded Contexts Involucrados:**
-- Matching & Booking → Vehicle & Maintenance → Workshop → Notification
-
-
-#### **2. Creación de Mantenimiento Confirmado**
-
-<img alt="scn_Creación de Mantenimiento Confirmado" src="assets\chapter-II-assets\scn_Crea.png">
-
-**Flujo de Integración:**
-- Una reserva aceptada en **Matching & Booking (Event → ReservationAccepted)** dispara la orden a **Vehicle & Maintenance (Command → CreateMaintenance).**
-- **Vehicle & Maintenance** genera la checklist inicial y marca el mantenimiento con estado pendiente.
-- **Vehicle & Maintenance** publica el evento (Event → MaintenanceCreated).
-- **Notification** escucha el evento y envía un aviso al propietario.
-
-**Bounded Contexts Involucrados:**
-- Matching & Booking → Vehicle & Maintenance → Notification
-
-
-#### **3. Avance de Mantenimiento y Checklist**
-
-<img alt="scn_Avance de Mantenimiento y Checklist" src="assets\chapter-II-assets\scn_Ava.png">
-
-**Flujo de Integración:**
-- El taller actualiza tareas en la checklist desde **Workshop (Command → UpdateChecklist).**
-- **Vehicle & Maintenance** procesa la actualización (Event → ChecklistUpdated).
-- **Vehicle & Maintenance** publica el avance (Event → MaintenanceProgressed).
-- **Notification** escucha el evento y envía una notificación al propietario sobre los avances.
-
-**Bounded Contexts Involucrados:**
-- Workshop → Vehicle & Maintenance → Notification
-
-
-#### **4. Finalización de Mantenimiento y Actualización de Historial**
-
-<img alt="scn_Finalización de Mantenimiento y Actualización de Historial" src="assets\chapter-II-assets\scn_Fin.png">
-
-**Flujo de Integración:**
-- El mecánico marca la finalización en **Workshop (Command → FinalizeMaintenance).**
-- **Vehicle & Maintenance** registra el evento (Event → MaintenanceFinalized), genera el informe y actualiza el historial del vehículo.
-- **Vehicle & Maintenance** publica el evento (Event → MaintenanceClosed) hacia **Trust & Reputation.**
-- **Notification** escucha el evento y envía un aviso al propietario indicando el cierre del servicio.
-
-**Bounded Contexts Involucrados:**
-- Workshop → Vehicle & Maintenance → Trust & Reputation → Notification
-
-
-#### **5. Calificación y Actualización de Reputación**
-
-<img alt="scn_Calificación y Actualización de Reputación" src="assets\chapter-II-assets\scn_Cal.png">
-
-**Flujo de Integración:**
-- Tras un mantenimiento, el propietario envía una calificación en **Trust & Reputation (Command → RateMechanic).**
-- **Trust & Reputation** actualiza el score y publica (Event → RatingRegistered).
-- **Notification** consume el evento y envía un aviso al taller.
-- De manera análoga, el taller también puede calificar al propietario.
-
-**Bounded Contexts Involucrados:**
-- Trust & Reputation → Notification
+#### 2.5.1.2 Domain Message Flows Modeling
+<br>
 
 #### 2.5.1.3 Bounded Context Canvases
 <br>
@@ -2641,205 +2564,1539 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 ## 2.6 Tactical-Level Domain-Driven Design
 <br>
 
-### 2.6.1 Bounded Context: IAM Context
-<br>
+### **2.6.1. Bounded Context: Vehicle&Maintenance**
 
-#### 2.6.1.1 Domain Layer
-<br>
+#### **2.6.1.1. Domain Layer**
 
-#### 2.6.1.2 Interface Layer
-<br>
+Este bounded context cubre la ejecución técnica del mantenimiento del vehículo y su registro histórico auditable, excluyendo matching/booking/pagos.
 
-#### 2.6.1.3 Application Layer
-<br>
+---
 
-#### 2.6.1.4 Infrastructure Layer
-<br>
+### **Aggregates**
+
+- **Vehicle**  
+  **Propósito:** Representa un vehículo y gobierna su información técnica relevante al mantenimiento.  
+  **Atributos:**  
+  - vehicleId: UUID  
+  - licensePlate: LicensePlate  
+  - brand: string  
+  - model: string  
+  - year: int  
+  - ownerId: UUID  
+  **Métodos:**  
+  - assignOwner(ownerId: UUID)  
+  - updateDetails(brand: string, model: string, year: int)  
+  **Relaciones:**  
+  - 1 ⟶ * con MaintenanceRecord.
+
+- **MaintenanceRecord**  
+  **Propósito:** Registro auditable del mantenimiento del vehículo; consolida solo tareas registrables en el historial.  
+  **Atributos:**  
+  - recordId: UUID  
+  - vehicleId: UUID  
+  - openedAt: DateTime  
+  - closedAt: DateTime?  
+  - status: MaintenanceStatus  
+  **Métodos:**  
+  - addTask(task: MaintenanceTask)  
+  - approve()  
+  - amend(note: string)  
+  - complete()  
+  **Relaciones:**  
+  - 1 ⟶ * con MaintenanceTask.  
+  - 1 ⟶ 0..1 con DiagnosticReport (puede existir un informe por record).
+
+---
+
+##### **Entities**
+
+- **MaintenanceTask**  
+  **Propósito:** Tarea técnica ejecutada durante el mantenimiento. Puede ser registrable o no registrable.  
+  **Atributos:**  
+  - taskId: UUID  
+  - description: string  
+  - category: TaskCategory (enum: Maintenance, Inspection, Cleaning, Other)  
+  - recordable: bool  
+  - status: TaskStatus (enum: Planned, InProgress, Completed, IssueReported)  
+  **Métodos:**  
+  - markInProgress()  
+  - markCompleted()  
+  - reportIssue(details: string)  
+  **Relaciones:**  
+  - * ⟶ * con PartUsage.  
+  - * ⟶ 1 con MaintenanceRecord (pertenencia).
+
+- **PartUsage**  
+  **Propósito:** Uso de repuestos/piezas dentro de una tarea.  
+  **Atributos:**  
+  - partUsageId: UUID  
+  - taskId: UUID  
+  - partNumber: string  
+  - quantity: int  
+  **Métodos:**  
+  - sin reglas de negocio complejas  
+  **Relaciones:**  
+  - * ⟶ 1 con MaintenanceTask (pertenencia).
+
+- **DiagnosticReport**  
+  **Propósito:** Informe técnico de diagnóstico asociado al mantenimiento.  
+  **Atributos:**  
+  - reportId: UUID  
+  - recordId: UUID  
+  - summary: string  
+  - createdAt: DateTime  
+  **Métodos:**  
+  - creación/generación a través de servicio de dominio DiagnosticService  
+  **Relaciones:**  
+  - 1 ⟶ 1 con MaintenanceRecord.
+
+---
+
+##### **Value Objects**
+
+- **LicensePlate**  
+  **Propósito:** Encapsula y valida la matrícula.  
+  **Atributos:**  
+  - value: string  
+  **Métodos:**  
+  - validatePlate()  
+  **Relaciones:**  
+  - Usado por Vehicle.
+
+- **Mileage**  
+  **Propósito:** Kilometraje con marca de tiempo (útil para trazabilidad del mantenimiento).  
+  **Atributos:**  
+  - value: int  
+  - measuredAt: DateTime
+
+---
+
+##### **Events (Domain Events)**
+
+- VehicleCheckedInEvent(vehicleId: UUID, occurredAt: DateTime)  
+  **Propósito:** El vehículo ingresó al taller.
+- VehicleCheckedOutEvent(vehicleId: UUID, occurredAt: DateTime)  
+  **Propósito:** El vehículo salió del taller.
+
+- MaintenanceRecordOpenedEvent(recordId: UUID, vehicleId: UUID, occurredAt: DateTime)  
+  **Propósito:** Se abrió un registro de mantenimiento.
+- MaintenanceTaskAddedEvent(recordId: UUID, taskId: UUID, recordable: bool, occurredAt: DateTime)  
+  **Propósito:** Se añadió una tarea al mantenimiento.
+- MaintenanceTaskCompletedEvent(recordId: UUID, taskId: UUID, occurredAt: DateTime)  
+  **Propósito:** Se completó una tarea. Puede desencadenar verificación de cierre.
+- MaintenanceTaskIssueReportedEvent(recordId: UUID, taskId: UUID, issue: string, occurredAt: DateTime)  
+  **Propósito:** Se reportó un problema en una tarea.
+
+- ServiceProgressUpdatedEvent(recordId: UUID, note: string, occurredAt: DateTime)  
+  **Propósito:** Se actualizó el progreso del servicio.
+- MaintenanceRecordApprovedEvent(recordId: UUID, occurredAt: DateTime)  
+  **Propósito:** Se aprobó el registro (cumple políticas).
+- MaintenanceRecordAmendedEvent(recordId: UUID, note: string, occurredAt: DateTime)  
+  **Propósito:** Se anotó/ajustó el registro.
+- MaintenanceCompletedEvent(recordId: UUID, occurredAt: DateTime)  
+  **Propósito:** Se completó el mantenimiento (tareas registrables completas).
+- ServiceReportGeneratedEvent(recordId: UUID, reportId: UUID, occurredAt: DateTime)  
+  **Propósito:** Se generó el reporte del servicio (entregable).
+
+---
+
+##### **Services (Domain Interfaces)**
+
+- interface DiagnosticService { DiagnosticReport run(UUID recordId); }  
+  **Propósito:** Ejecuta diagnósticos técnicos y retorna un DiagnosticReport.  
+  **Relaciones:**  
+  - Colabora con MaintenanceRecord para persistir el informe.
+
+- interface MaintenancePolicy { bool canAmend(UUID recordId); bool isTaskRecordable(TaskCategory category); }  
+  **Propósito:** Reglas del dominio para determinar si es posible enmendar y cuándo una tarea es registrable.  
+  **Relaciones:**  
+  - Consultado por MaintenanceRecord durante amend(...) y addTask(...).
+
+- interface PartsCatalogService { bool checkAvailability(string partNumber, int qty); }  
+  **Propósito:** Verifica disponibilidad de repuestos (sin detalles de infraestructura aquí).  
+  **Relaciones:**  
+  - Usado por MaintenanceTask/MaintenanceRecord antes de confirmar PartUsage.
+
+---
+
+##### **Commands (visión global)**
+
+Son records inmutables que expresan intención de cambio. No se documentan uno por uno en detalle por ser auxiliares; su rol global es activar métodos de agregados, validar políticas y emitir eventos.  
+**Ejemplos:**  
+- OpenMaintenanceRecord(recordId: UUID, vehicleId: UUID)  
+- AddMaintenanceTask(recordId: UUID, description: string, category: TaskCategory, recordable: bool)  
+- CompleteMaintenanceTask(recordId: UUID, taskId: UUID)  
+- ReportMaintenanceTaskIssue(recordId: UUID, taskId: UUID, issue: string)  
+- ApproveMaintenanceRecord(recordId: UUID) / AmendMaintenanceRecord(recordId: UUID, note: string)  
+- CompleteMaintenance(recordId: UUID) / GenerateServiceReport(recordId: UUID)  
+- CheckInVehicle(vehicleId: UUID) / CheckOutVehicle(vehicleId: UUID)
+
+##### **Queries (visión global)**
+
+Son records inmutables para lectura. No modifican estado; no ameritan diccionario individual.  
+**Ejemplos:**  
+- GetVehicleById(vehicleId: UUID)  
+- GetMaintenanceRecordDetails(recordId: UUID)  
+- ListMaintenanceRecords(vehicleId: UUID, from?: DateTime, to?: DateTime)  
+- GetDiagnosticReport(recordId: UUID)
+
+---
+
+#### **2.6.1.2. Interface Layer**
+
+Capa de presentación con Controllers, Resources y Assemblers (mapeo). Dado que son auxiliares, se describe su rol global y ejemplos principales.
+
+- **Controllers** (endpoints): VehicleController, MaintenanceRecordController.  
+  - Orquestan comandos/consultas y devuelven Resources.
+
+- **Resources**  
+  Ejemplos:  
+  - VehicleResource { uuid vehicleId; string licensePlate; string brand; string model; int year; uuid ownerId; }  
+  - OpenMaintenanceRecordResource { uuid vehicleId; }  
+  - MaintenanceRecordResource { uuid recordId; uuid vehicleId; string status; DateTime openedAt; DateTime? closedAt; List<MaintenanceTaskResource> items; }  
+  - MaintenanceTaskResource { uuid taskId; string description; string category; bool recordable; string status; List<PartUsageResource> parts; }  
+  - DiagnosticReportResource { uuid reportId; uuid recordId; string summary; DateTime createdAt; }
+
+- **Assemblers**  
+  - Rol: mapear Resources ⇆ Commands/Entities, mantener consistencia del Ubiquitous Language.  
+  - Ejemplos: VehicleAssembler, MaintenanceRecordAssembler, MaintenanceTaskAssembler, DiagnosticReportAssembler.
+
+---
+
+#### **2.6.1.3. Application Layer**
+
+Implementa servicios de aplicación y manejadores de eventos.
+
+- **Command Services**  
+  - VehicleCommandService  
+  - MaintenanceRecordCommandService
+
+- **Query Services**  
+  - VehicleQueryService → GetVehicleById  
+  - MaintenanceRecordQueryService → GetMaintenanceRecordDetails, ListMaintenanceRecords  
+  - DiagnosticReportQueryService → GetDiagnosticReport
+
+- **Event Handlers**  
+  - OnMaintenanceTaskCompleted → al completar todas las tareas registrables, dispara MaintenanceCompletedEvent  
+  - OnMaintenanceCompleted → genera ServiceReportGeneratedEvent
+
+- **ACL / Outbound**  
+  - CatalogAcl (consulta piezas), NotificationsAcl  
+  - DomainEventPublisher, ReportGenerator
+
+---
+
+#### **2.6.1.4. Infrastructure Layer**
+
+Implementaciones concretas de persistencia y adaptadores externos. Se detallan a nivel de rol (no por clase) por ser soporte técnico.
+
+- **Repositories (implementaciones de interfaces del dominio)**  
+  - VehicleRepository : IVehicleRepository  
+  - MaintenanceRecordRepository : IMaintenanceRecordRepository  
+  - DiagnosticReportRepository : IDiagnosticReportRepository  
+  - Rol: mapeo ORM, transacciones, UoW.
+
+- **External Services Adapters**  
+  - PartsCatalogAdapter (catálogo de repuestos)  
+  - EmailNotificationAdapter (notificaciones)  
+  - MessageBrokerPublisher (publicación de eventos)
+
+---
 
 #### 2.6.1.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
-<img alt="Component-IAM" src="assets\chapter-II-assets\components\structurizr-101398-Component-006.png" />
+<img alt="Component-IAM" src="assets\chapter-II-assets\components\structurizr-101398-Component-001.png" />
 
 #### 2.6.1.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
 
 ##### 2.6.1.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
-<img alt="Class-IAM" src="assets\chapter-II-assets\bc\class-iam.png" />
+<img alt="Class-IAM" src="assets\chapter-II-assets\bc\class-vehicle.png" />
 
 ##### 2.6.1.6.2 Bounded Context Database Design Diagram
 <br>
-<img alt="Database-IAM" src="assets\chapter-II-assets\bc\db-iam.png" />
+<img alt="Database-IAM" src="assets\chapter-II-assets\bc\db-vehicle.png" />
 
-### 2.6.2 Bounded Context: Workshop Context
-<br>
+### **2.6.2. Bounded Context: Trusting&Reputation**
 
-#### 2.6.2.1 Domain Layer
-<br>
+#### **2.6.2.1. Domain Layer**
 
-#### 2.6.2.2 Interface Layer
-<br>
+Este bounded context cubre la gestión de reseñas, calificaciones y el cálculo de la reputación o confianza, aplicable a distintos objetivos: propietarios (owner), talleres (workshop) o service orders. Consume eventos de otros bounded contexts para validar la elegibilidad y ajustar los puntajes de confianza.
 
-#### 2.6.2.3 Application Layer
-<br>
+---
 
-#### 2.6.2.4 Infrastructure Layer
-<br>
+### **Aggregates**
+
+- **TrustProfile**  
+  **Propósito:** Perfil de confianza/reputación asociado a un objetivo (owner, workshop o service order). Consolida puntajes y métricas.  
+  **Atributos:**  
+  - trustProfileId: UUID  
+  - targetRef: TargetRef  
+  - currentScore: ScoreValue  
+  - ratingCount: int  
+  - lastRecalculatedAt: DateTime  
+  - breakdown: RatingBreakdown  
+  **Métodos:**  
+  - applyRating(rating: Rating)  
+  - removeRating(ratingId: UUID)  
+  - recalculate(scores: List<ScoreValue>, breakdowns: List<RatingBreakdown>)  
+  **Relaciones:**  
+  - 1 ⟶ * con Rating  
+  - 1 ⟶ * con Review (opcional)
+
+- **Review**  
+  **Propósito:** Reseña textual asociada a una calificación. Puede editarse o eliminarse bajo políticas.  
+  **Atributos:**  
+  - reviewId: UUID  
+  - targetRef: TargetRef  
+  - authorId: UUID  
+  - comment: Comment  
+  - createdAt: DateTime  
+  - editedAt: DateTime?  
+  **Métodos:**  
+  - edit(newComment: Comment)  
+  - delete()  
+  **Relaciones:**  
+  - 1 ⟶ 1 con Rating
+
+---
+
+### **Entities**
+
+- **Rating**  
+  **Propósito:** Calificación numérica dirigida a un objetivo.  
+  **Atributos:**  
+  - ratingId: UUID  
+  - targetRef: TargetRef  
+  - authorId: UUID  
+  - overall: ScoreValue  
+  - breakdown: RatingBreakdown  
+  - createdAt: DateTime  
+  **Métodos:**  
+  - updateBreakdown(newBreakdown: RatingBreakdown)  
+  **Relaciones:**  
+  - * ⟶ 1 con TrustProfile  
+  - 0..1 ⟶ 1 con Review
+
+- **TrustAdjustment**  
+  **Propósito:** Ajuste al score por eventos (fraude, cancelación, no-show).  
+  **Atributos:**  
+  - adjustmentId: UUID  
+  - targetRef: TargetRef  
+  - delta: decimal  
+  - reason: string  
+  - occurredAt: DateTime  
+  **Métodos:**  
+  - describe()  
+  **Relaciones:**  
+  - * ⟶ 1 con TrustProfile
+
+---
+
+### **Value Objects**
+
+- **TargetRef**  
+  **Propósito:** Referencia polimórfica al objetivo calificado.  
+  **Atributos:**  
+  - targetType: TargetType (enum: Owner, Workshop, ServiceOrder)  
+  - targetId: UUID
+
+- **ScoreValue**  
+  **Propósito:** Valor de puntuación acotado.  
+  **Atributos:**  
+  - value: decimal
+
+- **RatingBreakdown**  
+  **Propósito:** Desglose de puntuación por dimensiones.  
+  **Atributos:**  
+  - punctuality: ScoreValue  
+  - quality: ScoreValue  
+  - communication: ScoreValue  
+  - transparency: ScoreValue
+
+- **Comment**  
+  **Propósito:** Texto validado de la reseña.  
+  **Atributos:**  
+  - text: string
+
+---
+
+### **Events (Domain Events)**
+
+- ReviewSubmittedEvent(reviewId, targetRef, authorId, occurredAt)  
+- ReviewEditedEvent(reviewId, targetRef, occurredAt)  
+- ReviewDeletedEvent(reviewId, targetRef, occurredAt)  
+- RatingSubmittedEvent(ratingId, targetRef, overall, occurredAt)  
+- RatingUpdatedEvent(ratingId, targetRef, occurredAt)  
+- TrustAdjustmentAppliedEvent(adjustmentId, targetRef, delta, occurredAt)  
+- TrustScoreRecalculatedEvent(trustProfileId, targetRef, newScore, occurredAt)  
+- OwnerRatedEvent(ownerId, ratingId, occurredAt)  
+- WorkshopRatedEvent(workshopId, ratingId, occurredAt)  
+- ServiceOrderRatedEvent(serviceOrderId, ratingId, occurredAt)
+
+---
+
+### **Services (Domain Interfaces)**
+
+- ReputationCalculator  
+  **Métodos:**  
+  - compute(ratings, adjustments) → ScoreValue  
+  - computeBreakdown(ratings) → RatingBreakdown  
+
+- ReviewPolicy  
+  **Métodos:**  
+  - canEdit(reviewId, requesterId)  
+  - canDelete(reviewId, requesterId)
+
+- EligibilityPolicy  
+  **Métodos:**  
+  - canRate(targetRef, authorId)
+
+---
+
+### **Commands (visión global)**
+
+Son records inmutables que expresan intención de cambio. Activan métodos de agregados, validan políticas y emiten eventos.  
+
+Ejemplos:  
+- SubmitReview(targetRef, authorId, comment)  
+- EditReview(reviewId, authorId, newComment)  
+- DeleteReview(reviewId, authorId)  
+- SubmitRating(targetRef, authorId, overall, breakdown)  
+- UpdateRating(ratingId, authorId, breakdown)  
+- ApplyTrustAdjustment(targetRef, delta, reason)  
+- RecalculateTrustScore(targetRef)
+
+---
+
+### **Queries (visión global)**
+
+Son records inmutables de lectura. No modifican estado.  
+
+Ejemplos:  
+- GetTrustProfileByTarget(targetRef)  
+- GetAverageScoreByTarget(targetRef)  
+- ListReviewsByTarget(targetRef, from?, to?)  
+- ListRatingsByTarget(targetRef, from?, to?)
+
+---
+
+#### **2.6.2.2. Interface Layer**
+
+Capa de presentación con Controllers, Resources y Assemblers.
+
+- Controllers: ReviewController, RatingController, TrustProfileController  
+- Resources:  
+  - SubmitReviewResource { targetType, targetId, comment }  
+  - SubmitRatingResource { targetType, targetId, overall, RatingBreakdownResource }  
+  - TrustProfileResource { trustProfileId, targetType, targetId, currentScore, ratingCount, lastRecalculatedAt, breakdown }  
+  - ReviewResource { reviewId, targetType, targetId, authorId, comment, createdAt, editedAt }  
+  - RatingResource { ratingId, targetType, targetId, authorId, overall, breakdown, createdAt }  
+- Assemblers: ReviewAssembler, RatingAssembler, TrustProfileAssembler
+
+---
+
+#### **2.6.2.3. Application Layer**
+
+Implementa servicios de aplicación y manejadores de eventos.
+
+- Command Services: ReviewCommandService, RatingCommandService, TrustProfileCommandService  
+- Query Services: TrustProfileQueryService, ReviewQueryService, RatingQueryService  
+- Event Handlers:  
+  - OnRatingSubmitted → aplica rating y recalcula TrustProfile  
+  - OnReviewSubmitted → vincula review con rating  
+  - OnTrustAdjustmentApplied → recalcula TrustProfile  
+  - OnServiceCompleted (externo) → habilita EligibilityPolicy  
+- ACL / Outbound: BookingAcl, IdentityAcl, MaintenanceAcl, DomainEventPublisher, ReputationAnalyticsExporter
+
+---
+
+#### **2.6.2.4. Infrastructure Layer**
+
+Implementaciones de persistencia y adaptadores externos.
+
+- Repositories: TrustProfileRepository, ReviewRepository, RatingRepository, TrustAdjustmentRepository  
+- External Services Adapters: MessageBrokerPublisher, IdentityProviderAdapter, AnalyticsExportAdapter
+
+---
 
 #### 2.6.2.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
-<img alt="Component-Workshops" src="assets\chapter-II-assets\components\structurizr-101398-Component-004.png" />
+<img alt="Component-Workshops" src="assets\chapter-II-assets\components\structurizr-101398-Component-002.png" />
 
 #### 2.6.2.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
 
 ##### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
-<img alt="Class-Workshop" src="assets\chapter-II-assets\bc\class-workshop.png" />
+<img alt="Class-Workshop" src="assets\chapter-II-assets\bc\class-trusting.png" />
 
 ##### 2.6.2.6.2 Bounded Context Database Design Diagram
 <br>
-<img alt="Database-Workshop" src="assets\chapter-II-assets\bc\db-workshop.png" />
+<img alt="Database-Workshop" src="assets\chapter-II-assets\bc\db-trusting.png" />
 
-### 2.6.3 Bounded Context: Vehicle&Maintenance
-<br>
+### **2.6.3. Bounded Context: Matching&Booking**
 
-#### 2.6.3.1 Domain Layer
-<br>
+#### **2.6.3.1. Domain Layer**
 
-#### 2.6.3.2 Interface Layer
-<br>
+Este bounded context cubre desde la solicitud de servicio hasta la creación/confirmación del booking, la gestión de ofertas y reprogramaciones, y la apertura de la service order para el handover hacia Vehicle&Maintenance.  
+---
 
-#### 2.6.3.3 Application Layer
-<br>
+### **Aggregates**
 
-#### 2.6.3.4 Infrastructure Layer
-<br>
+- **ServiceRequest**  
+  **Propósito:** Intención del propietario de recibir un servicio (tipo, ventana deseada, ubicación).  
+  **Atributos:**  
+  - serviceRequestId: UUID  
+  - ownerId: UUID  
+  - vehicleId: UUID  
+  - serviceType: ServiceType  
+  - preferredWindow: TimeRange  
+  - location: GeoLocation  
+  - status: ServiceRequestStatus (Open, Matching, Offered, Archived, Cancelled)  
+  **Métodos:**  
+  - startMatching()  
+  - archive(reason: string)  
+  - cancel(reason: string)  
+  **Relaciones:**  
+  - 1 ⟶ * con Offer  
+  - 1 ⟶ 0..1 con Booking
+
+- **Offer**  
+  **Propósito:** Propuesta desde un workshop (referencia externa por workshopId) para atender el ServiceRequest.  
+  **Atributos:**  
+  - offerId: UUID  
+  - serviceRequestId: UUID  
+  - workshopId: UUID  
+  - proposedSlot: TimeRange  
+  - price: Money  
+  - terms: Terms  
+  - status: OfferStatus (Submitted, Withdrawn, Accepted, Rejected, Expired)  
+  **Métodos:**  
+  - withdraw(reason: string)  
+  - accept()  
+  - reject()  
+  **Relaciones:**  
+  - * ⟶ 1 con ServiceRequest  
+  - 0..1 ⟶ 1 con Booking
+
+- **Booking**  
+  **Propósito:** Reserva formal entre owner y workshop basada en una Offer aceptada.  
+  **Atributos:**  
+  - bookingId: UUID  
+  - serviceRequestId: UUID  
+  - offerId: UUID  
+  - workshopId: UUID  
+  - vehicleId: UUID  
+  - slot: TimeRange  
+  - status: BookingStatus (Created, Confirmed, RescheduleRequested, Rescheduled, Cancelled)  
+  - cancellationPolicy: CancellationPolicy  
+  - createdAt: DateTime  
+  **Métodos:**  
+  - confirm()  
+  - requestReschedule(newSlot: TimeRange, reason: string)  
+  - reschedule(approvedSlot: TimeRange)  
+  - cancel(reason: string)  
+  **Relaciones:**  
+  - 1 ⟶ 1 con Offer  
+  - 1 ⟶ 1 con ServiceRequest  
+  - 1 ⟶ 0..1 con ServiceOrder
+
+- **ServiceOrder**  
+  **Propósito:** Orden operativa creada al confirmar un Booking; artefacto de handover hacia Vehicle&Maintenance.  
+  **Atributos:**  
+  - serviceOrderId: UUID  
+  - bookingId: UUID  
+  - workshopId: UUID  
+  - vehicleId: UUID  
+  - scheduledSlot: TimeRange  
+  - status: ServiceOrderStatus (Opened, Closed, Cancelled)  
+  - openedAt: DateTime  
+  **Métodos:**  
+  - open()  
+  - close()  
+  - cancel(reason: string)  
+  **Relaciones:**  
+  - 1 ⟶ 1 con Booking
+
+---
+
+### **Entities**
+
+- **RescheduleRequest**  
+  **Propósito:** Solicitud de reprogramación sobre un Booking existente.  
+  **Atributos:**  
+  - rescheduleRequestId: UUID  
+  - bookingId: UUID  
+  - requestedSlot: TimeRange  
+  - reason: string  
+  - status: RescheduleStatus (Requested, Approved, Declined)  
+  **Métodos:**  
+  - approve(approvedSlot: TimeRange)  
+  - decline(reason: string)  
+  **Relaciones:**  
+  - * ⟶ 1 con Booking
+
+---
+
+### **Value Objects**
+
+- **TimeRange:** start: DateTime, end: DateTime  
+- **Money:** amount: decimal, currency: string  
+- **GeoLocation:** lat: decimal, lon: decimal  
+- **Terms:** summary: string, detailsUrl: string?  
+- **CancellationPolicy:** freeUntilHours: int, penaltyAfter: Money  
+- **ServiceType:** enum (Inspection, OilChange, Tires, Brakes, Bodywork, Other)
+
+---
+
+### **Events (Domain Events)**
+
+- ServiceRequestSubmittedEvent(serviceRequestId, ownerId, vehicleId, serviceType, occurredAt)  
+- MatchingProcessStartedEvent(serviceRequestId, occurredAt)  
+- WorkshopRecommendationsGeneratedEvent(serviceRequestId, workshopIds, occurredAt)  
+- OfferSubmittedEvent(offerId, serviceRequestId, workshopId, occurredAt)  
+- OfferWithdrawnEvent(offerId, occurredAt)  
+- OfferAcceptedEvent(offerId, serviceRequestId, occurredAt)  
+- BookingCreatedEvent(bookingId, serviceRequestId, offerId, occurredAt)  
+- BookingConfirmedEvent(bookingId, occurredAt)  
+- BookingRescheduleRequestedEvent(bookingId, rescheduleRequestId, requestedSlot, occurredAt)  
+- BookingRescheduledEvent(bookingId, newSlot, occurredAt)  
+- BookingCancelledEvent(bookingId, reason, occurredAt)  
+- ServiceOrderOpenedEvent(serviceOrderId, bookingId, occurredAt)  
+- ServiceOrderClosedEvent(serviceOrderId, bookingId, occurredAt)  
+- ServiceRequestArchivedEvent(serviceRequestId, occurredAt)
+
+---
+
+### **Services (Domain Interfaces)**
+
+**Nota:** Aquí solo se definen interfaces. **Sus implementaciones que interactúan con otros BCs se ubican en Application Layer** mediante ACL/adapters.
+
+- **MatchingEngine**  
+  Métodos:  
+  - findCandidates(serviceRequest: ServiceRequest) → List<UUID>  (workshopId)
+
+- **AvailabilityService**  
+  Métodos:  
+  - isAvailable(workshopId: UUID, slot: TimeRange) → bool  
+  - suggestSlots(workshopId: UUID, constraints: TimeRange) → List<TimeRange>
+
+- **PricingService**  
+  Métodos:  
+  - quote(serviceType: ServiceType, workshopId: UUID) → Money
+
+- **OfferPolicy**  
+  Métodos:  
+  - canSubmit(workshopId: UUID, serviceRequestId: UUID) → bool  
+  - canAccept(offerId: UUID) → bool
+
+- **BookingPolicy**  
+  Métodos:  
+  - canConfirm(bookingId: UUID) → bool  
+  - canCancel(bookingId: UUID, when: DateTime) → bool
+
+- **ScheduleAllocator**  
+  Métodos:  
+  - reserve(workshopId: UUID, slot: TimeRange) → bool  
+  - release(workshopId: UUID, slot: TimeRange)
+
+---
+
+#### **2.6.3.2. Interface Layer**
+
+- **Controllers:** ServiceRequestController, MatchingController, OfferController, BookingController, ServiceOrderController, RescheduleController  
+- **Resources:**  
+  - SubmitServiceRequestResource { ownerId, vehicleId, serviceType, preferredWindow, location }  
+  - OfferResource { offerId, serviceRequestId, workshopId, proposedSlot, price, status }  
+  - BookingResource { bookingId, serviceRequestId, offerId, workshopId, vehicleId, slot, status, createdAt }  
+  - RescheduleRequestResource { rescheduleRequestId, bookingId, requestedSlot, reason, status }  
+  - ServiceOrderResource { serviceOrderId, bookingId, workshopId, vehicleId, scheduledSlot, status, openedAt }  
+- **Assemblers:** ServiceRequestAssembler, OfferAssembler, BookingAssembler, ServiceOrderAssembler, RescheduleAssembler
+
+---
+
+#### **2.6.3.3. Application Layer**
+
+**Aquí se implementan las integraciones con otros bounded contexts (ACL) y los servicios concretos.**
+
+- **Command Services:**  
+  - ServiceRequestCommandService  
+  - OfferCommandService  
+  - BookingCommandService  
+  - RescheduleCommandService  
+  - ServiceOrderCommandService
+
+- **Query Services:**  
+  - ServiceRequestQueryService  
+  - OfferQueryService  
+  - BookingQueryService  
+  - ServiceOrderQueryService
+
+- **Event Handlers:**  
+  - OnOfferAccepted → crea Booking y emite BookingCreatedEvent  
+  - OnBookingConfirmed → usa ScheduleAllocator (ACL) para reservar slot y emite ServiceOrderOpenedEvent  
+  - OnBookingCancelled → usa ScheduleAllocator (ACL) para liberar slot; puede emitir ServiceOrderClosedEvent  
+  - OnWorkshopProjectionUpdated (evento externo proyectado) → ajusta sugerencias de Matching
+
+- **ACL Implementations (implementaciones concretas de las interfaces del Domain Layer):**  
+  - WorkshopCalendarAclAvailabilityService (implementa AvailabilityService)  
+  - WorkshopCalendarAclScheduleAllocator (implementa ScheduleAllocator)  
+  - WorkshopPricingAcl (implementa PricingService)  
+  - PaymentsAcl (si BookingPolicy depende de pago)  
+  - IdentityAcl, NotificationsAcl  
+  - TrustingReputationAcl (dispara invitación a calificar tras cierre)
+
+- **Outbound Services:**  
+  - DomainEventPublisher  
+  - BookingNotificationSender
+
+---
+
+#### **2.6.3.4. Infrastructure Layer**
+
+- **Repositories (implementaciones):**  
+  - ServiceRequestRepository : IServiceRequestRepository  
+  - OfferRepository : IOfferRepository  
+  - BookingRepository : IBookingRepository  
+  - ServiceOrderRepository : IServiceOrderRepository
+
+- **External Services Adapters (utilizados por la Application Layer/ACL):**  
+  - WorkshopCalendarAdapter (conecta con Workshop BC)  
+  - PaymentGatewayAdapter  
+  - MessageBrokerPublisher  
+  - NotificationAdapter
+
+---
 
 #### 2.6.3.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
-<img alt="Component-Vehicle-Maintenance" src="assets\chapter-II-assets\components\structurizr-101398-Component-001.png"/>
+<img alt="Component-Vehicle-Maintenance" src="assets\chapter-II-assets\components\structurizr-101398-Component-003.png"/>
 
 #### 2.6.3.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
 
 ##### 2.6.3.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
-<img alt="Class-Vehicle" src="assets\chapter-II-assets\bc\class-vehicle.png" />
+<img alt="Class-Vehicle" src="assets\chapter-II-assets\bc/class-matching.png" />
 
 ##### 2.6.3.6.2 Bounded Context Database Design Diagram
 <br>
-<img alt="Database-Vehicle" src="assets\chapter-II-assets\bc\db-vehicle.png" />
+<img alt="Database-Vehicle" src="assets\chapter-II-assets\bc\db-matching.png" />
 
-### 2.6.4 Bounded Context: Matching&Booking Context
-<br>
+### **2.6.4. Bounded Context: Workshop**
 
-#### 2.6.4.1 Domain Layer
-<br>
+#### **2.6.4.1. Domain Layer**
 
-#### 2.6.4.2 Interface Layer
-<br>
+Este bounded context cubre la **gestión integral de los talleres (workshops)**: identidad, catálogo de servicios, disponibilidad operativa y personal técnico.  
+Su rol es mantener la información canónica del taller y exponerla a otros bounded contexts como Matching&Booking (para reservas) y Trusting&Reputation (para proyecciones de reputación).  
+No ejecuta procesos de matching, booking ni reputación, pero **publica eventos** que permiten integraciones.
 
-#### 2.6.4.3 Application Layer
-<br>
+---
 
-#### 2.6.4.4 Infrastructure Layer
-<br>
+### **Aggregates**
+
+- **Workshop**  
+  **Propósito:** Entidad raíz que representa un taller registrado en la plataforma.  
+  **Atributos:**  
+  - workshopId: UUID  
+  - legalName: string  
+  - tradeName: string  
+  - taxId: string  
+  - status: WorkshopStatus (Active, Suspended, Deactivated)  
+  - contacts: List<Contact>  
+  - addresses: List<Address>  
+  - certifications: List<Certification>  
+  - operatingPolicy: OperatingPolicy  
+  - capabilities: Capabilities  
+  - services: List<WorkshopService>  
+  **Métodos:**  
+  - amendInformation(delta: WorkshopDelta)  
+  - addService(service: WorkshopService)  
+  - removeService(serviceId: UUID)  
+  - setCapabilities(c: Capabilities)  
+  - activate() / suspend(reason) / deactivate(reason)  
+  **Relaciones:**  
+  - 1 ⟶ * con WorkshopService  
+  - 1 ⟶ 1 con WorkshopSchedule
+
+- **WorkshopSchedule**  
+  **Propósito:** Calendario operativo del taller, con reglas de disponibilidad y excepciones.  
+  **Atributos:**  
+  - workshopId: UUID  
+  - businessHours: List<BusinessWindow>  
+  - exceptions: List<ExceptionWindow>  
+  - timezone: string  
+  **Métodos:**  
+  - updateBusinessHours(windows: List<BusinessWindow>)  
+  - addException(window: ExceptionWindow)  
+  - proposeSlots(constraints: SlotConstraints) → List<AvailabilitySlot>  
+  **Relaciones:**  
+  - 1 ⟶ * con AvailabilitySlot
+
+---
+
+##### **Entities**
+
+- **Mechanic**  
+  **Propósito:** Representa un técnico/mecánico asociado al taller.  
+  **Atributos:**  
+  - mechanicId: UUID  
+  - fullName: string  
+  - skills: List<Skill>  
+  - certifications: List<Certification>  
+  - active: bool  
+  **Métodos:**  
+  - assignSkill(skill: Skill)  
+  - revokeSkill(skill: Skill)
+
+- **WorkshopService**  
+  **Propósito:** Define un servicio que el taller ofrece a los clientes.  
+  **Atributos:**  
+  - serviceId: UUID  
+  - serviceType: ServiceType  
+  - stdDuration: Duration  
+  - basePrice: Money  
+  - requirements: List<Requirement>  
+  - active: bool  
+  **Métodos:**  
+  - changePrice(newPrice: Money)  
+  - activate() / deactivate()
+
+---
+
+##### **Value Objects**
+
+- **Contact** – tipo (Phone, Email, WhatsApp) y valor.  
+- **Address** – line1, city, region, postalCode, country.  
+- **GeoPoint** – latitud, longitud.  
+- **Certification** – código, entidad emisora, vigencia.  
+- **OperatingPolicy** – políticas de operación (cancelación, leadTime, etc.).  
+- **Capabilities** – marcas, tipos de vehículo, equipamiento, capacidad máxima concurrente.  
+- **Equipment** – nombre del equipo, servicios para los que aplica.  
+- **AvailabilitySlot** – slotId, start, end, state (Free, Blocked, Unavailable), reason.  
+- **BusinessWindow** – dayOfWeek, openTime, closeTime.  
+- **ExceptionWindow** – start, end, reason.  
+
+---
+
+##### **Events (Domain Events)**
+
+- WorkshopRegisteredEvent(workshopId, occurredAt)  
+  **Propósito:** Se registró un nuevo taller en la plataforma.  
+- WorkshopInformationAmendedEvent(workshopId, delta, occurredAt)  
+  **Propósito:** Se modificó la información del taller.  
+- WorkshopScheduleUpdatedEvent(workshopId, occurredAt)  
+  **Propósito:** Se actualizó el calendario operativo.  
+- WorkshopAvailabilityBlockedEvent(workshopId, slotId, occurredAt)  
+  **Propósito:** Un slot quedó bloqueado (ej. por booking confirmado).  
+- WorkshopAvailabilityReleasedEvent(workshopId, slotId, occurredAt)  
+  **Propósito:** Un slot bloqueado fue liberado.  
+- MechanicAssignedEvent(workshopId, mechanicId, occurredAt)  
+  **Propósito:** Se asignó un mecánico al taller.  
+- MechanicUnassignedEvent(workshopId, mechanicId, occurredAt)  
+  **Propósito:** Se desasignó un mecánico.  
+- WorkshopDeactivatedEvent(workshopId, occurredAt)  
+  **Propósito:** El taller quedó inactivo.  
+
+---
+
+##### **Services (Domain Interfaces)**
+
+- **ScheduleService**  
+  Métodos:  
+  - isAvailable(workshopId: UUID, slot: TimeRange) → bool  
+  - reserveSlot(workshopId: UUID, slot: TimeRange)  
+  - releaseSlot(workshopId: UUID, slot: TimeRange)  
+  **Propósito:** Gestionar disponibilidad del calendario de talleres.  
+
+- **WorkshopPolicy**  
+  Métodos:  
+  - canActivate(workshopId: UUID) → bool  
+  - canAssignMechanic(workshopId: UUID, mechanicId: UUID) → bool  
+  **Propósito:** Validar reglas de negocio específicas de talleres.  
+
+---
+
+#### **2.6.4.2. Interface Layer**
+
+Capa de exposición de APIs y DTOs para integración con otros contexts.  
+
+- **Controllers**: WorkshopController, ScheduleController, MechanicController.  
+- **Resources**:  
+  - WorkshopResource { workshopId, legalName, status, services, capabilities }  
+  - WorkshopScheduleResource { workshopId, businessHours, exceptions }  
+  - MechanicResource { mechanicId, fullName, skills, active }  
+  - WorkshopServiceResource { serviceId, serviceType, stdDuration, basePrice, active }  
+- **Assemblers**: WorkshopAssembler, ScheduleAssembler, MechanicAssembler, ServiceAssembler.  
+
+---
+
+#### **2.6.4.3. Application Layer**
+
+Implementa los casos de uso del negocio y la orquestación con otros contexts.  
+
+- **Command Services**: WorkshopCommandService, ScheduleCommandService, MechanicCommandService.  
+- **Query Services**: WorkshopQueryService, ScheduleQueryService.  
+- **Event Handlers**:  
+  - OnBookingConfirmed → bloquea slot (ScheduleService).  
+  - OnBookingCancelled → libera slot.  
+  - OnServiceOrderClosed → libera slot.  
+  - OnReviewSubmitted (Trusting&Reputation) → actualiza proyección de reputación.  
+- **ACLs / Adaptadores**:  
+  - MatchingAcl (exposición de servicios y disponibilidad hacia Matching&Booking).  
+  - TrustingReputationAcl (publica información de talleres hacia Trusting&Reputation).  
+
+---
+
+#### **2.6.4.4. Infrastructure Layer**
+
+Implementaciones de persistencia y adaptadores externos.  
+
+- **Repositories**:  
+  - WorkshopRepository : IWorkshopRepository  
+  - ScheduleRepository : IScheduleRepository  
+  - MechanicRepository : IMechanicRepository  
+- **External Adapters**:  
+  - ExternalCertificationAdapter (validación de certificaciones)  
+  - MessageBrokerPublisher (publicación de eventos a otros BCs)  
+
+---
 
 #### 2.6.4.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
-<img alt="Component-Matching-Booking" src="assets\chapter-II-assets\components\structurizr-101398-Component-003.png" />
+<img alt="Component-Matching-Booking" src="assets\chapter-II-assets\components\structurizr-101398-Component-004.png" />
 
 #### 2.6.4.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
 
 ##### 2.6.4.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
-<img alt="Class-Matching" src="assets\chapter-II-assets\bc\class-matching.png" />
+<img alt="Class-Matching" src="assets\chapter-II-assets\bc\class-workshop.png" />
 
 ##### 2.6.4.6.2 Bounded Context Database Design Diagram
 <br>
-<img alt="Database-Matching" src="assets\chapter-II-assets\bc\db-matching.png" />
+<img alt="Database-Matching" src="assets\chapter-II-assets\bc\db-workshop.png" />
 
-### 2.6.5 Bounded Context: Trust&Reputation
-<br>
+### **2.6.5. Bounded Context: Payment**
 
-#### 2.6.5.1 Domain Layer
-<br>
+#### **2.6.5.1. Domain Layer**
 
-#### 2.6.5.2 Interface Layer
-<br>
+Este bounded context cubre la **gestión de suscripciones a la plataforma**, incluyendo la activación, renovación, cancelación y facturación asociada.  
+No gestiona pagos directos entre propietarios y talleres. Su alcance se limita a planes de suscripción de los distintos actores (owners, workshops, administradores).
 
-#### 2.6.5.3 Application Layer
-<br>
+---
 
-#### 2.6.5.4 Infrastructure Layer
-<br>
+### **Aggregates**
+
+- **Subscription**  
+  **Propósito:** Representa una suscripción activa en la plataforma.  
+  **Atributos:**  
+  - subscriptionId: UUID  
+  - subscriberId: UUID (puede ser ownerId o workshopId)  
+  - planId: UUID  
+  - status: SubscriptionStatus (Active, Suspended, Cancelled, Expired)  
+  - startDate: DateTime  
+  - endDate: DateTime  
+  - renewalDate: DateTime  
+  - paymentMethod: PaymentMethod  
+  **Métodos:**  
+  - activate(planId, paymentMethod)  
+  - renew()  
+  - cancel(reason: string)  
+  - suspend(reason: string)  
+  - expire()  
+  **Relaciones:**  
+  - 1 ⟶ 1 con Plan
+
+- **Invoice**  
+  **Propósito:** Documento de facturación generado en cada ciclo de suscripción.  
+  **Atributos:**  
+  - invoiceId: UUID  
+  - subscriptionId: UUID  
+  - amount: Money  
+  - periodStart: DateTime  
+  - periodEnd: DateTime  
+  - issuedAt: DateTime  
+  - status: InvoiceStatus (Issued, Paid, Failed)  
+  **Métodos:**  
+  - markPaid()  
+  - markFailed(reason: string)  
+
+---
+
+##### **Entities**
+
+- **Plan**  
+  **Propósito:** Define las características de un plan de suscripción.  
+  **Atributos:**  
+  - planId: UUID  
+  - name: string  
+  - description: string  
+  - price: Money  
+  - duration: Duration (ej. mensual, anual)  
+  - features: List<Feature>  
+  **Métodos:**  
+  - updateDetails(name, description, price, duration, features)  
+
+---
+
+##### **Value Objects**
+
+- **Money** – amount, currency.  
+- **PaymentMethod** – tipo (Card, PayPal, Transfer), tokenizado.  
+- **Feature** – nombre, descripción.  
+
+---
+
+##### **Events (Domain Events)**
+
+- SubscriptionActivatedEvent(subscriptionId, subscriberId, planId, occurredAt)  
+  **Propósito:** Se activó una nueva suscripción.  
+- SubscriptionRenewedEvent(subscriptionId, planId, renewalDate, occurredAt)  
+  **Propósito:** Se renovó una suscripción existente.  
+- SubscriptionCancelledEvent(subscriptionId, reason, occurredAt)  
+  **Propósito:** Una suscripción fue cancelada.  
+- SubscriptionSuspendedEvent(subscriptionId, reason, occurredAt)  
+  **Propósito:** La suscripción fue suspendida por incumplimiento o fallo de pago.  
+- SubscriptionExpiredEvent(subscriptionId, occurredAt)  
+  **Propósito:** La suscripción llegó a su fin y no fue renovada.  
+- InvoiceIssuedEvent(invoiceId, subscriptionId, amount, occurredAt)  
+  **Propósito:** Se generó una factura.  
+- InvoicePaidEvent(invoiceId, occurredAt)  
+  **Propósito:** Una factura fue pagada correctamente.  
+- InvoiceFailedEvent(invoiceId, reason, occurredAt)  
+  **Propósito:** Falló el cobro de la factura.  
+
+---
+
+##### **Services (Domain Interfaces)**
+
+- **BillingService**  
+  Métodos:  
+  - generateInvoice(subscriptionId: UUID) → Invoice  
+  - charge(invoiceId: UUID, paymentMethod: PaymentMethod) → bool  
+  **Propósito:** Gestiona la facturación y cobro de suscripciones.  
+
+- **SubscriptionPolicy**  
+  Métodos:  
+  - canRenew(subscriptionId: UUID) → bool  
+  - canCancel(subscriptionId: UUID) → bool  
+  **Propósito:** Define reglas de negocio sobre renovación y cancelación.  
+
+---
+
+#### **2.6.5.2. Interface Layer**
+
+Expone endpoints REST/GraphQL para gestión de suscripciones.  
+
+- **Controllers:** SubscriptionController, BillingController  
+- **Resources:**  
+  - SubscriptionResource { subscriptionId, subscriberId, planId, status, startDate, endDate, renewalDate }  
+  - InvoiceResource { invoiceId, subscriptionId, amount, periodStart, periodEnd, status }  
+  - PlanResource { planId, name, description, price, duration, features }  
+- **Assemblers:** SubscriptionAssembler, InvoiceAssembler, PlanAssembler  
+
+---
+
+#### **2.6.5.3. Application Layer**
+
+- **Command Services:**  
+  - SubscriptionCommandService  
+  - BillingCommandService  
+
+- **Query Services:**  
+  - SubscriptionQueryService  
+  - InvoiceQueryService  
+  - PlanQueryService  
+
+- **Event Handlers:**  
+  - OnInvoicePaid → renueva suscripción si aplica.  
+  - OnInvoiceFailed → suspende suscripción.  
+  - OnSubscriptionExpired → genera evento para notificar al usuario.  
+
+- **ACLs:**  
+  - ExternalPaymentGatewayAcl (integra con proveedor de pagos externo).  
+
+---
+
+#### **2.6.5.4. Infrastructure Layer**
+
+Implementaciones de repositorios y adaptadores externos.  
+
+- **Repositories:**  
+  - SubscriptionRepository : ISubscriptionRepository  
+  - InvoiceRepository : IInvoiceRepository  
+  - PlanRepository : IPlanRepository  
+
+- **External Adapters:**  
+  - PaymentGatewayAdapter (Stripe/PayPal/etc.)  
+  - MessageBrokerPublisher (publicación de eventos a otros BCs)  
+
+---
 
 #### 2.6.5.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
-<img alt="Component-Trust" src="assets\chapter-II-assets\components\structurizr-101398-Component-002.png" />
+<img alt="Component-Trust" src="assets\chapter-II-assets\components\structurizr-101398-Component-005.png" />
 
 #### 2.6.5.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
 
 ##### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
-<img alt="Class-trusting" src="assets\chapter-II-assets\bc\class-trusting.png" />
+<img alt="Class-trusting" src="assets\chapter-II-assets\bc\class-payment.png" />
 
 ##### 2.6.5.6.2 Bounded Context Database Design Diagram
 <br>
-<img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-trusting.png" />
+<img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-payment.png" />
 
-### 2.6.6 Bounded Context: Subscription context
-<br>
+### **2.6.6. Bounded Context: Identity & Access Management (IAM)**
 
-#### 2.6.6.1 Domain Layer
-<br>
+#### **2.6.6.1. Domain Layer**
 
-#### 2.6.6.2 Interface Layer
-<br>
+Este bounded context cubre la gestión de identidades y accesos: registro, autenticación, autorización basada en roles y permisos, verificación de correo electrónico y recuperación de credenciales. Es transversal y provee mecanismos de seguridad para el resto de bounded contexts.
 
-#### 2.6.6.3 Application Layer
-<br>
+---
 
-#### 2.6.6.4 Infrastructure Layer
-<br>
+### **Aggregates**
+
+- **UserAccount**  
+  **Propósito:** Representa la cuenta de un usuario.  
+  **Atributos:**  
+  - userId: UUID  
+  - email: Email  
+  - passwordHash: PasswordHash  
+  - status: UserStatus (Active, Inactive, Locked, Deleted, PendingVerification)  
+  - roles: List<RoleAssignment>  
+  - createdAt: DateTime  
+  - lastLoginAt: DateTime?  
+  **Métodos:**  
+  - register(email: Email, passwordHash: PasswordHash)  
+  - authenticate(candidateHash: PasswordHash)  
+  - changePassword(newHash: PasswordHash)  
+  - assignRole(role: Role) / revokeRole(role: Role)  
+  - lock(reason: string) / deactivate() / activate()  
+  - markEmailVerified()  
+  **Relaciones:**  
+  - 1 ⟶ * con RoleAssignment
+
+- **Session**  
+  **Propósito:** Gestiona una sesión autenticada y su token.  
+  **Atributos:**  
+  - sessionId: UUID  
+  - userId: UUID  
+  - token: Token  
+  - issuedAt: DateTime  
+  - expiresAt: DateTime  
+  - status: SessionStatus (Active, Expired, Revoked)  
+  **Métodos:**  
+  - revoke()  
+  - refresh(newExpiresAt: DateTime)
+
+---
+
+### **Entities**
+
+- **Role**  
+  **Propósito:** Agrupa permisos.  
+  **Atributos:**  
+  - roleId: UUID  
+  - name: string  
+  - permissions: List<Permission>
+
+- **RoleAssignment**  
+  **Propósito:** Vincula un usuario con un rol.  
+  **Atributos:**  
+  - assignmentId: UUID  
+  - userId: UUID  
+  - roleId: UUID  
+  - assignedAt: DateTime
+
+- **Permission**  
+  **Propósito:** Define acciones permitidas sobre recursos.  
+  **Atributos:**  
+  - permissionId: UUID  
+  - name: string  
+  - description: string
+
+- **VerificationRequest**  
+  **Propósito:** Gestiona el proceso de verificación de email.  
+  **Atributos:**  
+  - verificationId: UUID  
+  - userId: UUID  
+  - codeOrToken: string  
+  - sentAt: DateTime  
+  - expiresAt: DateTime  
+  - status: VerificationStatus (Pending, Verified, Expired)  
+  **Métodos:**  
+  - verify(codeOrToken: string)  
+  - expire()
+
+- **RecoveryRequest**  
+  **Propósito:** Gestiona la recuperación de contraseña.  
+  **Atributos:**  
+  - recoveryId: UUID  
+  - userId: UUID  
+  - codeOrToken: string  
+  - requestedAt: DateTime  
+  - expiresAt: DateTime  
+  - status: RecoveryStatus (Pending, Completed, Expired, Revoked)  
+  **Métodos:**  
+  - complete(newHash: PasswordHash)  
+  - expire()  
+  - revoke(reason: string)
+
+---
+
+### **Value Objects**
+
+- **Email** – valida formato y unicidad.  
+- **PasswordHash** – encapsula el hash y su algoritmo.  
+- **Token** – valor opaco emitido para sesiones.  
+- **OtpCode** – valor de un solo uso con longitud y política de expiración.
+
+---
+
+### **Events (Domain Events)**
+
+- UserRegisteredEvent(userId, email, occurredAt)  
+  **Propósito:** Se registró un usuario y quedó pendiente de verificación si aplica.
+- EmailVerificationRequestedEvent(userId, verificationId, occurredAt)  
+  **Propósito:** Se generó una solicitud de verificación y se envió el código o enlace.
+- EmailVerifiedEvent(userId, verificationId, occurredAt)  
+  **Propósito:** El correo fue verificado y la cuenta queda habilitada según política.
+- EmailVerificationExpiredEvent(verificationId, occurredAt)  
+  **Propósito:** La solicitud de verificación caducó.
+- UserAuthenticatedEvent(userId, sessionId, occurredAt)  
+  **Propósito:** Inicio de sesión exitoso.
+- UserAuthenticationFailedEvent(email, reason, occurredAt)  
+  **Propósito:** Intento fallido de autenticación.
+- SessionStartedEvent(sessionId, userId, occurredAt)  
+  **Propósito:** Se emitió un token de sesión.
+- SessionRevokedEvent(sessionId, userId, occurredAt)  
+  **Propósito:** Se revocó la sesión.
+- PasswordResetRequestedEvent(userId, recoveryId, occurredAt)  
+  **Propósito:** Se solicitó recuperación de contraseña y se envió código o enlace.
+- PasswordResetCompletedEvent(userId, recoveryId, occurredAt)  
+  **Propósito:** Se cambió la contraseña correctamente.
+- PasswordResetExpiredEvent(recoveryId, occurredAt)  
+  **Propósito:** La solicitud de recuperación expiró sin completarse.
+- UserPasswordChangedEvent(userId, occurredAt)  
+  **Propósito:** Se actualizó la contraseña desde una sesión autenticada.
+- UserLockedEvent(userId, reason, occurredAt)  
+  **Propósito:** La cuenta fue bloqueada por política.
+- RoleAssignedEvent(userId, roleId, occurredAt) / RoleRevokedEvent(userId, roleId, occurredAt)  
+  **Propósito:** Cambió la matriz de permisos efectivos.
+
+---
+
+### **Services (Domain Interfaces)**
+
+- **AuthenticationService**  
+  **Métodos:** authenticate(email, password) → Token; refreshToken(token) → Token; revokeToken(token).  
+  **Propósito:** Autenticación y ciclo de vida de sesiones.
+
+- **AuthorizationService**  
+  **Métodos:** hasPermission(userId, permission) → bool; getRoles(userId) → List<Role>.  
+  **Propósito:** Evaluación de permisos basada en roles.
+
+- **EmailVerificationService**  
+  **Métodos:** request(userId) → VerificationRequest; verify(verificationId, codeOrToken) → bool.  
+  **Propósito:** Orquesta el flujo de verificación de correo.
+
+- **CredentialRecoveryService**  
+  **Métodos:** request(userIdOrEmail) → RecoveryRequest; reset(recoveryId, codeOrToken, newHash) → bool.  
+  **Propósito:** Orquesta el flujo de recuperación de contraseña.
+
+- **PasswordPolicy**  
+  **Métodos:** validate(rawPassword) → bool.  
+  **Propósito:** Reglas de complejidad y caducidad.
+
+- **OtpPolicy**  
+  **Métodos:** generate() → OtpCode; validate(codeOrToken, scope) → bool; ttl(scope) → Duration.  
+  **Propósito:** Política de códigos y tokens de un solo uso.
+
+---
+
+### **Commands (visión global)**
+
+Son records inmutables que expresan intención de cambio. Activan métodos de agregados, validan políticas y emiten eventos.
+
+**Ejemplos:**  
+- RegisterUser(email: string, password: string)  
+- AuthenticateUser(email: string, password: string)  
+- StartSession(userId: UUID)  
+- RevokeSession(sessionId: UUID)  
+- RequestEmailVerification(userId: UUID)  
+- VerifyEmail(verificationId: UUID, codeOrToken: string)  
+- RequestPasswordReset(userIdOrEmail: string)  
+- CompletePasswordReset(recoveryId: UUID, codeOrToken: string, newPassword: string)  
+- ChangePassword(userId: UUID, currentPassword: string, newPassword: string)  
+- AssignRole(userId: UUID, roleId: UUID) / RevokeRole(userId: UUID, roleId: UUID)  
+- LockUser(userId: UUID, reason: string) / ActivateUser(userId: UUID)
+
+---
+
+### **Queries (visión global)**
+
+Consultas inmutables orientadas a lectura.
+
+**Ejemplos:**  
+- GetUserById(userId: UUID)  
+- GetUserByEmail(email: string)  
+- GetUserRoles(userId: UUID)  
+- GetActiveSessions(userId: UUID)  
+- GetVerificationStatus(userId: UUID)  
+- GetRecoveryStatus(recoveryId: UUID)
+
+---
+
+#### **2.6.6.2. Interface Layer**
+
+Capa de exposición de APIs y DTOs.
+
+- **Controllers:** AuthController, UserController, RoleController, VerificationController, RecoveryController  
+- **Resources:**  
+  - UserResource { userId, email, status, roles, createdAt, lastLoginAt }  
+  - SessionResource { sessionId, userId, token, expiresAt, status }  
+  - RoleResource { roleId, name, permissions }  
+  - VerificationResource { verificationId, userId, status, expiresAt }  
+  - RecoveryResource { recoveryId, userId, status, expiresAt }  
+- **Assemblers:** UserAssembler, SessionAssembler, RoleAssembler, VerificationAssembler, RecoveryAssembler
+
+---
+
+#### **2.6.6.3. Application Layer**
+
+Implementa casos de uso y orquestación con servicios externos.
+
+- **Command Services:**  
+  - UserCommandService  
+  - SessionCommandService  
+  - RoleCommandService  
+  - VerificationCommandService  
+  - RecoveryCommandService
+
+- **Query Services:**  
+  - UserQueryService  
+  - RoleQueryService  
+  - SessionQueryService  
+  - VerificationQueryService  
+  - RecoveryQueryService
+
+- **Event Handlers:**  
+  - OnUserRegistered → crea VerificationRequest y dispara EmailVerificationRequestedEvent.  
+  - OnEmailVerified → cambia estado de usuario a Active o mantiene según política.  
+  - OnPasswordResetRequested → genera RecoveryRequest y envía notificación.  
+  - OnPasswordResetCompleted → invalida sesiones previas y registra UserPasswordChangedEvent.  
+  - OnUserPasswordChanged → revoca sesiones activas excepto la actual según política.  
+  - OnAuthenticationFailedThresholdReached → bloquea cuenta y emite UserLockedEvent.
+
+- **ACLs / Integraciones:**  
+  - NotificationAcl (envío de emails/SMS para verificación y recuperación).  
+  - ExternalIdProviderAcl (SSO/OAuth).  
+  - TokenProviderAcl (emisión/validación de JWT o similar).  
+  - AuditTrailAcl (registro de auditoría de seguridad).
+
+---
+
+#### **2.6.6.4. Infrastructure Layer**
+
+Implementaciones concretas de repositorios y adaptadores.
+
+- **Repositories:**  
+  - UserRepository : IUserRepository  
+  - SessionRepository : ISessionRepository  
+  - RoleRepository : IRoleRepository  
+  - VerificationRepository : IVerificationRepository  
+  - RecoveryRepository : IRecoveryRepository
+
+- **External Adapters:**  
+  - EmailProviderAdapter  
+  - SmsProviderAdapter  
+  - TokenProviderAdapter  
+  - MessageBrokerPublisher  
+  - AuditLogAdapter
+
+---
 
 #### 2.6.6.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
-<img alt="Component-Suscription" src="assets\chapter-II-assets\components\structurizr-101398-Component-005.png" />
+<img alt="Component-Suscription" src="assets\chapter-II-assets\components\structurizr-101398-Component-006.png" />
 
 #### 2.6.6.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
 
 ##### 2.6.6.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
-<img alt="Class-payment" src="assets\chapter-II-assets\bc\class-payment.png" />
+<img alt="Class-payment" src="assets\chapter-II-assets\bc\class-iam.png" />
 
 ##### 2.6.6.6.2 Bounded Context Database Design Diagram
 <br>
-<img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-payment.png" />
+<img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-iam.png" />
 
-### 2.6.7 Bounded Context: Notifications context
-<br>
+### **2.6.7. Bounded Context: Notifications**
 
-#### 2.6.7.1 Domain Layer
-<br>
+#### **2.6.7.1. Domain Layer**
 
-#### 2.6.7.2 Interface Layer
-<br>
+Este bounded context gestiona la orquestación y entrega de notificaciones en tres canales: **Push, Email y SMS**.  
+Soporta mensajes transaccionales  y mensajes programados
+No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plantillas, preferencias y políticas de envío.
+---
 
-#### 2.6.7.3 Application Layer
-<br>
+### **Aggregates**
 
-#### 2.6.7.4 Infrastructure Layer
-<br>
+- **Notification**  
+  **Propósito:** Representa una notificación a uno o más destinatarios, con plantillas y rutas por canal.  
+  **Atributos:**  
+  - notificationId: UUID  
+  - correlationId: string  
+  - type: NotificationType (Transactional, Security, Reminder)  
+  - recipients: List<UserId>  
+  - templateId: UUID  
+  - locale: string  
+  - payload: Map<string,string>  
+  - channelPlan: List<ChannelRoute>  
+  - scheduledAt: DateTime?  
+  - priority: Priority (High, Normal, Low)  
+  - status: NotificationStatus (Pending, Scheduled, Sending, Sent, Failed, Cancelled)  
+  **Métodos:**  
+  - schedule(at: DateTime)  
+  - send()  
+  - cancel(reason: string)  
+  - recordAttempt(result: DeliveryResult)
+
+- **Template**  
+  **Propósito:** Contenido parametrizable por **canal** e **idioma**.  
+  **Atributos:**  
+  - templateId: UUID  
+  - key: string (ej. booking.confirmed)  
+  - version: int  
+  - channels: Map<Channel, ChannelTemplate>  
+  - variables: List<VariableSpec>  
+  - defaultLocale: string  
+  **Métodos:**  
+  - render(channel: Channel, locale: string, payload: Map) → RenderedMessage  
+  - newVersion(changes)
+
+---
+
+### **Entities**
+
+- **DeliveryAttempt**  
+  **Propósito:** Trazabilidad por canal/proveedor.  
+  **Atributos:**  
+  - attemptId: UUID  
+  - notificationId: UUID  
+  - channel: Channel (Email, Push, SMS)  
+  - provider: string  
+  - requestedAt: DateTime  
+  - status: AttemptStatus (Queued, Sent, Delivered, Opened, Clicked, Bounced, Failed)  
+  - error?: string  
+  **Métodos:**  
+  - markDelivered()/markOpened()/markClicked(url)  
+  - markBounced(reason)/markFailed(reason)
+
+- **Preference**  
+  **Propósito:** Preferencias por usuario y por tipo/canal.  
+  **Atributos:**  
+  - preferenceId: UUID  
+  - userId: UUID  
+  - locale: string  
+  - channelOptIn: Map<Channel,bool>  
+  - typeOptIn: Map<NotificationType,bool>  
+  - quietHours?: TimeRange  
+  **Métodos:**  
+  - setOptIn(scope, enabled: bool)  
+  - setQuietHours(range: TimeRange)
+
+---
+
+### **Value Objects**
+
+- **ChannelRoute** – channel, primaryProvider, fallbackProviders[], retries, timeoutMs  
+- **RenderedMessage** – subject?, body, richBody?, data?  
+- **VariableSpec** – name, required, description  
+- **DeliveryResult** – status, providerMessageId?, error?  
+- **TimeRange** – startTime, endTime
+
+---
+
+### **Events (Domain Events)**
+
+- NotificationRequestedEvent(notificationId, type, occurredAt)  
+  **Propósito:** Se solicitó una notificación (por evento externo o API).
+- NotificationScheduledEvent(notificationId, scheduledAt, occurredAt)  
+  **Propósito:** Quedó programada para envío futuro.
+- NotificationSentEvent(notificationId, occurredAt)  
+  **Propósito:** Todos los intentos fueron despachados.
+- DeliveryStatusUpdatedEvent(notificationId, attemptId, channel, status, occurredAt)  
+  **Propósito:** Actualización de estado por canal/proveedor.
+- NotificationFailedEvent(notificationId, reason, occurredAt)  
+  **Propósito:** Falló definitivamente tras reintentos.
+- PreferenceChangedEvent(userId, occurredAt)  
+  **Propósito:** Cambiaron las preferencias y afectan el enrutamiento.
+
+---
+
+### **Services (Domain Interfaces)**
+
+- **TemplateRenderer**  
+  - render(templateId, channel, locale, payload) → RenderedMessage  
+  **Propósito:** Resuelve versión/idioma y genera el contenido final.
+
+- **ChannelRouter**  
+  - route(notification: Notification) → List<ChannelRoute>  
+  - dispatch(route, message) → DeliveryResult  
+  **Propósito:** Selección de canal/proveedor, reintentos y failover.
+
+- **PreferenceService**  
+  - check(userId, type, channel, at: DateTime) → bool  
+  **Propósito:** Respeta opt-in/out y quiet hours.
+
+- **SchedulerService**  
+  - enqueue(notificationId, at: DateTime)  
+  **Propósito:** Programa recordatorios y ventanas de envío.
+
+---
+
+#### **2.6.7.2. Interface Layer**
+
+- **Controllers:** NotificationController, TemplateController, PreferenceController  
+- **Resources:**  
+  - NotificationResource { notificationId, type, recipients, templateId, scheduledAt, status }  
+  - TemplateResource { templateId, key, version, channels, variables }  
+  - PreferenceResource { userId, channelOptIn, typeOptIn, quietHours }  
+- **Assemblers:** NotificationAssembler, TemplateAssembler, PreferenceAssembler
+
+---
+
+#### **2.6.7.3. Application Layer**
+
+- **Command Services:** NotificationCommandService, TemplateCommandService, PreferenceCommandService  
+- **Query Services:** NotificationQueryService, TemplateQueryService  
+- **Event Handlers (ejemplos):**  
+  - OnBookingConfirmed (Matching&Booking) → NotificationRequestedEvent (Transactional)  
+  - OnInvoiceIssued (Payment) → NotificationRequestedEvent (Transactional)  
+  - ScheduledReminderTick → envía recordatorios de mantenimiento (Reminder)  
+- **ACLs:**  
+  - EmailProviderAcl, PushProviderAcl, SmsProviderAcl  
+  - IAMAcl (para obtener correos/tokens push verificados)
+
+---
+
+#### **2.6.7.4. Infrastructure Layer**
+
+- **Repositories:** NotificationRepository, TemplateRepository, PreferenceRepository, DeliveryAttemptRepository  
+- **External Adapters:** EmailAdapter, PushAdapter, SmsAdapter, MessageBrokerPublisher, SchedulerAdapter
+
+---
 
 #### 2.6.7.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
@@ -2851,8 +4108,10 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 
 ##### 2.6.7.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
-<img alt="Class-trusting" src="assets\chapter-II-assets\bc\class-payment.png" />
+<img alt="Class-trusting" src="assets\chapter-II-assets\bc/class-notification.png" />
 
 ##### 2.6.7.6.2 Bounded Context Database Design Diagram
 <br>
-<img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-payment.png" />
+<img alt="Database-trusting" src="assets\chapter-II-assets\bc/db-notifications.png" />
+
+---
