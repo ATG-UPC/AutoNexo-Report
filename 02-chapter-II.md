@@ -2079,7 +2079,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 
 <br>
 
-### 2.4.2. Product Backlog
+### 2.4.3. Product Backlog
 
 <table border="1">
   <thead>
@@ -2346,6 +2346,105 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </tbody>
 </table>
 
+## 2.5. Strategic-Level Domain-Driven Design
+<br>
 
+### 2.5.1. EventStorming
+El objetivo de la sesión de EventStorming fue realizar una exploración amplia y colaborativa del dominio del problema de Autonexo. Mediante esta técnica buscamos representar de manera visual y comprensible los distintos eventos que ocurren dentro del flujo de interacción entre usuarios (propietarios de vehículos) y mecánicos, con el fin de identificar oportunidades de mejora, puntos críticos y posibles cambios de estado en el sistema.
+<br>
+- Step 1 – Unstructured Exploration: El equipo colocó en Miro todos los eventos relevantes sin ningún orden, con el fin de vaciar conocimiento y asegurar que ninguna parte del dominio quedara fuera.
+
+<img alt="step1_UnstructuredExploration src="assets\chapter-II-assets\step1_UnsExp.png" />
+<br>
+
+- Step 2 – Timelines: Los eventos fueron organizados en una línea de tiempo, lo que permitió identificar la secuencia lógica de las acciones
+
+<img alt="step2_Timelines" src="assets\chapter-II-assets\step2_Timelines.png" />
+<br>
+
+
+- Step 3 – Pain Points: Se marcaron las dificultades que enfrentan los usuarios, como la demora en la asignación de mecánicos o la falta de transparencia en los precios.
+
+<img alt="step3_PaintPoints" src="assets\chapter-II-assets\step3_PaintPoints.png" />
+<br>
+
+- Step 4 – Pivotal Points: Finalmente, se destacaron los eventos clave que generan cambios de estado.
+<br>
+
+<img alt="step4_PivotalPoints" src="assets\chapter-II-assets\step4_PivotalPoints.png" />
+<br>
+<br>
+
+Esta dinámica permitió al equipo obtener una visión compartida del proceso, detectar problemas reales y reconocer eventos centrales que posteriormente servirían para delimitar los bounded contexts.
+<br>
+
+#### 2.5.1.1 Candidate Context Discovery
+El objetivo de la sesión de Candidate Context Discovery fue identificar y delimitar los bounded contexts del dominio a partir del EventStorming, con el fin de proponer una primera aproximación modular al sistema. Esto asegura que cada parte del dominio tenga responsabilidades claras, evitando la complejidad innecesaria y permitiendo un diseño más mantenible y escalable.
+<br>
+
+Se partió del resultado del EventStorming y se aplicó la técnica Look-for-pivotal-events, donde se tomaron como referencia los eventos clave mediante lineas secantes en los post-its (“Service request submitted”, “Offer accepted”, “Service completed”, etc) para determinar los límites naturales entre contextos.
+
+<img alt="step4_PivotalPoints" src="assets\chapter-II-assets\step4_PivotalPoints.png" />
+
+<br>
+
+A partir de esto, se definieron los bounded contexts:
+- IAM Context: Abarca la lógica de registro/autenticación de usuario
+- Subscription context: Hace referencia al sistmea de suscripción para acceder a las funcionalidades, mediante el cual la aplicación generará ingresos.
+- Workshop Context: Engloba la lógica de los mécnicos dentro de las talleres.
+- Trust&Reputation: Hace referncia al sistmea de calificación a los usuarios.
+- Vehicle&Maintenance: Engloba la lógica acerca de los vehículos y sus mantenimientos.
+- Matching&Booking Context: Engloba el proceso de búsqueda, booking y ejecución del servicio.
+
+#### 2.5.1.2 Domain Message Flows Modeling
+<br>
+
+#### 2.5.1.3 Bounded Context Canvases
+<br>
+
+### 2.5.2. Context Mapping
+<br>
+
+### 2.5.3. Software Architecture
+<br>
+
+#### 2.5.3.1 Software Architecture Context Level Diagrams
+<br>
+
+#### 2.5.3.2 Software Architecture Container Level Diagrams
+<br>
+
+#### 2.5.3.3 Software Architecture Deployment Diagrams
+<br>
+
+## 2.6 Tactical-Level Domain-Driven Design
+<br>
+
+### 2.6.1 Bounded Context: Bounded Context Name
+<br>
+
+#### 2.6.1.1 Domain Layer
+<br>
+
+#### 2.6.1.2 Interface Layer
+<br>
+
+#### 2.6.1.3 Application Layer
+<br>
+
+#### 2.6.1.4 Infrastructure Layer
+<br>
+
+#### 2.6.1.5 Bounded Context Software Architecture Component Level Diagrams
+<br>
+
+#### 2.6.1.6 Bounded Context Software Architecture Code Level Diagrams
+<br>
+
+##### 2.6.1.6.1 Bounded Context Domain Layer Class Diagrams
+<br>
+
+##### 2.6.1.6.2 Bounded Context Database Design Diagram
+<br>
 
 
