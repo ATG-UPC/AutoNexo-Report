@@ -2395,6 +2395,7 @@ A partir de esto, se definieron los bounded contexts:
 - Trust&Reputation: Hace referncia al sistmea de calificación a los usuarios.
 - Vehicle&Maintenance: Engloba la lógica acerca de los vehículos y sus mantenimientos.
 - Matching&Booking Context: Engloba el proceso de búsqueda, booking y ejecución del servicio.
+- Notifications: Hace referencia a las notificaciones del sistema.
 
 #### 2.5.1.2 Domain Message Flows Modeling
 <br>
@@ -2453,6 +2454,8 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 #### 2.6.1.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
+<img alt="Component-IAM" src="assets\chapter-II-assets\components\structurizr-101398-Component-006.png" />
+
 #### 2.6.1.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
 
@@ -2480,6 +2483,8 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 #### 2.6.2.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
+<img alt="Component-Workshops" src="assets\chapter-II-assets\components\structurizr-101398-Component-004.png" />
+
 #### 2.6.2.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
 
@@ -2506,6 +2511,7 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 
 #### 2.6.3.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
+<img alt="Component-Vehicle-Maintenance" src="assets\chapter-II-assets\components\structurizr-101398-Component-001.png"/>
 
 #### 2.6.3.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -2534,6 +2540,8 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 #### 2.6.4.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
+<img alt="Component-Matching-Booking" src="assets\chapter-II-assets\components\structurizr-101398-Component-003.png" />
+
 #### 2.6.4.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
 
@@ -2560,6 +2568,8 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 
 #### 2.6.5.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
+
+<img alt="Component-Trust" src="assets\chapter-II-assets\components\structurizr-101398-Component-002.png" />
 
 #### 2.6.5.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -2588,6 +2598,8 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 #### 2.6.6.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
+<img alt="Component-Suscription" src="assets\chapter-II-assets\components\structurizr-101398-Component-005.png" />
+
 #### 2.6.6.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
 
@@ -2595,4 +2607,33 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 <br>
 
 ##### 2.6.6.6.2 Bounded Context Database Design Diagram
+<br>
+
+### 2.6.7 Bounded Context: Subscription context
+<br>
+
+#### 2.6.7.1 Domain Layer
+<br>
+
+#### 2.6.7.2 Interface Layer
+<br>
+
+#### 2.6.7.3 Application Layer
+<br>
+
+#### 2.6.7.4 Infrastructure Layer
+<br>
+
+#### 2.6.7.5 Bounded Context Software Architecture Component Level Diagrams
+<br>
+
+<img alt="Component-Notifications" src="assets\chapter-II-assets\components\structurizr-101398-Component-007.png" />
+
+#### 2.6.7.6 Bounded Context Software Architecture Code Level Diagrams
+<br>
+
+##### 2.6.7.6.1 Bounded Context Domain Layer Class Diagrams
+<br>
+
+##### 2.6.7.6.2 Bounded Context Database Design Diagram
 <br>
