@@ -17,9 +17,9 @@
       <th></th>
       <th></th>
       <th>AutoNexo <img src="assets\chapter-II-assets\logo-1.png.jpg" alt="Fleetio Logo" height="70" width="120"></th>
-      <th>Fleetio <img src="assets\chapter-II\competidor_1.png" alt="Drivvo Logo" height="70" width="120"></th>
-      <th>Drivvo <img src="assets\chapter-II\competidor_2.png" alt="Drivvo Logo" height="70" width="120"></th>
-      <th>Whip Around <img src="assets\chapter-II\competidor_3.png" alt="Whip Around Logo" height="70" width="120"></th>
+      <th>Fleetio <img src="assets\chapter-II-assets\competidor_1.png" alt="Drivvo Logo" height="70" width="120"></th>
+      <th>Drivvo <img src="assets\chapter-II-assets\competidor_2.png" alt="Drivvo Logo" height="70" width="120"></th>
+      <th>Whip Around <img src="assets\chapter-II-assets\competidor_3.png" alt="Whip Around Logo" height="70" width="120"></th>
     </tr>
     <tr>
       <td><strong>Perfil</strong></td>
@@ -2471,8 +2471,85 @@ A partir de esto, se definieron los bounded contexts:
 - Matching&Booking Context: Engloba el proceso de búsqueda, booking y ejecución del servicio.
 - Notifications: Hace referencia a las notificaciones del sistema.
 
-#### 2.5.1.2 Domain Message Flows Modeling
-<br>
+#### 2.5.1.2. Domain Message Flows Modeling
+
+### **Descripción**
+
+Esta sección describe los flujos de mensajes que se generan entre los Bounded Contexts, mostrando cómo los diferentes dominios del sistema colaboran a través de eventos y comandos. Cada flujo refleja un escenario de negocio completo que integra múltiples contextos en sus interacciones.
+
+### **Escenarios de Integración**
+
+#### **1. Solicitud y Reserva de Mantenimiento**
+
+<img alt="scn_Solicitud y Reserva de Mantenimiento" src="assets\chapter-II-assets\scn_Soli.png" />
+
+**Flujo de Integración:**
+- El propietario solicita crear una reserva en **Matching & Booking(Command → CreateReservation)**
+- **Matching & Booking** valida la información del vehículo consultando a **Vehicle & Maintenance (Query → CheckVehicleData).**
+- **Matching & Booking** envía una consulta de disponibilidad a **Workshop (Query → CheckAvailability).**
+- Si hay disponibilidad,**Workshop** responde con horarios válidos (Event → AvailabilityConfirmed).
+- **Matching & Booking** confirma la reserva y emite ReservationConfirmed.
+- **Notification** escucha el evento y envía una notificación push al propietario y al taller.
+
+
+**Bounded Contexts Involucrados:**
+- Matching & Booking → Vehicle & Maintenance → Workshop → Notification
+
+
+#### **2. Creación de Mantenimiento Confirmado**
+
+<img alt="scn_Creación de Mantenimiento Confirmado" src="assets\chapter-II-assets\scn_Crea.png">
+
+**Flujo de Integración:**
+- Una reserva aceptada en **Matching & Booking (Event → ReservationAccepted)** dispara la orden a **Vehicle & Maintenance (Command → CreateMaintenance).**
+- **Vehicle & Maintenance** genera la checklist inicial y marca el mantenimiento con estado pendiente.
+- **Vehicle & Maintenance** publica el evento (Event → MaintenanceCreated).
+- **Notification** escucha el evento y envía un aviso al propietario.
+
+**Bounded Contexts Involucrados:**
+- Matching & Booking → Vehicle & Maintenance → Notification
+
+
+#### **3. Avance de Mantenimiento y Checklist**
+
+<img alt="scn_Avance de Mantenimiento y Checklist" src="assets\chapter-II-assets\scn_Ava.png">
+
+**Flujo de Integración:**
+- El taller actualiza tareas en la checklist desde **Workshop (Command → UpdateChecklist).**
+- **Vehicle & Maintenance** procesa la actualización (Event → ChecklistUpdated).
+- **Vehicle & Maintenance** publica el avance (Event → MaintenanceProgressed).
+- **Notification** escucha el evento y envía una notificación al propietario sobre los avances.
+
+**Bounded Contexts Involucrados:**
+- Workshop → Vehicle & Maintenance → Notification
+
+
+#### **4. Finalización de Mantenimiento y Actualización de Historial**
+
+<img alt="scn_Finalización de Mantenimiento y Actualización de Historial" src="assets\chapter-II-assets\scn_Fin.png">
+
+**Flujo de Integración:**
+- El mecánico marca la finalización en **Workshop (Command → FinalizeMaintenance).**
+- **Vehicle & Maintenance** registra el evento (Event → MaintenanceFinalized), genera el informe y actualiza el historial del vehículo.
+- **Vehicle & Maintenance** publica el evento (Event → MaintenanceClosed) hacia **Trust & Reputation.**
+- **Notification** escucha el evento y envía un aviso al propietario indicando el cierre del servicio.
+
+**Bounded Contexts Involucrados:**
+- Workshop → Vehicle & Maintenance → Trust & Reputation → Notification
+
+
+#### **5. Calificación y Actualización de Reputación**
+
+<img alt="scn_Calificación y Actualización de Reputación" src="assets\chapter-II-assets\scn_Cal.png">
+
+**Flujo de Integración:**
+- Tras un mantenimiento, el propietario envía una calificación en **Trust & Reputation (Command → RateMechanic).**
+- **Trust & Reputation** actualiza el score y publica (Event → RatingRegistered).
+- **Notification** consume el evento y envía un aviso al taller.
+- De manera análoga, el taller también puede calificar al propietario.
+
+**Bounded Contexts Involucrados:**
+- Trust & Reputation → Notification
 
 #### 2.5.1.3 Bounded Context Canvases
 <br>
