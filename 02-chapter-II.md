@@ -251,7 +251,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <td>La molina </td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-II/Entrevista 1 Propietario.jpg" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-II-assets/Entrevista 1 Propietario.jpg" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Diego Ricra, estudiante de 19 años, utiliza un CR-V 2012 y enfrenta problemas para encontrar talleres cercanos, confiables y con precios justos. Actualmente depende de un mecánico de confianza recomendado por terceros, pero valora la posibilidad de una app que le permita crear solicitudes personalizadas con fotos, ubicación y presupuesto. Prefiere comparar mecánicos por precio y cercanía, pagar con Yape/Plin o efectivo, y recibir actualizaciones constantes mediante fotos o checklist. Considera clave la confianza, la comunicación clara y las experiencias previas de otros usuarios. Espera que la app le brinde rapidez, transparencia y control en todo el proceso de mantenimiento
     </td>
@@ -287,7 +287,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <td>Ate</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-II/Entrevista 2 Propietario.jpg" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-II-assets/Entrevista 2 Propietario.jpg" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Carlos Fredy Camayo, conductor de un Nissan Sunny 2001, enfrenta problemas al encontrar mecánicos confiables, ya que los precios varían y no tiene un taller de confianza. Actualmente se guía por referencias en Facebook, pero valora que una app le permita contactar rápidamente, comparar precios y acceder a soluciones rápidas para problemas comunes. Prefiere personalizar con mecánico favorito, historial de mantenimientos y comparador de repuestos. Pagaría con Yape/QR y espera funciones como buscador de repuestos, citas y soluciones rápidas. Considera esenciales las recomendaciones, precios justos y calificación simple con estrellas y etiquetas.
     </td>
@@ -326,7 +326,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <td>San Luis</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets\chapter-II\Entrevista 3 Mecánico.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets\chapter-II-assets\Entrevista 3 Mecánico.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         El entrevistado, ingeniero en mantenimiento mecánico, señaló como problemas principales la falta de planificación preventiva, la mala comunicación con los conductores y la ausencia de historial organizado de cada vehículo. Consideró esenciales procesos como registro de solicitudes, calendario de mantenimientos, alertas automáticas y reportes de avance. Prefiere interfaces visuales tipo panel con indicadores y acceso rápido al historial, así como notificaciones en tiempo real. También valoró funcionalidades de seguimiento de solicitudes, métodos de pago variados (digitales o tarjeta), retroalimentación clara mediante calificaciones y la posibilidad de organizar trabajos según especialidad y disponibilidad. 
     </td>
@@ -361,7 +361,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <td>Suquillo</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets\chapter-II\Entrevista 4 Mecánico.jpg" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets\chapter-II-assets\Entrevista 4 Mecánico.jpg" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Rando Calero, mecánico especialista en la marca Scania y dueño de un taller con un año en el mercado, destacó que los principales problemas en la gestión del mantenimiento son la falta de planificación preventiva y la dependencia de recordatorios manuales o escáneres del vehículo. Actualmente utilizan WhatsApp y registros básicos para coordinar mantenimientos, pero considera que una app debería centralizar el historial por placa, facilitar la comunicación y agilizar el flujo de trabajo. También valoró que la aplicación sea sencilla, con lenguaje accesible, opciones de retroalimentación de clientes, alertas de mantenimientos próximos y reportes claros para dueños, conductores y talleres. Además, ve como oportunidad incluir funciones de promoción de talleres, estadísticas de satisfacción y un flujo automatizado que informe al cliente en cada etapa del servicio.
     </td>
@@ -473,14 +473,14 @@ Las siguientes User Persona representan a los diferentes tipos de usuarios que i
 <br>
 
 - User Persona de José Quispe (mecánico)
-<img alt="User-Persona-José-Quispe" src="assets\chapter-II\user-persona-jose.jpg" />
+<img alt="User-Persona-José-Quispe" src="assets\chapter-II-assets\user-persona-jose.jpg" />
 
 [Ver mapa user persona hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/1Ng0UPewRqDezQuOSRunusah6vk5xM6lg?usp=sharing)
 
 <br>
 
 - User Persona de Marina Salinas (propietaria)
-<img alt="User-Persona-Marina-Salinas" src="assets\chapter-II\user-persona-marina.jpg" />
+<img alt="User-Persona-Marina-Salinas" src="assets\chapter-II-assets\user-persona-marina.jpg" />
 
 [Ver mapa user persona hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/1Ng0UPewRqDezQuOSRunusah6vk5xM6lg?usp=sharing)
 
@@ -680,6 +680,31 @@ Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagram
 En esta sección, se elaboró un Empathy Map para analizar a nuestros usuarios, comprendiendo completamente el entorno en el que se desenvuelven. Este proceso nos permitirá profundizar en sus necesidades y orientarnos hacia la oferta de servicios que realmente les sean útiles.
 <br>
 
+Para la construcción de los Empathy Maps, el equipo siguió los siguientes pasos:
+
+1.-Preparación: Se revisó la ficha de cada User Persona creada previamente (José Quispe y María Salinas).
+
+2.-Colocar al centro el User Persona: Cada mapa fue desarrollado teniendo al usuario en el centro del análisis, asegurando que sus características, contexto y metas guíen el proceso.
+
+3.-Lluvia de ideas en equipo: Cada integrante compartió observaciones y percepciones sobre el comportamiento, necesidades y frustraciones de los usuarios.
+
+4.-Distribución en secciones: En la herramienta de mapeo se organizaron los aportes respondiendo las preguntas clave:
+
+- ¿Con quién estamos empatizando?
+- ¿Qué necesita hacer?
+- ¿Qué está diciendo?
+- ¿Qué está viendo?
+- ¿Qué está haciendo?
+- ¿Qué está escuchando?
+- ¿Cómo se siente y qué piensa?
+
+
+5.-Identificación de Pains y Gains: Se clasificaron las preocupaciones, frustraciones y motivaciones que influyen en la experiencia del usuario.
+
+6.-Síntesis: Se consolidaron los hallazgos en un mapa final para cada persona.
+
+<br>
+
 - Empathy Map de José Quispe (mecánico)
 <br>
 
@@ -698,6 +723,80 @@ En esta sección, se elaboró un Empathy Map para analizar a nuestros usuarios, 
 
 ### 2.3.5. Ubiquitous Language
 <br>
+1. Matching & Booking Context
+
+- Service Request (Solicitud de servicio): Pedido inicial que realiza un cliente para atender una necesidad de mantenimiento o reparación.
+
+- Offer (Oferta): Propuesta realizada por un taller (workshop) para cubrir un Service Request, incluyendo condiciones de precio y tiempo.
+
+- Booking (Reserva): Confirmación de una oferta aceptada por el cliente.
+
+- Booking Confirmation (Confirmación de reserva): Estado en el que el cliente valida definitivamente la reserva y queda registrada en el sistema.
+
+- Booking Reschedule (Reprogramación de reserva): Cambio de la fecha o franja horaria de una reserva existente.
+
+2. Trust & Reputation Context
+
+- Review (Reseña): Valoración escrita y numérica de un servicio recibido por parte de un cliente.
+
+- Trust Score (Puntaje de confianza): Métrica compuesta que refleja la reputación de un taller, un cliente o un servicio específico, en base a reseñas y comportamientos.
+
+- Reputation (Reputación): Percepción acumulada de la calidad y confiabilidad de un taller u oferente, basada en interacciones previas.
+
+3. Workshop Context
+
+- Workshop (Taller): Negocio o entidad que ofrece servicios de reparación y mantenimiento de vehículos.
+
+- Workshop Schedule (Agenda del taller): Plan de disponibilidad de un taller para aceptar reservas.
+
+- Service Order (Orden de servicio): Documento operativo que organiza y detalla el trabajo a realizar sobre un vehículo dentro de un taller.
+
+- Service Item (Ítem de servicio): Actividad o tarea específica incluida dentro de una orden de servicio (ej. cambio de aceite, alineación de ruedas).
+
+4. Vehicle & Maintenance Context
+
+- Vehicle (Vehículo): Bien físico perteneciente a un cliente, sobre el cual se realizan operaciones de mantenimiento o reparación.
+
+- Maintenance Record (Registro de mantenimiento): Histórico auditable de todas las intervenciones realizadas a un vehículo.
+
+- Check-in (Ingreso): Momento en el cual un vehículo es recibido en el taller para iniciar un servicio.
+
+- Check-out (Salida): Momento en el cual un vehículo es entregado de vuelta al cliente tras completar los servicios.
+
+5. Payment & Subscription Context
+
+- Subscription (Suscripción): Acuerdo recurrente mediante el cual un cliente paga para acceder a beneficios o servicios de la plataforma.
+
+- Payment (Pago): Transacción monetaria realizada por un cliente para activar o renovar una suscripción.
+
+- Invoice (Factura): Documento que refleja el detalle de un pago realizado por un cliente.
+
+- Billing Cycle (Ciclo de facturación): Periodo de tiempo que define cuándo corresponde realizar un cobro por la suscripción.
+
+6. IAM (Identity & Access Management) Context
+
+- User (Usuario): Persona que accede a la plataforma con credenciales únicas.
+
+- Role (Rol): Conjunto de permisos asignados a un usuario que define qué acciones puede realizar.
+
+- Permission (Permiso): Autorización concreta para ejecutar una acción en el sistema.
+
+- Authentication (Autenticación): Proceso de verificar la identidad de un usuario mediante credenciales.
+
+- Authorization (Autorización): Proceso de validar que un usuario tiene permisos para acceder a un recurso o realizar una acción.
+
+7. Notifications Context
+
+- Notification (Notificación): Mensaje enviado a uno o más destinatarios para informar sobre un evento o recordatorio.
+
+- Channel (Canal): Medio a través del cual se entrega una notificación (Push, Email, SMS).
+
+- Template (Plantilla): Formato predefinido de un mensaje utilizado en las notificaciones.
+
+- Reminder (Recordatorio): Tipo de notificación programada que recuerda al cliente un evento próximo (ej. revisión del vehículo).
+
+- Transactional Notification (Notificación transaccional): Mensaje generado automáticamente por un evento del sistema (ej. confirmación de reserva).
+
 
 ## 2.4. Requirements specification
 
@@ -2048,13 +2147,13 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 
 <br>
 
-<img alt="Journey-Map-José-Quispe" src="assets\chapter-II\impact-mapping.png" />
+<img alt="Journey-Map-José-Quispe" src="assets\chapter-II-assets\impact-mapping.png" />
 
 [Ver mapa completo hecho en UxPressia guardado en Drive](https://drive.google.com/file/d/1v3L6OcPESk6r_FUhPRhijSQP3rokYtJJ/view?usp=sharing)
 
 <br>
 
-### 2.4.2. Product Backlog
+### 2.4.3. Product Backlog
 
 <table border="1">
   <thead>
@@ -2321,6 +2420,362 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </tbody>
 </table>
 
+## 2.5. Strategic-Level Domain-Driven Design
+<br>
+
+### 2.5.1. EventStorming
+El objetivo de la sesión de EventStorming fue realizar una exploración amplia y colaborativa del dominio del problema de Autonexo. Mediante esta técnica buscamos representar de manera visual y comprensible los distintos eventos que ocurren dentro del flujo de interacción entre usuarios (propietarios de vehículos) y mecánicos, con el fin de identificar oportunidades de mejora, puntos críticos y posibles cambios de estado en el sistema.
+<br>
+- Step 1 – Unstructured Exploration: El equipo colocó en Miro todos los eventos relevantes sin ningún orden, con el fin de vaciar conocimiento y asegurar que ninguna parte del dominio quedara fuera.
+
+<img alt="step1_UnstructuredExploration src="assets\chapter-II-assets\step1_UnsExp.png" />
+<br>
+
+- Step 2 – Timelines: Los eventos fueron organizados en una línea de tiempo, lo que permitió identificar la secuencia lógica de las acciones
+
+<img alt="step2_Timelines" src="assets\chapter-II-assets\step2_Timelines.png" />
+<br>
 
 
+- Step 3 – Pain Points: Se marcaron las dificultades que enfrentan los usuarios, como la demora en la asignación de mecánicos o la falta de transparencia en los precios.
 
+<img alt="step3_PaintPoints" src="assets\chapter-II-assets\step3_PaintPoints.png" />
+<br>
+
+- Step 4 – Pivotal Points: Finalmente, se destacaron los eventos clave que generan cambios de estado.
+<br>
+
+<img alt="step4_PivotalPoints" src="assets\chapter-II-assets\step4_PivotalPoints.png" />
+<br>
+<br>
+
+Esta dinámica permitió al equipo obtener una visión compartida del proceso, detectar problemas reales y reconocer eventos centrales que posteriormente servirían para delimitar los bounded contexts.
+<br>
+
+#### 2.5.1.1 Candidate Context Discovery
+El objetivo de la sesión de Candidate Context Discovery fue identificar y delimitar los bounded contexts del dominio a partir del EventStorming, con el fin de proponer una primera aproximación modular al sistema. Esto asegura que cada parte del dominio tenga responsabilidades claras, evitando la complejidad innecesaria y permitiendo un diseño más mantenible y escalable.
+<br>
+
+Se partió del resultado del EventStorming y se aplicó la técnica Look-for-pivotal-events, donde se tomaron como referencia los eventos clave mediante lineas secantes en los post-its (“Service request submitted”, “Offer accepted”, “Service completed”, etc) para determinar los límites naturales entre contextos.
+
+<img alt="step4_PivotalPoints" src="assets\chapter-II-assets\step4_PivotalPoints.png" />
+
+<br>
+
+A partir de esto, se definieron los bounded contexts:
+- IAM Context: Abarca la lógica de registro/autenticación de usuario
+- Subscription context: Hace referencia al sistmea de suscripción para acceder a las funcionalidades, mediante el cual la aplicación generará ingresos.
+- Workshop Context: Engloba la lógica de los mécnicos dentro de las talleres.
+- Trust&Reputation: Hace referncia al sistmea de calificación a los usuarios.
+- Vehicle&Maintenance: Engloba la lógica acerca de los vehículos y sus mantenimientos.
+- Matching&Booking Context: Engloba el proceso de búsqueda, booking y ejecución del servicio.
+- Notifications: Hace referencia a las notificaciones del sistema.
+
+#### 2.5.1.2 Domain Message Flows Modeling
+<br>
+
+#### 2.5.1.3 Bounded Context Canvases
+<br>
+
+### 2.5.2. Context Mapping
+<br>
+
+El Context Mapping en Domain-Driven Design (DDD) representa explícitamente cómo interactúan los bounded contexts entre sí, definiendo contratos, direcciones de influencia (upstream/downstream) y patrones de integración. Este mapeo permite identificar qué contextos requieren estandarización, cuáles deben protegerse mediante traducción (Anti-Corruption Layer), y dónde preservar independencia para asegurar que cada contexto pueda evolucionar de forma predecible y segura.
+
+En Autonexo, los contexts se organizaron considerando los siguientes patrones:
+
+**Context Map Patterns**
+
+**1. Open Host Service (OHS)**
+Un contexto upstream expone servicios mediante contratos estables (APIs, endpoints o eventos), de forma que múltiples consumidores downstream pueden integrarse sin conocer su modelo interno.
+
+Uso en Autonexo:
+El IAM Context actúa como OHS, proveyendo autenticación, autorización y gestión de roles. Todos los contexts (Matching & Booking, Vehicle & Maintenance, Workshop, Subscription, Trust & Reputation, Notification) consumen estos servicios para validar identidad y permisos.
+
+<img alt="OHS" src="assets\chapter-II-assets\ctxMapPatt_OHS.png" />
+
+**2. Customer/Supplier (C/S)**
+Relación proveedor–cliente entre contextos. El Supplier prioriza parte de su backlog en función de las necesidades del Customer, adaptando sus capacidades para habilitar los objetivos del cliente.
+
+Uso en Autonexo:
+Matching & Booking (Customer) – Workshop (Supplier): el Workshop Context provee disponibilidad de agenda y catálogo de servicios, mientras el Booking Context depende de esos datos para confirmar reservas de manera confiable.
+
+Subscription (Customer) – Workshop (Supplier): las suscripciones otorgan beneficios como prioridad de agenda o descuentos, los cuales dependen de la configuración y condiciones publicadas por los talleres en el Workshop Context.
+
+<img alt="Customer/Supplier" src="assets\chapter-II-assets\ctxMapPatt_CS.png" />
+
+**3. Shared Kernel (SK)**
+Dos contexts comparten un submodelo común, usualmente entidades o identificadores críticos, que deben mantenerse consistentes para evitar duplicación y divergencia.
+
+Uso en Autonexo:
+El Matching & Booking Context y el Vehicle & Maintenance Context comparten identificadores de vehículos y mantenimientos confirmados, de modo que ambos contexts operan sobre la misma referencia, garantizando consistencia y evitando duplicación de datos.
+
+<img alt="ctxMapPatt_SharedKernel" src="assets\chapter-II-assets\ctxMapPatt_SK.png" />
+
+**4. Conformist (CF)**
+El downstream adopta el modelo del upstream sin traducción, lo que facilita una integración rápida, pero sacrifica independencia, ya que hereda sus decisiones de diseño.
+
+Uso en Autonexo:
+El Subscription Context se adapta directamente al modelo de Matching and Booking Context (ejemplo: estados de reserva como activa, cancelada, finalizada) sin redefinirlos ni transformarlos. Esto agiliza la integración, pero obliga a Subscription a depender de los cambios en Booking.
+
+<img alt="ctxMapPatt_Conformist" src="assets\chapter-II-assets\ctxMapPatt_CF.png" />
+
+**5. Publisher/Subscriber (Event-Driven)**
+Un contexto upstream publica eventos que otros contextos downstream consumen de manera asíncrona, desacoplando la integración. Esto permite que el publisher no dependa de los consumidores y que múltiples contexts reaccionen a un mismo evento.
+
+Uso en Autonexo:
+El Notification Context actúa como subscriber de eventos generados por otros contexts:
+-Matching and Booking Context → publica el evento Reserva Creada.
+-Vehicle and Maintenance Context → publica el evento Mantenimiento Finalizado.
+-Trust and Reputation Context → publica el evento Calificación Registrada.
+
+El Notification Context escucha estos eventos y envía notificaciones push a los usuarios afectados.
+
+<img alt="ctxMapPatt_Publisher/Subscriber" src="assets\chapter-II-assets\ctxMapPatt_PS.png" />
+
+
+### 2.5.3. Software Architecture
+En esta sección se expone la arquitectura de software de la solución Red Carga, aplicando el enfoque del Modelo C4. Se incluyen los diagramas de Contexto, Contenedores y Despliegue, los cuales permiten comprender el sistema desde una visión general hasta su implementación en un entorno productivo. Cada nivel representa a los actores involucrados, las tecnologías clave y las interacciones con los servicios externos que forman parte del alcance del proyecto.
+<br>
+
+#### 2.5.3.1 Software Architecture Context Level Diagrams
+El siguiente diagrama muestra de manera general Autonexo conectado con los sistemas externos y los usuarios que intervienen
+<br>
+<img alt="Context-Diagram" src="assets\chapter-II-assets\structurizr-101398-SystemContext-001.png" />
+
+#### 2.5.3.2 Software Architecture Container Level Diagrams
+El diagrama C2 profundiza en el sistema y representa la arquitectura general del software, destacando las principales tecnologías empleadas y la manera en que estas se interconectan.
+<br>
+<img alt="Container-Diagram" src="assets\chapter-II-assets\c4\structurizr-101398-Container-001.png" />
+
+#### 2.5.3.3 Software Architecture Deployment Diagrams
+El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados en el entorno de desarrollo y producción. Además, se muestran los servicios externos, la base de datos y el storage.
+<br>
+- Sistema en entorno de desarrollo:
+<br>
+<img alt="Deployment-Diagram-1" src="assets\chapter-II-assets\c4\structurizr-101398-SystemContext-001.png" />
+
+<br>
+
+- Sistema en entorno de producción:
+<br>
+<img alt="Deployment-Diagram-2" src="assets\chapter-II-assets\c4\structurizr-101398-Deployment-002.png" />
+
+## 2.6 Tactical-Level Domain-Driven Design
+<br>
+
+### 2.6.1 Bounded Context: IAM Context
+<br>
+
+#### 2.6.1.1 Domain Layer
+<br>
+
+#### 2.6.1.2 Interface Layer
+<br>
+
+#### 2.6.1.3 Application Layer
+<br>
+
+#### 2.6.1.4 Infrastructure Layer
+<br>
+
+#### 2.6.1.5 Bounded Context Software Architecture Component Level Diagrams
+<br>
+
+<img alt="Component-IAM" src="assets\chapter-II-assets\components\structurizr-101398-Component-006.png" />
+
+#### 2.6.1.6 Bounded Context Software Architecture Code Level Diagrams
+<br>
+
+##### 2.6.1.6.1 Bounded Context Domain Layer Class Diagrams
+<br>
+<img alt="Class-IAM" src="assets\chapter-II-assets\bc\class-iam.png" />
+
+##### 2.6.1.6.2 Bounded Context Database Design Diagram
+<br>
+<img alt="Database-IAM" src="assets\chapter-II-assets\bc\db-iam.png" />
+
+### 2.6.2 Bounded Context: Workshop Context
+<br>
+
+#### 2.6.2.1 Domain Layer
+<br>
+
+#### 2.6.2.2 Interface Layer
+<br>
+
+#### 2.6.2.3 Application Layer
+<br>
+
+#### 2.6.2.4 Infrastructure Layer
+<br>
+
+#### 2.6.2.5 Bounded Context Software Architecture Component Level Diagrams
+<br>
+
+<img alt="Component-Workshops" src="assets\chapter-II-assets\components\structurizr-101398-Component-004.png" />
+
+#### 2.6.2.6 Bounded Context Software Architecture Code Level Diagrams
+<br>
+
+##### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams
+<br>
+<img alt="Class-Workshop" src="assets\chapter-II-assets\bc\class-workshop.png" />
+
+##### 2.6.2.6.2 Bounded Context Database Design Diagram
+<br>
+<img alt="Database-Workshop" src="assets\chapter-II-assets\bc\db-workshop.png" />
+
+### 2.6.3 Bounded Context: Vehicle&Maintenance
+<br>
+
+#### 2.6.3.1 Domain Layer
+<br>
+
+#### 2.6.3.2 Interface Layer
+<br>
+
+#### 2.6.3.3 Application Layer
+<br>
+
+#### 2.6.3.4 Infrastructure Layer
+<br>
+
+#### 2.6.3.5 Bounded Context Software Architecture Component Level Diagrams
+<br>
+<img alt="Component-Vehicle-Maintenance" src="assets\chapter-II-assets\components\structurizr-101398-Component-001.png"/>
+
+#### 2.6.3.6 Bounded Context Software Architecture Code Level Diagrams
+<br>
+
+##### 2.6.3.6.1 Bounded Context Domain Layer Class Diagrams
+<br>
+<img alt="Class-Vehicle" src="assets\chapter-II-assets\bc\class-vehicle.png" />
+
+##### 2.6.3.6.2 Bounded Context Database Design Diagram
+<br>
+<img alt="Database-Vehicle" src="assets\chapter-II-assets\bc\db-vehicle.png" />
+
+### 2.6.4 Bounded Context: Matching&Booking Context
+<br>
+
+#### 2.6.4.1 Domain Layer
+<br>
+
+#### 2.6.4.2 Interface Layer
+<br>
+
+#### 2.6.4.3 Application Layer
+<br>
+
+#### 2.6.4.4 Infrastructure Layer
+<br>
+
+#### 2.6.4.5 Bounded Context Software Architecture Component Level Diagrams
+<br>
+
+<img alt="Component-Matching-Booking" src="assets\chapter-II-assets\components\structurizr-101398-Component-003.png" />
+
+#### 2.6.4.6 Bounded Context Software Architecture Code Level Diagrams
+<br>
+
+##### 2.6.4.6.1 Bounded Context Domain Layer Class Diagrams
+<br>
+<img alt="Class-Matching" src="assets\chapter-II-assets\bc\class-matching.png" />
+
+##### 2.6.4.6.2 Bounded Context Database Design Diagram
+<br>
+<img alt="Database-Matching" src="assets\chapter-II-assets\bc\db-matching.png" />
+
+### 2.6.5 Bounded Context: Trust&Reputation
+<br>
+
+#### 2.6.5.1 Domain Layer
+<br>
+
+#### 2.6.5.2 Interface Layer
+<br>
+
+#### 2.6.5.3 Application Layer
+<br>
+
+#### 2.6.5.4 Infrastructure Layer
+<br>
+
+#### 2.6.5.5 Bounded Context Software Architecture Component Level Diagrams
+<br>
+
+<img alt="Component-Trust" src="assets\chapter-II-assets\components\structurizr-101398-Component-002.png" />
+
+#### 2.6.5.6 Bounded Context Software Architecture Code Level Diagrams
+<br>
+
+##### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams
+<br>
+<img alt="Class-trusting" src="assets\chapter-II-assets\bc\class-trusting.png" />
+
+##### 2.6.5.6.2 Bounded Context Database Design Diagram
+<br>
+<img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-trusting.png" />
+
+### 2.6.6 Bounded Context: Subscription context
+<br>
+
+#### 2.6.6.1 Domain Layer
+<br>
+
+#### 2.6.6.2 Interface Layer
+<br>
+
+#### 2.6.6.3 Application Layer
+<br>
+
+#### 2.6.6.4 Infrastructure Layer
+<br>
+
+#### 2.6.6.5 Bounded Context Software Architecture Component Level Diagrams
+<br>
+
+<img alt="Component-Suscription" src="assets\chapter-II-assets\components\structurizr-101398-Component-005.png" />
+
+#### 2.6.6.6 Bounded Context Software Architecture Code Level Diagrams
+<br>
+
+##### 2.6.6.6.1 Bounded Context Domain Layer Class Diagrams
+<br>
+<img alt="Class-payment" src="assets\chapter-II-assets\bc\class-payment.png" />
+
+##### 2.6.6.6.2 Bounded Context Database Design Diagram
+<br>
+<img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-payment.png" />
+
+### 2.6.7 Bounded Context: Notifications context
+<br>
+
+#### 2.6.7.1 Domain Layer
+<br>
+
+#### 2.6.7.2 Interface Layer
+<br>
+
+#### 2.6.7.3 Application Layer
+<br>
+
+#### 2.6.7.4 Infrastructure Layer
+<br>
+
+#### 2.6.7.5 Bounded Context Software Architecture Component Level Diagrams
+<br>
+
+<img alt="Component-Notifications" src="assets\chapter-II-assets\components\structurizr-101398-Component-007.png" />
+
+#### 2.6.7.6 Bounded Context Software Architecture Code Level Diagrams
+<br>
+
+##### 2.6.7.6.1 Bounded Context Domain Layer Class Diagrams
+<br>
+<img alt="Class-trusting" src="assets\chapter-II-assets\bc\class-payment.png" />
+
+##### 2.6.7.6.2 Bounded Context Database Design Diagram
+<br>
+<img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-payment.png" />
