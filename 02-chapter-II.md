@@ -251,7 +251,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <td>La molina </td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-II/Entrevista 1 Propietario.jpg" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-II-assets/Entrevista 1 Propietario.jpg" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Diego Ricra, estudiante de 19 años, utiliza un CR-V 2012 y enfrenta problemas para encontrar talleres cercanos, confiables y con precios justos. Actualmente depende de un mecánico de confianza recomendado por terceros, pero valora la posibilidad de una app que le permita crear solicitudes personalizadas con fotos, ubicación y presupuesto. Prefiere comparar mecánicos por precio y cercanía, pagar con Yape/Plin o efectivo, y recibir actualizaciones constantes mediante fotos o checklist. Considera clave la confianza, la comunicación clara y las experiencias previas de otros usuarios. Espera que la app le brinde rapidez, transparencia y control en todo el proceso de mantenimiento
     </td>
@@ -287,7 +287,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <td>Ate</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-II/Entrevista 2 Propietario.jpg" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-II-assets/Entrevista 2 Propietario.jpg" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Carlos Fredy Camayo, conductor de un Nissan Sunny 2001, enfrenta problemas al encontrar mecánicos confiables, ya que los precios varían y no tiene un taller de confianza. Actualmente se guía por referencias en Facebook, pero valora que una app le permita contactar rápidamente, comparar precios y acceder a soluciones rápidas para problemas comunes. Prefiere personalizar con mecánico favorito, historial de mantenimientos y comparador de repuestos. Pagaría con Yape/QR y espera funciones como buscador de repuestos, citas y soluciones rápidas. Considera esenciales las recomendaciones, precios justos y calificación simple con estrellas y etiquetas.
     </td>
@@ -326,7 +326,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <td>San Luis</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets\chapter-II\Entrevista 3 Mecánico.png" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets\chapter-II-assets\Entrevista 3 Mecánico.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         El entrevistado, ingeniero en mantenimiento mecánico, señaló como problemas principales la falta de planificación preventiva, la mala comunicación con los conductores y la ausencia de historial organizado de cada vehículo. Consideró esenciales procesos como registro de solicitudes, calendario de mantenimientos, alertas automáticas y reportes de avance. Prefiere interfaces visuales tipo panel con indicadores y acceso rápido al historial, así como notificaciones en tiempo real. También valoró funcionalidades de seguimiento de solicitudes, métodos de pago variados (digitales o tarjeta), retroalimentación clara mediante calificaciones y la posibilidad de organizar trabajos según especialidad y disponibilidad. 
     </td>
@@ -361,7 +361,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
     <td>Suquillo</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets\chapter-II\Entrevista 4 Mecánico.jpg" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets\chapter-II-assets\Entrevista 4 Mecánico.jpg" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
         Rando Calero, mecánico especialista en la marca Scania y dueño de un taller con un año en el mercado, destacó que los principales problemas en la gestión del mantenimiento son la falta de planificación preventiva y la dependencia de recordatorios manuales o escáneres del vehículo. Actualmente utilizan WhatsApp y registros básicos para coordinar mantenimientos, pero considera que una app debería centralizar el historial por placa, facilitar la comunicación y agilizar el flujo de trabajo. También valoró que la aplicación sea sencilla, con lenguaje accesible, opciones de retroalimentación de clientes, alertas de mantenimientos próximos y reportes claros para dueños, conductores y talleres. Además, ve como oportunidad incluir funciones de promoción de talleres, estadísticas de satisfacción y un flujo automatizado que informe al cliente en cada etapa del servicio.
     </td>
@@ -473,14 +473,14 @@ Las siguientes User Persona representan a los diferentes tipos de usuarios que i
 <br>
 
 - User Persona de José Quispe (mecánico)
-<img alt="User-Persona-José-Quispe" src="assets\chapter-II\user-persona-jose.jpg" />
+<img alt="User-Persona-José-Quispe" src="assets\chapter-II-assets\user-persona-jose.jpg" />
 
 [Ver mapa user persona hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/1Ng0UPewRqDezQuOSRunusah6vk5xM6lg?usp=sharing)
 
 <br>
 
 - User Persona de Marina Salinas (propietaria)
-<img alt="User-Persona-Marina-Salinas" src="assets\chapter-II\user-persona-marina.jpg" />
+<img alt="User-Persona-Marina-Salinas" src="assets\chapter-II-assets\user-persona-marina.jpg" />
 
 [Ver mapa user persona hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/1Ng0UPewRqDezQuOSRunusah6vk5xM6lg?usp=sharing)
 
@@ -723,6 +723,80 @@ Para la construcción de los Empathy Maps, el equipo siguió los siguientes paso
 
 ### 2.3.5. Ubiquitous Language
 <br>
+1. Matching & Booking Context
+
+- Service Request (Solicitud de servicio): Pedido inicial que realiza un cliente para atender una necesidad de mantenimiento o reparación.
+
+- Offer (Oferta): Propuesta realizada por un taller (workshop) para cubrir un Service Request, incluyendo condiciones de precio y tiempo.
+
+- Booking (Reserva): Confirmación de una oferta aceptada por el cliente.
+
+- Booking Confirmation (Confirmación de reserva): Estado en el que el cliente valida definitivamente la reserva y queda registrada en el sistema.
+
+- Booking Reschedule (Reprogramación de reserva): Cambio de la fecha o franja horaria de una reserva existente.
+
+2. Trust & Reputation Context
+
+- Review (Reseña): Valoración escrita y numérica de un servicio recibido por parte de un cliente.
+
+- Trust Score (Puntaje de confianza): Métrica compuesta que refleja la reputación de un taller, un cliente o un servicio específico, en base a reseñas y comportamientos.
+
+- Reputation (Reputación): Percepción acumulada de la calidad y confiabilidad de un taller u oferente, basada en interacciones previas.
+
+3. Workshop Context
+
+- Workshop (Taller): Negocio o entidad que ofrece servicios de reparación y mantenimiento de vehículos.
+
+- Workshop Schedule (Agenda del taller): Plan de disponibilidad de un taller para aceptar reservas.
+
+- Service Order (Orden de servicio): Documento operativo que organiza y detalla el trabajo a realizar sobre un vehículo dentro de un taller.
+
+- Service Item (Ítem de servicio): Actividad o tarea específica incluida dentro de una orden de servicio (ej. cambio de aceite, alineación de ruedas).
+
+4. Vehicle & Maintenance Context
+
+- Vehicle (Vehículo): Bien físico perteneciente a un cliente, sobre el cual se realizan operaciones de mantenimiento o reparación.
+
+- Maintenance Record (Registro de mantenimiento): Histórico auditable de todas las intervenciones realizadas a un vehículo.
+
+- Check-in (Ingreso): Momento en el cual un vehículo es recibido en el taller para iniciar un servicio.
+
+- Check-out (Salida): Momento en el cual un vehículo es entregado de vuelta al cliente tras completar los servicios.
+
+5. Payment & Subscription Context
+
+- Subscription (Suscripción): Acuerdo recurrente mediante el cual un cliente paga para acceder a beneficios o servicios de la plataforma.
+
+- Payment (Pago): Transacción monetaria realizada por un cliente para activar o renovar una suscripción.
+
+- Invoice (Factura): Documento que refleja el detalle de un pago realizado por un cliente.
+
+- Billing Cycle (Ciclo de facturación): Periodo de tiempo que define cuándo corresponde realizar un cobro por la suscripción.
+
+6. IAM (Identity & Access Management) Context
+
+- User (Usuario): Persona que accede a la plataforma con credenciales únicas.
+
+- Role (Rol): Conjunto de permisos asignados a un usuario que define qué acciones puede realizar.
+
+- Permission (Permiso): Autorización concreta para ejecutar una acción en el sistema.
+
+- Authentication (Autenticación): Proceso de verificar la identidad de un usuario mediante credenciales.
+
+- Authorization (Autorización): Proceso de validar que un usuario tiene permisos para acceder a un recurso o realizar una acción.
+
+7. Notifications Context
+
+- Notification (Notificación): Mensaje enviado a uno o más destinatarios para informar sobre un evento o recordatorio.
+
+- Channel (Canal): Medio a través del cual se entrega una notificación (Push, Email, SMS).
+
+- Template (Plantilla): Formato predefinido de un mensaje utilizado en las notificaciones.
+
+- Reminder (Recordatorio): Tipo de notificación programada que recuerda al cliente un evento próximo (ej. revisión del vehículo).
+
+- Transactional Notification (Notificación transaccional): Mensaje generado automáticamente por un evento del sistema (ej. confirmación de reserva).
+
 
 ## 2.4. Requirements specification
 
@@ -2073,7 +2147,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 
 <br>
 
-<img alt="Journey-Map-José-Quispe" src="assets\chapter-II\impact-mapping.png" />
+<img alt="Journey-Map-José-Quispe" src="assets\chapter-II-assets\impact-mapping.png" />
 
 [Ver mapa completo hecho en UxPressia guardado en Drive](https://drive.google.com/file/d/1v3L6OcPESk6r_FUhPRhijSQP3rokYtJJ/view?usp=sharing)
 
@@ -2405,6 +2479,60 @@ A partir de esto, se definieron los bounded contexts:
 
 ### 2.5.2. Context Mapping
 <br>
+
+El Context Mapping en Domain-Driven Design (DDD) representa explícitamente cómo interactúan los bounded contexts entre sí, definiendo contratos, direcciones de influencia (upstream/downstream) y patrones de integración. Este mapeo permite identificar qué contextos requieren estandarización, cuáles deben protegerse mediante traducción (Anti-Corruption Layer), y dónde preservar independencia para asegurar que cada contexto pueda evolucionar de forma predecible y segura.
+
+En Autonexo, los contexts se organizaron considerando los siguientes patrones:
+
+**Context Map Patterns**
+
+**1. Open Host Service (OHS)**
+Un contexto upstream expone servicios mediante contratos estables (APIs, endpoints o eventos), de forma que múltiples consumidores downstream pueden integrarse sin conocer su modelo interno.
+
+Uso en Autonexo:
+El IAM Context actúa como OHS, proveyendo autenticación, autorización y gestión de roles. Todos los contexts (Matching & Booking, Vehicle & Maintenance, Workshop, Subscription, Trust & Reputation, Notification) consumen estos servicios para validar identidad y permisos.
+
+<img alt="OHS" src="assets\chapter-II-assets\ctxMapPatt_OHS.png" />
+
+**2. Customer/Supplier (C/S)**
+Relación proveedor–cliente entre contextos. El Supplier prioriza parte de su backlog en función de las necesidades del Customer, adaptando sus capacidades para habilitar los objetivos del cliente.
+
+Uso en Autonexo:
+Matching & Booking (Customer) – Workshop (Supplier): el Workshop Context provee disponibilidad de agenda y catálogo de servicios, mientras el Booking Context depende de esos datos para confirmar reservas de manera confiable.
+
+Subscription (Customer) – Workshop (Supplier): las suscripciones otorgan beneficios como prioridad de agenda o descuentos, los cuales dependen de la configuración y condiciones publicadas por los talleres en el Workshop Context.
+
+<img alt="Customer/Supplier" src="assets\chapter-II-assets\ctxMapPatt_CS.png" />
+
+**3. Shared Kernel (SK)**
+Dos contexts comparten un submodelo común, usualmente entidades o identificadores críticos, que deben mantenerse consistentes para evitar duplicación y divergencia.
+
+Uso en Autonexo:
+El Matching & Booking Context y el Vehicle & Maintenance Context comparten identificadores de vehículos y mantenimientos confirmados, de modo que ambos contexts operan sobre la misma referencia, garantizando consistencia y evitando duplicación de datos.
+
+<img alt="ctxMapPatt_SharedKernel" src="assets\chapter-II-assets\ctxMapPatt_SK.png" />
+
+**4. Conformist (CF)**
+El downstream adopta el modelo del upstream sin traducción, lo que facilita una integración rápida, pero sacrifica independencia, ya que hereda sus decisiones de diseño.
+
+Uso en Autonexo:
+El Subscription Context se adapta directamente al modelo de Matching and Booking Context (ejemplo: estados de reserva como activa, cancelada, finalizada) sin redefinirlos ni transformarlos. Esto agiliza la integración, pero obliga a Subscription a depender de los cambios en Booking.
+
+<img alt="ctxMapPatt_Conformist" src="assets\chapter-II-assets\ctxMapPatt_CF.png" />
+
+**5. Publisher/Subscriber (Event-Driven)**
+Un contexto upstream publica eventos que otros contextos downstream consumen de manera asíncrona, desacoplando la integración. Esto permite que el publisher no dependa de los consumidores y que múltiples contexts reaccionen a un mismo evento.
+
+Uso en Autonexo:
+El Notification Context actúa como subscriber de eventos generados por otros contexts:
+-Matching and Booking Context → publica el evento Reserva Creada.
+-Vehicle and Maintenance Context → publica el evento Mantenimiento Finalizado.
+-Trust and Reputation Context → publica el evento Calificación Registrada.
+
+El Notification Context escucha estos eventos y envía notificaciones push a los usuarios afectados.
+
+<img alt="ctxMapPatt_Publisher/Subscriber" src="assets\chapter-II-assets\ctxMapPatt_PS.png" />
+
 
 ### 2.5.3. Software Architecture
 En esta sección se expone la arquitectura de software de la solución Red Carga, aplicando el enfoque del Modelo C4. Se incluyen los diagramas de Contexto, Contenedores y Despliegue, los cuales permiten comprender el sistema desde una visión general hasta su implementación en un entorno productivo. Cada nivel representa a los actores involucrados, las tecnologías clave y las interacciones con los servicios externos que forman parte del alcance del proyecto.
