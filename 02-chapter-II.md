@@ -680,6 +680,31 @@ Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagram
 En esta sección, se elaboró un Empathy Map para analizar a nuestros usuarios, comprendiendo completamente el entorno en el que se desenvuelven. Este proceso nos permitirá profundizar en sus necesidades y orientarnos hacia la oferta de servicios que realmente les sean útiles.
 <br>
 
+Para la construcción de los Empathy Maps, el equipo siguió los siguientes pasos:
+
+1.-Preparación: Se revisó la ficha de cada User Persona creada previamente (José Quispe y María Salinas).
+
+2.-Colocar al centro el User Persona: Cada mapa fue desarrollado teniendo al usuario en el centro del análisis, asegurando que sus características, contexto y metas guíen el proceso.
+
+3.-Lluvia de ideas en equipo: Cada integrante compartió observaciones y percepciones sobre el comportamiento, necesidades y frustraciones de los usuarios.
+
+4.-Distribución en secciones: En la herramienta de mapeo se organizaron los aportes respondiendo las preguntas clave:
+
+- ¿Con quién estamos empatizando?
+- ¿Qué necesita hacer?
+- ¿Qué está diciendo?
+- ¿Qué está viendo?
+- ¿Qué está haciendo?
+- ¿Qué está escuchando?
+- ¿Cómo se siente y qué piensa?
+
+
+5.-Identificación de Pains y Gains: Se clasificaron las preocupaciones, frustraciones y motivaciones que influyen en la experiencia del usuario.
+
+6.-Síntesis: Se consolidaron los hallazgos en un mapa final para cada persona.
+
+<br>
+
 - Empathy Map de José Quispe (mecánico)
 <br>
 
