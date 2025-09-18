@@ -157,21 +157,12 @@ Implementaciones de repositorios y adaptadores externos.
 
 #### **2.6.5.5. Bounded Context Software Architecture Component Level Diagrams**
 
-(Se incluirá diagrama C4-Component posteriormente).  
 
----
 
 #### **2.6.5.6. Bounded Context Software Architecture Code Level Diagrams**
 
 ##### **2.6.5.6.1. Bounded Context Domain Layer Class Diagrams**
 
-(UML de aggregates, entities, value objects, services e interfaces de repositorio).  
 
 ##### **2.6.5.6.2. Bounded Context Database Design Diagram**
 
-(Tablas sugeridas y PK/FK):  
-- subscriptions (subscription_id PK, subscriber_id, plan_id, status, start_date, end_date, renewal_date, payment_method_json)  
-- invoices (invoice_id PK, subscription_id FK, amount, currency, period_start, period_end, issued_at, status)  
-- plans (plan_id PK, name, description, price_amount, price_currency, duration, features_json)  
-
----

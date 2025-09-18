@@ -270,26 +270,12 @@ Implementaciones concretas de repositorios y adaptadores.
 
 #### **2.6.6.5. Bounded Context Software Architecture Component Level Diagrams**
 
-Se incluirá diagrama C4-Component posteriormente.
 
----
 
 #### **2.6.6.6. Bounded Context Software Architecture Code Level Diagrams**
 
 ##### **2.6.6.6.1. Bounded Context Domain Layer Class Diagrams**
 
-UML de aggregates, entities, value objects, services e interfaces de repositorio.
 
 ##### **2.6.6.6.2. Bounded Context Database Design Diagram**
 
-Tablas sugeridas y PK/FK:  
-- users (user_id PK, email UNIQUE, password_hash, status, created_at, last_login_at)  
-- sessions (session_id PK, user_id FK, token, issued_at, expires_at, status)  
-- roles (role_id PK, name UNIQUE, description)  
-- user_roles (assignment_id PK, user_id FK, role_id FK, assigned_at)  
-- permissions (permission_id PK, name UNIQUE, description)  
-- role_permissions (role_id FK, permission_id FK)  
-- verifications (verification_id PK, user_id FK, code_or_token, sent_at, expires_at, status)  
-- recoveries (recovery_id PK, user_id FK, code_or_token, requested_at, expires_at, status)
-
----

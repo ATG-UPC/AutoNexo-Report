@@ -1,6 +1,6 @@
-### **2.6.X. Bounded Context: Matching&Booking**
+### **2.6.3. Bounded Context: Matching&Booking**
 
-#### **2.6.x.1. Domain Layer**
+#### **2.6.3.1. Domain Layer**
 
 Este bounded context cubre desde la solicitud de servicio hasta la creación/confirmación del booking, la gestión de ofertas y reprogramaciones, y la apertura de la service order para el handover hacia Vehicle&Maintenance.  
 ---
@@ -166,7 +166,7 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
 
 ---
 
-#### **2.6.x.2. Interface Layer**
+#### **2.6.3.2. Interface Layer**
 
 - **Controllers:** ServiceRequestController, MatchingController, OfferController, BookingController, ServiceOrderController, RescheduleController  
 - **Resources:**  
@@ -179,7 +179,7 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
 
 ---
 
-#### **2.6.x.3. Application Layer**
+#### **2.6.3.3. Application Layer**
 
 **Aquí se implementan las integraciones con otros bounded contexts (ACL) y los servicios concretos.**
 
@@ -216,7 +216,7 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
 
 ---
 
-#### **2.6.x.4. Infrastructure Layer**
+#### **2.6.3.4. Infrastructure Layer**
 
 - **Repositories (implementaciones):**  
   - ServiceRequestRepository : IServiceRequestRepository  
@@ -232,24 +232,12 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
 
 ---
 
-#### **2.6.x.5. Bounded Context Software Architecture Component Level Diagrams**
+#### **2.6.3.5. Bounded Context Software Architecture Component Level Diagrams**
 
-(Se incluirá diagrama C4-Component posteriormente.)
 
----
+#### **2.6.3.6. Bounded Context Software Architecture Code Level Diagrams**
 
-#### **2.6.x.6. Bounded Context Software Architecture Code Level Diagrams**
+##### **2.6.3.6.1. Bounded Context Domain Layer Class Diagrams**
 
-##### **2.6.x.6.1. Bounded Context Domain Layer Class Diagrams**
-(UML de aggregates, entities, value objects, services e interfaces de repositorio, con multiplicidades.)
 
-##### **2.6.x.6.2. Bounded Context Database Design Diagram**
-(Tablas sugeridas y PK/FK):  
-- service_requests (service_request_id PK, owner_id, vehicle_id, service_type, preferred_start, preferred_end, lat, lon, status)  
-- offers (offer_id PK, service_request_id FK, workshop_id, proposed_start, proposed_end, price_amount, price_currency, terms, status)  
-- bookings (booking_id PK, service_request_id FK, offer_id FK, workshop_id, vehicle_id, slot_start, slot_end, status, created_at, cancellation_policy_json)  
-- reschedule_requests (reschedule_request_id PK, booking_id FK, requested_start, requested_end, reason, status)  
-- service_orders (service_order_id PK, booking_id FK, workshop_id, vehicle_id, scheduled_start, scheduled_end, status, opened_at)
-
-Notas:  
-- La disponibilidad del taller no se persiste aquí como entidad de dominio; si se almacena, es como read model/proyección para queries, fuera del Domain Layer.
+##### **2.6.3.6.2. Bounded Context Database Design Diagram**

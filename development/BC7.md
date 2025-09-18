@@ -157,19 +157,10 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
 
 #### **2.6.7.5. Bounded Context Software Architecture Component Level Diagrams**
 
-(Se incluirá diagrama C4-Component posteriormente).
-
----
-
 #### **2.6.7.6. Bounded Context Software Architecture Code Level Diagrams**
 
 ##### **2.6.7.6.1. Bounded Context Domain Layer Class Diagrams**
 
-(UML de aggregates, entities, value objects, services, repos).
 
 ##### **2.6.7.6.2. Bounded Context Database Design Diagram**
 
-- notifications (notification_id PK, correlation_id, type, template_id, locale, payload_json, scheduled_at, priority, status, created_at)  
-- delivery_attempts (attempt_id PK, notification_id FK, channel, provider, requested_at, status, error)  
-- templates (template_id PK, key, version, default_locale, channels_json, variables_json)  
-- preferences (preference_id PK, user_id UNIQUE, locale, channel_optin_json, type_optin_json, quiet_hours_json)

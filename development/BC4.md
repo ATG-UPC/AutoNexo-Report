@@ -179,23 +179,12 @@ Implementaciones de persistencia y adaptadores externos.
 
 #### **2.6.4.5. Bounded Context Software Architecture Component Level Diagrams**
 
-(Se incluirá diagrama C4-Component posteriormente.)  
-
----
 
 #### **2.6.4.6. Bounded Context Software Architecture Code Level Diagrams**
 
 ##### **2.6.4.6.1. Bounded Context Domain Layer Class Diagrams**
 
-(UML de aggregates, entities, value objects, services e interfaces de repositorio).  
+
 
 ##### **2.6.4.6.2. Bounded Context Database Design Diagram**
 
-(Tablas sugeridas y PK/FK):  
-- workshops (workshop_id PK, legal_name, trade_name, tax_id, status, operating_policy_json)  
-- workshop_services (service_id PK, workshop_id FK, service_type, std_duration, base_price_amount, base_price_currency, active)  
-- workshop_schedules (schedule_id PK, workshop_id FK, business_hours_json, timezone)  
-- availability_slots (slot_id PK, schedule_id FK, start, end, state, reason)  
-- mechanics (mechanic_id PK, workshop_id FK, full_name, skills_json, certifications_json, active)  
-
----

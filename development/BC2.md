@@ -203,18 +203,13 @@ Implementaciones de persistencia y adaptadores externos.
 
 #### **2.6.2.5. Bounded Context Software Architecture Component Level Diagrams**
 
-(Se incluirá diagrama C4-Component posteriormente.)
-
----
 
 #### **2.6.2.6. Bounded Context Software Architecture Code Level Diagrams**
 
 ##### **2.6.2.6.1. Bounded Context Domain Layer Class Diagrams**
-(UML de aggregates, entities, value objects, services e interfaces de repositorio.)
+
+
 
 ##### **2.6.2.6.2. Bounded Context Database Design Diagram**
-(Tablas sugeridas y relaciones PK/FK):  
-- trust_profiles (trust_profile_id PK, target_type, target_id, current_score, rating_count, last_recalculated_at, avg_punctuality, avg_quality, avg_communication, avg_transparency, unique(target_type, target_id))  
-- ratings (rating_id PK, target_type, target_id, author_id, overall, punctuality, quality, communication, transparency, created_at, FK(target_type,target_id) → trust_profiles)  
-- reviews (review_id PK, target_type, target_id, author_id, comment, created_at, edited_at, FK(target_type,target_id) → trust_profiles)  
-- trust_adjustments (adjustment_id PK, target_type, target_id, delta, reason, occurred_at, FK(target_type,target_id) → trust_profiles)
+
+
