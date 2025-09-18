@@ -229,16 +229,16 @@ conocimientos necesarios para su
 desarrollo profesional y en especial para
 su proyecto en soluciones de ingeniería
 de software </td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Andres Cruz: <br> TB1: <br> <br>Angelo Solano: <br> TB1: <br> <br>Henry Esteban: <br> TB1: <br> <br>Rafael Vivanco: <br> TB1: <br> <br>Sergio Iglesias  <br> TB1: <br> </td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: </td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><b>Andres Cruz:</b> <br> TB1: <br> Al desarrollar la descripción de la startup y estructurar el Product Backlog con herramientas como Lean UX e Impact Mapping, actualicé mis conocimientos en metodologías ágiles y arquitectura de software, lo cual fortalece mis capacidades para aplicar soluciones en proyectos reales de ingeniería de software. <br> <b>Angelo Solano:</b> <br> TB1: <br> Al realizar Needfinding, User Personas, Journey Maps y modelar la capa de dominio, actualicé mis conocimientos sobre experiencia de usuario y diseño de software en capas, lo que me permitió integrar la visión del usuario con la solución técnica en el proyecto. <br><b>Henry Esteban: </b> <br> TB1: <br> Mediante el diseño, registro y análisis de entrevistas, y la construcción del Deployment Diagram, reforcé mis conocimientos sobre técnicas de recolección de requerimientos y despliegue de software, actualizando competencias claves para el desarrollo de proyectos de ingeniería. <br><b>Rafael Vivanco:</b><br> TB1: <br> Al analizar los segmentos objetivos, la competencia y mapear los contextos, actualicé mis conocimientos en análisis estratégico y en arquitectura de software a nivel de contenedores y contexto, lo que me permitió integrar tanto la visión de negocio como la técnica en el proyecto. <br><b>Sergio Iglesias </b><br> TB1: <br> Al analizar los segmentos objetivos, la competencia y mapear los contextos, actualicé mis conocimientos en análisis estratégico y en arquitectura de software a nivel de contenedores y contexto, lo que me permitió integrar tanto la visión de negocio como la técnica en el proyecto. </td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: <br> Como grupo, actualizamos y fortalecimos nuestros conocimientos en metodologías ágiles, diseño de experiencia de usuario y arquitectura de software en diferentes niveles. Cada integrante aplicó conceptos actualizados que permitieron enriquecer el proyecto y avanzar en una solución más profesional y estructurada. </td>
 </tr>
 <tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Reconoce la necesidad del
 aprendizaje permanente para el
 desempeño profesional y el desarrollo
 de proyectos en soluciones de
 tecnologías de ingeniería de software.</td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Andres Cruz: <br> TB1: <br> <br>Angelo Solano: <br> TB1: <br> <br>Henry Esteban: <br> TB1: <br> <br>Rafael Vivanco: <br> TB1: <br> <br>Sergio Iglesias  <br> TB1: <br> </td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: </td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><b>Andres Cruz:</b> <br> TB1: <br> Comprendí que siempre debo seguir aprendiendo sobre nuevas metodologías ágiles, backlog prioritization y herramientas de arquitectura, ya que estas prácticas evolucionan constantemente y son esenciales para responder a las demandas cambiantes de la industria. <br><b>Angelo Solano: </b><br> TB1: <br> Trabajar en la definición de usuarios, journey maps y en la capa de interfaz me permitió reconocer que el aprendizaje permanente es fundamental para mantenerme actualizado en metodologías de diseño centrado en el usuario y en tecnologías de desarrollo de software.<br><b>Henry Esteban: </b> <br> TB1: <br> Durante la preparación y análisis de entrevistas reconocí que el aprendizaje permanente es clave para perfeccionar técnicas de levantamiento de información y adaptación de arquitecturas de despliegue a entornos modernos de software.<br><b>Rafael Vivanco:</b><br> TB1: <br> Al aplicar técnicas avanzadas de modelado de dominios, reconocí la importancia del aprendizaje continuo para mantenerme actualizado en arquitecturas modernas y metodologías de diseño que impactan directamente en la calidad de los proyectos de software.<br><b>Sergio Iglesias </b><br> TB1: <br> Al investigar sobre context mapping y estrategias frente a competidores, entendí que el aprendizaje permanente es necesario para responder a escenarios competitivos y tecnológicos que cambian rápidamente en la industria del software.</td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: <br> Reconocimos como equipo la importancia del aprendizaje permanente en ingeniería de software. Las herramientas, metodologías y técnicas que aplicamos en esta entrega (desde entrevistas y journey maps hasta diagramas arquitectónicos y event storming) nos mostraron que el conocimiento en este campo evoluciona constantemente, y que debemos mantenernos en actualización continua para garantizar soluciones de calidad en proyectos reales. </td>
 </tr>
 </tbody></table>
 </br></br>
@@ -475,9 +475,9 @@ Familiaridad básica con smartphones, uso de aplicaciones simples y rápidas, di
       <th></th>
       <th></th>
       <th>AutoNexo <img src="assets\chapter-II-assets\logo-1.png.jpg" alt="Fleetio Logo" height="70" width="120"></th>
-      <th>Fleetio <img src="assets\chapter-II\competidor_1.png" alt="Drivvo Logo" height="70" width="120"></th>
-      <th>Drivvo <img src="assets\chapter-II\competidor_2.png" alt="Drivvo Logo" height="70" width="120"></th>
-      <th>Whip Around <img src="assets\chapter-II\competidor_3.png" alt="Whip Around Logo" height="70" width="120"></th>
+      <th>Fleetio <img src="assets\chapter-II-assets\competidor_1.png" alt="Drivvo Logo" height="70" width="120"></th>
+      <th>Drivvo <img src="assets\chapter-II-assets\competidor_2.png" alt="Drivvo Logo" height="70" width="120"></th>
+      <th>Whip Around <img src="assets\chapter-II-assets\competidor_3.png" alt="Whip Around Logo" height="70" width="120"></th>
     </tr>
     <tr>
       <td><strong>Perfil</strong></td>
@@ -4575,11 +4575,6 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
 ---
 
 
-
-<div style="page-break-after: always;"></div>
-
-
-
 ---
 
 
@@ -4594,7 +4589,39 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
 
 <div style="page-break-after: always;"></div>
 
+## Conclusiones
 
+**Integración de metodologías**: La combinación de Lean UX, User Stories y Domain-Driven Design (DDD) proporciona un marco sólido para diseñar soluciones centradas en el usuario y alineadas con los objetivos del negocio.
+
+**Importancia del lenguaje común**: El uso de Ubiquitous Language asegura que tanto el equipo técnico como los usuarios comprendan los conceptos clave sin ambigüedades, reduciendo errores en el desarrollo.
+
+**Validación constante**: Las entrevistas y herramientas como Empathy Mapping o User Personas permiten identificar necesidades reales y garantizar que la solución propuesta responda a problemas concretos.
+
+**Trazabilidad y claridad**: El uso de User Stories, Impact Mapping y Product Backlog aporta organización y priorización en los requerimientos, facilitando la gestión ágil del proyecto.
+
+**Escalabilidad del diseño**: EventStorming y los diagramas de arquitectura de software permiten visualizar la complejidad del sistema, anticipar dependencias y construir una solución escalable y mantenible.
+
+---
+
+
+
+<div style="page-break-after: always;"></div>
+
+## Bibliografía
+
+Fowler, M. (2004). Ubiquitous Language. Recuperado de: https://martinfowler.com/bliki/UbiquitousLanguage.html
+
+Gothelf, J. (2016). Lean UX – Chapter 3. Scribd. Recuperado de: https://www.scribd.com/document/655516553/Leanux-Sampler
+
+Cohn, M. (s. f.). User Stories Articles. Mountain Goat Software. Recuperado de: https://www.mountaingoatsoftware.com/blog/tag/user-stories
+
+UXPressia. (2022). How to create an Impact Map in 4 easy steps? Recuperado de: https://uxpressia.com/blog/build-impact-map-4-easy-steps
+
+Nielsen Norman Group. (2019). Empathy Mapping: The First Step in Design Thinking. Recuperado de: https://www.nngroup.com/articles/empathy-mapping/
+
+DDD by Examples. (s. f.). Big Picture EventStorming. Recuperado de: https://github.com/ddd-by-examples/library/blob/master/docs/bigpicture.md
+
+Tune, N. (2019). Domain-Driven Architecture Diagrams. Medium. Recuperado de: https://medium.com/nick-tune-tech-strategy-blog/domain-drivenarchitecture-diagrams-139a75acb578
 
 ---
 
