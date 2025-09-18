@@ -1725,12 +1725,31 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 
 
 
+
+
 <h2>Spike 1: Investigación de la Integración de Stripe para el Procesamiento de Pagos</h2>
 
-<p><strong>Descripción:</strong></p>
+<table border="1">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-01</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>Autenticación</td>
+  </tr>
+</table>
+
+<h3>Title: Investigación de la Integración de Stripe para el Procesamiento de Pagos</h3>
+
+<h4>Description:</h4>
 <p>Como equipo de desarrollo, queremos investigar cómo integrar Stripe para el procesamiento de pagos en la plataforma Autonexo, para asegurarnos de que sea una solución adecuada para manejar pagos de manera segura y eficiente.</p>
 
-<p><strong>Criterios de Aceptación:</strong></p>
+<h4>Acceptance Criteria:</h4>
 <ul>
   <li><strong>Given</strong> acceso a la documentación de la API de Stripe, <strong>When</strong> se revisan las opciones disponibles para el procesamiento de pagos (como Payments, Checkout, Mobile SDKs, Stripe.js), <strong>Then</strong> se debe definir si Stripe es adecuado para la integración en Autonexo.</li>
   <li><strong>Given</strong> las tarifas de Stripe, <strong>When</strong> se comparan los costos con otros sistemas de pagos en el mercado, <strong>Then</strong> se debe decidir si Stripe es la opción más económica para Autonexo.</li>
@@ -1745,12 +1764,32 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <li><strong>Given</strong> que el flujo de pago debe ser fácil de usar para los clientes de Autonexo, <strong>When</strong> se prueba el flujo de pago en un entorno de pruebas con usuarios simulados, <strong>Then</strong> se debe asegurar que la experiencia del usuario sea intuitiva, rápida y sin errores.</li>
 </ul>
 
+
+
+
 <h2>Spike 2: Investigación de Google Maps para la Localización de Mecánicos</h2>
 
-<p><strong>Descripción:</strong></p>
+<table border="1">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-02</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>Localización</td>
+  </tr>
+</table>
+
+<h3>Title: Investigación de Google Maps para la Localización de Mecánicos</h3>
+
+<h4>Description:</h4>
 <p>Como equipo de desarrollo, quiero investigar la integración de Google Maps para la localización de mecánicos, para ofrecer a los conductores la capacidad de encontrar mecánicos cercanos de manera rápida y eficiente.</p>
 
-<p><strong>Criterios de Aceptación:</strong></p>
+<h4>Acceptance Criteria:</h4>
 <ul>
   <li><strong>Given</strong> que el equipo tiene acceso a la documentación de la API de Google Maps, <strong>When</strong> el equipo investigue las opciones para implementar mapas interactivos y localización, <strong>Then</strong> deberán determinar si la Google Maps API es adecuada para la integración en Autonexo.</li>
   <li><strong>Given</strong> que el equipo ha analizado los costos asociados a Google Maps API, <strong>When</strong> comparen los costos con los beneficios que aportará la integración de la localización, <strong>Then</strong> deberán decidir si Google Maps es económicamente viable para la plataforma.</li>
@@ -1763,12 +1802,33 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 </ul>
 
 
+
+
+
+
 <h2>Spike 3: Evaluación de Sistemas de Notificaciones Push</h2>
 
-<p><strong>Descripción:</strong></p>
+<table border="1">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-03</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>Notificaciones</td>
+  </tr>
+</table>
+
+<h3>Title: Evaluación de Sistemas de Notificaciones Push</h3>
+
+<h4>Description:</h4>
 <p>Como equipo de desarrollo, quiero investigar los sistemas de notificaciones push para enviar alertas de mantenimientos próximos a los usuarios, para mejorar la experiencia del usuario y asegurarnos de que nunca se olviden de los mantenimientos.</p>
 
-<p><strong>Criterios de Aceptación:</strong></p>
+<h4>Acceptance Criteria:</h4>
 <ul>
   <li><strong>Given</strong> que el equipo ha identificado varias opciones de sistemas de notificaciones push como Firebase y OneSignal, <strong>When</strong> investiguen las características y capacidades de cada uno, <strong>Then</strong> deberán decidir cuál es el más adecuado para la plataforma Autonexo.</li>
   <li><strong>Given</strong> que el equipo ha probado la implementación de Firebase Cloud Messaging, <strong>When</strong> envíen una notificación push de prueba, <strong>Then</strong> deberán confirmar que la notificación se recibe correctamente en dispositivos iOS y Android.</li>
@@ -1781,12 +1841,30 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <li><strong>Given</strong> que la seguridad de las notificaciones es crucial, <strong>When</strong> se revisa la seguridad en el envío de las notificaciones (como autenticación, encriptación), <strong>Then</strong> deberán garantizar que el sistema de notificaciones cumpla con los estándares de seguridad necesarios.</li>
 </ul>
 
+
 <h2>Spike 4: Investigación de Herramientas de Reportes de Mantenimiento</h2>
 
-<p><strong>Descripción:</strong></p>
+<table border="1">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-04</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>Reportes de Mantenimiento</td>
+  </tr>
+</table>
+
+<h3>Title: Investigación de Herramientas de Reportes de Mantenimiento</h3>
+
+<h4>Description:</h4>
 <p>Como equipo de desarrollo, quiero investigar herramientas como Power BI o Tableau para generar informes detallados sobre el mantenimiento de los vehículos, para mejorar la toma de decisiones y dar a los usuarios acceso a datos importantes.</p>
 
-<p><strong>Criterios de Aceptación:</strong></p>
+<h4>Acceptance Criteria:</h4>
 <ul>
   <li><strong>Given</strong> que el equipo ha identificado herramientas como Power BI y Tableau, <strong>When</strong> investiguen las características y capacidades de cada herramienta, <strong>Then</strong> deberán seleccionar la herramienta que mejor se adapte a las necesidades de informes de mantenimiento de Autonexo.</li>
   <li><strong>Given</strong> que el equipo ha probado Power BI con datos de prueba, <strong>When</strong> creen un reporte básico, <strong>Then</strong> deberán evaluar si la herramienta proporciona visualizaciones claras y útiles para los usuarios.</li>
@@ -1799,13 +1877,29 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <li><strong>Given</strong> que la plataforma Autonexo puede crecer en volumen de datos, <strong>When</strong> el equipo evalúa la escalabilidad de Power BI y Tableau, <strong>Then</strong> deberán determinar si ambas herramientas pueden manejar el crecimiento futuro de los datos sin afectar el rendimiento.</li>
 </ul>
 
-
 <h2>Spike 5: Investigación de Integración de API de Pagos con MercadoPago</h2>
 
-<p><strong>Descripción:</strong></p>
+<table border="1">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-05</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>Integración de Pagos</td>
+  </tr>
+</table>
+
+<h3>Title: Investigación de Integración de API de Pagos con MercadoPago</h3>
+
+<h4>Description:</h4>
 <p>Como equipo de desarrollo, quiero investigar cómo integrar la API de MercadoPago para procesar pagos, para ofrecer una solución de pagos alternativa para los usuarios en la plataforma.</p>
 
-<p><strong>Criterios de Aceptación:</strong></p>
+<h4>Acceptance Criteria:</h4>
 <ul>
   <li><strong>Given</strong> que el equipo tiene acceso a la documentación de la API de MercadoPago, <strong>When</strong> el equipo investiga las opciones para integrar métodos de pago como tarjetas de crédito y débito, <strong>Then</strong> deberá definir si MercadoPago es adecuado para la integración en Autonexo.</li>
   <li><strong>Given</strong> que el equipo ha realizado una prueba de pago con MercadoPago, <strong>When</strong> el equipo verifique que el proceso de pago se complete correctamente, <strong>Then</strong> deberá confirmar si MercadoPago es viable como solución de pagos para la plataforma.</li>
@@ -1817,12 +1911,31 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <li><strong>Given</strong> que MercadoPago utiliza webhooks para notificar cambios de estado en pagos, <strong>When</strong> el equipo implemente y pruebe los webhooks de MercadoPago, <strong>Then</strong> deberá asegurarse de que los webhooks funcionen correctamente y sin errores.</li>
 </ul>
 
+
+
 <h2>Spike 6: Investigación de Técnicas de Caching para Mejorar el Rendimiento</h2>
 
-<p><strong>Descripción:</strong></p>
+<table border="1">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-06</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>Rendimiento</td>
+  </tr>
+</table>
+
+<h3>Title: Investigación de Técnicas de Caching para Mejorar el Rendimiento</h3>
+
+<h4>Description:</h4>
 <p>Como equipo de desarrollo, quiero investigar técnicas de caching como Redis o Memcached, para mejorar el rendimiento de la plataforma y reducir los tiempos de carga.</p>
 
-<p><strong>Criterios de Aceptación:</strong></p>
+<h4>Acceptance Criteria:</h4>
 <ul>
   <li><strong>Given</strong> que el equipo ha considerado opciones como Redis y Memcached, <strong>When</strong> investiguen las características y ventajas de cada uno, <strong>Then</strong> deberán seleccionar la opción que mejor se adapte a las necesidades de Autonexo.</li>
   <li><strong>Given</strong> que el equipo ha implementado una solución de caching en Redis, <strong>When</strong> realicen pruebas de rendimiento en una función crítica, <strong>Then</strong> deberán verificar si el tiempo de respuesta mejora significativamente.</li>
@@ -1833,13 +1946,27 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <li><strong>Given</strong> que las soluciones de caching deben ser eficientes en el uso de recursos, <strong>When</strong> se mide el consumo de CPU y memoria al implementar Redis o Memcached, <strong>Then</strong> deberán asegurar que la solución elegida no afecte negativamente los recursos de Autonexo.</li>
   <li><strong>Given</strong> que la alta disponibilidad es crucial para el sistema de caching, <strong>When</strong> se simulan fallos en Redis o Memcached, <strong>Then</strong> deberán verificar que la solución seleccionada pueda recuperarse correctamente sin perder datos importantes.</li>
 </ul>
-
 <h2>Spike 7: Evaluación de Herramientas de Seguridad para la Plataforma</h2>
 
-<p><strong>Descripción:</strong></p>
+<table border="1">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-07</td>
+    <td>Security Team</td>
+    <td>Alta</td>
+    <td>Seguridad</td>
+  </tr>
+</table>
+
+<h4>Descripción:</h4>
 <p>Como equipo de seguridad, quiero investigar herramientas de seguridad como OWASP ZAP o Burp Suite para realizar pruebas de penetración y asegurarnos de que la plataforma esté segura.</p>
 
-<p><strong>Criterios de Aceptación:</strong></p>
+<h4>Criterios de Aceptación:</h4>
 <ul>
   <li><strong>Given</strong> que el equipo ha considerado herramientas como OWASP ZAP y Burp Suite, <strong>When</strong> investiguen las características de cada una, <strong>Then</strong> deberán decidir cuál es la mejor herramienta para realizar pruebas de seguridad en Autonexo.</li>
   <li><strong>Given</strong> que el equipo ha implementado una prueba de seguridad con OWASP ZAP, <strong>When</strong> realicen un escaneo de vulnerabilidades, <strong>Then</strong> deberán identificar todas las posibles brechas de seguridad en el sistema.</li>
@@ -1853,10 +1980,25 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
 
 <h2>Spike 8: Investigación de Plataforma para Gestión de Suscripciones</h2>
 
-<p><strong>Descripción:</strong></p>
+<table border="1">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-08</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>Suscripciones</td>
+  </tr>
+</table>
+
+<h4>Descripción:</h4>
 <p>Como equipo de desarrollo, quiero investigar plataformas como Recurly o Stripe Billing para gestionar suscripciones y automatizar el proceso de pagos recurrentes en la plataforma.</p>
 
-<p><strong>Criterios de Aceptación:</strong></p>
+<h4>Criterios de Aceptación:</h4>
 <ul>
   <li><strong>Given</strong> que el equipo ha considerado plataformas como Recurly y Stripe Billing, <strong>When</strong> investiguen las funcionalidades y capacidades de cada plataforma, <strong>Then</strong> deberán seleccionar la plataforma más adecuada para gestionar las suscripciones de Autonexo.</li>
   <li><strong>Given</strong> que el equipo ha probado la implementación de Recurly con datos de prueba, <strong>When</strong> creen un ciclo de suscripción y realicen un pago de prueba, <strong>Then</strong> deberán verificar que la plataforma maneje correctamente los pagos recurrentes.</li>
@@ -1866,13 +2008,27 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <li><strong>Given</strong> que la seguridad es fundamental en los pagos recurrentes, <strong>When</strong> el equipo revise las medidas de seguridad de Recurly y Stripe Billing, <strong>Then</strong> deberán garantizar que ambas plataformas cumplan con los estándares de seguridad necesarios, como PCI-DSS.</li>
   <li><strong>Given</strong> que es necesario gestionar los datos de clientes y suscripciones, <strong>When</strong> se utilicen las herramientas de reportes de Recurly y Stripe Billing, <strong>Then</strong> deberán asegurarse de que las plataformas generen informes detallados y fáciles de usar sobre las suscripciones.</li>
 </ul>
-
 <h2>Spike 9: Investigación de API de Localización para Mejorar la Búsqueda de Mecánicos</h2>
 
-<p><strong>Descripción:</strong></p>
+<table border="1">
+  <tr>
+    <th>Story ID</th>
+    <th>User</th>
+    <th>Priority</th>
+    <th>Epic</th>
+  </tr>
+  <tr>
+    <td>SP-09</td>
+    <td>Developer</td>
+    <td>Alta</td>
+    <td>Localización</td>
+  </tr>
+</table>
+
+<h4>Descripción:</h4>
 <p>Como equipo de desarrollo, quiero investigar APIs de localización como Google Maps, Mapbox o Here para mejorar la búsqueda de mecánicos cercanos, ofreciendo una experiencia más eficiente y precisa a los conductores.</p>
 
-<p><strong>Criterios de Aceptación:</strong></p>
+<h4>Criterios de Aceptación:</h4>
 <ul>
   <li><strong>Given</strong> que el equipo ha considerado APIs como Google Maps, Mapbox o Here, <strong>When</strong> investiguen las características y opciones de integración de cada API, <strong>Then</strong> deberán seleccionar la mejor API para la localización en Autonexo.</li>
   <li><strong>Given</strong> que el equipo ha implementado la API de Google Maps para la localización, <strong>When</strong> realicen pruebas de búsqueda de mecánicos cercanos, <strong>Then</strong> deberán asegurarse de que la función de localización sea precisa y eficiente.</li>
@@ -1885,6 +2041,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <li><strong>Given</strong> que las aplicaciones de Autonexo están disponibles en dispositivos móviles, <strong>When</strong> el equipo evalúe la compatibilidad de Google Maps, Mapbox y Here con dispositivos móviles (iOS/Android), <strong>Then</strong> deberán asegurarse de que todas las APIs funcionen correctamente en plataformas móviles.</li>
   <li><strong>Given</strong> que tanto Google Maps, Mapbox y Here ofrecen características adicionales (como rutas optimizadas, tráfico en tiempo real, etc.), <strong>When</strong> el equipo explore estas características, <strong>Then</strong> deberán decidir si alguna de estas funcionalidades adicionales es relevante y útil para la plataforma Autonexo.</li>
 </ul>
+
 
 
 ### 2.4.2. Impact Mapping
