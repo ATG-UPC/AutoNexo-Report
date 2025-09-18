@@ -2589,9 +2589,11 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 
 ##### 2.6.1.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
+<img alt="Class-IAM" src="assets\chapter-II-assets\bc\class-iam.png" />
 
 ##### 2.6.1.6.2 Bounded Context Database Design Diagram
 <br>
+<img alt="Database-IAM" src="assets\chapter-II-assets\bc\db-iam.png" />
 
 ### 2.6.2 Bounded Context: Workshop Context
 <br>
@@ -2618,9 +2620,11 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 
 ##### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
+<img alt="Class-Workshop" src="assets\chapter-II-assets\bc\class-workshop.png" />
 
 ##### 2.6.2.6.2 Bounded Context Database Design Diagram
 <br>
+<img alt="Database-Workshop" src="assets\chapter-II-assets\bc\db-workshop.png" />
 
 ### 2.6.3 Bounded Context: Vehicle&Maintenance
 <br>
@@ -2646,9 +2650,11 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 
 ##### 2.6.3.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
+<img alt="Class-Vehicle" src="assets\chapter-II-assets\bc\class-vehicle.png" />
 
 ##### 2.6.3.6.2 Bounded Context Database Design Diagram
 <br>
+<img alt="Database-Vehicle" src="assets\chapter-II-assets\bc\db-vehicle.png" />
 
 ### 2.6.4 Bounded Context: Matching&Booking Context
 <br>
@@ -2675,9 +2681,11 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 
 ##### 2.6.4.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
+<img alt="Class-Matching" src="assets\chapter-II-assets\bc\class-matching.png" />
 
 ##### 2.6.4.6.2 Bounded Context Database Design Diagram
 <br>
+<img alt="Database-Matching" src="assets\chapter-II-assets\bc\db-matching.png" />
 
 ### 2.6.5 Bounded Context: Trust&Reputation
 <br>
@@ -2704,9 +2712,11 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 
 ##### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
+<img alt="Class-trusting" src="assets\chapter-II-assets\bc\class-trusting.png" />
 
 ##### 2.6.5.6.2 Bounded Context Database Design Diagram
 <br>
+<img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-trusting.png" />
 
 ### 2.6.6 Bounded Context: Subscription context
 <br>
@@ -2733,11 +2743,13 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 
 ##### 2.6.6.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
+<img alt="Class-payment" src="assets\chapter-II-assets\bc\class-payment.png" />
 
 ##### 2.6.6.6.2 Bounded Context Database Design Diagram
 <br>
+<img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-payment.png" />
 
-### 2.6.7 Bounded Context: Subscription context
+### 2.6.7 Bounded Context: Notifications context
 <br>
 
 #### 2.6.7.1 Domain Layer
@@ -2762,6 +2774,8 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 
 ##### 2.6.7.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
+<img alt="Class-trusting" src="assets\chapter-II-assets\bc\class-payment.png" />
 
 ##### 2.6.7.6.2 Bounded Context Database Design Diagram
 <br>
+<img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-payment.png" />
