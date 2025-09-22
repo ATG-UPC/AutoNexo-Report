@@ -145,7 +145,8 @@ El diseño y comportamiento del producto deben reflejar un **diseño moderno, li
 
 #### **1.2.2.4. Lean UX Canvas**
 
-FALTA COLOCAR EL MIRRROR (LA IMAGEN Y ABAJO EL ENLACE QUE TE MANDE AHI)
+- Lean Ux Canvas
+<img alt="Lean Ux Canvas" src="assets/chapter-I-assets/lean-ux-canvas-autonexo.jpg" />
 
 ## **1.3. Segmentos objetivo**
 Con el propósito de llegar de manera efectiva a posibles clientes, Autonexo ha definido dos segmentos principales como público objetivo.
