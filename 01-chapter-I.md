@@ -59,6 +59,7 @@ Esta problemática se observa en **talleres mecánicos tradicionales** y entre p
 
 El problema es constante y se intensifica en periodos críticos, como fechas de mantenimiento preventivo recomendado, estaciones de alto uso del vehículo y ante situaciones donde un vehículo requiere reparación inmediata.
 
+
 #### **Why (¿Por qué?)**
 
 La raíz del problema es la **falta de digitalización y centralización** en la gestión de servicios automotrices. Muchos talleres dependen de métodos manuales como hojas de cálculo, cuadernos o aplicaciones genéricas que no están diseñadas para el sector automotriz. Esto provoca ineficiencia operativa, aumento de costos y baja satisfacción del cliente.
@@ -175,6 +176,8 @@ El diseño y comportamiento del producto deben reflejar un **diseño moderno, li
 
 - Lean Ux Canvas
 <img alt="Lean Ux Canvas" src="assets/chapter-I-assets/lean-ux-canvas-autonexo.jpg" />
+
+<!--[Ver Lean UX Canvas hecho en UxPressia]()-->
 
 ## **1.3. Segmentos objetivo**
 
