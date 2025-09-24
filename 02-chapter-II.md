@@ -2541,7 +2541,7 @@ En esta sección se expone la arquitectura de software de la solución Red Carga
 #### 2.5.3.1 Software Architecture Context Level Diagrams
 El siguiente diagrama muestra de manera general Autonexo conectado con los sistemas externos y los usuarios que intervienen
 <br>
-<img alt="Context-Diagram" src="assets\chapter-II-assets\structurizr-101398-SystemContext-001.png" />
+<img alt="Context-Diagram" src="assets\chapter-II-assets\c4/structurizr-101398-SystemContext-001.png" />
 
 #### 2.5.3.2 Software Architecture Container Level Diagrams
 El diagrama C2 profundiza en el sistema y representa la arquitectura general del software, destacando las principales tecnologías empleadas y la manera en que estas se interconectan.
