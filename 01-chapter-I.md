@@ -70,7 +70,7 @@ La raíz del problema es la **falta de digitalización y centralización** en la
 
 #### **How Much (¿Cuánto?)**
 
-Según estimaciones del sector, la ineficiencia en la gestión de mantenimiento puede incrementar los costos hasta en un **20%**. Con Autonexo se proyecta una **mejora del 30% al 50% en eficiencia operativa**, una **reducción de hasta 25% en gastos por mantenimientos correctivos** y un **incremento del 40% en trazabilidad y control del historial vehicular**, mejorando la experiencia tanto del mecánico como del propietario.
+Uno de los principales desafíos en el sector automotriz es la ineficiencia en la gestión del mantenimiento vehicular, lo que genera sobrecostos y pérdida de productividad. Según UpKeep (2023), el mantenimiento puede representar entre el 15 % y 40 % de los costos totales de producción, lo que evidencia su impacto directo en la sostenibilidad financiera de las organizaciones. De igual forma, Infraspeak (2024) señala que hasta un 50 % de los costos de mantenimiento corresponden a desperdicios, ya sea por trabajos innecesarios, duplicación de esfuerzos o falta de planificación estratégica.
 
 ### **1.2.2. Lean UX Process**
 
