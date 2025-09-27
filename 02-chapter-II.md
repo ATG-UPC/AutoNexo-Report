@@ -112,7 +112,7 @@
   </tbody>
 </table>
 
-
+<br>
 
 ## 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -180,6 +180,8 @@ Para competir eficazmente frente a suites de gestión de flotas, apps personales
 - Plantillas de presupuestos, OT y checklist de inspección.
 - NPS trimestral y cohortes de retención con playbooks de reactivación.
 
+<br>
+
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
@@ -230,8 +232,7 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
 12. ¿Qué información debería mostrar la app al inicio para ayudarte a priorizar los mantenimientos más urgentes?
 13. ¿Cómo debería la app ayudarte a coordinar trabajos entre varios mecánicos si un vehículo requiere más de un tipo de mantenimiento?
 
-
-
+<br>
 
 ### 2.2.2. Registro de entrevistas
 
@@ -382,6 +383,8 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   </tr>
 </table>
 
+<br>
+
 ### 2.2.3. Análisis de entrevistas
 
 Las entrevistas se realizaron entre el 5 y el 15 de septiembre de 2025 a un total de 4 participantes: dos conductores y dos mecánicos capacitados de Peru y Venezuela. El objetivo fue identificar patrones comunes en sus frustraciones, expectativas y criterios soluciones digitales en aplicaciones móviles.
@@ -463,10 +466,13 @@ Las entrevistas se realizaron entre el 5 y el 15 de septiembre de 2025 a un tota
 • Ven con buenos ojos la idea de un sistema de membresías o suscripción para cobros recurrentes: 1/2 (50%)  
 • Reconocen que las reseñas negativas pueden dañar la reputación, pero aun así valoran su utilidad para mejorar: 1/2 (50%)
 
+<br>
+
 ## 2.3. Needfinding
 
 En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
 
+<br>
 
 ### 2.3.1. User Personas
 Las siguientes User Persona representan a los diferentes tipos de usuarios que interactúan con nuestra aplicación. Estos perfiles nos permiten comprender sus características, motivaciones, necesidades y comportamientos, lo que facilita identificar cómo se relacionan con la solución desde su contexto personal hasta el uso activo de la misma.
@@ -484,6 +490,7 @@ Las siguientes User Persona representan a los diferentes tipos de usuarios que i
 
 [Ver mapa user persona hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/1Ng0UPewRqDezQuOSRunusah6vk5xM6lg?usp=sharing)
 
+<br>
 
 ### 2.3.2. User Task Matrix
 
@@ -654,7 +661,7 @@ Las siguientes User Persona representan a los diferentes tipos de usuarios que i
   </tbody>
 </table>
 
-
+<br>
 
 ### 2.3.3. User Journey Mapping
 Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagramas nos ayudarán a identificar y comprender las dificultades que enfrentan en cada fase, desde el momento en que conocen nuestra aplicación hasta la etapa en la que comparten sus experiencias y opiniones sobre su uso.
@@ -674,6 +681,8 @@ Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagram
 <img alt="Journey-Map-Maria-Salinas" src="assets\chapter-II-assets\journey-map-marina.png" />
 
 [Ver mapa completo hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/10U-cHuHY3O-ueZ04tsT49D_9nUT28R7v?usp=drive_link)
+<br>
+
 <br>
 
 ### 2.3.4. Empathy Mapping
@@ -719,6 +728,8 @@ Para la construcción de los Empathy Maps, el equipo siguió los siguientes paso
 <img alt="Empathy-Map-Maria-Salinas" src="assets\chapter-II-assets\empathy-map-marina.png" />
 
 [Ver mapa completo hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/1SIQ263bxvb-gNEhv7TxBklQGdferWbHq?usp=sharing)
+<br>
+
 <br>
 
 ### 2.3.5. Ubiquitous Language
@@ -797,6 +808,7 @@ Para la construcción de los Empathy Maps, el equipo siguió los siguientes paso
 
 - Transactional Notification (Notificación transaccional): Mensaje generado automáticamente por un evento del sistema (ej. confirmación de reserva).
 
+<br>
 
 ## 2.4. Requirements specification
 
@@ -2141,7 +2153,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   <li><strong>Dado</strong> que tanto Google Maps, Mapbox y Here ofrecen características adicionales (como rutas optimizadas, tráfico en tiempo real, etc.), <strong>Cuando</strong> el equipo explore estas características, <strong>Entonces</strong> deberán decidir si alguna de estas funcionalidades adicionales es relevante y útil para la plataforma Autonexo.</li>
 </ul>
 
-
+<br>
 
 ### 2.4.2. Impact Mapping
 
@@ -2420,7 +2432,10 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </tbody>
 </table>
 
+<br>
+
 ## 2.5. Strategic-Level Domain-Driven Design
+
 <br>
 
 ### 2.5.1. EventStorming
@@ -2533,9 +2548,11 @@ El Notification Context escucha estos eventos y envía notificaciones push a los
 
 <img alt="ctxMapPatt_Publisher/Subscriber" src="assets\chapter-II-assets\ctxMapPatt_PS.png" />
 
+<br>
 
 ### 2.5.3. Software Architecture
 En esta sección se expone la arquitectura de software de la solución Red Carga, aplicando el enfoque del Modelo C4. Se incluyen los diagramas de Contexto, Contenedores y Despliegue, los cuales permiten comprender el sistema desde una visión general hasta su implementación en un entorno productivo. Cada nivel representa a los actores involucrados, las tecnologías clave y las interacciones con los servicios externos que forman parte del alcance del proyecto.
+
 <br>
 
 #### 2.5.3.1 Software Architecture Context Level Diagrams
@@ -2543,10 +2560,14 @@ El siguiente diagrama muestra de manera general Autonexo conectado con los siste
 <br>
 <img alt="Context-Diagram" src="assets\chapter-II-assets\c4/structurizr-101398-SystemContext-001.png" />
 
+<br>
+
 #### 2.5.3.2 Software Architecture Container Level Diagrams
 El diagrama C2 profundiza en el sistema y representa la arquitectura general del software, destacando las principales tecnologías empleadas y la manera en que estas se interconectan.
 <br>
 <img alt="Container-Diagram" src="assets\chapter-II-assets\c4\structurizr-101398-Container-001.png" />
+
+<br>
 
 #### 2.5.3.3 Software Architecture Deployment Diagrams
 El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados en el entorno de desarrollo y producción. Además, se muestran los servicios externos, la base de datos y el storage.
@@ -2561,12 +2582,15 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 <br>
 <img alt="Deployment-Diagram-2" src="assets\chapter-II-assets\c4\structurizr-101398-Deployment-002.png" />
 
-## 2.6 Tactical-Level Domain-Driven Design
 <br>
 
-### **2.6.1. Bounded Context: Vehicle&Maintenance**
+## 2.6 Tactical-Level Domain-Driven Design
 
-#### **2.6.1.1. Domain Layer**
+### 2.6.1. Bounded Context: Vehicle&Maintenance
+
+<br>
+
+#### 2.6.1.1. Domain Layer
 
 Este bounded context cubre la ejecución técnica del mantenimiento del vehículo y su registro histórico auditable, excluyendo matching/booking/pagos.
 
@@ -2740,9 +2764,11 @@ Son records inmutables para lectura. No modifican estado; no ameritan diccionari
 - ListMaintenanceRecords(vehicleId: UUID, from?: DateTime, to?: DateTime)  
 - GetDiagnosticReport(recordId: UUID)
 
+<br>
+
 ---
 
-#### **2.6.1.2. Interface Layer**
+#### 2.6.1.2. Interface Layer
 
 Capa de presentación con Controllers, Resources y Assemblers (mapeo). Dado que son auxiliares, se describe su rol global y ejemplos principales.
 
@@ -2761,9 +2787,11 @@ Capa de presentación con Controllers, Resources y Assemblers (mapeo). Dado que 
   - Rol: mapear Resources ⇆ Commands/Entities, mantener consistencia del Ubiquitous Language.  
   - Ejemplos: VehicleAssembler, MaintenanceRecordAssembler, MaintenanceTaskAssembler, DiagnosticReportAssembler.
 
+<br>
+
 ---
 
-#### **2.6.1.3. Application Layer**
+#### 2.6.1.3. Application Layer
 
 Implementa servicios de aplicación y manejadores de eventos.
 
@@ -2783,10 +2811,12 @@ Implementa servicios de aplicación y manejadores de eventos.
 - **ACL / Outbound**  
   - CatalogAcl (consulta piezas), NotificationsAcl  
   - DomainEventPublisher, ReportGenerator
+<br>
 
 ---
 
-#### **2.6.1.4. Infrastructure Layer**
+
+#### 2.6.1.4. Infrastructure Layer
 
 Implementaciones concretas de persistencia y adaptadores externos. Se detallan a nivel de rol (no por clase) por ser soporte técnico.
 
@@ -2814,14 +2844,16 @@ Implementaciones concretas de persistencia y adaptadores externos. Se detallan a
 ##### 2.6.1.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-IAM" src="assets\chapter-II-assets\bc\class-vehicle.png" />
+<br>
 
 ##### 2.6.1.6.2 Bounded Context Database Design Diagram
 <br>
 <img alt="Database-IAM" src="assets\chapter-II-assets\bc\db-vehicle.png" />
+<br>
 
-### **2.6.2. Bounded Context: Trusting&Reputation**
+### 2.6.2. Bounded Context: Trusting&Reputation
 
-#### **2.6.2.1. Domain Layer**
+#### 2.6.2.1. Domain Layer
 
 Este bounded context cubre la gestión de reseñas, calificaciones y el cálculo de la reputación o confianza, aplicable a distintos objetivos: propietarios (owner), talleres (workshop) o service orders. Consume eventos de otros bounded contexts para validar la elegibilidad y ajustar los puntajes de confianza.
 
@@ -2980,10 +3012,12 @@ Ejemplos:
 - GetAverageScoreByTarget(targetRef)  
 - ListReviewsByTarget(targetRef, from?, to?)  
 - ListRatingsByTarget(targetRef, from?, to?)
+<br>
 
 ---
 
-#### **2.6.2.2. Interface Layer**
+
+#### 2.6.2.2. Interface Layer
 
 Capa de presentación con Controllers, Resources y Assemblers.
 
@@ -2995,10 +3029,12 @@ Capa de presentación con Controllers, Resources y Assemblers.
   - ReviewResource { reviewId, targetType, targetId, authorId, comment, createdAt, editedAt }  
   - RatingResource { ratingId, targetType, targetId, authorId, overall, breakdown, createdAt }  
 - Assemblers: ReviewAssembler, RatingAssembler, TrustProfileAssembler
+<br>
 
 ---
 
-#### **2.6.2.3. Application Layer**
+
+#### 2.6.2.3. Application Layer
 
 Implementa servicios de aplicación y manejadores de eventos.
 
@@ -3010,22 +3046,27 @@ Implementa servicios de aplicación y manejadores de eventos.
   - OnTrustAdjustmentApplied → recalcula TrustProfile  
   - OnServiceCompleted (externo) → habilita EligibilityPolicy  
 - ACL / Outbound: BookingAcl, IdentityAcl, MaintenanceAcl, DomainEventPublisher, ReputationAnalyticsExporter
+<br>
 
 ---
 
-#### **2.6.2.4. Infrastructure Layer**
+
+#### 2.6.2.4. Infrastructure Layer
 
 Implementaciones de persistencia y adaptadores externos.
 
 - Repositories: TrustProfileRepository, ReviewRepository, RatingRepository, TrustAdjustmentRepository  
 - External Services Adapters: MessageBrokerPublisher, IdentityProviderAdapter, AnalyticsExportAdapter
+<br>
 
 ---
+
 
 #### 2.6.2.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
 <img alt="Component-Workshops" src="assets\chapter-II-assets\components\structurizr-101398-Component-002.png" />
+<br>
 
 #### 2.6.2.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -3033,16 +3074,17 @@ Implementaciones de persistencia y adaptadores externos.
 ##### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-Workshop" src="assets\chapter-II-assets\bc\class-trusting.png" />
+<br>
 
 ##### 2.6.2.6.2 Bounded Context Database Design Diagram
 <br>
 <img alt="Database-Workshop" src="assets\chapter-II-assets\bc\db-trusting.png" />
+<br>
 
-### **2.6.3. Bounded Context: Matching&Booking**
+### 2.6.3. Bounded Context: Matching&Booking
 
-#### **2.6.3.1. Domain Layer**
-
-Este bounded context cubre desde la solicitud de servicio hasta la creación/confirmación del booking, la gestión de ofertas y reprogramaciones, y la apertura de la service order para el handover hacia Vehicle&Maintenance.  
+#### 2.6.3.1. Domain Layer
+Este bounded context cubre desde la solicitud de servicio hasta la creación/confirmación del booking, la gestión de ofertas y reprogramaciones, y la apertura de la service order para el handover hacia Vehicle&Maintenance.
 ---
 
 ### **Aggregates**
@@ -3203,10 +3245,12 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
   Métodos:  
   - reserve(workshopId: UUID, slot: TimeRange) → bool  
   - release(workshopId: UUID, slot: TimeRange)
+<br>
 
 ---
 
-#### **2.6.3.2. Interface Layer**
+
+#### 2.6.3.2. Interface Layer
 
 - **Controllers:** ServiceRequestController, MatchingController, OfferController, BookingController, ServiceOrderController, RescheduleController  
 - **Resources:**  
@@ -3216,10 +3260,11 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
   - RescheduleRequestResource { rescheduleRequestId, bookingId, requestedSlot, reason, status }  
   - ServiceOrderResource { serviceOrderId, bookingId, workshopId, vehicleId, scheduledSlot, status, openedAt }  
 - **Assemblers:** ServiceRequestAssembler, OfferAssembler, BookingAssembler, ServiceOrderAssembler, RescheduleAssembler
+<br>
 
 ---
 
-#### **2.6.3.3. Application Layer**
+#### 2.6.3.3. Application Layer
 
 **Aquí se implementan las integraciones con otros bounded contexts (ACL) y los servicios concretos.**
 
@@ -3253,10 +3298,12 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
 - **Outbound Services:**  
   - DomainEventPublisher  
   - BookingNotificationSender
+<br>
 
 ---
 
-#### **2.6.3.4. Infrastructure Layer**
+
+#### 2.6.3.4. Infrastructure Layer
 
 - **Repositories (implementaciones):**  
   - ServiceRequestRepository : IServiceRequestRepository  
@@ -3269,12 +3316,16 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
   - PaymentGatewayAdapter  
   - MessageBrokerPublisher  
   - NotificationAdapter
+<br>
 
 ---
+
 
 #### 2.6.3.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 <img alt="Component-Vehicle-Maintenance" src="assets\chapter-II-assets\components\structurizr-101398-Component-003.png"/>
+
+<br>
 
 #### 2.6.3.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -3282,14 +3333,16 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
 ##### 2.6.3.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-Vehicle" src="assets\chapter-II-assets\bc/class-matching.png" />
+<br>
 
 ##### 2.6.3.6.2 Bounded Context Database Design Diagram
 <br>
 <img alt="Database-Vehicle" src="assets\chapter-II-assets\bc\db-matching.png" />
+<br>
 
-### **2.6.4. Bounded Context: Workshop**
+### 2.6.4. Bounded Context: Workshop
 
-#### **2.6.4.1. Domain Layer**
+#### 2.6.4.1. Domain Layer
 
 Este bounded context cubre la **gestión integral de los talleres (workshops)**: identidad, catálogo de servicios, disponibilidad operativa y personal técnico.  
 Su rol es mantener la información canónica del taller y exponerla a otros bounded contexts como Matching&Booking (para reservas) y Trusting&Reputation (para proyecciones de reputación).  
@@ -3418,10 +3471,12 @@ No ejecuta procesos de matching, booking ni reputación, pero **publica eventos*
   - canActivate(workshopId: UUID) → bool  
   - canAssignMechanic(workshopId: UUID, mechanicId: UUID) → bool  
   **Propósito:** Validar reglas de negocio específicas de talleres.  
+<br>
 
 ---
 
-#### **2.6.4.2. Interface Layer**
+
+#### 2.6.4.2. Interface Layer
 
 Capa de exposición de APIs y DTOs para integración con otros contexts.  
 
@@ -3432,10 +3487,12 @@ Capa de exposición de APIs y DTOs para integración con otros contexts.
   - MechanicResource { mechanicId, fullName, skills, active }  
   - WorkshopServiceResource { serviceId, serviceType, stdDuration, basePrice, active }  
 - **Assemblers**: WorkshopAssembler, ScheduleAssembler, MechanicAssembler, ServiceAssembler.  
+<br>
 
 ---
 
-#### **2.6.4.3. Application Layer**
+
+#### 2.6.4.3. Application Layer
 
 Implementa los casos de uso del negocio y la orquestación con otros contexts.  
 
@@ -3449,10 +3506,12 @@ Implementa los casos de uso del negocio y la orquestación con otros contexts.
 - **ACLs / Adaptadores**:  
   - MatchingAcl (exposición de servicios y disponibilidad hacia Matching&Booking).  
   - TrustingReputationAcl (publica información de talleres hacia Trusting&Reputation).  
+<br>
 
 ---
 
-#### **2.6.4.4. Infrastructure Layer**
+
+#### 2.6.4.4. Infrastructure Layer
 
 Implementaciones de persistencia y adaptadores externos.  
 
@@ -3463,6 +3522,7 @@ Implementaciones de persistencia y adaptadores externos.
 - **External Adapters**:  
   - ExternalCertificationAdapter (validación de certificaciones)  
   - MessageBrokerPublisher (publicación de eventos a otros BCs)  
+<br>
 
 ---
 
@@ -3470,6 +3530,7 @@ Implementaciones de persistencia y adaptadores externos.
 <br>
 
 <img alt="Component-Matching-Booking" src="assets\chapter-II-assets\components\structurizr-101398-Component-004.png" />
+<br>
 
 #### 2.6.4.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -3477,14 +3538,16 @@ Implementaciones de persistencia y adaptadores externos.
 ##### 2.6.4.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-Matching" src="assets\chapter-II-assets\bc\class-workshop.png" />
+<br>
 
 ##### 2.6.4.6.2 Bounded Context Database Design Diagram
 <br>
 <img alt="Database-Matching" src="assets\chapter-II-assets\bc\db-workshop.png" />
+<br>
 
-### **2.6.5. Bounded Context: Payment**
+### 2.6.5. Bounded Context: Payment
 
-#### **2.6.5.1. Domain Layer**
+#### 2.6.5.1. Domain Layer
 
 Este bounded context cubre la **gestión de suscripciones a la plataforma**, incluyendo la activación, renovación, cancelación y facturación asociada.  
 No gestiona pagos directos entre propietarios y talleres. Su alcance se limita a planes de suscripción de los distintos actores (owners, workshops, administradores).
@@ -3587,10 +3650,12 @@ No gestiona pagos directos entre propietarios y talleres. Su alcance se limita a
   - canRenew(subscriptionId: UUID) → bool  
   - canCancel(subscriptionId: UUID) → bool  
   **Propósito:** Define reglas de negocio sobre renovación y cancelación.  
+<br>
 
 ---
 
-#### **2.6.5.2. Interface Layer**
+
+#### 2.6.5.2. Interface Layer
 
 Expone endpoints REST/GraphQL para gestión de suscripciones.  
 
@@ -3600,10 +3665,12 @@ Expone endpoints REST/GraphQL para gestión de suscripciones.
   - InvoiceResource { invoiceId, subscriptionId, amount, periodStart, periodEnd, status }  
   - PlanResource { planId, name, description, price, duration, features }  
 - **Assemblers:** SubscriptionAssembler, InvoiceAssembler, PlanAssembler  
+<br>
 
 ---
 
-#### **2.6.5.3. Application Layer**
+
+#### 2.6.5.3. Application Layer
 
 - **Command Services:**  
   - SubscriptionCommandService  
@@ -3621,10 +3688,12 @@ Expone endpoints REST/GraphQL para gestión de suscripciones.
 
 - **ACLs:**  
   - ExternalPaymentGatewayAcl (integra con proveedor de pagos externo).  
+<br>
 
 ---
 
-#### **2.6.5.4. Infrastructure Layer**
+
+#### 2.6.5.4. Infrastructure Layer
 
 Implementaciones de repositorios y adaptadores externos.  
 
@@ -3636,13 +3705,16 @@ Implementaciones de repositorios y adaptadores externos.
 - **External Adapters:**  
   - PaymentGatewayAdapter (Stripe/PayPal/etc.)  
   - MessageBrokerPublisher (publicación de eventos a otros BCs)  
+<br>
 
 ---
+
 
 #### 2.6.5.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
 <img alt="Component-Trust" src="assets\chapter-II-assets\components\structurizr-101398-Component-005.png" />
+<br>
 
 #### 2.6.5.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -3650,14 +3722,17 @@ Implementaciones de repositorios y adaptadores externos.
 ##### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-trusting" src="assets\chapter-II-assets\bc\class-payment.png" />
+<br>
 
 ##### 2.6.5.6.2 Bounded Context Database Design Diagram
 <br>
 <img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-payment.png" />
+<br>
 
-### **2.6.6. Bounded Context: Identity & Access Management (IAM)**
+### 2.6.6. Bounded Context: Identity & Access Management (IAM)
+<br>
 
-#### **2.6.6.1. Domain Layer**
+#### 2.6.6.1. Domain Layer
 
 Este bounded context cubre la gestión de identidades y accesos: registro, autenticación, autorización basada en roles y permisos, verificación de correo electrónico y recuperación de credenciales. Es transversal y provee mecanismos de seguridad para el resto de bounded contexts.
 
@@ -3853,10 +3928,12 @@ Consultas inmutables orientadas a lectura.
 - GetActiveSessions(userId: UUID)  
 - GetVerificationStatus(userId: UUID)  
 - GetRecoveryStatus(recoveryId: UUID)
+<br>
 
 ---
 
-#### **2.6.6.2. Interface Layer**
+
+#### 2.6.6.2. Interface Layer
 
 Capa de exposición de APIs y DTOs.
 
@@ -3868,10 +3945,12 @@ Capa de exposición de APIs y DTOs.
   - VerificationResource { verificationId, userId, status, expiresAt }  
   - RecoveryResource { recoveryId, userId, status, expiresAt }  
 - **Assemblers:** UserAssembler, SessionAssembler, RoleAssembler, VerificationAssembler, RecoveryAssembler
+<br>
 
 ---
 
-#### **2.6.6.3. Application Layer**
+
+#### 2.6.6.3. Application Layer
 
 Implementa casos de uso y orquestación con servicios externos.
 
@@ -3903,9 +3982,11 @@ Implementa casos de uso y orquestación con servicios externos.
   - TokenProviderAcl (emisión/validación de JWT o similar).  
   - AuditTrailAcl (registro de auditoría de seguridad).
 
+<br>
+
 ---
 
-#### **2.6.6.4. Infrastructure Layer**
+#### 2.6.6.4. Infrastructure Layer
 
 Implementaciones concretas de repositorios y adaptadores.
 
@@ -3922,6 +4003,7 @@ Implementaciones concretas de repositorios y adaptadores.
   - TokenProviderAdapter  
   - MessageBrokerPublisher  
   - AuditLogAdapter
+<br>
 
 ---
 
@@ -3929,6 +4011,7 @@ Implementaciones concretas de repositorios y adaptadores.
 <br>
 
 <img alt="Component-Suscription" src="assets\chapter-II-assets\components\structurizr-101398-Component-006.png" />
+<br>
 
 #### 2.6.6.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -3936,10 +4019,12 @@ Implementaciones concretas de repositorios y adaptadores.
 ##### 2.6.6.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-payment" src="assets\chapter-II-assets\bc\class-iam.png" />
+<br>
 
 ##### 2.6.6.6.2 Bounded Context Database Design Diagram
 <br>
 <img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-iam.png" />
+<br>
 
 ### **2.6.7. Bounded Context: Notifications**
 
@@ -4063,10 +4148,11 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
 - **SchedulerService**  
   - enqueue(notificationId, at: DateTime)  
   **Propósito:** Programa recordatorios y ventanas de envío.
+<br>
 
 ---
 
-#### **2.6.7.2. Interface Layer**
+#### 2.6.7.2. Interface Layer
 
 - **Controllers:** NotificationController, TemplateController, PreferenceController  
 - **Resources:**  
@@ -4074,10 +4160,11 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
   - TemplateResource { templateId, key, version, channels, variables }  
   - PreferenceResource { userId, channelOptIn, typeOptIn, quietHours }  
 - **Assemblers:** NotificationAssembler, TemplateAssembler, PreferenceAssembler
+<br>
 
 ---
 
-#### **2.6.7.3. Application Layer**
+#### 2.6.7.3. Application Layer
 
 - **Command Services:** NotificationCommandService, TemplateCommandService, PreferenceCommandService  
 - **Query Services:** NotificationQueryService, TemplateQueryService  
@@ -4088,13 +4175,15 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
 - **ACLs:**  
   - EmailProviderAcl, PushProviderAcl, SmsProviderAcl  
   - IAMAcl (para obtener correos/tokens push verificados)
+<br>
 
 ---
 
-#### **2.6.7.4. Infrastructure Layer**
+#### 2.6.7.4. Infrastructure Layer
 
 - **Repositories:** NotificationRepository, TemplateRepository, PreferenceRepository, DeliveryAttemptRepository  
 - **External Adapters:** EmailAdapter, PushAdapter, SmsAdapter, MessageBrokerPublisher, SchedulerAdapter
+<br>
 
 ---
 
@@ -4102,6 +4191,7 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
 <br>
 
 <img alt="Component-Notifications" src="assets\chapter-II-assets\components\structurizr-101398-Component-007.png" />
+<br>
 
 #### 2.6.7.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -4109,6 +4199,7 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
 ##### 2.6.7.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-trusting" src="assets\chapter-II-assets\bc/class-notification.png" />
+<br>
 
 ##### 2.6.7.6.2 Bounded Context Database Design Diagram
 <br>
