@@ -3085,6 +3085,7 @@ Implementaciones de persistencia y adaptadores externos.
 
 #### 2.6.3.1. Domain Layer
 Este bounded context cubre desde la solicitud de servicio hasta la creación/confirmación del booking, la gestión de ofertas y reprogramaciones, y la apertura de la service order para el handover hacia Vehicle&Maintenance.
+
 ---
 
 ### **Aggregates**
