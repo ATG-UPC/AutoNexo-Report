@@ -110,6 +110,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se repartieron 
     - [Tabla de contenidos](#tabla-de-contenidos)
 - [**Student Outcome**](#student-outcome)
 - [**Objetivos SMART**](#objetivos-smart)
+
 - [ **Capítulo I: Presentación** ](#-capítulo-i-presentación)
   - [**1.1. Startup Profile**](#11-startup-profile)
     - [**1.1.1. Descripción de la Startup**](#111-descripción-de-la-startup)
@@ -288,3 +289,10 @@ tecnologías de ingeniería de software.</td>
 </tr>
 </tbody></table>
 </br></br>
+
+# Objetivos SMART
+
+**Rafael Andres Vivanco Salazar**: 
+* Obtener una certificación internacional en AWS Cloud Practitioner en un plazo máximo de 18 meses después de mi graduación, dedicando al menos 6 horas semanales de estudio autodidacta y aplicando los conocimientos adquiridos en proyectos personales y laborales, con el fin de fortalecer mi perfil profesional en computación en la nube.
+
+* Integrarme en una empresa de desarrollo de software antes de cumplir un año de egresado, participando en al menos tres proyectos colaborativos en entornos ágiles (Scrum o Kanban) que me permitan aplicar mis competencias técnicas y mejorar mis habilidades de trabajo en equipo y comunicación profesional.
