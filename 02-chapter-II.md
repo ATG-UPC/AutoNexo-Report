@@ -112,7 +112,7 @@
   </tbody>
 </table>
 
-<br>
+
 
 ## 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -180,8 +180,6 @@ Para competir eficazmente frente a suites de gestión de flotas, apps personales
 - Plantillas de presupuestos, OT y checklist de inspección.
 - NPS trimestral y cohortes de retención con playbooks de reactivación.
 
-<br>
-
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
@@ -232,7 +230,8 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
 12. ¿Qué información debería mostrar la app al inicio para ayudarte a priorizar los mantenimientos más urgentes?
 13. ¿Cómo debería la app ayudarte a coordinar trabajos entre varios mecánicos si un vehículo requiere más de un tipo de mantenimiento?
 
-<br>
+
+
 
 ### 2.2.2. Registro de entrevistas
 
@@ -383,8 +382,6 @@ Se desarrollaron dos bloques de preguntas, diferenciados por el segmento objetiv
   </tr>
 </table>
 
-<br>
-
 ### 2.2.3. Análisis de entrevistas
 
 Las entrevistas se realizaron entre el 5 y el 15 de septiembre de 2025 a un total de 4 participantes: dos conductores y dos mecánicos capacitados de Peru y Venezuela. El objetivo fue identificar patrones comunes en sus frustraciones, expectativas y criterios soluciones digitales en aplicaciones móviles.
@@ -466,13 +463,10 @@ Las entrevistas se realizaron entre el 5 y el 15 de septiembre de 2025 a un tota
 • Ven con buenos ojos la idea de un sistema de membresías o suscripción para cobros recurrentes: 1/2 (50%)  
 • Reconocen que las reseñas negativas pueden dañar la reputación, pero aun así valoran su utilidad para mejorar: 1/2 (50%)
 
-<br>
-
 ## 2.3. Needfinding
 
 En el siguiente apartado, analizaremos a nuestros segmentos objetivos para identificar sus necesidades y en base a esto ofrecerles soluciones óptimas a sus problemas.
 
-<br>
 
 ### 2.3.1. User Personas
 Las siguientes User Persona representan a los diferentes tipos de usuarios que interactúan con nuestra aplicación. Estos perfiles nos permiten comprender sus características, motivaciones, necesidades y comportamientos, lo que facilita identificar cómo se relacionan con la solución desde su contexto personal hasta el uso activo de la misma.
@@ -490,7 +484,6 @@ Las siguientes User Persona representan a los diferentes tipos de usuarios que i
 
 [Ver mapa user persona hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/1Ng0UPewRqDezQuOSRunusah6vk5xM6lg?usp=sharing)
 
-<br>
 
 ### 2.3.2. User Task Matrix
 
@@ -661,7 +654,7 @@ Las siguientes User Persona representan a los diferentes tipos de usuarios que i
   </tbody>
 </table>
 
-<br>
+
 
 ### 2.3.3. User Journey Mapping
 Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagramas nos ayudarán a identificar y comprender las dificultades que enfrentan en cada fase, desde el momento en que conocen nuestra aplicación hasta la etapa en la que comparten sus experiencias y opiniones sobre su uso.
@@ -681,8 +674,6 @@ Los siguientes User Journey Maps corresponden a cada User Persona. Estos diagram
 <img alt="Journey-Map-Maria-Salinas" src="assets\chapter-II-assets\journey-map-marina.png" />
 
 [Ver mapa completo hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/10U-cHuHY3O-ueZ04tsT49D_9nUT28R7v?usp=drive_link)
-<br>
-
 <br>
 
 ### 2.3.4. Empathy Mapping
@@ -728,8 +719,6 @@ Para la construcción de los Empathy Maps, el equipo siguió los siguientes paso
 <img alt="Empathy-Map-Maria-Salinas" src="assets\chapter-II-assets\empathy-map-marina.png" />
 
 [Ver mapa completo hecho en UxPressia guardado en Drive](https://drive.google.com/drive/folders/1SIQ263bxvb-gNEhv7TxBklQGdferWbHq?usp=sharing)
-<br>
-
 <br>
 
 ### 2.3.5. Ubiquitous Language
@@ -792,7 +781,7 @@ Para la construcción de los Empathy Maps, el equipo siguió los siguientes paso
 
 - Permission (Permiso): Autorización concreta para ejecutar una acción en el sistema.
 
-- Authentication (Autenticación): Proceso de verificar la identidad de un usuario mediante credenciales.
+- AuEntoncestication (Autenticación): Proceso de verificar la identidad de un usuario mediante credenciales.
 
 - Authorization (Autorización): Proceso de validar que un usuario tiene permisos para acceder a un recurso o realizar una acción.
 
@@ -808,7 +797,6 @@ Para la construcción de los Empathy Maps, el equipo siguió los siguientes paso
 
 - Transactional Notification (Notificación transaccional): Mensaje generado automáticamente por un evento del sistema (ej. confirmación de reserva).
 
-<br>
 
 ## 2.4. Requirements specification
 
@@ -826,63 +814,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
             <th>Linked ID</th>
         </tr>
     </thead>
-    <tbody>
-            <tr>
-            <td>EP01</td>
-            <td>Registro y organización inicial</td>
-            <td>Como propietario y taller, quiero registrar vehículos e historiales, para organizar la información base de mantenimiento.</td>
-            <td>No corresponde</td>
-            <td>US01, US02, US03, US04</td>
-        </tr>
-        <tr>
-            <td>EP02</td>
-            <td>Gestión de servicios y reservas</td>
-            <td>Como taller y propietario, quiero gestionar ofertas de mantenimiento y reservas, para asegurar que las tareas se coordinen en tiempo y forma.</td>
-            <td>No corresponde</td>
-            <td>US05, US06, US07</td>
-        </tr>
-        <tr>
-            <td>EP03</td>
-            <td>Descubrimiento y personalización</td>
-            <td>Como propietario, quiero encontrar talleres y servicios mediante filtros, ubicación y promociones, para elegir la mejor opción.</td>
-            <td>No corresponde</td>
-            <td>US08, US09, US10, US11</td>
-        </tr>
-        <tr>
-            <td>EP04</td>
-            <td>Comunicación y coordinación</td>
-            <td>Como usuario, quiero comunicarme y coordinar con el taller en tiempo real, para asegurar un servicio claro y sin errores.</td>
-            <td>No corresponde</td>
-            <td>US12, US13, US14</td>
-        </tr>
-        <tr>
-            <td>EP05</td>
-            <td>Gestión de mantenimientos</td>
-            <td>Como usuario, quiero gestionar los mantenimientos desde la creación hasta la finalización, para asegurar el control y trazabilidad de cada servicio.</td>
-            <td>No corresponde</td>
-            <td>US15, US16, US17, US18, US19</td>
-        </tr>
-        <tr>
-            <td>EP06</td>
-            <td>Calificaciones y reputación</td>
-            <td>Como usuarios (propietario y taller), queremos calificarnos mutuamente y consultar reputaciones, para fomentar confianza y calidad en el servicio.</td>
-            <td>No corresponde</td>
-            <td>US20, US21, US22, US23</td>
-        </tr>
-        <tr>
-            <td>EP07</td>
-            <td>Landing Page (visitantes)</td>
-            <td>Como visitante, quiero acceder a información, registro y soporte desde la landing page, para conocer y empezar a usar la aplicación.</td>
-            <td>No corresponde</td>
-            <td>US24, US25, US26, US27</td>
-        </tr>
-           <tr>
-            <td>EP08</td>
-            <td>Servicios técnicos y APIs REST</td>
-            <td>Como equipo de desarrollo, quiero exponer endpoints REST bien documentados y seguros, para facilitar la integración, el mantenimiento y la escalabilidad del sistema.</td>
-            <td>No corresponde</td>
-            <td>TS01, TS02, TS03, TS04, TS05, TS06, TS07, TS08, TS09, TS10, TS11, TS12, TS13, TS14, TS15</td>
-        </tr>
+    <tbody>  
     <tr>
       <td>US01</td>
       <td>Visualizar información y beneficios (Landing Page)</td>
@@ -1822,338 +1754,222 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
   </td>
   <td>EP08</td>
 </tr>
+  <tr>
+  <td>SP-01</td>
+  <td>Investigación de la Integración de Stripe para el Procesamiento de Pagos</td>
+  <td>Como equipo de desarrollo, queremos investigar cómo integrar Stripe para el procesamiento de pagos en la plataforma Autonexo, para asegurarnos de que sea una solución adecuada para manejar pagos de manera segura y eficiente.</td>
+  <td>
+    <p><strong>Scenario 1 — Revisión de documentación Stripe:</strong><br>• Dado acceso a la documentación de la API de Stripe<br>• Cuando se revisan las opciones disponibles para el procesamiento de pagos (Payments, Checkout, Mobile SDKs, Stripe.js)<br>• Entonces se debe definir si Stripe es adecuado para la integración en Autonexo.</p>
+    <p><strong>Scenario 2 — Comparación de tarifas:</strong><br>• Dado las tarifas de Stripe<br>• Cuando se comparan los costos con otros sistemas de pagos en el mercado<br>• Entonces se debe decidir si Stripe es la opción más económica para Autonexo.</p>
+    <p><strong>Scenario 3 — Validación de suscripciones:</strong><br>• Dado las opciones de suscripción de Stripe<br>• Cuando se determina si la plataforma de Autonexo requiere un modelo de suscripción mensual<br>• Entonces se debe confirmar que Stripe es compatible con este modelo.</p>
+    <p><strong>Scenario 4 — Integración móvil:</strong><br>• Dado las capacidades de integración de Stripe con plataformas móviles (iOS/Android)<br>• Cuando se verifica la documentación de integración con Mobile SDKs<br>• Entonces se debe confirmar que Stripe es fácil de integrar con las aplicaciones móviles de Autonexo.</p>
+    <p><strong>Scenario 5 — Prueba de pago en entorno sandbox:</strong><br>• Dado que la integración de Stripe se prueba en un entorno de pruebas<br>• Cuando se realiza una transacción de pago utilizando un flujo de pago de prueba<br>• Entonces se debe verificar que el pago se procese correctamente y que la información de pago se guarde de manera segura.</p>
+    <p><strong>Scenario 6 — Cumplimiento de normativas:</strong><br>• Dado que el procesamiento de pagos debe ser seguro<br>• Cuando se revisa el cumplimiento de normativas (PCI-DSS, tokenización)<br>• Entonces se debe garantizar que Stripe cumpla con los estándares de seguridad necesarios.</p>
+    <p><strong>Scenario 7 — Compatibilidad con backend:</strong><br>• Dado que la integración afecta frontend y backend<br>• Cuando se verifica la compatibilidad de Stripe con el backend (Spring Boot)<br>• Entonces se debe asegurar que endpoints RESTful y webhooks funcionen correctamente.</p>
+    <p><strong>Scenario 8 — Prueba de carga:</strong><br>• Dado que Autonexo podría tener alto volumen de transacciones<br>• Cuando se realizan pruebas de carga<br>• Entonces se debe asegurar que Stripe maneje gran volumen de pagos sin afectar rendimiento.</p>
+    <p><strong>Scenario 9 — Tiempo de procesamiento:</strong><br>• Dado que el procesamiento debe ser rápido<br>• Cuando se miden los tiempos de latencia<br>• Entonces los pagos no deben exceder los 3 segundos.</p>
+    <p><strong>Scenario 10 — Documentación de integración:</strong><br>• Dado que la integración requiere documentación<br>• Cuando se documentan los pasos de integración<br>• Entonces se debe crear un informe detallado con problemas y soluciones.</p>
+    <p><strong>Scenario 11 — Usabilidad del flujo de pago:</strong><br>• Dado que el flujo de pago debe ser fácil de usar<br>• Cuando se prueba con usuarios simulados en entorno de pruebas<br>• Entonces se debe asegurar que la experiencia sea intuitiva, rápida y sin errores.</p>
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>SP-02</td>
+  <td>Investigación de Google Maps para la Localización de Mecánicos</td>
+  <td>Como equipo de desarrollo, quiero investigar la integración de Google Maps para la localización de mecánicos, para ofrecer a los conductores la capacidad de encontrar mecánicos cercanos de manera rápida y eficiente.</td>
+  <td>
+    <p><strong>Scenario 1 — Revisión de documentación:</strong><br>• Dado que el equipo tiene acceso a la documentación de la API de Google Maps<br>• Cuando el equipo investigue las opciones para implementar mapas interactivos y localización<br>• Entonces deberán determinar si la Google Maps API es adecuada para la integración en Autonexo.</p>
+    <p><strong>Scenario 2 — Análisis de costos:</strong><br>• Dado que el equipo ha analizado los costos asociados a Google Maps API<br>• Cuando comparen los costos con los beneficios que aportará la integración de la localización<br>• Entonces deberán decidir si Google Maps es económicamente viable para la plataforma.</p>
+    <p><strong>Scenario 3 — Pruebas de localización:</strong><br>• Dado que el equipo ha implementado la API de Google Maps para la localización<br>• Cuando realicen pruebas con la función de búsqueda de mecánicos<br>• Entonces deberán asegurarse de que los resultados sean rápidos y precisos.</p>
+    <p><strong>Scenario 4 — Pruebas de rendimiento:</strong><br>• Dado que se ha integrado la Google Maps API<br>• Cuando realicen pruebas de rendimiento en la carga del mapa y los resultados de búsqueda<br>• Entonces deberán garantizar que el sistema cargue los resultados en menos de 3 segundos.</p>
+    <p><strong>Scenario 5 — Precisión en la ubicación:</strong><br>• Dado que la API de Google Maps está implementada<br>• Cuando un usuario busque mecánicos cercanos<br>• Entonces deberán asegurarse de que la ubicación del mecánico sea precisa en el mapa.</p>
+    <p><strong>Scenario 6 — Compatibilidad móvil:</strong><br>• Dado que Autonexo debe ser compatible con dispositivos móviles<br>• Cuando el equipo prueba la integración en dispositivos móviles (iOS/Android)<br>• Entonces deberán garantizar que la localización funcione correctamente en ambas plataformas.</p>
+    <p><strong>Scenario 7 — Usabilidad de la interfaz:</strong><br>• Dado que la experiencia del usuario es crucial<br>• Cuando implementen la funcionalidad de localización en las aplicaciones móviles y web<br>• Entonces deberán asegurarse de que la interfaz de usuario sea fácil de usar y eficiente.</p>
+    <p><strong>Scenario 8 — Integración backend:</strong><br>• Dado que la integración de Google Maps debe trabajar con el backend<br>• Cuando el equipo verifique la comunicación entre la API de Google Maps y el backend de Autonexo<br>• Entonces deberán asegurarse de que los datos de ubicación se sincronicen correctamente en tiempo real.</p>
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>SP-03</td>
+  <td>Evaluación de Sistemas de Notificaciones Push</td>
+  <td>Como equipo de desarrollo, quiero investigar los sistemas de notificaciones push para enviar alertas de mantenimientos próximos a los usuarios, para mejorar la experiencia del usuario y asegurarnos de que nunca se olviden de los mantenimientos.</td>
+  <td>
+    <p><strong>Scenario 1 — Comparación de opciones:</strong><br>• Dado que el equipo ha identificado varias opciones de sistemas de notificaciones push como Firebase y OneSignal<br>• Cuando investiguen las características y capacidades de cada uno<br>• Entonces deberán decidir cuál es el más adecuado para la plataforma Autonexo.</p>
+    <p><strong>Scenario 2 — Prueba con Firebase:</strong><br>• Dado que el equipo ha probado la implementación de Firebase Cloud Messaging<br>• Cuando envíen una notificación push de prueba<br>• Entonces deberán confirmar que la notificación se recibe correctamente en dispositivos iOS y Android.</p>
+    <p><strong>Scenario 3 — Facilidad de integración:</strong><br>• Dado que el equipo ha implementado Firebase Cloud Messaging<br>• Cuando evalúen la facilidad de integración en el frontend y backend<br>• Entonces deberán determinar si la integración es sencilla y eficiente para la plataforma.</p>
+    <p><strong>Scenario 4 — Calidad de la notificación:</strong><br>• Dado que el equipo ha implementado la función de notificaciones push<br>• Cuando un usuario reciba una notificación sobre un mantenimiento próximo<br>• Entonces deberán asegurarse de que la notificación sea clara, visible y llegue sin demoras.</p>
+    <p><strong>Scenario 5 — Notificaciones programadas:</strong><br>• Dado que el equipo ha implementado la funcionalidad de notificaciones programadas<br>• Cuando se configure una notificación para ser enviada 24 horas antes de un mantenimiento<br>• Entonces se deberá verificar que la notificación se envíe correctamente en el momento programado.</p>
+    <p><strong>Scenario 6 — Evaluación de OneSignal:</strong><br>• Dado que se han considerado otras opciones de notificaciones push como OneSignal<br>• Cuando se investiguen sus características y ventajas comparativas<br>• Entonces deberán decidir si OneSignal es una alternativa viable a Firebase para la plataforma.</p>
+    <p><strong>Scenario 7 — Personalización:</strong><br>• Dado que el equipo ha implementado la función de notificaciones push<br>• Cuando se personaliza el contenido de las notificaciones (como texto, imágenes, botones)<br>• Entonces deberán asegurar que las notificaciones sean personalizables según las necesidades del usuario.</p>
+    <p><strong>Scenario 8 — Escalabilidad:</strong><br>• Dado que la plataforma Autonexo puede crecer en número de usuarios<br>• Cuando se evalúe la capacidad de Firebase y otras opciones para manejar un gran volumen de notificaciones<br>• Entonces deberán determinar si el sistema puede escalar eficientemente sin afectar el rendimiento.</p>
+    <p><strong>Scenario 9 — Seguridad:</strong><br>• Dado que la seguridad de las notificaciones es crucial<br>• Cuando se revisa la seguridad en el envío de las notificaciones (como autenticación, encriptación)<br>• Entonces deberán garantizar que el sistema de notificaciones cumpla con los estándares de seguridad necesarios.</p>
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>SP-04</td>
+  <td>Investigación de Herramientas de Reportes de Mantenimiento</td>
+  <td>Como equipo de desarrollo, quiero investigar herramientas como Power BI o Tableau para generar informes detallados sobre el mantenimiento de los vehículos, para mejorar la toma de decisiones y dar a los usuarios acceso a datos importantes.</td>
+  <td>
+    <p><strong>Scenario 1 — Comparación de herramientas:</strong><br>• Dado que el equipo ha identificado herramientas como Power BI y Tableau<br>• Cuando investiguen las características y capacidades de cada herramienta<br>• Entonces deberán seleccionar la herramienta que mejor se adapte a las necesidades de informes de mantenimiento de Autonexo.</p>
+    <p><strong>Scenario 2 — Prueba con Power BI:</strong><br>• Dado que el equipo ha probado Power BI con datos de prueba<br>• Cuando creen un reporte básico<br>• Entonces deberán evaluar si la herramienta proporciona visualizaciones claras y útiles para los usuarios.</p>
+    <p><strong>Scenario 3 — Prueba con Tableau:</strong><br>• Dado que el equipo ha probado Tableau para la creación de reportes<br>• Cuando realicen un análisis de desempeño<br>• Entonces deberán asegurar que Tableau sea capaz de manejar grandes volúmenes de datos de manera eficiente.</p>
+    <p><strong>Scenario 4 — Facilidad de uso:</strong><br>• Dado que Power BI y Tableau tienen interfaces diferentes<br>• Cuando se comparen la facilidad de uso de ambas herramientas<br>• Entonces deberán elegir la herramienta más fácil de usar para el equipo de desarrollo y los usuarios finales.</p>
+    <p><strong>Scenario 5 — Costos:</strong><br>• Dado que ambas herramientas tienen modelos de precios distintos<br>• Cuando se comparen los costos de uso de Power BI y Tableau<br>• Entonces deberán decidir cuál herramienta ofrece la mejor relación calidad-precio para Autonexo.</p>
+    <p><strong>Scenario 6 — Personalización:</strong><br>• Dado que los informes deben adaptarse a diferentes necesidades<br>• Cuando el equipo personalice los informes en Power BI y Tableau<br>• Entonces deberán garantizar que las herramientas permitan una amplia personalización de los informes, incluyendo gráficos, tablas y filtros.</p>
+    <p><strong>Scenario 7 — Visualización:</strong><br>• Dado que se requiere una visualización clara de los datos de mantenimiento<br>• Cuando se comparen las capacidades de visualización de Power BI y Tableau<br>• Entonces deberán decidir cuál herramienta ofrece las mejores opciones de visualización para facilitar la toma de decisiones.</p>
+    <p><strong>Scenario 8 — Integración con base de datos:</strong><br>• Dado que los datos de mantenimiento de Autonexo están almacenados en una base de datos<br>• Cuando el equipo integre Power BI y Tableau con los datos<br>• Entonces deberán asegurar que ambas herramientas puedan acceder a los datos de manera eficiente y sin errores.</p>
+    <p><strong>Scenario 9 — Escalabilidad:</strong><br>• Dado que la plataforma Autonexo puede crecer en volumen de datos<br>• Cuando el equipo evalúe la escalabilidad de Power BI y Tableau<br>• Entonces deberán determinar si ambas herramientas pueden manejar el crecimiento futuro de los datos sin afectar el rendimiento.</p>
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>SP-05</td>
+  <td>Investigación de Técnicas de Caching para Mejorar el Rendimiento</td>
+  <td>Como equipo de desarrollo, quiero investigar técnicas de caching como Redis o Memcached, para mejorar el rendimiento de la plataforma y reducir los tiempos de carga.</td>
+  <td>
+    <p><strong>Scenario 1 — Comparación de opciones:</strong><br>• Dado que el equipo ha considerado opciones como Redis y Memcached<br>• Cuando investiguen las características y ventajas de cada uno<br>• Entonces deberán seleccionar la opción que mejor se adapte a las necesidades de Autonexo.</p>
+    <p><strong>Scenario 2 — Prueba con Redis:</strong><br>• Dado que el equipo ha implementado una solución de caching en Redis<br>• Cuando realicen pruebas de rendimiento en una función crítica<br>• Entonces deberán verificar si el tiempo de respuesta mejora significativamente.</p>
+    <p><strong>Scenario 3 — Prueba con Memcached:</strong><br>• Dado que el equipo ha probado el caching de Memcached<br>• Cuando comparen los tiempos de respuesta en diferentes pruebas de carga<br>• Entonces deberán decidir si Memcached es adecuado para el uso en Autonexo.</p>
+    <p><strong>Scenario 4 — Facilidad de integración:</strong><br>• Dado que Redis y Memcached tienen implementaciones y configuraciones distintas<br>• Cuando el equipo evalúe la facilidad de integración de cada sistema en la arquitectura de Autonexo<br>• Entonces deberán determinar cuál es más sencillo de implementar y mantener.</p>
+    <p><strong>Scenario 5 — Escalabilidad:</strong><br>• Dado que Autonexo puede crecer en volumen de usuarios y datos<br>• Cuando se evalúe la escalabilidad de Redis y Memcached<br>• Entonces deberán garantizar que la opción seleccionada pueda manejar un crecimiento significativo sin afectar el rendimiento.</p>
+    <p><strong>Scenario 6 — Seguridad:</strong><br>• Dado que la seguridad es un factor crítico en la integración de caching<br>• Cuando se revisen las medidas de seguridad de Redis y Memcached (como la encriptación de datos)<br>• Entonces deberán confirmar que la solución de caching cumple con los requisitos de seguridad necesarios.</p>
+    <p><strong>Scenario 7 — Consumo de recursos:</strong><br>• Dado que las soluciones de caching deben ser eficientes en el uso de recursos<br>• Cuando se mida el consumo de CPU y memoria al implementar Redis o Memcached<br>• Entonces deberán asegurar que la solución elegida no afecte negativamente los recursos de Autonexo.</p>
+    <p><strong>Scenario 8 — Alta disponibilidad:</strong><br>• Dado que la alta disponibilidad es crucial para el sistema de caching<br>• Cuando se simulen fallos en Redis o Memcached<br>• Entonces deberán verificar que la solución seleccionada pueda recuperarse correctamente sin perder datos importantes.</p>
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>SP-06</td>
+  <td>Evaluación de Herramientas de Seguridad para la Plataforma</td>
+  <td>Como equipo de seguridad, quiero investigar herramientas de seguridad como OWASP ZAP o Burp Suite para realizar pruebas de penetración y asegurarnos de que la plataforma esté segura.</td>
+  <td>
+    <p><strong>Scenario 1 — Comparación de herramientas:</strong><br>• Dado que el equipo ha considerado herramientas como OWASP ZAP y Burp Suite<br>• Cuando investiguen las características de cada una<br>• Entonces deberán decidir cuál es la mejor herramienta para realizar pruebas de seguridad en Autonexo.</p>
+    <p><strong>Scenario 2 — Escaneo de vulnerabilidades con OWASP ZAP:</strong><br>• Dado que el equipo ha implementado una prueba de seguridad con OWASP ZAP<br>• Cuando realicen un escaneo de vulnerabilidades<br>• Entonces deberán identificar todas las posibles brechas de seguridad en el sistema.</p>
+    <p><strong>Scenario 3 — Prueba de penetración con Burp Suite:</strong><br>• Dado que el equipo ha implementado Burp Suite para pruebas de seguridad<br>• Cuando realicen pruebas de penetración<br>• Entonces deberán asegurarse de que la plataforma esté segura contra ataques comunes.</p>
+    <p><strong>Scenario 4 — Facilidad de uso:</strong><br>• Dado que OWASP ZAP y Burp Suite tienen interfaces y configuraciones distintas<br>• Cuando el equipo evalúe la facilidad de uso de ambas herramientas<br>• Entonces deberán decidir cuál herramienta es más fácil de integrar y utilizar en el flujo de trabajo de Autonexo.</p>
+    <p><strong>Scenario 5 — Detección de vulnerabilidades críticas:</strong><br>• Dado que el objetivo es detectar vulnerabilidades críticas en la plataforma<br>• Cuando el equipo pruebe las capacidades de detección de vulnerabilidades de OWASP ZAP y Burp Suite<br>• Entonces deberán asegurarse de que ambas herramientas detecten las vulnerabilidades clave en Autonexo.</p>
+    <p><strong>Scenario 6 — Configuraciones de seguridad:</strong><br>• Dado que las configuraciones de seguridad son esenciales en las pruebas de penetración<br>• Cuando el equipo evalúe las configuraciones de seguridad de OWASP ZAP y Burp Suite<br>• Entonces deberán determinar si las herramientas permiten una configuración detallada y personalizada según las necesidades de Autonexo.</p>
+    <p><strong>Scenario 7 — Integración en el flujo de desarrollo:</strong><br>• Dado que las pruebas de seguridad deben integrarse con el flujo de desarrollo de Autonexo<br>• Cuando el equipo evalúe cómo OWASP ZAP y Burp Suite se integran con las herramientas y procesos de desarrollo existentes<br>• Entonces deberán garantizar que las herramientas se integren sin interrumpir el flujo de trabajo de desarrollo.</p>
+    <p><strong>Scenario 8 — Informes de seguridad:</strong><br>• Dado que los informes de seguridad son cruciales para la corrección de vulnerabilidades<br>• Cuando el equipo revise los informes generados por OWASP ZAP y Burp Suite<br>• Entonces deberán asegurarse de que los informes sean claros, detallados y proporcionen las recomendaciones necesarias para corregir las vulnerabilidades encontradas.</p>
+  </td>
+  <td>No corresponde</td>
+</tr>
+<tr>
+  <td>SP-07</td>
+  <td>Investigación de Plataforma para Gestión de Suscripciones</td>
+  <td>Como equipo de desarrollo, quiero investigar plataformas como Recurly o Stripe Billing para gestionar suscripciones y automatizar el proceso de pagos recurrentes en la plataforma.</td>
+  <td>
+    <p><strong>Scenario 1 — Comparación de plataformas:</strong><br>• Dado que el equipo ha considerado plataformas como Recurly y Stripe Billing<br>• Cuando investiguen las funcionalidades y capacidades de cada plataforma<br>• Entonces deberán seleccionar la plataforma más adecuada para gestionar las suscripciones de Autonexo.</p>
+    <p><strong>Scenario 2 — Prueba con Recurly:</strong><br>• Dado que el equipo ha probado la implementación de Recurly con datos de prueba<br>• Cuando creen un ciclo de suscripción y realicen un pago de prueba<br>• Entonces deberán verificar que la plataforma maneje correctamente los pagos recurrentes.</p>
+    <p><strong>Scenario 3 — Prueba con Stripe Billing:</strong><br>• Dado que el equipo ha probado Stripe Billing para gestionar suscripciones<br>• Cuando realicen una prueba de suscripción con Stripe Billing<br>• Entonces deberán asegurarse de que la plataforma maneje correctamente los pagos recurrentes.</p>
+    <p><strong>Scenario 4 — Comparación de costos:</strong><br>• Dado que ambas plataformas tienen estructuras de precios diferentes<br>• Cuando se comparen los costos de Recurly y Stripe Billing<br>• Entonces deberán decidir cuál plataforma ofrece la mejor relación calidad-precio para Autonexo.</p>
+    <p><strong>Scenario 5 — Integración con backend:</strong><br>• Dado que la plataforma de suscripciones debe integrarse con el backend de Autonexo<br>• Cuando el equipo evalúe la facilidad de integración de Recurly y Stripe Billing con el backend (Spring Boot)<br>• Entonces deberán garantizar que ambas plataformas se integren de manera sencilla y eficiente.</p>
+    <p><strong>Scenario 6 — Seguridad en pagos:</strong><br>• Dado que la seguridad es fundamental en los pagos recurrentes<br>• Cuando el equipo revise las medidas de seguridad de Recurly y Stripe Billing<br>• Entonces deberán garantizar que ambas plataformas cumplan con los estándares de seguridad necesarios, como PCI-DSS.</p>
+    <p><strong>Scenario 7 — Reportes de suscripciones:</strong><br>• Dado que es necesario gestionar los datos de clientes y suscripciones<br>• Cuando se utilicen las herramientas de reportes de Recurly y Stripe Billing<br>• Entonces deberán asegurarse de que las plataformas generen informes detallados y fáciles de usar sobre las suscripciones.</p>
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+<tr>
+  <td>SP-08</td>
+  <td>Investigación de API de Localización para Mejorar la Búsqueda de Mecánicos</td>
+  <td>Como equipo de desarrollo, quiero investigar APIs de localización como Google Maps, Mapbox o Here para mejorar la búsqueda de mecánicos cercanos, ofreciendo una experiencia más eficiente y precisa a los conductores.</td>
+  <td>
+    <p><strong>Scenario 1 — Comparación de APIs:</strong><br>• Dado que el equipo ha considerado APIs como Google Maps, Mapbox o Here<br>• Cuando investiguen las características y opciones de integración de cada API<br>• Entonces deberán seleccionar la mejor API para la localización en Autonexo.</p>
+    <p><strong>Scenario 2 — Prueba con Google Maps:</strong><br>• Dado que el equipo ha implementado la API de Google Maps para la localización<br>• Cuando realicen pruebas de búsqueda de mecánicos cercanos<br>• Entonces deberán asegurarse de que la función de localización sea precisa y eficiente.</p>
+    <p><strong>Scenario 3 — Prueba con Mapbox:</strong><br>• Dado que el equipo ha implementado la API de Mapbox para la localización<br>• Cuando realicen pruebas de búsqueda de mecánicos cercanos<br>• Entonces deberán asegurarse de que la función de localización sea precisa y eficiente.</p>
+    <p><strong>Scenario 4 — Prueba con Here:</strong><br>• Dado que el equipo ha implementado la API de Here para la localización<br>• Cuando realicen pruebas de búsqueda de mecánicos cercanos<br>• Entonces deberán asegurarse de que la función de localización sea precisa y eficiente.</p>
+    <p><strong>Scenario 5 — Comparación de costos:</strong><br>• Dado que cada API tiene diferentes modelos de precios<br>• Cuando comparen los costos de Google Maps, Mapbox y Here<br>• Entonces deberán decidir cuál API ofrece la mejor relación calidad-precio para la plataforma.</p>
+    <p><strong>Scenario 6 — Facilidad de integración:</strong><br>• Dado que Google Maps, Mapbox y Here tienen implementaciones y configuraciones distintas<br>• Cuando el equipo evalúe la facilidad de integración de cada API con la plataforma Autonexo<br>• Entonces deberán determinar cuál API es más sencilla de implementar y mantener.</p>
+    <p><strong>Scenario 7 — Escalabilidad:</strong><br>• Dado que la plataforma Autonexo puede crecer en volumen de usuarios y mecánicos<br>• Cuando el equipo evalúe la escalabilidad de Google Maps, Mapbox y Here<br>• Entonces deberán asegurarse de que todas las APIs puedan manejar un gran volumen de solicitudes sin afectar el rendimiento.</p>
+    <p><strong>Scenario 8 — Precisión en ubicaciones:</strong><br>• Dado que la precisión es clave en la búsqueda de mecánicos cercanos<br>• Cuando el equipo pruebe las APIs de Google Maps, Mapbox y Here en diferentes ubicaciones<br>• Entonces deberán asegurarse de que todas las APIs proporcionen ubicaciones precisas y fiables.</p>
+    <p><strong>Scenario 9 — Compatibilidad móvil:</strong><br>• Dado que las aplicaciones de Autonexo están disponibles en dispositivos móviles<br>• Cuando el equipo evalúe la compatibilidad de Google Maps, Mapbox y Here con dispositivos móviles (iOS/Android)<br>• Entonces deberán asegurarse de que todas las APIs funcionen correctamente en plataformas móviles.</p>
+    <p><strong>Scenario 10 — Funcionalidades adicionales:</strong><br>• Dado que tanto Google Maps, Mapbox y Here ofrecen características adicionales (como rutas optimizadas, tráfico en tiempo real, etc.)<br>• Cuando el equipo explore estas características<br>• Entonces deberán decidir si alguna de estas funcionalidades adicionales es relevante y útil para la plataforma Autonexo.</p>
+  </td>
+  <td>No corresponde</td>
+</tr>
+
+  </tbody>
+</table>
   </tbody>
 </table>
 
 
-
-
-
-
+<table border="1">
+    <thead>
+        <tr>
+            <th>Story ID</th>
+            <th>Título</th>
+            <th>Descripción</th>
+            <th>Acceptance Criteria</th>
+            <th>Linked ID</th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+            <td>EP01</td>
+            <td>Registro y organización inicial</td>
+            <td>Como propietario y taller, quiero registrar vehículos e historiales, para organizar la información base de mantenimiento.</td>
+            <td>No corresponde</td>
+            <td>US01, US02, US03, US04</td>
+        </tr>
+        <tr>
+            <td>EP02</td>
+            <td>Gestión de servicios y reservas</td>
+            <td>Como taller y propietario, quiero gestionar ofertas de mantenimiento y reservas, para asegurar que las tareas se coordinen en tiempo y forma.</td>
+            <td>No corresponde</td>
+            <td>US05, US06, US07</td>
+        </tr>
+        <tr>
+            <td>EP03</td>
+            <td>Descubrimiento y personalización</td>
+            <td>Como propietario, quiero encontrar talleres y servicios mediante filtros, ubicación y promociones, para elegir la mejor opción.</td>
+            <td>No corresponde</td>
+            <td>US08, US09, US10, US11</td>
+        </tr>
+        <tr>
+            <td>EP04</td>
+            <td>Comunicación y coordinación</td>
+            <td>Como usuario, quiero comunicarme y coordinar con el taller en tiempo real, para asegurar un servicio claro y sin errores.</td>
+            <td>No corresponde</td>
+            <td>US12, US13, US14</td>
+        </tr>
+        <tr>
+            <td>EP05</td>
+            <td>Gestión de mantenimientos</td>
+            <td>Como usuario, quiero gestionar los mantenimientos desde la creación hasta la finalización, para asegurar el control y trazabilidad de cada servicio.</td>
+            <td>No corresponde</td>
+            <td>US15, US16, US17, US18, US19</td>
+        </tr>
+        <tr>
+            <td>EP06</td>
+            <td>Calificaciones y reputación</td>
+            <td>Como usuarios (propietario y taller), queremos calificarnos mutuamente y consultar reputaciones, para fomentar confianza y calidad en el servicio.</td>
+            <td>No corresponde</td>
+            <td>US20, US21, US22, US23</td>
+        </tr>
+        <tr>
+            <td>EP07</td>
+            <td>Landing Page (visitantes)</td>
+            <td>Como visitante, quiero acceder a información, registro y soporte desde la landing page, para conocer y empezar a usar la aplicación.</td>
+            <td>No corresponde</td>
+            <td>US24, US25, US26, US27</td>
+        </tr>
+           <tr>
+            <td>EP08</td>
+            <td>Servicios técnicos y APIs REST</td>
+            <td>Como equipo de desarrollo, quiero exponer endpoints REST bien documentados y seguros, para facilitar la integración, el mantenimiento y la escalabilidad del sistema.</td>
+            <td>No corresponde</td>
+            <td>TS01, TS02, TS03, TS04, TS05, TS06, TS07, TS08, TS09, TS10, TS11, TS12, TS13, TS14, TS15</td>
+        </tr>
   </tbody>
 </table>
-
-
-
-
-
-
-<h2>Spike 1: Investigación de la Integración de Stripe para el Procesamiento de Pagos</h2>
-
-<table border="1">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>SP-01</td>
-    <td>Developer</td>
-    <td>Alta</td>
-    <td>Autenticación</td>
-  </tr>
+  </tbody>
 </table>
-
-<h3>Title: Investigación de la Integración de Stripe para el Procesamiento de Pagos</h3>
-
-<h4>Description:</h4>
-<p>Como equipo de desarrollo, queremos investigar cómo integrar Stripe para el procesamiento de pagos en la plataforma Autonexo, para asegurarnos de que sea una solución adecuada para manejar pagos de manera segura y eficiente.</p>
-
-<h4>Acceptance Criteria:</h4>
-<ul>
-  <li><strong>Dado</strong> acceso a la documentación de la API de Stripe, <strong>Cuando</strong> se revisan las opciones disponibles para el procesamiento de pagos (como Payments, Checkout, Mobile SDKs, Stripe.js), <strong>Entonces</strong> se debe definir si Stripe es adecuado para la integración en Autonexo.</li>
-  <li><strong>Dado</strong> las tarifas de Stripe, <strong>Cuando</strong> se comparan los costos con otros sistemas de pagos en el mercado, <strong>Entonces</strong> se debe decidir si Stripe es la opción más económica para Autonexo.</li>
-  <li><strong>Dado</strong> las opciones de suscripción de Stripe, <strong>Cuando</strong> se determina si la plataforma de Autonexo requiere un modelo de suscripción mensual, <strong>Entonces</strong> se debe confirmar que Stripe es compatible con este modelo y con las necesidades de Autonexo.</li>
-  <li><strong>Dado</strong> las capacidades de integración de Stripe con plataformas móviles (iOS/Android), <strong>Cuando</strong> se verifica la documentación de integración con plataformas móviles a través de los Mobile SDKs de Stripe, <strong>Entonces</strong> se debe confirmar que Stripe es fácil de integrar con las aplicaciones móviles de Autonexo.</li>
-  <li><strong>Dado</strong> que la integración de Stripe se prueba en un entorno de pruebas, <strong>Cuando</strong> se realiza una transacción de pago utilizando un flujo de pago de prueba, <strong>Entonces</strong> se debe verificar que el pago se procese correctamente y que la información de pago se guarde de manera segura.</li>
-  <li><strong>Dado</strong> que el procesamiento de pagos debe ser seguro, <strong>Cuando</strong> se revisa el cumplimiento de las normativas de seguridad de Stripe (como PCI-DSS y tokenización), <strong>Entonces</strong> se debe garantizar que Stripe cumpla con los estándares de seguridad necesarios.</li>
-  <li><strong>Dado</strong> que la integración de Stripe afecta tanto al frontend como al backend, <strong>Cuando</strong> se verifica la compatibilidad de Stripe con el backend (Spring Boot), <strong>Entonces</strong> se debe asegurar que los endpoints RESTful y los webhooks de Stripe funcionen correctamente con el sistema backend de Autonexo.</li>
-  <li><strong>Dado</strong> que la plataforma Autonexo podría tener un alto volumen de transacciones, <strong>Cuando</strong> se realizan pruebas de carga en la integración de Stripe, <strong>Entonces</strong> se debe asegurar que Stripe pueda manejar un gran volumen de pagos sin afectar el rendimiento.</li>
-  <li><strong>Dado</strong> que el procesamiento de pagos debe ser rápido, <strong>Cuando</strong> se miden los tiempos de latencia al realizar pagos con Stripe, <strong>Entonces</strong> los tiempos de procesamiento de pagos no deben exceder los 3 segundos.</li>
-  <li><strong>Dado</strong> que la integración de Stripe requiere documentación clara, <strong>Cuando</strong> se documentan los pasos de integración, <strong>Entonces</strong> se debe crear un informe detallado que describa cómo integrar Stripe en Autonexo, incluyendo cualquier problema encontrado y las soluciones propuestas.</li>
-  <li><strong>Dado</strong> que el flujo de pago debe ser fácil de usar para los clientes de Autonexo, <strong>Cuando</strong> se prueba el flujo de pago en un entorno de pruebas con usuarios simulados, <strong>Entonces</strong> se debe asegurar que la experiencia del usuario sea intuitiva, rápida y sin errores.</li>
-</ul>
-
-
-
-
-<h2>Spike 2: Investigación de Google Maps para la Localización de Mecánicos</h2>
-
-<table border="1">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>SP-02</td>
-    <td>Developer</td>
-    <td>Alta</td>
-    <td>Localización</td>
-  </tr>
-</table>
-
-<h3>Title: Investigación de Google Maps para la Localización de Mecánicos</h3>
-
-<h4>Description:</h4>
-<p>Como equipo de desarrollo, quiero investigar la integración de Google Maps para la localización de mecánicos, para ofrecer a los conductores la capacidad de encontrar mecánicos cercanos de manera rápida y eficiente.</p>
-
-<h4>Acceptance Criteria:</h4>
-<ul>
-  <li><strong>Dado</strong> que el equipo tiene acceso a la documentación de la API de Google Maps, <strong>Cuando</strong> el equipo investigue las opciones para implementar mapas interactivos y localización, <strong>Entonces</strong> deberán determinar si la Google Maps API es adecuada para la integración en Autonexo.</li>
-  <li><strong>Dado</strong> que el equipo ha analizado los costos asociados a Google Maps API, <strong>Cuando</strong> comparen los costos con los beneficios que aportará la integración de la localización, <strong>Entonces</strong> deberán decidir si Google Maps es económicamente viable para la plataforma.</li>
-  <li><strong>Dado</strong> que el equipo ha implementado la API de Google Maps para la localización, <strong>Cuando</strong> realicen pruebas con la función de búsqueda de mecánicos, <strong>Entonces</strong> deberán asegurarse de que los resultados sean rápidos y precisos.</li>
-  <li><strong>Dado</strong> que se ha integrado la Google Maps API, <strong>Cuando</strong> realicen pruebas de rendimiento en la carga del mapa y los resultados de búsqueda, <strong>Entonces</strong> deberán garantizar que el sistema cargue los resultados en menos de 3 segundos.</li>
-  <li><strong>Dado</strong> que la API de Google Maps está implementada, <strong>Cuando</strong> un usuario busque mecánicos cercanos, <strong>Entonces</strong> deberán asegurarse de que la ubicación del mecánico sea precisa en el mapa.</li>
-  <li><strong>Dado</strong> que Autonexo debe ser compatible con dispositivos móviles, <strong>Cuando</strong> el equipo prueba la integración en dispositivos móviles (iOS/Android), <strong>Entonces</strong> deberán garantizar que la localización funcione correctamente en ambas plataformas.</li>
-  <li><strong>Dado</strong> que la experiencia del usuario es crucial, <strong>Cuando</strong> implementen la funcionalidad de localización en las aplicaciones móviles y web, <strong>Entonces</strong> deberán asegurarse de que la interfaz de usuario sea fácil de usar y eficiente.</li>
-  <li><strong>Dado</strong> que la integración de Google Maps debe trabajar con el backend, <strong>Cuando</strong> el equipo verifique la comunicación entre la API de Google Maps y el backend de Autonexo, <strong>Entonces</strong> deberán asegurarse de que los datos de ubicación se sincronicen correctamente en tiempo real.</li>
-</ul>
-
-
-
-
-
-
-<h2>Spike 3: Evaluación de Sistemas de Notificaciones Push</h2>
-
-<table border="1">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>SP-03</td>
-    <td>Developer</td>
-    <td>Alta</td>
-    <td>Notificaciones</td>
-  </tr>
-</table>
-
-<h3>Title: Evaluación de Sistemas de Notificaciones Push</h3>
-
-<h4>Description:</h4>
-<p>Como equipo de desarrollo, quiero investigar los sistemas de notificaciones push para enviar alertas de mantenimientos próximos a los usuarios, para mejorar la experiencia del usuario y asegurarnos de que nunca se olviden de los mantenimientos.</p>
-
-<h4>Acceptance Criteria:</h4>
-<ul>
-  <li><strong>Dado</strong> que el equipo ha identificado varias opciones de sistemas de notificaciones push como Firebase y OneSignal, <strong>Cuando</strong> investiguen las características y capacidades de cada uno, <strong>Entonces</strong> deberán decidir cuál es el más adecuado para la plataforma Autonexo.</li>
-  <li><strong>Dado</strong> que el equipo ha probado la implementación de Firebase Cloud Messaging, <strong>Cuando</strong> envíen una notificación push de prueba, <strong>Entonces</strong> deberán confirmar que la notificación se recibe correctamente en dispositivos iOS y Android.</li>
-  <li><strong>Dado</strong> que el equipo ha implementado Firebase Cloud Messaging, <strong>Cuando</strong> evalúen la facilidad de integración en el frontend y backend, <strong>Entonces</strong> deberán determinar si la integración es sencilla y eficiente para la plataforma.</li>
-  <li><strong>Dado</strong> que el equipo ha implementado la función de notificaciones push, <strong>Cuando</strong> un usuario reciba una notificación sobre un mantenimiento próximo, <strong>Entonces</strong> deberán asegurarse de que la notificación sea clara, visible y llegue sin demoras.</li>
-  <li><strong>Dado</strong> que el equipo ha implementado la funcionalidad de notificaciones programadas, <strong>Cuando</strong> se configure una notificación para ser enviada 24 horas antes de un mantenimiento, <strong>Entonces</strong> se deberá verificar que la notificación se envíe correctamente en el momento programado.</li>
-  <li><strong>Dado</strong> que se han considerado otras opciones de notificaciones push como OneSignal, <strong>Cuando</strong> se investigan sus características y ventajas comparativas, <strong>Entonces</strong> deberán decidir si OneSignal es una alternativa viable a Firebase para la plataforma.</li>
-  <li><strong>Dado</strong> que el equipo ha implementado la función de notificaciones push, <strong>Cuando</strong> se personaliza el contenido de las notificaciones (como texto, imágenes, botones), <strong>Entonces</strong> deberán asegurar que las notificaciones sean personalizables según las necesidades del usuario.</li>
-  <li><strong>Dado</strong> que la plataforma Autonexo puede crecer en número de usuarios, <strong>Cuando</strong> se evalúa la capacidad de Firebase y otras opciones para manejar un gran volumen de notificaciones, <strong>Entonces</strong> deberán determinar si el sistema puede escalar eficientemente sin afectar el rendimiento.</li>
-  <li><strong>Dado</strong> que la seguridad de las notificaciones es crucial, <strong>Cuando</strong> se revisa la seguridad en el envío de las notificaciones (como autenticación, encriptación), <strong>Entonces</strong> deberán garantizar que el sistema de notificaciones cumpla con los estándares de seguridad necesarios.</li>
-</ul>
-
-
-<h2>Spike 4: Investigación de Herramientas de Reportes de Mantenimiento</h2>
-
-<table border="1">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>SP-04</td>
-    <td>Developer</td>
-    <td>Alta</td>
-    <td>Reportes de Mantenimiento</td>
-  </tr>
-</table>
-
-<h3>Title: Investigación de Herramientas de Reportes de Mantenimiento</h3>
-
-<h4>Description:</h4>
-<p>Como equipo de desarrollo, quiero investigar herramientas como Power BI o Tableau para generar informes detallados sobre el mantenimiento de los vehículos, para mejorar la toma de decisiones y dar a los usuarios acceso a datos importantes.</p>
-
-<h4>Acceptance Criteria:</h4>
-<ul>
-  <li><strong>Dado</strong> que el equipo ha identificado herramientas como Power BI y Tableau, <strong>Cuando</strong> investiguen las características y capacidades de cada herramienta, <strong>Entonces</strong> deberán seleccionar la herramienta que mejor se adapte a las necesidades de informes de mantenimiento de Autonexo.</li>
-  <li><strong>Dado</strong> que el equipo ha probado Power BI con datos de prueba, <strong>Cuando</strong> creen un reporte básico, <strong>Entonces</strong> deberán evaluar si la herramienta proporciona visualizaciones claras y útiles para los usuarios.</li>
-  <li><strong>Dado</strong> que el equipo ha probado Tableau para la creación de reportes, <strong>Cuando</strong> realicen un análisis de desempeño, <strong>Entonces</strong> deberán asegurar que Tableau sea capaz de manejar grandes volúmenes de datos de manera eficiente.</li>
-  <li><strong>Dado</strong> que Power BI y Tableau tienen interfaces diferentes, <strong>Cuando</strong> se comparan la facilidad de uso de ambas herramientas, <strong>Entonces</strong> deberán elegir la herramienta más fácil de usar para el equipo de desarrollo y los usuarios finales.</li>
-  <li><strong>Dado</strong> que ambas herramientas tienen modelos de precios distintos, <strong>Cuando</strong> se comparan los costos de uso de Power BI y Tableau, <strong>Entonces</strong> deberán decidir cuál herramienta ofrece la mejor relación calidad-precio para Autonexo.</li>
-  <li><strong>Dado</strong> que los informes deben adaptarse a diferentes necesidades, <strong>Cuando</strong> el equipo personaliza los informes en Power BI y Tableau, <strong>Entonces</strong> deberán garantizar que las herramientas permitan una amplia personalización de los informes, incluyendo gráficos, tablas y filtros.</li>
-  <li><strong>Dado</strong> que se requiere una visualización clara de los datos de mantenimiento, <strong>Cuando</strong> se comparan las capacidades de visualización de Power BI y Tableau, <strong>Entonces</strong> deberán decidir cuál herramienta ofrece las mejores opciones de visualización para facilitar la toma de decisiones.</li>
-  <li><strong>Dado</strong> que los datos de mantenimiento de Autonexo están almacenados en una base de datos, <strong>Cuando</strong> el equipo integra Power BI y Tableau con los datos de mantenimiento, <strong>Entonces</strong> deberán asegurar que ambas herramientas puedan acceder a los datos de manera eficiente y sin errores.</li>
-  <li><strong>Dado</strong> que la plataforma Autonexo puede crecer en volumen de datos, <strong>Cuando</strong> el equipo evalúa la escalabilidad de Power BI y Tableau, <strong>Entonces</strong> deberán determinar si ambas herramientas pueden manejar el crecimiento futuro de los datos sin afectar el rendimiento.</li>
-</ul>
-
-<h2>Spike 5: Investigación de Integración de API de Pagos con MercadoPago</h2>
-
-<table border="1">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>SP-05</td>
-    <td>Developer</td>
-    <td>Alta</td>
-    <td>Integración de Pagos</td>
-  </tr>
-</table>
-
-<h3>Title: Investigación de Integración de API de Pagos con MercadoPago</h3>
-
-<h4>Description:</h4>
-<p>Como equipo de desarrollo, quiero investigar cómo integrar la API de MercadoPago para procesar pagos, para ofrecer una solución de pagos alternativa para los usuarios en la plataforma.</p>
-
-<h4>Acceptance Criteria:</h4>
-<ul>
-  <li><strong>Dado</strong> que el equipo tiene acceso a la documentación de la API de MercadoPago, <strong>Cuando</strong> el equipo investiga las opciones para integrar métodos de pago como tarjetas de crédito y débito, <strong>Entonces</strong> deberá definir si MercadoPago es adecuado para la integración en Autonexo.</li>
-  <li><strong>Dado</strong> que el equipo ha realizado una prueba de pago con MercadoPago, <strong>Cuando</strong> el equipo verifique que el proceso de pago se complete correctamente, <strong>Entonces</strong> deberá confirmar si MercadoPago es viable como solución de pagos para la plataforma.</li>
-  <li><strong>Dado</strong> que MercadoPago ofrece tarifas para diferentes tipos de transacciones, <strong>Cuando</strong> el equipo compare los costos de MercadoPago con otras soluciones de pagos, <strong>Entonces</strong> deberá decidir si MercadoPago es económicamente viable para Autonexo.</li>
-  <li><strong>Dado</strong> que la integración de MercadoPago afecta el backend de Autonexo, <strong>Cuando</strong> el equipo evalúe la compatibilidad de MercadoPago con el backend (Spring Boot), <strong>Entonces</strong> deberá garantizar que la API de MercadoPago se pueda integrar sin problemas con los servicios RESTful del backend.</li>
-  <li><strong>Dado</strong> que el equipo requiere personalización en el flujo de pagos, <strong>Cuando</strong> el equipo explore las opciones de personalización de pagos de MercadoPago (páginas de pago, métodos de pago), <strong>Entonces</strong> deberá determinar si MercadoPago ofrece suficientes opciones de personalización para satisfacer las necesidades de Autonexo.</li>
-  <li><strong>Dado</strong> que MercadoPago ofrece diferentes métodos de pago, <strong>Cuando</strong> el equipo realice pruebas de pago con diferentes métodos (tarjetas, débito, transferencias), <strong>Entonces</strong> deberá asegurarse de que todos los métodos de pago funcionen correctamente en la plataforma.</li>
-  <li><strong>Dado</strong> que la seguridad es fundamental en el procesamiento de pagos, <strong>Cuando</strong> el equipo revise las medidas de seguridad que ofrece MercadoPago (encriptación, cumplimiento con PCI-DSS), <strong>Entonces</strong> deberá confirmar que MercadoPago cumple con los estándares de seguridad necesarios.</li>
-  <li><strong>Dado</strong> que MercadoPago utiliza webhooks para notificar cambios de estado en pagos, <strong>Cuando</strong> el equipo implemente y pruebe los webhooks de MercadoPago, <strong>Entonces</strong> deberá asegurarse de que los webhooks funcionen correctamente y sin errores.</li>
-</ul>
-
-
-
-<h2>Spike 6: Investigación de Técnicas de Caching para Mejorar el Rendimiento</h2>
-
-<table border="1">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>SP-06</td>
-    <td>Developer</td>
-    <td>Alta</td>
-    <td>Rendimiento</td>
-  </tr>
-</table>
-
-<h3>Title: Investigación de Técnicas de Caching para Mejorar el Rendimiento</h3>
-
-<h4>Description:</h4>
-<p>Como equipo de desarrollo, quiero investigar técnicas de caching como Redis o Memcached, para mejorar el rendimiento de la plataforma y reducir los tiempos de carga.</p>
-
-<h4>Acceptance Criteria:</h4>
-<ul>
-  <li><strong>Dado</strong> que el equipo ha considerado opciones como Redis y Memcached, <strong>Cuando</strong> investiguen las características y ventajas de cada uno, <strong>Entonces</strong> deberán seleccionar la opción que mejor se adapte a las necesidades de Autonexo.</li>
-  <li><strong>Dado</strong> que el equipo ha implementado una solución de caching en Redis, <strong>Cuando</strong> realicen pruebas de rendimiento en una función crítica, <strong>Entonces</strong> deberán verificar si el tiempo de respuesta mejora significativamente.</li>
-  <li><strong>Dado</strong> que el equipo ha probado el caching de Memcached, <strong>Cuando</strong> comparen los tiempos de respuesta en diferentes pruebas de carga, <strong>Entonces</strong> deberán decidir si Memcached es adecuado para el uso en Autonexo.</li>
-  <li><strong>Dado</strong> que Redis y Memcached tienen implementaciones y configuraciones distintas, <strong>Cuando</strong> el equipo evalúa la facilidad de integración de cada sistema en la arquitectura de Autonexo, <strong>Entonces</strong> deberán determinar cuál es más sencillo de implementar y mantener.</li>
-  <li><strong>Dado</strong> que Autonexo puede crecer en volumen de usuarios y datos, <strong>Cuando</strong> se evalúa la escalabilidad de Redis y Memcached, <strong>Entonces</strong> deberán garantizar que la opción seleccionada pueda manejar un crecimiento significativo sin afectar el rendimiento.</li>
-  <li><strong>Dado</strong> que la seguridad es un factor crítico en la integración de caching, <strong>Cuando</strong> se revisan las medidas de seguridad de Redis y Memcached (como la encriptación de datos), <strong>Entonces</strong> deberán confirmar que la solución de caching cumple con los requisitos de seguridad necesarios.</li>
-  <li><strong>Dado</strong> que las soluciones de caching deben ser eficientes en el uso de recursos, <strong>Cuando</strong> se mide el consumo de CPU y memoria al implementar Redis o Memcached, <strong>Entonces</strong> deberán asegurar que la solución elegida no afecte negativamente los recursos de Autonexo.</li>
-  <li><strong>Dado</strong> que la alta disponibilidad es crucial para el sistema de caching, <strong>Cuando</strong> se simulan fallos en Redis o Memcached, <strong>Entonces</strong> deberán verificar que la solución seleccionada pueda recuperarse correctamente sin perder datos importantes.</li>
-</ul>
-<h2>Spike 7: Evaluación de Herramientas de Seguridad para la Plataforma</h2>
-
-<table border="1">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>SP-07</td>
-    <td>Security Team</td>
-    <td>Alta</td>
-    <td>Seguridad</td>
-  </tr>
-</table>
-
-<h4>Descripción:</h4>
-<p>Como equipo de seguridad, quiero investigar herramientas de seguridad como OWASP ZAP o Burp Suite para realizar pruebas de penetración y asegurarnos de que la plataforma esté segura.</p>
-
-<h4>Criterios de Aceptación:</h4>
-<ul>
-  <li><strong>Dado</strong> que el equipo ha considerado herramientas como OWASP ZAP y Burp Suite, <strong>Cuando</strong> investiguen las características de cada una, <strong>Entonces</strong> deberán decidir cuál es la mejor herramienta para realizar pruebas de seguridad en Autonexo.</li>
-  <li><strong>Dado</strong> que el equipo ha implementado una prueba de seguridad con OWASP ZAP, <strong>Cuando</strong> realicen un escaneo de vulnerabilidades, <strong>Entonces</strong> deberán identificar todas las posibles brechas de seguridad en el sistema.</li>
-  <li><strong>Dado</strong> que el equipo ha implementado Burp Suite para pruebas de seguridad, <strong>Cuando</strong> realicen pruebas de penetración, <strong>Entonces</strong> deberán asegurarse de que la plataforma esté segura contra ataques comunes.</li>
-  <li><strong>Dado</strong> que OWASP ZAP y Burp Suite tienen interfaces y configuraciones distintas, <strong>Cuando</strong> el equipo evalúa la facilidad de uso de ambas herramientas, <strong>Entonces</strong> deberán decidir cuál herramienta es más fácil de integrar y utilizar en el flujo de trabajo de Autonexo.</li>
-  <li><strong>Dado</strong> que el objetivo es detectar vulnerabilidades críticas en la plataforma, <strong>Cuando</strong> el equipo prueba las capacidades de detección de vulnerabilidades de OWASP ZAP y Burp Suite, <strong>Entonces</strong> deberán asegurarse de que ambas herramientas detecten las vulnerabilidades clave en Autonexo.</li>
-  <li><strong>Dado</strong> que las configuraciones de seguridad son esenciales en las pruebas de penetración, <strong>Cuando</strong> el equipo evalúa las configuraciones de seguridad de OWASP ZAP y Burp Suite, <strong>Entonces</strong> deberán determinar si las herramientas permiten una configuración detallada y personalizada según las necesidades de Autonexo.</li>
-  <li><strong>Dado</strong> que las pruebas de seguridad deben integrarse con el flujo de desarrollo de Autonexo, <strong>Cuando</strong> el equipo evalúa cómo OWASP ZAP y Burp Suite se integran con las herramientas y procesos de desarrollo existentes, <strong>Entonces</strong> deberán garantizar que las herramientas se integren sin interrumpir el flujo de trabajo de desarrollo.</li>
-  <li><strong>Dado</strong> que los informes de seguridad son cruciales para la corrección de vulnerabilidades, <strong>Cuando</strong> el equipo revisa los informes generados por OWASP ZAP y Burp Suite, <strong>Entonces</strong> deberán asegurarse de que los informes sean claros, detallados y proporcionen las recomendaciones necesarias para corregir las vulnerabilidades encontradas.</li>
-</ul>
-
-<h2>Spike 8: Investigación de Plataforma para Gestión de Suscripciones</h2>
-
-<table border="1">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>SP-08</td>
-    <td>Developer</td>
-    <td>Alta</td>
-    <td>Suscripciones</td>
-  </tr>
-</table>
-
-<h4>Descripción:</h4>
-<p>Como equipo de desarrollo, quiero investigar plataformas como Recurly o Stripe Billing para gestionar suscripciones y automatizar el proceso de pagos recurrentes en la plataforma.</p>
-
-<h4>Criterios de Aceptación:</h4>
-<ul>
-  <li><strong>Dado</strong> que el equipo ha considerado plataformas como Recurly y Stripe Billing, <strong>Cuando</strong> investiguen las funcionalidades y capacidades de cada plataforma, <strong>Entonces</strong> deberán seleccionar la plataforma más adecuada para gestionar las suscripciones de Autonexo.</li>
-  <li><strong>Dado</strong> que el equipo ha probado la implementación de Recurly con datos de prueba, <strong>Cuando</strong> creen un ciclo de suscripción y realicen un pago de prueba, <strong>Entonces</strong> deberán verificar que la plataforma maneje correctamente los pagos recurrentes.</li>
-  <li><strong>Dado</strong> que el equipo ha probado Stripe Billing para gestionar suscripciones, <strong>Cuando</strong> realicen una prueba de suscripción con Stripe Billing, <strong>Entonces</strong> deberán asegurarse de que la plataforma maneje correctamente los pagos recurrentes.</li>
-  <li><strong>Dado</strong> que ambas plataformas tienen estructuras de precios diferentes, <strong>Cuando</strong> se comparen los costos de Recurly y Stripe Billing, <strong>Entonces</strong> deberán decidir cuál plataforma ofrece la mejor relación calidad-precio para Autonexo.</li>
-  <li><strong>Dado</strong> que la plataforma de suscripciones debe integrarse con el backend de Autonexo, <strong>Cuando</strong> el equipo evalúa la facilidad de integración de Recurly y Stripe Billing con el backend (Spring Boot), <strong>Entonces</strong> deberán garantizar que ambas plataformas se integren de manera sencilla y eficiente.</li>
-  <li><strong>Dado</strong> que la seguridad es fundamental en los pagos recurrentes, <strong>Cuando</strong> el equipo revise las medidas de seguridad de Recurly y Stripe Billing, <strong>Entonces</strong> deberán garantizar que ambas plataformas cumplan con los estándares de seguridad necesarios, como PCI-DSS.</li>
-  <li><strong>Dado</strong> que es necesario gestionar los datos de clientes y suscripciones, <strong>Cuando</strong> se utilicen las herramientas de reportes de Recurly y Stripe Billing, <strong>Entonces</strong> deberán asegurarse de que las plataformas generen informes detallados y fáciles de usar sobre las suscripciones.</li>
-</ul>
-<h2>Spike 9: Investigación de API de Localización para Mejorar la Búsqueda de Mecánicos</h2>
-
-<table border="1">
-  <tr>
-    <th>Story ID</th>
-    <th>User</th>
-    <th>Priority</th>
-    <th>Epic</th>
-  </tr>
-  <tr>
-    <td>SP-09</td>
-    <td>Developer</td>
-    <td>Alta</td>
-    <td>Localización</td>
-  </tr>
-</table>
-
-<h4>Descripción:</h4>
-<p>Como equipo de desarrollo, quiero investigar APIs de localización como Google Maps, Mapbox o Here para mejorar la búsqueda de mecánicos cercanos, ofreciendo una experiencia más eficiente y precisa a los conductores.</p>
-
-<h4>Criterios de Aceptación:</h4>
-<ul>
-  <li><strong>Dado</strong> que el equipo ha considerado APIs como Google Maps, Mapbox o Here, <strong>Cuando</strong> investiguen las características y opciones de integración de cada API, <strong>Entonces</strong> deberán seleccionar la mejor API para la localización en Autonexo.</li>
-  <li><strong>Dado</strong> que el equipo ha implementado la API de Google Maps para la localización, <strong>Cuando</strong> realicen pruebas de búsqueda de mecánicos cercanos, <strong>Entonces</strong> deberán asegurarse de que la función de localización sea precisa y eficiente.</li>
-  <li><strong>Dado</strong> que el equipo ha implementado la API de Mapbox para la localización, <strong>Cuando</strong> realicen pruebas de búsqueda de mecánicos cercanos, <strong>Entonces</strong> deberán asegurarse de que la función de localización sea precisa y eficiente.</li>
-  <li><strong>Dado</strong> que el equipo ha implementado la API de Here para la localización, <strong>Cuando</strong> realicen pruebas de búsqueda de mecánicos cercanos, <strong>Entonces</strong> deberán asegurarse de que la función de localización sea precisa y eficiente.</li>
-  <li><strong>Dado</strong> que cada API tiene diferentes modelos de precios, <strong>Cuando</strong> comparen los costos de Google Maps, Mapbox y Here, <strong>Entonces</strong> deberán decidir cuál API ofrece la mejor relación calidad-precio para la plataforma.</li>
-  <li><strong>Dado</strong> que Google Maps, Mapbox y Here tienen implementaciones y configuraciones distintas, <strong>Cuando</strong> el equipo evalúe la facilidad de integración de cada API con la plataforma Autonexo, <strong>Entonces</strong> deberán determinar cuál API es más sencilla de implementar y mantener.</li>
-  <li><strong>Dado</strong> que la plataforma Autonexo puede crecer en volumen de usuarios y mecánicos, <strong>Cuando</strong> el equipo evalúe la escalabilidad de Google Maps, Mapbox y Here, <strong>Entonces</strong> deberán asegurarse de que todas las APIs puedan manejar un gran volumen de solicitudes sin afectar el rendimiento.</li>
-  <li><strong>Dado</strong> que la precisión es clave en la búsqueda de mecánicos cercanos, <strong>Cuando</strong> el equipo pruebe las APIs de Google Maps, Mapbox y Here en diferentes ubicaciones, <strong>Entonces</strong> deberán asegurarse de que todas las APIs proporcionen ubicaciones precisas y fiables.</li>
-  <li><strong>Dado</strong> que las aplicaciones de Autonexo están disponibles en dispositivos móviles, <strong>Cuando</strong> el equipo evalúe la compatibilidad de Google Maps, Mapbox y Here con dispositivos móviles (iOS/Android), <strong>Entonces</strong> deberán asegurarse de que todas las APIs funcionen correctamente en plataformas móviles.</li>
-  <li><strong>Dado</strong> que tanto Google Maps, Mapbox y Here ofrecen características adicionales (como rutas optimizadas, tráfico en tiempo real, etc.), <strong>Cuando</strong> el equipo explore estas características, <strong>Entonces</strong> deberán decidir si alguna de estas funcionalidades adicionales es relevante y útil para la plataforma Autonexo.</li>
-</ul>
-
-<br>
 
 ### 2.4.2. Impact Mapping
 
@@ -2429,13 +2245,58 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
       <td>Implementar endpoint para soporte, FAQ y contacto (/faq, /support, /contact)</td>
       <td>2</td>
     </tr>
+    <tr>
+  <td>1</td>
+  <td>SP-01</td>
+  <td>Investigación de la Integración de Stripe para el Procesamiento de Pagos</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td>SP-02</td>
+  <td>Investigación de Google Maps para la Localización de Mecánicos</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>SP-03</td>
+  <td>Evaluación de Sistemas de Notificaciones Push</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>SP-04</td>
+  <td>Investigación de Herramientas de Reportes de Mantenimiento</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>SP-06</td>
+  <td>Investigación de Técnicas de Caching para Mejorar el Rendimiento</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>SP-07</td>
+  <td>Evaluación de Herramientas de Seguridad para la Plataforma</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>SP-08</td>
+  <td>Investigación de Plataforma para Gestión de Suscripciones</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td>SP-09</td>
+  <td>Investigación de API de Localización para Mejorar la Búsqueda de Mecánicos</td>
+  <td>3</td>
+</tr>
   </tbody>
 </table>
 
-<br>
-
 ## 2.5. Strategic-Level Domain-Driven Design
-
 <br>
 
 ### 2.5.1. EventStorming
@@ -2548,26 +2409,20 @@ El Notification Context escucha estos eventos y envía notificaciones push a los
 
 <img alt="ctxMapPatt_Publisher/Subscriber" src="assets\chapter-II-assets\ctxMapPatt_PS.png" />
 
-<br>
 
 ### 2.5.3. Software Architecture
 En esta sección se expone la arquitectura de software de la solución Red Carga, aplicando el enfoque del Modelo C4. Se incluyen los diagramas de Contexto, Contenedores y Despliegue, los cuales permiten comprender el sistema desde una visión general hasta su implementación en un entorno productivo. Cada nivel representa a los actores involucrados, las tecnologías clave y las interacciones con los servicios externos que forman parte del alcance del proyecto.
-
 <br>
 
 #### 2.5.3.1 Software Architecture Context Level Diagrams
 El siguiente diagrama muestra de manera general Autonexo conectado con los sistemas externos y los usuarios que intervienen
 <br>
-<img alt="Context-Diagram" src="assets\chapter-II-assets\c4/structurizr-101398-SystemContext-001.png" />
-
-<br>
+<img alt="Context-Diagram" src="assets\chapter-II-assets\structurizr-101398-SystemContext-001.png" />
 
 #### 2.5.3.2 Software Architecture Container Level Diagrams
 El diagrama C2 profundiza en el sistema y representa la arquitectura general del software, destacando las principales tecnologías empleadas y la manera en que estas se interconectan.
 <br>
 <img alt="Container-Diagram" src="assets\chapter-II-assets\c4\structurizr-101398-Container-001.png" />
-
-<br>
 
 #### 2.5.3.3 Software Architecture Deployment Diagrams
 El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados en el entorno de desarrollo y producción. Además, se muestran los servicios externos, la base de datos y el storage.
@@ -2582,15 +2437,12 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 <br>
 <img alt="Deployment-Diagram-2" src="assets\chapter-II-assets\c4\structurizr-101398-Deployment-002.png" />
 
-<br>
-
 ## 2.6 Tactical-Level Domain-Driven Design
-
-### 2.6.1. Bounded Context: Vehicle&Maintenance
-
 <br>
 
-#### 2.6.1.1. Domain Layer
+### **2.6.1. Bounded Context: Vehicle&Maintenance**
+
+#### **2.6.1.1. Domain Layer**
 
 Este bounded context cubre la ejecución técnica del mantenimiento del vehículo y su registro histórico auditable, excluyendo matching/booking/pagos.
 
@@ -2764,11 +2616,9 @@ Son records inmutables para lectura. No modifican estado; no ameritan diccionari
 - ListMaintenanceRecords(vehicleId: UUID, from?: DateTime, to?: DateTime)  
 - GetDiagnosticReport(recordId: UUID)
 
-<br>
-
 ---
 
-#### 2.6.1.2. Interface Layer
+#### **2.6.1.2. Interface Layer**
 
 Capa de presentación con Controllers, Resources y Assemblers (mapeo). Dado que son auxiliares, se describe su rol global y ejemplos principales.
 
@@ -2787,11 +2637,9 @@ Capa de presentación con Controllers, Resources y Assemblers (mapeo). Dado que 
   - Rol: mapear Resources ⇆ Commands/Entities, mantener consistencia del Ubiquitous Language.  
   - Ejemplos: VehicleAssembler, MaintenanceRecordAssembler, MaintenanceTaskAssembler, DiagnosticReportAssembler.
 
-<br>
-
 ---
 
-#### 2.6.1.3. Application Layer
+#### **2.6.1.3. Application Layer**
 
 Implementa servicios de aplicación y manejadores de eventos.
 
@@ -2811,12 +2659,10 @@ Implementa servicios de aplicación y manejadores de eventos.
 - **ACL / Outbound**  
   - CatalogAcl (consulta piezas), NotificationsAcl  
   - DomainEventPublisher, ReportGenerator
-<br>
 
 ---
 
-
-#### 2.6.1.4. Infrastructure Layer
+#### **2.6.1.4. Infrastructure Layer**
 
 Implementaciones concretas de persistencia y adaptadores externos. Se detallan a nivel de rol (no por clase) por ser soporte técnico.
 
@@ -2844,16 +2690,14 @@ Implementaciones concretas de persistencia y adaptadores externos. Se detallan a
 ##### 2.6.1.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-IAM" src="assets\chapter-II-assets\bc\class-vehicle.png" />
-<br>
 
 ##### 2.6.1.6.2 Bounded Context Database Design Diagram
 <br>
 <img alt="Database-IAM" src="assets\chapter-II-assets\bc\db-vehicle.png" />
-<br>
 
-### 2.6.2. Bounded Context: Trusting&Reputation
+### **2.6.2. Bounded Context: Trusting&Reputation**
 
-#### 2.6.2.1. Domain Layer
+#### **2.6.2.1. Domain Layer**
 
 Este bounded context cubre la gestión de reseñas, calificaciones y el cálculo de la reputación o confianza, aplicable a distintos objetivos: propietarios (owner), talleres (workshop) o service orders. Consume eventos de otros bounded contexts para validar la elegibilidad y ajustar los puntajes de confianza.
 
@@ -3012,12 +2856,10 @@ Ejemplos:
 - GetAverageScoreByTarget(targetRef)  
 - ListReviewsByTarget(targetRef, from?, to?)  
 - ListRatingsByTarget(targetRef, from?, to?)
-<br>
 
 ---
 
-
-#### 2.6.2.2. Interface Layer
+#### **2.6.2.2. Interface Layer**
 
 Capa de presentación con Controllers, Resources y Assemblers.
 
@@ -3029,12 +2871,10 @@ Capa de presentación con Controllers, Resources y Assemblers.
   - ReviewResource { reviewId, targetType, targetId, authorId, comment, createdAt, editedAt }  
   - RatingResource { ratingId, targetType, targetId, authorId, overall, breakdown, createdAt }  
 - Assemblers: ReviewAssembler, RatingAssembler, TrustProfileAssembler
-<br>
 
 ---
 
-
-#### 2.6.2.3. Application Layer
+#### **2.6.2.3. Application Layer**
 
 Implementa servicios de aplicación y manejadores de eventos.
 
@@ -3046,27 +2886,22 @@ Implementa servicios de aplicación y manejadores de eventos.
   - OnTrustAdjustmentApplied → recalcula TrustProfile  
   - OnServiceCompleted (externo) → habilita EligibilityPolicy  
 - ACL / Outbound: BookingAcl, IdentityAcl, MaintenanceAcl, DomainEventPublisher, ReputationAnalyticsExporter
-<br>
 
 ---
 
-
-#### 2.6.2.4. Infrastructure Layer
+#### **2.6.2.4. Infrastructure Layer**
 
 Implementaciones de persistencia y adaptadores externos.
 
 - Repositories: TrustProfileRepository, ReviewRepository, RatingRepository, TrustAdjustmentRepository  
 - External Services Adapters: MessageBrokerPublisher, IdentityProviderAdapter, AnalyticsExportAdapter
-<br>
 
 ---
-
 
 #### 2.6.2.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
 <img alt="Component-Workshops" src="assets\chapter-II-assets\components\structurizr-101398-Component-002.png" />
-<br>
 
 #### 2.6.2.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -3074,18 +2909,16 @@ Implementaciones de persistencia y adaptadores externos.
 ##### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-Workshop" src="assets\chapter-II-assets\bc\class-trusting.png" />
-<br>
 
 ##### 2.6.2.6.2 Bounded Context Database Design Diagram
 <br>
 <img alt="Database-Workshop" src="assets\chapter-II-assets\bc\db-trusting.png" />
-<br>
 
-### 2.6.3. Bounded Context: Matching&Booking
+### **2.6.3. Bounded Context: Matching&Booking**
 
-#### 2.6.3.1. Domain Layer
-Este bounded context cubre desde la solicitud de servicio hasta la creación/confirmación del booking, la gestión de ofertas y reprogramaciones, y la apertura de la service order para el handover hacia Vehicle&Maintenance.
+#### **2.6.3.1. Domain Layer**
 
+Este bounded context cubre desde la solicitud de servicio hasta la creación/confirmación del booking, la gestión de ofertas y reprogramaciones, y la apertura de la service order para el handover hacia Vehicle&Maintenance.  
 ---
 
 ### **Aggregates**
@@ -3240,18 +3073,16 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
 - **BookingPolicy**  
   Métodos:  
   - canConfirm(bookingId: UUID) → bool  
-  - canCancel(bookingId: UUID, when: DateTime) → bool
+  - canCancel(bookingId: UUID, Cuando: DateTime) → bool
 
 - **ScheduleAllocator**  
   Métodos:  
   - reserve(workshopId: UUID, slot: TimeRange) → bool  
   - release(workshopId: UUID, slot: TimeRange)
-<br>
 
 ---
 
-
-#### 2.6.3.2. Interface Layer
+#### **2.6.3.2. Interface Layer**
 
 - **Controllers:** ServiceRequestController, MatchingController, OfferController, BookingController, ServiceOrderController, RescheduleController  
 - **Resources:**  
@@ -3261,11 +3092,10 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
   - RescheduleRequestResource { rescheduleRequestId, bookingId, requestedSlot, reason, status }  
   - ServiceOrderResource { serviceOrderId, bookingId, workshopId, vehicleId, scheduledSlot, status, openedAt }  
 - **Assemblers:** ServiceRequestAssembler, OfferAssembler, BookingAssembler, ServiceOrderAssembler, RescheduleAssembler
-<br>
 
 ---
 
-#### 2.6.3.3. Application Layer
+#### **2.6.3.3. Application Layer**
 
 **Aquí se implementan las integraciones con otros bounded contexts (ACL) y los servicios concretos.**
 
@@ -3299,12 +3129,10 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
 - **Outbound Services:**  
   - DomainEventPublisher  
   - BookingNotificationSender
-<br>
 
 ---
 
-
-#### 2.6.3.4. Infrastructure Layer
+#### **2.6.3.4. Infrastructure Layer**
 
 - **Repositories (implementaciones):**  
   - ServiceRequestRepository : IServiceRequestRepository  
@@ -3317,16 +3145,12 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
   - PaymentGatewayAdapter  
   - MessageBrokerPublisher  
   - NotificationAdapter
-<br>
 
 ---
-
 
 #### 2.6.3.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 <img alt="Component-Vehicle-Maintenance" src="assets\chapter-II-assets\components\structurizr-101398-Component-003.png"/>
-
-<br>
 
 #### 2.6.3.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -3334,16 +3158,14 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
 ##### 2.6.3.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-Vehicle" src="assets\chapter-II-assets\bc/class-matching.png" />
-<br>
 
 ##### 2.6.3.6.2 Bounded Context Database Design Diagram
 <br>
 <img alt="Database-Vehicle" src="assets\chapter-II-assets\bc\db-matching.png" />
-<br>
 
-### 2.6.4. Bounded Context: Workshop
+### **2.6.4. Bounded Context: Workshop**
 
-#### 2.6.4.1. Domain Layer
+#### **2.6.4.1. Domain Layer**
 
 Este bounded context cubre la **gestión integral de los talleres (workshops)**: identidad, catálogo de servicios, disponibilidad operativa y personal técnico.  
 Su rol es mantener la información canónica del taller y exponerla a otros bounded contexts como Matching&Booking (para reservas) y Trusting&Reputation (para proyecciones de reputación).  
@@ -3472,12 +3294,10 @@ No ejecuta procesos de matching, booking ni reputación, pero **publica eventos*
   - canActivate(workshopId: UUID) → bool  
   - canAssignMechanic(workshopId: UUID, mechanicId: UUID) → bool  
   **Propósito:** Validar reglas de negocio específicas de talleres.  
-<br>
 
 ---
 
-
-#### 2.6.4.2. Interface Layer
+#### **2.6.4.2. Interface Layer**
 
 Capa de exposición de APIs y DTOs para integración con otros contexts.  
 
@@ -3488,12 +3308,10 @@ Capa de exposición de APIs y DTOs para integración con otros contexts.
   - MechanicResource { mechanicId, fullName, skills, active }  
   - WorkshopServiceResource { serviceId, serviceType, stdDuration, basePrice, active }  
 - **Assemblers**: WorkshopAssembler, ScheduleAssembler, MechanicAssembler, ServiceAssembler.  
-<br>
 
 ---
 
-
-#### 2.6.4.3. Application Layer
+#### **2.6.4.3. Application Layer**
 
 Implementa los casos de uso del negocio y la orquestación con otros contexts.  
 
@@ -3507,12 +3325,10 @@ Implementa los casos de uso del negocio y la orquestación con otros contexts.
 - **ACLs / Adaptadores**:  
   - MatchingAcl (exposición de servicios y disponibilidad hacia Matching&Booking).  
   - TrustingReputationAcl (publica información de talleres hacia Trusting&Reputation).  
-<br>
 
 ---
 
-
-#### 2.6.4.4. Infrastructure Layer
+#### **2.6.4.4. Infrastructure Layer**
 
 Implementaciones de persistencia y adaptadores externos.  
 
@@ -3523,7 +3339,6 @@ Implementaciones de persistencia y adaptadores externos.
 - **External Adapters**:  
   - ExternalCertificationAdapter (validación de certificaciones)  
   - MessageBrokerPublisher (publicación de eventos a otros BCs)  
-<br>
 
 ---
 
@@ -3531,7 +3346,6 @@ Implementaciones de persistencia y adaptadores externos.
 <br>
 
 <img alt="Component-Matching-Booking" src="assets\chapter-II-assets\components\structurizr-101398-Component-004.png" />
-<br>
 
 #### 2.6.4.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -3539,16 +3353,14 @@ Implementaciones de persistencia y adaptadores externos.
 ##### 2.6.4.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-Matching" src="assets\chapter-II-assets\bc\class-workshop.png" />
-<br>
 
 ##### 2.6.4.6.2 Bounded Context Database Design Diagram
 <br>
 <img alt="Database-Matching" src="assets\chapter-II-assets\bc\db-workshop.png" />
-<br>
 
-### 2.6.5. Bounded Context: Payment
+### **2.6.5. Bounded Context: Payment**
 
-#### 2.6.5.1. Domain Layer
+#### **2.6.5.1. Domain Layer**
 
 Este bounded context cubre la **gestión de suscripciones a la plataforma**, incluyendo la activación, renovación, cancelación y facturación asociada.  
 No gestiona pagos directos entre propietarios y talleres. Su alcance se limita a planes de suscripción de los distintos actores (owners, workshops, administradores).
@@ -3651,12 +3463,10 @@ No gestiona pagos directos entre propietarios y talleres. Su alcance se limita a
   - canRenew(subscriptionId: UUID) → bool  
   - canCancel(subscriptionId: UUID) → bool  
   **Propósito:** Define reglas de negocio sobre renovación y cancelación.  
-<br>
 
 ---
 
-
-#### 2.6.5.2. Interface Layer
+#### **2.6.5.2. Interface Layer**
 
 Expone endpoints REST/GraphQL para gestión de suscripciones.  
 
@@ -3666,12 +3476,10 @@ Expone endpoints REST/GraphQL para gestión de suscripciones.
   - InvoiceResource { invoiceId, subscriptionId, amount, periodStart, periodEnd, status }  
   - PlanResource { planId, name, description, price, duration, features }  
 - **Assemblers:** SubscriptionAssembler, InvoiceAssembler, PlanAssembler  
-<br>
 
 ---
 
-
-#### 2.6.5.3. Application Layer
+#### **2.6.5.3. Application Layer**
 
 - **Command Services:**  
   - SubscriptionCommandService  
@@ -3689,12 +3497,10 @@ Expone endpoints REST/GraphQL para gestión de suscripciones.
 
 - **ACLs:**  
   - ExternalPaymentGatewayAcl (integra con proveedor de pagos externo).  
-<br>
 
 ---
 
-
-#### 2.6.5.4. Infrastructure Layer
+#### **2.6.5.4. Infrastructure Layer**
 
 Implementaciones de repositorios y adaptadores externos.  
 
@@ -3706,16 +3512,13 @@ Implementaciones de repositorios y adaptadores externos.
 - **External Adapters:**  
   - PaymentGatewayAdapter (Stripe/PayPal/etc.)  
   - MessageBrokerPublisher (publicación de eventos a otros BCs)  
-<br>
 
 ---
-
 
 #### 2.6.5.5 Bounded Context Software Architecture Component Level Diagrams
 <br>
 
 <img alt="Component-Trust" src="assets\chapter-II-assets\components\structurizr-101398-Component-005.png" />
-<br>
 
 #### 2.6.5.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -3723,17 +3526,14 @@ Implementaciones de repositorios y adaptadores externos.
 ##### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-trusting" src="assets\chapter-II-assets\bc\class-payment.png" />
-<br>
 
 ##### 2.6.5.6.2 Bounded Context Database Design Diagram
 <br>
 <img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-payment.png" />
-<br>
 
-### 2.6.6. Bounded Context: Identity & Access Management (IAM)
-<br>
+### **2.6.6. Bounded Context: Identity & Access Management (IAM)**
 
-#### 2.6.6.1. Domain Layer
+#### **2.6.6.1. Domain Layer**
 
 Este bounded context cubre la gestión de identidades y accesos: registro, autenticación, autorización basada en roles y permisos, verificación de correo electrónico y recuperación de credenciales. Es transversal y provee mecanismos de seguridad para el resto de bounded contexts.
 
@@ -3753,7 +3553,7 @@ Este bounded context cubre la gestión de identidades y accesos: registro, auten
   - lastLoginAt: DateTime?  
   **Métodos:**  
   - register(email: Email, passwordHash: PasswordHash)  
-  - authenticate(candidateHash: PasswordHash)  
+  - auEntoncesticate(candidateHash: PasswordHash)  
   - changePassword(newHash: PasswordHash)  
   - assignRole(role: Role) / revokeRole(role: Role)  
   - lock(reason: string) / deactivate() / activate()  
@@ -3848,9 +3648,9 @@ Este bounded context cubre la gestión de identidades y accesos: registro, auten
   **Propósito:** El correo fue verificado y la cuenta queda habilitada según política.
 - EmailVerificationExpiredEvent(verificationId, occurredAt)  
   **Propósito:** La solicitud de verificación caducó.
-- UserAuthenticatedEvent(userId, sessionId, occurredAt)  
+- UserAuEntoncesticatedEvent(userId, sessionId, occurredAt)  
   **Propósito:** Inicio de sesión exitoso.
-- UserAuthenticationFailedEvent(email, reason, occurredAt)  
+- UserAuEntoncesticationFailedEvent(email, reason, occurredAt)  
   **Propósito:** Intento fallido de autenticación.
 - SessionStartedEvent(sessionId, userId, occurredAt)  
   **Propósito:** Se emitió un token de sesión.
@@ -3873,8 +3673,8 @@ Este bounded context cubre la gestión de identidades y accesos: registro, auten
 
 ### **Services (Domain Interfaces)**
 
-- **AuthenticationService**  
-  **Métodos:** authenticate(email, password) → Token; refreshToken(token) → Token; revokeToken(token).  
+- **AuEntoncesticationService**  
+  **Métodos:** auEntoncesticate(email, password) → Token; refreshToken(token) → Token; revokeToken(token).  
   **Propósito:** Autenticación y ciclo de vida de sesiones.
 
 - **AuthorizationService**  
@@ -3905,7 +3705,7 @@ Son records inmutables que expresan intención de cambio. Activan métodos de ag
 
 **Ejemplos:**  
 - RegisterUser(email: string, password: string)  
-- AuthenticateUser(email: string, password: string)  
+- AuEntoncesticateUser(email: string, password: string)  
 - StartSession(userId: UUID)  
 - RevokeSession(sessionId: UUID)  
 - RequestEmailVerification(userId: UUID)  
@@ -3929,12 +3729,10 @@ Consultas inmutables orientadas a lectura.
 - GetActiveSessions(userId: UUID)  
 - GetVerificationStatus(userId: UUID)  
 - GetRecoveryStatus(recoveryId: UUID)
-<br>
 
 ---
 
-
-#### 2.6.6.2. Interface Layer
+#### **2.6.6.2. Interface Layer**
 
 Capa de exposición de APIs y DTOs.
 
@@ -3946,12 +3744,10 @@ Capa de exposición de APIs y DTOs.
   - VerificationResource { verificationId, userId, status, expiresAt }  
   - RecoveryResource { recoveryId, userId, status, expiresAt }  
 - **Assemblers:** UserAssembler, SessionAssembler, RoleAssembler, VerificationAssembler, RecoveryAssembler
-<br>
 
 ---
 
-
-#### 2.6.6.3. Application Layer
+#### **2.6.6.3. Application Layer**
 
 Implementa casos de uso y orquestación con servicios externos.
 
@@ -3975,7 +3771,7 @@ Implementa casos de uso y orquestación con servicios externos.
   - OnPasswordResetRequested → genera RecoveryRequest y envía notificación.  
   - OnPasswordResetCompleted → invalida sesiones previas y registra UserPasswordChangedEvent.  
   - OnUserPasswordChanged → revoca sesiones activas excepto la actual según política.  
-  - OnAuthenticationFailedThresholdReached → bloquea cuenta y emite UserLockedEvent.
+  - OnAuEntoncesticationFailedThresholdReached → bloquea cuenta y emite UserLockedEvent.
 
 - **ACLs / Integraciones:**  
   - NotificationAcl (envío de emails/SMS para verificación y recuperación).  
@@ -3983,11 +3779,9 @@ Implementa casos de uso y orquestación con servicios externos.
   - TokenProviderAcl (emisión/validación de JWT o similar).  
   - AuditTrailAcl (registro de auditoría de seguridad).
 
-<br>
-
 ---
 
-#### 2.6.6.4. Infrastructure Layer
+#### **2.6.6.4. Infrastructure Layer**
 
 Implementaciones concretas de repositorios y adaptadores.
 
@@ -4004,7 +3798,6 @@ Implementaciones concretas de repositorios y adaptadores.
   - TokenProviderAdapter  
   - MessageBrokerPublisher  
   - AuditLogAdapter
-<br>
 
 ---
 
@@ -4012,7 +3805,6 @@ Implementaciones concretas de repositorios y adaptadores.
 <br>
 
 <img alt="Component-Suscription" src="assets\chapter-II-assets\components\structurizr-101398-Component-006.png" />
-<br>
 
 #### 2.6.6.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -4020,12 +3812,10 @@ Implementaciones concretas de repositorios y adaptadores.
 ##### 2.6.6.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-payment" src="assets\chapter-II-assets\bc\class-iam.png" />
-<br>
 
 ##### 2.6.6.6.2 Bounded Context Database Design Diagram
 <br>
 <img alt="Database-trusting" src="assets\chapter-II-assets\bc\db-iam.png" />
-<br>
 
 ### **2.6.7. Bounded Context: Notifications**
 
@@ -4149,11 +3939,10 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
 - **SchedulerService**  
   - enqueue(notificationId, at: DateTime)  
   **Propósito:** Programa recordatorios y ventanas de envío.
-<br>
 
 ---
 
-#### 2.6.7.2. Interface Layer
+#### **2.6.7.2. Interface Layer**
 
 - **Controllers:** NotificationController, TemplateController, PreferenceController  
 - **Resources:**  
@@ -4161,11 +3950,10 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
   - TemplateResource { templateId, key, version, channels, variables }  
   - PreferenceResource { userId, channelOptIn, typeOptIn, quietHours }  
 - **Assemblers:** NotificationAssembler, TemplateAssembler, PreferenceAssembler
-<br>
 
 ---
 
-#### 2.6.7.3. Application Layer
+#### **2.6.7.3. Application Layer**
 
 - **Command Services:** NotificationCommandService, TemplateCommandService, PreferenceCommandService  
 - **Query Services:** NotificationQueryService, TemplateQueryService  
@@ -4176,15 +3964,13 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
 - **ACLs:**  
   - EmailProviderAcl, PushProviderAcl, SmsProviderAcl  
   - IAMAcl (para obtener correos/tokens push verificados)
-<br>
 
 ---
 
-#### 2.6.7.4. Infrastructure Layer
+#### **2.6.7.4. Infrastructure Layer**
 
 - **Repositories:** NotificationRepository, TemplateRepository, PreferenceRepository, DeliveryAttemptRepository  
 - **External Adapters:** EmailAdapter, PushAdapter, SmsAdapter, MessageBrokerPublisher, SchedulerAdapter
-<br>
 
 ---
 
@@ -4192,7 +3978,6 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
 <br>
 
 <img alt="Component-Notifications" src="assets\chapter-II-assets\components\structurizr-101398-Component-007.png" />
-<br>
 
 #### 2.6.7.6 Bounded Context Software Architecture Code Level Diagrams
 <br>
@@ -4200,7 +3985,6 @@ No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plant
 ##### 2.6.7.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
 <img alt="Class-trusting" src="assets\chapter-II-assets\bc/class-notification.png" />
-<br>
 
 ##### 2.6.7.6.2 Bounded Context Database Design Diagram
 <br>
