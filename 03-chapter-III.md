@@ -1,4 +1,4 @@
-# <font color="skyblue"> **Capítulo III: Solution UI/UX Design** </font>
+# **Capítulo III: Solution UI/UX Design**
 
 ## **3.1. Product design**
 
@@ -967,8 +967,6 @@ Este sistema de navegación integral asegura que los usuarios puedan moverse de 
   <p align="center"><img src="assets/chapter-III-assets/Landing page Mockup.png" alt="open-landing-wireframe.png" width="700px" /></p>
 </div>
 
-
-
 ### **3.1.4. Mobile Applications UX/UI Design**
 
 #### **3.1.4.1. Mobile Applications Wireframes**
@@ -976,6 +974,81 @@ Este sistema de navegación integral asegura que los usuarios puedan moverse de 
 #### **3.1.4.2. Mobile Applications Wireflow Diagrams**
 
 #### **3.1.4.3. Mobile Applications Mock-ups**
+
+__Register Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Register Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Recover password__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Recover password.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Register Workshop__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Register Workshop.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Home Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Home Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Workshop Detail Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Home Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Profile Mechanic and Edit__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Profile Mechanic and Edit.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Support and Assitance__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Support and Assitance.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Request Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Support and Assitance.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Offer Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Offer Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Service Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Service Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Payment__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Payment.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Subscription payment__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Subscription payment.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+
+
 
 #### **3.1.4.4. Mobile Applications User Flow Diagrams**
 
