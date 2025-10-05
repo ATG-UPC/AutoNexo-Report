@@ -776,218 +776,198 @@ Este sistema de navegación integral asegura que los usuarios puedan moverse de 
 
 ### **3.1.3. Landing Page UI Design**
 
-<section id="landing-autonexo">
-  <h2>Landing Page – AutoNexo</h2>
+#### **3.1.3.1. Landing Page Wireframe**
+
+<section id="wireframes-landing-autonexo">
+  <h2>Wireframes del Landing Page (Desktop & Mobile) – AutoNexo</h2>
   <p>
-    El <strong>landing page</strong> de <strong>AutoNexo</strong> está diseñado para web y busca ofrecer una
-    experiencia informativa clara, moderna y atractiva. La estructura es vertical y jerárquica, con secciones
-    diferenciadas por distribución y contenido, alineadas a la identidad visual de la marca.
+    Esta sección presenta y explica los <strong>wireframes</strong> del Landing Page para
+    <em>Desktop Web Browser</em> y <em>Mobile Web Browser</em>, evidenciando la aplicación de
+    <strong>principios de diseño</strong>, <strong>elementos de diseño</strong>, 
+    <strong>diseño inclusivo</strong> y <strong>arquitectura de información</strong>.
   </p>
 
-  <h3>Estructura general</h3>
-  <p>
-    Cada sección se distingue por su disposición y jerarquía tipográfica. La cabecera (header) guía la navegación
-    hacia las secciones principales y el pie de página (footer) concentra enlaces informativos y de contacto.
-  </p>
-
-  <h3>1. Cabecera (Header)</h3>
+  <!-- Resumen estructural -->
+  <h3>Resumen estructural</h3>
   <ul>
-    <li>Logotipo de AutoNexo.</li>
-    <li>Menú principal: Inicio, Características, Beneficios, Equipo, Testimonios/Partners, Contacto.</li>
-    <li>Selector de idioma (ES/EN).</li>
-    <li>Cabecera fija para acceso rápido durante el scroll.</li>
+    <li><strong>Header fijo:</strong> logo, menú (Inicio, Características, Beneficios, Equipo, Testimonios, Contacto), selector ES/EN y CTA “Solicitar Demo”.</li>
+    <li><strong>Hero:</strong> eslogan + párrafo de valor + botón primario (CTA) y visual del producto.</li>
+    <li><strong>Características:</strong> 3–6 tarjetas con icono, título y texto breve.</li>
+    <li><strong>Beneficios:</strong> grid de tarjetas con evidencia/valor.</li>
+    <li><strong>Equipo (ATG):</strong> fotos/íconos, rol y breve bio.</li>
+    <li><strong>Testimonios/Partners:</strong> carrusel o grid de logos/opiniones.</li>
+    <li><strong>Formulario de contacto/solicitud de demo:</strong> campos básicos y confirmación.</li>
+    <li><strong>Footer:</strong> Términos, Privacidad, Soporte y redes.</li>
   </ul>
 
-  <h3>2. Sección principal (Hero)</h3>
+  <!-- Diferencias Desktop vs Mobile -->
+  <h3>Wireframes · Desktop vs Mobile</h3>
   <ul>
-    <li>Eslogan de AutoNexo y mensaje de valor: conectar talleres y propietarios con una solución digital confiable.</li>
-    <li>Botón destacado: <em>Solicitar Demo</em>.</li>
-    <li>Imagen/ilustración representativa del producto.</li>
+    <li><strong>Desktop:</strong> secciones en <em>grid</em> (2–3 columnas); texto e imagen en paralelo; navegación superior visible siempre.</li>
+    <li><strong>Mobile:</strong> disposición <em>vertical</em> y apilada; bloques con mayor separación; CTAs centrados; navegación accesible desde el menú.</li>
   </ul>
 
-  <h3>3. Funcionalidades</h3>
+  <!-- Principios de diseño -->
+  <h3>Principios de diseño aplicados</h3>
   <ul>
-    <li>Tarjetas con icono y texto breve para:
-      <ul>
-        <li>Gestión inteligente de servicios.</li>
-        <li>Conexión mecánico–cliente.</li>
-        <li>Reportes y trazabilidad de operaciones.</li>
-      </ul>
-    </li>
+    <li><strong>Jerarquía visual:</strong> títulos Inter/Medium (H1&gt;H2&gt;H3), CTA destacado, uso consistente de tamaños (70/40/25 px).</li>
+    <li><strong>Contraste y énfasis:</strong> primario #202D36 vs fondos #FFFFFF; CTAs con acento (crimson #800C1F).</li>
+    <li><strong>Alineación y ritmo:</strong> rejilla base de 8 px; alineación izquierda para texto, centrado para CTAs.</li>
+    <li><strong>Proximidad y repetición:</strong> tarjetas con patrón consistente (icono &gt; título &gt; texto &gt; CTA).</li>
+    <li><strong>Equilibrio:</strong> distribución homogénea de texto/imagen para evitar sobrecarga cognitiva.</li>
   </ul>
 
-  <h3>4. Beneficios</h3>
+  <!-- Elementos de diseño -->
+  <h3>Elementos de diseño evidenciados</h3>
   <ul>
-    <li>Tarjetas en cuadrícula con texto + imagen.</li>
-    <li>Enfoque en eficiencia, rapidez, seguridad y soporte.</li>
+    <li><strong>Tipografía:</strong> Inter (Medium/Bold) por legibilidad y coherencia móvil.</li>
+    <li><strong>Color:</strong> primario #202D36, fondo #FFFFFF, grises #D9D9D9/#8E8E8E; acentos #800C1F/#3C0007.</li>
+    <li><strong>Espacio:</strong> márgenes/padding 16–24 px; white space para escaneabilidad.</li>
+    <li><strong>Iconografía:</strong> pictogramas simples y consistentes para features/beneficios.</li>
+    <li><strong>Tamaño/Disposición:</strong> tarjetas modulares; imágenes responsivas (max-width:100%).</li>
   </ul>
 
-  <h3>5. Equipo (Team)</h3>
+  <!-- Diseño inclusivo / Accesibilidad -->
+  <h3>Diseño inclusivo y accesibilidad</h3>
   <ul>
-    <li>Presentación del grupo <strong>ATG</strong>: nombres, roles y breve descripción.</li>
-    <li>Refuerzo de credibilidad y enfoque colaborativo.</li>
+    <li><strong>Contraste:</strong> texto oscuro sobre claro y viceversa; metas AA para cuerpo (≥4.5:1) y títulos grandes (≥3:1).</li>
+    <li><strong>Legibilidad:</strong> tamaños base 16–18 px; line-height 1.5–1.6; párrafos breves.</li>
+    <li><strong>Interacción:</strong> blancos táctiles ≥44×44 px; estados de foco/hover/active visibles.</li>
+    <li><strong>Lenguaje claro:</strong> microcopys directos en CTAs (“Solicitar Demo”, “Ver más”).</li>
+    <li><strong>Internacionalización:</strong> selector ES/EN desde el header; textos preparados para longitud variable.</li>
+    <li><strong>Responsive first:</strong> breakpoints típicos (≤480, ≤768, ≤1024, &gt;=1280); contenido refluye sin pérdida.</li>
   </ul>
 
-  <h3>6. Testimonios / Partners</h3>
+  <!-- Arquitectura de información -->
+  <h3>Arquitectura de información</h3>
   <ul>
-    <li>Comentarios de usuarios o logotipos de talleres asociados.</li>
-    <li>Validación social y confianza para nuevos visitantes.</li>
+    <li><strong>Organización:</strong> estructura jerárquica por secciones (hero → features → benefits → trust → form → footer).</li>
+    <li><strong>Navegación:</strong> menú superior con anclas; CTA persistente en hero; breadcrumb implícito por orden lineal.</li>
+    <li><strong>Etiquetado:</strong> nombres claros y consistentes (“Características”, “Beneficios”, “Equipo”, “Contacto”).</li>
+    <li><strong>Flujo:</strong> descubrimiento (hero) → valor (features/benefits) → prueba social (testimonios/partners) → conversión (formulario).</li>
   </ul>
 
-  <h3>7. Contacto / Solicitud</h3>
-  <ul>
-    <li>Formulario sencillo para solicitar demo, soporte o unirse como taller.</li>
-    <li>Botón de envío claro (p. ej., “Solicitar demo”) y mensaje de confirmación.</li>
-  </ul>
+  <!-- Criterios de aceptación (concreto) -->
+  <h3>Criterios de aceptación (cumplimiento)</h3>
+  <ol>
+    <li>El header muestra logo, menú y selector ES/EN en Desktop; en Mobile, menú accesible y CTA visible en el primer pantallazo.</li>
+    <li>Todos los CTAs tienen tamaño mínimo táctil, contraste suficiente y texto accionable.</li>
+    <li>La misma jerarquía se conserva en Mobile con bloques apilados y espaciado adecuado.</li>
+    <li>Tarjetas de características y beneficios mantienen patrón visual y lectura en Z/F.</li>
+    <li>El formulario captura nombre, correo, mensaje y confirma envío; campos con etiquetas visibles y validación básica.</li>
+    <li>Footer incluye Términos, Privacidad, Soporte y redes; accesible en ambas vistas.</li>
+  </ol>
 
-  <h3>8. Pie de página (Footer)</h3>
-  <ul>
-    <li>Enlaces: Política de privacidad, Términos de uso, Soporte técnico.</li>
-    <li>Iconos de redes sociales oficiales.</li>
-    <li>Copyright y créditos del equipo ATG.</li>
-  </ul>
-
-  <p>
-    En conjunto, el landing page de AutoNexo ofrece claridad estructural, equilibrio visual y coherencia con la identidad
-    gráfica del proyecto, motivando a los usuarios a explorar y probar la aplicación.
-  </p>
+  <!-- Nota final -->
+  <p><em>
+    Con lo anterior, los wireframes del Landing Page demuestran aplicación de principios visuales, elementos de diseño,
+    criterios de inclusión/accesibilidad y una arquitectura de información clara que guía hacia la conversión (“Solicitar Demo”).
+  </em></p>
 </section>
 
 <div>
   <p align="center"><img src="assets/chapter-III-assets/Landing page wariframes.png" alt="open-landing-wireframe.png" width="700px" /></p>
 </div>
 
-#### **3.1.3.1. Landing Page Wireframe**
-
-Los wireframes del Landing Page de AutoNexo han sido diseñados siguiendo los principios de diseño establecidos, aplicando elementos de diseño inclusivo y respetando la arquitectura de información definida. Esta sección presenta y explica los wireframes para Desktop Web Browser y Mobile Web Browser, evidenciando la aplicación coherente de todos los elementos de diseño.
-
-**Principios de Diseño Aplicados**
-
-**Jerarquía Visual:**
-- **Header prominente:** Logo AutoNexo como elemento principal de identidad
-- **Navegación clara:** Menú horizontal con elementos bien definidos
-- **Contenido estructurado:** Secciones organizadas por importancia y flujo de lectura
-- **Call-to-Action destacado:** Botón "REGISTRARSE" en color rojo para máxima visibilidad
-
-**Consistencia:**
-- **Grid system:** Estructura de 12 columnas para desktop, adaptativa para mobile
-- **Espaciado uniforme:** Márgenes y paddings consistentes en toda la página
-- **Tipografía escalable:** Jerarquía tipográfica mantenida en ambos formatos
-- **Colores del brand:** Paleta de colores AutoNexo aplicada consistentemente
-
-**Accesibilidad:**
-- **Contraste adecuado:** Cumplimiento de ratios WCAG 2.1 AA
-- **Navegación por teclado:** Todos los elementos interactivos accesibles
-- **Textos alternativos:** Descripciones para elementos gráficos
-- **Tamaños de toque:** Mínimo 44px para elementos interactivos en mobile
-
-**Arquitectura de Información Implementada**
-
-**Estructura de Contenido:**
-1. **Header Navigation:** Logo, menú principal, botones de acción
-2. **Hero Section:** Mensaje principal, descripción, CTA
-3. **Valores:** Cards con información de confiabilidad
-4. **Características:** Funcionalidades principales con iconografía
-5. **Precios:** Planes Básico y Pro con comparación
-6. **Testimonios:** Reseñas de usuarios con credibilidad
-7. **Equipo:** Perfiles del equipo ATG
-8. **Contacto:** Formulario y información de contacto
-9. **Footer:** Enlaces legales y redes sociales
-
-**Navegación y Flujo:**
-- **Navegación superior:** Acceso directo a secciones específicas
-- **Scroll suave:** Transiciones fluidas entre secciones
-- **Breadcrumbs:** Indicadores de ubicación en secciones complejas
-- **Enlaces internos:** Conexiones lógicas entre contenido relacionado
-
-**Wireframe Desktop Web Browser**
-
-**Layout de 12 Columnas:**
-- **Header:** 12 columnas, altura fija 80px
-- **Hero Section:** 12 columnas, altura variable según contenido
-- **Contenido principal:** 8 columnas centrales, 2 columnas laterales para sidebar
-- **Footer:** 12 columnas, altura fija 120px
-
-**Elementos Responsivos:**
-- **Navegación:** Menú horizontal completo con todos los elementos
-- **Cards:** Disposición en grid de 3 columnas para características
-- **Formularios:** Campos en línea para mejor aprovechamiento del espacio
-- **Imágenes:** Tamaños optimizados para pantallas grandes
-
-**Breakpoints:**
-- **Desktop:** 1200px y superior
-- **Laptop:** 992px - 1199px
-- **Tablet:** 768px - 991px
-- **Mobile:** 320px - 767px
-
-**Wireframe Mobile Web Browser**
-
-**Layout de 1 Columna:**
-- **Header:** 100% ancho, altura 60px
-- **Hero Section:** 100% ancho, altura variable
-- **Contenido:** 100% ancho, padding lateral 16px
-- **Footer:** 100% ancho, altura 100px
-
-**Elementos Adaptativos:**
-- **Navegación:** Menú hamburguesa para ahorrar espacio
-- **Cards:** Disposición vertical, una por fila
-- **Formularios:** Campos apilados verticalmente
-- **Imágenes:** Tamaños optimizados para pantallas táctiles
-
-**Optimizaciones Mobile:**
-- **Touch targets:** Mínimo 44px para todos los elementos interactivos
-- **Scroll vertical:** Navegación principal mediante scroll
-- **Gestos táctiles:** Soporte para swipe y pinch-to-zoom
-- **Carga optimizada:** Imágenes comprimidas para conexiones móviles
-
-**Diseño Inclusivo Implementado**
-
-**Accesibilidad Visual:**
-- **Contraste de colores:** Mínimo 4.5:1 para texto normal, 3:1 para texto grande
-- **Tamaños de fuente:** Mínimo 16px para legibilidad en mobile
-- **Espaciado:** Márgenes adecuados para lectura cómoda
-- **Iconografía:** Iconos acompañados de texto descriptivo
-
-**Accesibilidad Motora:**
-- **Áreas de toque:** Mínimo 44px x 44px para todos los botones
-- **Espaciado entre elementos:** Mínimo 8px entre elementos interactivos
-- **Navegación alternativa:** Soporte para navegación por teclado
-- **Tiempos de respuesta:** Feedback inmediato en todas las interacciones
-
-**Accesibilidad Cognitiva:**
-- **Lenguaje claro:** Textos simples y directos
-- **Instrucciones explícitas:** Guías claras para completar formularios
-- **Consistencia:** Mismos patrones de navegación en toda la página
-- **Feedback visual:** Confirmaciones claras de acciones realizadas
-
-**Elementos de Diseño Específicos**
-
-**Tipografía:**
-- **Títulos principales:** 32px desktop, 24px mobile
-- **Subtítulos:** 20px desktop, 18px mobile
-- **Texto cuerpo:** 16px desktop, 14px mobile
-- **Texto secundario:** 14px desktop, 12px mobile
-
-**Espaciado:**
-- **Márgenes entre secciones:** 80px desktop, 40px mobile
-- **Padding interno:** 24px desktop, 16px mobile
-- **Espaciado entre elementos:** 16px desktop, 12px mobile
-
-**Colores:**
-- **Primario:** #1E3A8A (Azul AutoNexo)
-- **Secundario:** #EF4444 (Rojo para CTAs)
-- **Neutros:** #F8FAFC (Fondo), #64748B (Texto secundario)
-- **Estados:** #10B981 (Éxito), #F59E0B (Advertencia)
-
-**Componentes Reutilizables:**
-- **Cards:** Estructura consistente para contenido
-- **Botones:** Estilos primario, secundario y terciario
-- **Formularios:** Campos de entrada estandarizados
-- **Navegación:** Componentes de menú reutilizables
-
-Esta implementación de wireframes asegura que el Landing Page de AutoNexo sea accesible, funcional y estéticamente coherente en todos los dispositivos, aplicando correctamente los principios de diseño, elementos inclusivos y arquitectura de información definidos.
-
 #### **3.1.3.2. Landing Page Mock-up**
+
+<section id="landing-mockups-autonexo">
+  <h2>Landing Page Mock-up (Desktop & Mobile) – AutoNexo</h2>
+  <p>
+    Esta sección presenta los <strong>mock-ups</strong> finales del Landing Page para
+    <em>Desktop Web Browser</em> y <em>Mobile Web Browser</em>. La propuesta evidencia la aplicación de
+    <strong>principios y elementos de diseño</strong>, <strong>diseño inclusivo</strong>,
+    <strong>arquitectura de información</strong> y la alineación con el <strong>Design System</strong> de AutoNexo.
+  </p>
+
+  <!-- Resumen visual -->
+  <h3>Resumen visual</h3>
+  <ul>
+    <li><strong>Hero</strong> con eslogan, párrafo de valor y CTA primario “Solicitar demo”.</li>
+    <li><strong>Valores</strong> y <strong>Características</strong> en tarjetas con icono + título + texto.</li>
+    <li><strong>Precios/Planes</strong> con comparación Básico vs. Pro.</li>
+    <li><strong>Testimonios</strong> en tarjetas compactas de una sola línea.</li>
+    <li><strong>FAQs</strong> con acordeones (+) expandibles.</li>
+    <li><strong>Equipo (ATG)</strong> con fichas de miembros.</li>
+    <li><strong>Contacto</strong> con formulario y datos directos.</li>
+    <li><strong>Footer</strong> con Términos, Privacidad, Soporte y redes sociales.</li>
+  </ul>
+
+  <!-- Desktop vs Mobile -->
+  <h3>Distribución · Desktop vs Mobile</h3>
+  <ul>
+    <li><strong>Desktop:</strong> secciones en grid (2–3 columnas), pares texto/imagen en paralelo, navegación fija en header.</li>
+    <li><strong>Mobile:</strong> flujo vertical apilado; CTAs centrados; tarjetas a 1 columna; acordeones ocupan ancho completo.</li>
+  </ul>
+
+  <!-- Principios y elementos -->
+  <h3>Principios y elementos de diseño aplicados</h3>
+  <ul>
+    <li><strong>Jerarquía visual:</strong> Inter Medium para H1/H2/H3 (70/40/25 px); contraste de CTAs para énfasis.</li>
+    <li><strong>Contraste:</strong> primario <code>#202D36</code> sobre fondos claros <code>#FFFFFF</code>; acentos <code>#800C1F</code>/<code>#3C0007</code>.</li>
+    <li><strong>Alineación y ritmo:</strong> rejilla base de 8 px; alineación izquierda para texto, centrado para acciones.</li>
+    <li><strong>Proximidad/repetición:</strong> patrón consistente de tarjeta (icono &gt; título &gt; texto &gt; acción).</li>
+    <li><strong>Espacio en blanco:</strong> márgenes/padding 16–24 px para escaneabilidad sin sobrecarga.</li>
+  </ul>
+
+  <!-- Inclusión / Accesibilidad -->
+  <h3>Diseño inclusivo y accesibilidad</h3>
+  <ul>
+    <li><strong>Contraste AA:</strong> texto normal ≥ 4.5:1; títulos grandes ≥ 3:1.</li>
+    <li><strong>Tipografía legible:</strong> base 16–18 px, line-height 1.5–1.6.</li>
+    <li><strong>Targets táctiles:</strong> mínimos de 44×44 px; estados <em>hover/focus/active</em> visibles.</li>
+    <li><strong>Lenguaje claro:</strong> microcopys directos (p. ej., “Solicitar demo”, “Ver detalles”).</li>
+    <li><strong>Internacionalización:</strong> selector ES/EN en header; textos preparados para distinta longitud.</li>
+    <li><strong>Responsive first:</strong> breakpoints ≤480, ≤768, ≤1024, ≥1280; imágenes fluidas (max-width:100%).</li>
+  </ul>
+
+  <!-- Arquitectura de Información -->
+  <h3>Arquitectura de información (mapeo de secciones)</h3>
+  <ol>
+    <li><strong>Hero</strong> → Descubrimiento y CTA principal.</li>
+    <li><strong>Valores</strong> → Principios de marca que guían el servicio.</li>
+    <li><strong>Características</strong> → Qué hace el producto (evidencia funcional).</li>
+    <li><strong>Precios/Planes</strong> → Decisión informada (Básico vs Pro).</li>
+    <li><strong>Testimonios</strong> → Prueba social y confianza.</li>
+    <li><strong>FAQs</strong> → Objeciones comunes y soporte inmediato.</li>
+    <li><strong>Equipo</strong> → Credibilidad del grupo ATG.</li>
+    <li><strong>Contacto</strong> → Conversión secundaria (formulario y datos directos).</li>
+    <li><strong>Footer</strong> → Enlaces legales y canales de soporte.</li>
+  </ol>
+
+  <!-- Design System -->
+  <h3>Alineación con el Design System de AutoNexo</h3>
+  <ul>
+    <li><strong>Colores:</strong> Primary Blue <code>#202D36</code>, Primary White <code>#FFFFFF</code>, Grays <code>#D9D9D9</code>/<code>#8E8E8E</code>, Acentos <code>#800C1F</code>/<code>#3C0007</code>.</li>
+    <li><strong>Tipografía:</strong> Inter (Medium/Bold) con escalas 70/40/25 y 16–18 px para cuerpo.</li>
+    <li><strong>Componentes:</strong> botones primarios/secundarios, tarjetas, acordeones, chips, formularios, navbar y footer.</li>
+    <li><strong>Tokens:</strong> espaciado 8 px, radios 10–12 px, sombras sutiles para elevación de tarjetas.</li>
+  </ul>
+
+  <!-- Criterios de aceptación -->
+  <h3>Criterios de aceptación</h3>
+  <ol>
+    <li>Header con logo, navegación y selector ES/EN en Desktop; menú accesible en Mobile.</li>
+    <li>CTA “Solicitar demo” visible en el primer pantallazo (ambas vistas) y con contraste AA.</li>
+    <li>Tarjetas de características/beneficios mantienen patrón y ritmo vertical/columnas según viewport.</li>
+    <li>Sección de planes presenta comparación clara (precio, beneficios, acción).</li>
+    <li>FAQs con acordeones expandibles; foco/teclado navegable.</li>
+    <li>Formulario con validación básica y confirmación de envío; campos etiquetados.</li>
+    <li>Footer con Términos, Privacidad, Soporte y redes sociales.</li>
+  </ol>
+
+  <p><em>
+    Los mock-ups consolidan la propuesta visual y funcional del Landing Page de AutoNexo, demostrando consistencia con el Design System,
+    cumplimiento de accesibilidad y una arquitectura de información orientada a la conversión.
+  </em></p>
+</section>
+
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Landing page Mockup.png" alt="open-landing-wireframe.png" width="700px" /></p>
+</div>
+
+
 
 ### **3.1.4. Mobile Applications UX/UI Design**
 
