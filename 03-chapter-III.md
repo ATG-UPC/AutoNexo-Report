@@ -1047,7 +1047,71 @@ __Subscription payment__
   <p align="center"><img src="assets/chapter-III-assets/Subscription payment.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
+__Register Owner__
 
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Register Owner.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Recover Passaword__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Recover Passaword.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Profile and Edit__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Profile and Edit.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Support and Assistance__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Support and Assitance.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Vehicles__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Vehicles.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Register Vehicle__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Register Vehicle.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Edit Vehicle__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Edit Vehicle.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Maintenance Log__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Maintenance Log.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Add Maintenance__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Add Maintenance.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Edit Maintenance__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Edit Maintenance.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Workshop Details__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Workshop Details.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
 
 
 #### **3.1.4.4. Mobile Applications User Flow Diagrams**
