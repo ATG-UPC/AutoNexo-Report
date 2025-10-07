@@ -1116,4 +1116,299 @@ __Workshop Details__
 
 #### **3.1.4.4. Mobile Applications User Flow Diagrams**
 
+User goal: Registrarse como nuevo usuario
+
+User persona: Mecánico o jefe de taller
+
+Al ingresar a la aplicación móvil, los usuarios pueden acceder con su correo y contraseña desde la pantalla Login. Si no tienen una cuenta, pueden seleccionar “Register”, pasando a la pantalla de Registro, donde deberán ingresar su nombre, correo, número de teléfono y contraseña.
+
+De manera opcional, pueden incluir un Workshop Code para asociarse a un taller existente. Si no saben qué es, pueden consultar la opción “What’s this?”, que muestra una breve explicación visual.
+
+Antes de finalizar, los usuarios deben aceptar los Términos y Condiciones y luego presionar “Register” para completar su registro. Una vez creado el usuario, la aplicación los redirige a su pantalla principal Home.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 1.jpg" alt="Registro del mecanico" width="720px" />
+</p>
+
+
+User goal: Recuperar contraseña
+
+User persona: Mecánico o jefe de taller
+
+Al ingresar a la aplicación, el usuario puede seleccionar la opción “Forgot Password?” desde la pantalla de Login. Luego, se le solicita ingresar su número de teléfono registrado para recibir un código de verificación (OTP).
+
+En la pantalla de OTP Verification, el usuario ingresa el código recibido por mensaje y selecciona “Verify & Proceed”. Una vez validado, pasa a la pantalla donde podrá establecer una nueva contraseña, confirmarla y presionar “Submit” para completar el proceso.
+
+Finalmente, el sistema confirma el cambio y redirige al usuario nuevamente a la pantalla de Login para acceder con sus nuevas credenciales.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 2.jpg" alt="Recuperar Contraseña" width="720px" />
+</p>
+
+User goal: Iniciar sesión y acceder al panel principal
+
+User persona: Mecánico o Jefe de taller
+
+Al ingresar a la aplicación, el usuario visualiza la pantalla de Login, donde puede acceder ingresando su correo y contraseña. Una vez autenticado, la aplicación lo redirige a la pantalla principal Home, donde se muestra su nombre, próximas citas y el calendario de trabajo con las solicitudes programadas.
+
+Desde el ícono de menú, el usuario puede abrir el panel lateral y acceder a diferentes secciones como Profile, Payment, Support and Assistance, Terms of use, Privacy Policy o Logout, además de cambiar el idioma y el tema de la aplicación.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 3.jpg" alt="Ingresar a la aplicación" width="720px" />
+</p>
+
+User goal: Registrar y configurar un taller
+
+User persona: Mecánico o Jefe de taller
+
+Al ingresar a la sección Workshop, el usuario puede registrar la información de su taller completando los campos de nombre comercial, RUC, distrito, ciudad y dirección. También puede añadir el logo, una imagen representativa y los servicios disponibles.
+
+En la siguiente pantalla, el usuario define los horarios de atención para cada día de la semana y, si lo desea, marca los días libres o la opción de atención las 24 horas.
+
+Finalmente, al presionar “Save”, la aplicación guarda la información y registra el taller correctamente dentro del sistema, quedando listo para ser visualizado o editado posteriormente.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 4.jpg" alt="Registrar taller" width="720px" />
+</p>
+
+User goal: Visualizar y compartir el código del taller
+
+User persona: Propietario o jefe de taller
+
+Desde la pantalla principal Home, el usuario puede acceder a la sección Workshop, donde visualiza la información completa de su taller, incluyendo nombre, ubicación, servicios y miembros del equipo.
+
+En esta vista, el usuario puede seleccionar la opción “Generate Code” para crear un Workshop Code, el cual se muestra en una ventana emergente con la opción de copiarlo para compartirlo con nuevos mecánicos que deseen unirse al taller.
+
+Una vez generado, el código puede ser utilizado por un solo usuario y posteriormente caduca. El propietario también puede editar los datos del taller seleccionando “Edit Workshop”.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 5.jpg" alt="Registrar taller" width="720px" />
+</p>
+
+User goal: Visualizar y editar perfil de usuario
+
+User persona: Propietario o jefe de taller
+
+Desde el menú lateral, el usuario puede acceder a la sección Profile, donde visualiza su información personal, como nombre, correo, número de teléfono y taller actual. También puede gestionar las notificaciones de mensajes y ofertas.
+
+Al seleccionar el ícono de edición, el usuario ingresa a la pantalla Edit Profile, donde puede actualizar sus datos personales o modificar su contraseña seleccionando la opción “Change Password”.
+
+En la pantalla New Password, debe ingresar y confirmar la nueva contraseña. Finalmente, al presionar “Save”, los cambios se guardan y el usuario regresa a su perfil actualizado.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 6.jpg" alt="Editar Perfil" width="720px" />
+</p>
+
+User goal: Contactar con soporte técnico
+
+User persona:  Propietario o jefe de taller
+
+Desde el menú lateral, el usuario puede acceder a la sección Support and Assistance, donde se presentan distintas opciones de ayuda como Call Us, Mail Us, Frequently Asked Questions, Terms and Conditions y un tutorial en video.
+
+Al seleccionar Mail Us, se abre la pantalla Contact us via Gmail, donde el usuario puede escribir el asunto y el mensaje dirigido al equipo de soporte de Autonexo.
+
+Finalmente, al presionar “Send Email”, aparece una ventana de confirmación con el mensaje “Success!”, indicando que el correo fue enviado correctamente.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 7.jpg" alt="Asistencia y Soporte" width="720px" />
+</p>
+
+User goal: Enviar una oferta al propietario del vehículo
+
+User persona:  Propietario o jefe de taller
+
+Desde la pantalla principal Home, el usuario puede ingresar a la sección Request, donde se muestran las solicitudes de mantenimiento enviadas por los propietarios de vehículos.
+
+Al seleccionar Offer en una solicitud, el mecánico puede revisar los detalles del vehículo y completar el formulario Make an Offer, indicando el precio estimado, fecha y hora de cita, además de observaciones adicionales sobre el servicio.
+
+Finalmente, al presionar “Send Offer”, aparece una ventana emergente con el mensaje “Success!”, confirmando que la oferta fue enviada exitosamente al cliente.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 8.jpg" alt="Oferta" width="720px" />
+</p>
+
+User goal: Visualizar ofertas pendientes y realizadas
+
+User persona: Mecánico o jefe de taller
+
+Desde la pantalla principal Home, el usuario puede acceder a la sección Offer, donde se muestran las ofertas enviadas a los propietarios de vehículos.
+
+En esta pantalla, las ofertas se organizan en dos categorías: Pending, que agrupa las propuestas aún no respondidas, y Realized, que muestra las ofertas aceptadas o completadas.
+
+De esta forma, el usuario puede realizar un seguimiento de sus propuestas y gestionar de manera eficiente sus servicios dentro de la plataforma.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 9.jpg" alt="Visualizar ofertas" width="720px" />
+</p>
+
+User goal: Registrar y gestionar órdenes de servicio
+
+User persona: Mecánico o jefe de taller
+
+Desde la pantalla principal Home, el usuario puede ingresar a la sección Service, donde se muestran las órdenes de servicio clasificadas como In progress, Done o Canceled.
+
+Al seleccionar Register Service Order, el mecánico puede crear una nueva orden, eligiendo la oferta asociada, la fecha y hora de entrega, y agregando las tareas específicas del mantenimiento.
+
+Finalmente, al presionar “Register”, la orden se guarda en el sistema y queda disponible para seguimiento dentro del listado de servicios activos.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 10.jpg" alt="Registrar y gestionar servicios" width="720px" />
+</p>
+
+User goal: Suscribirse a un plan de pago
+
+User persona: Mecánico o jefe de taller
+
+Desde el menú lateral, el usuario puede acceder a la sección Payment, donde visualiza los planes disponibles (Monthly y Annual) con sus respectivos precios y beneficios.
+
+Tras seleccionar el plan deseado, se muestra la pantalla Billing address, donde el usuario completa los datos de facturación. Luego, pasa a la pantalla Add Payment, en la que debe ingresar la información de su tarjeta o método de pago preferido.
+
+Finalmente, al presionar “Pay”, aparece una ventana de confirmación con el mensaje “Success!”, indicando que la suscripción se realizó correctamente.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 11.jpg" alt="Suscribirse a un plan" width="720px" />
+</p>
+
+
+User goal: Registrarse como propietario de vehículo
+
+User persona: Propietario de vehículo
+
+Al ingresar a la aplicación, el usuario propietario accede a la pantalla Login, donde puede iniciar sesión con su correo y contraseña. Si no tiene una cuenta, puede seleccionar la opción “Register” para continuar con el proceso de registro.
+
+En la pantalla Registration, el usuario debe completar los campos con su nombre, correo electrónico, número de teléfono y contraseña, la cual debe ser confirmada. Antes de finalizar, debe aceptar los Términos y Condiciones mostrados en una ventana emergente.
+
+Finalmente, al presionar “Register”, su cuenta se crea exitosamente, quedando listo para acceder a las funciones principales de la aplicación.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 1 Owner.jpg" alt="Registrarse como propietario de vehículo" width="720px" />
+</p>
+
+User goal: Recuperar contraseña
+
+User persona: Propietario de vehículo
+
+Desde la pantalla Login, el usuario selecciona la opción “Forgot Password?”, lo que lo dirige a una pantalla donde debe ingresar su número de teléfono registrado.
+
+A continuación, recibe un código de verificación (OTP) que debe ingresar en la pantalla OTP Verification para validar su identidad. Una vez verificado, se habilita la pantalla para establecer una nueva contraseña, la cual debe ser confirmada antes de presionar “Submit”.
+
+Finalmente, el sistema confirma la actualización de la contraseña, permitiendo al usuario volver al inicio de sesión con sus nuevas credenciales.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 2 Owner.jpg" alt="Recuperar contraseña" width="720px" />
+</p>
+
+User goal: Iniciar sesión y acceder al panel principal
+
+User persona: Propietario de vehículo
+
+Al ingresar a la aplicación, el usuario visualiza la pantalla Login, donde puede acceder ingresando su correo electrónico y contraseña. Una vez autenticado, es redirigido al Home, donde se muestra la información de su cita actual, el taller asignado y el mecánico encargado.
+
+Desde el menú lateral, el usuario puede acceder a secciones como Profile, Payment, Support and Assistance, Terms of use, Privacy Policy y Logout, además de cambiar el idioma y el tema de la aplicación.
+
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 3 Owner.jpg" alt="Iniciar sesión y acceder al panel principal" width="720px" />
+</p>
+
+User goal: Visualizar y editar perfil de usuario
+
+User persona: Propietario de vehículo
+
+Desde el menú lateral, el usuario accede a la sección Profile, donde puede visualizar su información personal, como nombre, correo electrónico, número de teléfono, talleres favoritos y configuración de notificaciones.
+
+Al presionar el ícono de edición, se abre la pantalla Edit Profile, que permite modificar los datos personales o cambiar la contraseña seleccionando “Change Password”.
+
+En la pantalla New Password, el usuario ingresa y confirma su nueva contraseña. Finalmente, al presionar “Save”, los cambios se guardan correctamente, actualizando su perfil.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 4 Owner.jpg" alt="Visualizar y editar perfil de usuario" width="720px" />
+</p>
+
+User goal: Contactar con soporte técnico
+
+User persona: Propietario de vehículo
+
+Desde el menú lateral, el usuario puede acceder a la sección Support and Assistance, donde se muestran opciones de ayuda como Call Us, Mail Us, Frequently Asked Questions, Terms and Conditions y un tutorial en video.
+
+Al seleccionar Mail Us, se abre la pantalla Contact us via Gmail, donde el usuario puede escribir el asunto y el mensaje para comunicarse con el equipo de soporte.
+
+Finalmente, al presionar “Send Email”, aparece una ventana de confirmación con el mensaje “Success!”, indicando que el correo fue enviado correctamente.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 5 Owner.jpg" alt="Contactar con soporte técnico" width="720px" />
+</p>
+
+User goal: Eliminar un vehículo registrado
+
+User persona: Propietario de vehículo
+
+Desde el Home, el usuario selecciona la pestaña Vehicles, donde puede visualizar todos los vehículos registrados en su cuenta. Cada vehículo muestra las opciones Edit y Delete.
+
+Al presionar Delete, se muestra un mensaje de confirmación indicando “Success! Vehicle deleted successfully”, confirmando que la eliminación del vehículo se realizó correctamente.
+
+Este flujo permite mantener actualizada la información de los vehículos asociados a la cuenta del usuario, brindando un control fácil y rápido desde la aplicación.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 6 Owner.jpg" alt="Eliminar un vehículo registrado" width="720px" />
+</p>
+
+User goal: Registrar un nuevo vehículo
+
+User persona: Propietario de vehículo
+
+Desde la sección Vehicles, el usuario selecciona la opción Add New Vehicle para registrar un nuevo automóvil.
+En la pantalla Register Vehicle, ingresa la información del vehículo, incluyendo marca, modelo, año, placa, fotografía, y una breve descripción del estado o características del vehículo.
+
+Tras completar los campos requeridos, el usuario presiona Register, y el sistema confirma la operación con el mensaje:
+“Success! Vehicle registered successfully”, indicando que el vehículo se añadió correctamente a su cuenta.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 7 Owner.jpg" alt="Registrar un nuevo vehículo" width="720px" />
+</p>
+
+User goal: Editar la información de un vehículo registrado
+
+User persona: Propietario de vehículo
+
+Desde la sección Vehicles, el usuario selecciona la opción Edit en el vehículo que desea actualizar.
+En la pantalla Edit Vehicle, puede modificar los campos disponibles como marca, modelo, año, fotografía, placa y descripción.
+
+Una vez realizados los cambios, el usuario presiona Save, y el sistema muestra el mensaje de confirmación:
+“Success! Vehicle edited successfully”, indicando que la información fue actualizada correctamente.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 8 Owner.jpg" alt="Editar la información de un vehículo registrado" width="720px" />
+</p>
+
+User goal: Registrar o editar un mantenimiento del vehículo
+
+User persona: Propietario de vehículo
+
+Desde la pantalla Maintenance Log, el usuario puede visualizar el historial de mantenimientos realizados a su vehículo, con información como fecha y tipo de servicio.
+
+Al seleccionar Add Maintenance, se abre la pantalla Maintenance, donde el usuario puede ingresar o actualizar los datos del mantenimiento: nombre del servicio, fecha, costo, mecánico responsable y una breve descripción.
+
+Tras guardar los cambios con el botón Add Maintenance, el sistema muestra el mensaje de confirmación:
+“Success! Maintenance edited successfully”, indicando que el registro fue actualizado correctamente.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 9 Owner.jpg" alt="Registrar o editar un mantenimiento del vehículo" width="720px" />
+</p>
+
+User goal: Buscar y visualizar información de talleres
+
+User persona: Propietario de vehículo
+
+Desde la pantalla principal, el usuario selecciona la opción Workshop en la barra de navegación inferior.
+En la pantalla Workshop, puede aplicar filtros por departamento, provincia y distrito para visualizar los talleres disponibles cercanos a su ubicación.
+
+Al seleccionar un taller, se muestra la pantalla con su información detallada: nombre, dirección, teléfono, servicios ofrecidos, calificación promedio y la lista de mecánicos asociados.
+
+De esta manera, el usuario puede elegir el taller más conveniente antes de realizar una solicitud de servicio.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Flujo 10 Owner.jpg" alt="Buscar y visualizar información de talleres" width="720px" />
+</p>
+
 #### **3.1.4.5. Mobile Applications Prototyping**
