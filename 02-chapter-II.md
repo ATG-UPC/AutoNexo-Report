@@ -872,7 +872,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
           • Entonces el sistema entrega la información completa de la oferta y los datos del taller (rating, ubicación, términos).
         </p>
       </td>
-      <td>EP02</td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td>US04</td>
@@ -1350,6 +1350,91 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
       </td>
       <td>EP06</td>
     </tr>
+    <tr>
+      <td>US28</td>
+      <td>Visualizar planes de pago para talleres (Landing Page)</td>
+      <td>Como visitante interesado en registrar mi taller,
+      quiero visualizar los planes de pago y beneficios disponibles en la landing page,
+      para evaluar cuál se adapta mejor a las necesidades de mi negocio antes de registrarme.</td>
+      <td>
+        <p><strong>Scenario 1 — Visualización de planes disponibles:</strong><br>
+          • Dado que un visitante accede a la landing page<br>
+          • Cuando navega a la sección de “Planes”<br>
+          • Entonces el sistema muestra una lista clara de planes (pro y premium) con precios, duración y beneficios detallados.
+        </p>
+        <p><strong>Scenario 2 — Acceso al registro desde un plan:</strong><br>
+          • Dado que el visitante revisa un plan y desea contratarlo<br>
+          • Cuando hace clic en el botón “Registrarme” o “Elegir este plan”<br>
+          • Entonces el sistema redirige al formulario de registro preseleccionando el plan elegido.
+        </p>
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+  <td>US29</td>
+  <td>Seleccionar tipo de mecánico</td>
+  <td>Como mecánico, quiero seleccionar si soy un mecánico independiente o un mecánico con taller, para configurar correctamente mi perfil dentro de la aplicación.</td>
+  <td>
+    <p><strong>Scenario 1 — Selección inicial:</strong><br>
+      • Dado que el usuario ha iniciado sesión como mecánico por primera vez<br>
+      • Cuando el sistema le solicita definir su tipo de cuenta<br>
+      • Entonces el sistema muestra dos opciones: “Mecánico con taller” y “Mecánico que pertenece a un taller”.</p>
+    <p><strong>Scenario 2 — Confirmación de selección:</strong><br>
+      • Dado que el mecánico selecciona un tipo de cuenta<br>
+      • Cuando confirma la selección<br>
+      • Entonces el sistema guarda el tipo de perfil y redirige a la configuración correspondiente.</p>
+  </td>
+  <td>EP01</td>
+</tr>
+<tr>
+  <td>US30</td>
+  <td>Generar y compartir código de taller</td>
+  <td>Como mecánico con taller, quiero generar un código único de invitación, para compartirlo con otros mecánicos y que puedan unirse a mi taller en la aplicación.</td>
+  <td>
+    <p><strong>Scenario 1 — Generación de código único:</strong><br>
+      • Dado que el mecánico tiene un perfil de tipo “con taller”<br>
+      • Cuando accede a la sección de administración del taller<br>
+      • Entonces el sistema genera un código alfanumérico único que identifica su taller.</p>
+    <p><strong>Scenario 2 — Compartir código:</strong><br>
+      • Dado que el código fue generado exitosamente<br>
+      • Cuando el mecánico selecciona la opción “Compartir código”<br>
+      • Entonces el sistema permite copiar el código o enviarlo mediante enlace directo (por mensaje o correo).</p>
+  </td>
+  <td>EP01</td>
+</tr>
+<tr>
+  <td>US31</td>
+  <td>Unirse a un taller mediante código</td>
+  <td>Como mecánico que pertenece a un taller, quiero ingresar el código único del taller, para vincular mi cuenta correctamente al grupo de trabajo.</td>
+  <td>
+    <p><strong>Scenario 1 — Código válido:</strong><br>
+      • Dado que el mecánico tiene el código proporcionado por un taller<br>
+      • Cuando ingresa el código en la aplicación y confirma<br>
+      • Entonces el sistema valida el código y asocia el perfil del mecánico al taller correspondiente.</p>
+    <p><strong>Scenario 2 — Código inválido o expirado:</strong><br>
+      • Dado que el código ingresado no existe o ha expirado<br>
+      • Cuando el mecánico intenta unirse<br>
+      • Entonces el sistema muestra un mensaje de error indicando que el código no es válido y ofrece reintentar o solicitar un nuevo código.</p>
+  </td>
+  <td>EP01</td>
+</tr>
+<tr>
+  <td>US32</td>
+  <td>Navegación mediante barra de menú</td>
+  <td>Como usuario, quiero navegar fácilmente entre las secciones principales de la aplicación mediante una barra de menú, para acceder rápidamente a las funciones que necesito.</td>
+  <td>
+    <p><strong>Scenario 1 — Acceso desde barra principal:</strong><br>
+      • Dado que el usuario se encuentra dentro de la aplicación<br>
+      • Cuando utiliza la barra de navegación inferior o lateral<br>
+      • Entonces el sistema redirige correctamente a las secciones seleccionadas (Inicio, Taller, Mantenimientos, Perfil, etc.).</p>
+    <p><strong>Scenario 2 — Indicador visual de sección activa:</strong><br>
+      • Dado que el usuario cambia entre secciones<br>
+      • Cuando selecciona una nueva opción en la barra<br>
+      • Entonces el sistema actualiza el icono o color de la sección activa para indicar visualmente dónde se encuentra el usuario.</p>
+  </td>
+  <td>EP03</td>
+</tr>
+    <tr>
             <td>TS01</td>
             <td>Implementar endpoint para registrar y gestionar vehículos (POST, PUT, DELETE /vehicles)</td>
             <td>Como developer, quiero exponer endpoints para registrar, actualizar y eliminar vehículos, para que los propietarios puedan gestionar sus datos básicos.</td>
@@ -1915,49 +2000,49 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
             <td>Registro y organización inicial</td>
             <td>Como propietario y taller, quiero registrar vehículos e historiales, para organizar la información base de mantenimiento.</td>
             <td>No corresponde</td>
-            <td>US01, US02, US03, US04</td>
+            <td>US06, US07, US08, US20, US29, US30, US31</td>
         </tr>
         <tr>
             <td>EP02</td>
             <td>Gestión de servicios y reservas</td>
             <td>Como taller y propietario, quiero gestionar ofertas de mantenimiento y reservas, para asegurar que las tareas se coordinen en tiempo y forma.</td>
             <td>No corresponde</td>
-            <td>US05, US06, US07</td>
+            <td>US02, US19</td>
         </tr>
         <tr>
             <td>EP03</td>
             <td>Descubrimiento y personalización</td>
             <td>Como propietario, quiero encontrar talleres y servicios mediante filtros, ubicación y promociones, para elegir la mejor opción.</td>
             <td>No corresponde</td>
-            <td>US08, US09, US10, US11</td>
+            <td>US03, US04, US05, US17, US18, US32</td>
         </tr>
         <tr>
             <td>EP04</td>
             <td>Comunicación y coordinación</td>
             <td>Como usuario, quiero comunicarme y coordinar con el taller en tiempo real, para asegurar un servicio claro y sin errores.</td>
             <td>No corresponde</td>
-            <td>US12, US13, US14</td>
+            <td>US09, US10, US11</td>
         </tr>
         <tr>
             <td>EP05</td>
             <td>Gestión de mantenimientos</td>
             <td>Como usuario, quiero gestionar los mantenimientos desde la creación hasta la finalización, para asegurar el control y trazabilidad de cada servicio.</td>
             <td>No corresponde</td>
-            <td>US15, US16, US17, US18, US19</td>
+            <td>US12, US13, US14, US15, US16</td>
         </tr>
         <tr>
             <td>EP06</td>
             <td>Calificaciones y reputación</td>
             <td>Como usuarios (propietario y taller), queremos calificarnos mutuamente y consultar reputaciones, para fomentar confianza y calidad en el servicio.</td>
             <td>No corresponde</td>
-            <td>US20, US21, US22, US23</td>
+            <td>US24, US25, US26, US27</td>
         </tr>
         <tr>
             <td>EP07</td>
             <td>Landing Page (visitantes)</td>
             <td>Como visitante, quiero acceder a información, registro y soporte desde la landing page, para conocer y empezar a usar la aplicación.</td>
             <td>No corresponde</td>
-            <td>US24, US25, US26, US27</td>
+            <td>US01, US21, US22, US23, US28</td>
         </tr>
            <tr>
             <td>EP08</td>
@@ -2131,164 +2216,170 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
       <td>Contacto y descarga de la app</td>
       <td>2</td>
     </tr>
-    <tr>
+       <tr>
       <td>24</td>
+      <td>US28</td>
+      <td>Visualizar planes de pago para talleres (Landing Page)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>25</td>
       <td>US20</td>
       <td>Calificación de taller</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>25</td>
+      <td>26</td>
       <td>US21</td>
       <td>Calificación de propietario</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>26</td>
+      <td>27</td>
       <td>US22</td>
       <td>Consulta de reputación de taller</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>27</td>
+      <td>28</td>
       <td>US23</td>
       <td>Consulta de reputación de propietario</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>28</td>
+      <td>29</td>
       <td>TS01</td>
       <td>Implementar endpoint para registrar y gestionar vehículos (/vehicles)</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>29</td>
+      <td>30</td>
       <td>TS02</td>
       <td>Implementar endpoint para adjuntar y consultar historial (/vehicles/{id}/history)</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>30</td>
+      <td>31</td>
       <td>TS03</td>
       <td>Implementar endpoint para catálogo de servicios de taller (/services)</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>31</td>
+      <td>32</td>
       <td>TS04</td>
       <td>Implementar endpoint para gestión de reservas de mantenimiento (/reservations)</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>32</td>
+      <td>33</td>
       <td>TS05</td>
       <td>Implementar endpoint para sistema de mensajería (/messages)</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>33</td>
+      <td>34</td>
       <td>TS06</td>
       <td>Implementar endpoint para calificaciones y reputación (/ratings)</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>34</td>
+      <td>35</td>
       <td>TS07</td>
       <td>Implementar endpoint para exploración y búsqueda de servicios (/services?filters=)</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>35</td>
+      <td>36</td>
       <td>TS08</td>
       <td>Implementar endpoint para filtros y geolocalización de talleres (/workshops?location=)</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>36</td>
+      <td>37</td>
       <td>TS09</td>
       <td>Implementar endpoint para gestión de favoritos (/favorites)</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>37</td>
+      <td>38</td>
       <td>TS10</td>
       <td>Implementar endpoint para promociones de talleres (/promotions)</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>38</td>
+      <td>39</td>
       <td>TS11</td>
       <td>Implementar endpoint para coordinación de citas (/appointments)</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>39</td>
+      <td>40</td>
       <td>TS12</td>
       <td>Implementar endpoint para notificaciones push (/notifications)</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>40</td>
+      <td>41</td>
       <td>TS13</td>
       <td>Implementar endpoint para gestión de mantenimientos (/maintenances)</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>41</td>
+      <td>42</td>
       <td>TS14</td>
       <td>Implementar endpoint para landing page y registro de usuarios (/users)</td>
       <td>3</td>
     </tr>
     <tr>
-      <td>42</td>
+      <td>43</td>
       <td>TS15</td>
       <td>Implementar endpoint para soporte, FAQ y contacto (/faq, /support, /contact)</td>
       <td>2</td>
     </tr>
     <tr>
-  <td>1</td>
+  <td>44</td>
   <td>SP-01</td>
   <td>Investigación de la Integración de Stripe para el Procesamiento de Pagos</td>
   <td>3</td>
 </tr>
 <tr>
-  <td>2</td>
+  <td>45</td>
   <td>SP-02</td>
   <td>Investigación de Google Maps para la Localización de Mecánicos</td>
   <td>3</td>
 </tr>
 <tr>
-  <td>3</td>
+  <td>46</td>
   <td>SP-03</td>
   <td>Evaluación de Sistemas de Notificaciones Push</td>
   <td>3</td>
 </tr>
 <tr>
-  <td>4</td>
+  <td>47</td>
   <td>SP-04</td>
   <td>Investigación de Herramientas de Reportes de Mantenimiento</td>
   <td>3</td>
 </tr>
 <tr>
-  <td>5</td>
+  <td>48</td>
   <td>SP-06</td>
   <td>Investigación de Técnicas de Caching para Mejorar el Rendimiento</td>
   <td>3</td>
 </tr>
 <tr>
-  <td>6</td>
+  <td>49</td>
   <td>SP-07</td>
   <td>Evaluación de Herramientas de Seguridad para la Plataforma</td>
   <td>3</td>
 </tr>
 <tr>
-  <td>7</td>
+  <td>50</td>
   <td>SP-08</td>
   <td>Investigación de Plataforma para Gestión de Suscripciones</td>
   <td>3</td>
 </tr>
 <tr>
-  <td>8</td>
+  <td>51</td>
   <td>SP-09</td>
   <td>Investigación de API de Localización para Mejorar la Búsqueda de Mecánicos</td>
   <td>3</td>
