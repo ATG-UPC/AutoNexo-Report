@@ -109,6 +109,8 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se repartieron 
 - [**Contenido**](#contenido)
     - [Tabla de contenidos](#tabla-de-contenidos)
 - [**Student Outcome**](#student-outcome)
+- [**Objetivos SMART**](#objetivos-smart)
+
 - [ **Capítulo I: Presentación** ](#-capítulo-i-presentación)
   - [**1.1. Startup Profile**](#11-startup-profile)
     - [**1.1.1. Descripción de la Startup**](#111-descripción-de-la-startup)
@@ -151,7 +153,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se repartieron 
         - [**2.5.3.2 Software Architecture Container Level Diagrams**](#2532-software-architecture-container-level-diagrams)
         - [**2.5.3.3 Software Architecture Deployment Diagrams**](#2533-software-architecture-deployment-diagrams)
   - [**2.6 Tactical-Level Domain-Driven Design**](#26-tactical-level-domain-driven-design)
-    - [**2.6.1 Bounded Context: Bounded Context Name**](#261-bounded-context:-bounded-context-name)
+    - [**2.6.1 Bounded Context: Vehicle&Maintenance**](#261-bounded-context-bounded-context-vehicle-maintenance)
         - [**2.6.1.1 Domain Layer**](#2611-domain-laye>)
         - [**2.6.1.2 Interface Layer**](#2612-interface-layer)
         - [**2.6.1.3 Application Layer**](#2613-application-layer)
@@ -160,6 +162,51 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se repartieron 
         - [**2.6.1.6 Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
              - [**2.6.1.6.1 Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
              - [**2.6.1.6.2 Bounded Context Database Design Diagram**](#26162-bounded-context-database-design-diagram)
+    - [**2.6.2 Bounded Context: Trusting&Reputation**](#261-bounded-context-bounded-context-trusting-reputation)
+        - [**2.6.2.1 Domain Layer**](#2611-domain-laye>)
+        - [**2.6.2.2 Interface Layer**](#2612-interface-layer)
+        - [**2.6.2.3 Application Layer**](#2613-application-layer)
+        - [**2.6.2.4 Infrastructure Layer**](#2614-infrastructure-layer)
+        - [**2.6.2.5 Bounded Context Software Architecture Component Level Diagrams**](#2615-bounded-context-software-architecture-component-level-diagrams)
+        - [**2.6.2.6 Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
+             - [**2.6.2.6.1 Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
+             - [**2.6.2.6.2 Bounded Context Database Design Diagram**](#26162-bounded-context-database-design-diagram)
+    - [**2.6.3 Bounded Context: Matching&Booking**](#261-bounded-context-bounded-context-matching-booking)
+        - [**2.6.3.1 Domain Layer**](#2611-domain-laye>)
+        - [**2.6.3.2 Interface Layer**](#2612-interface-layer)
+        - [**2.6.3.3 Application Layer**](#2613-application-layer)
+        - [**2.6.3.4 Infrastructure Layer**](#2614-infrastructure-layer)
+        - [**2.6.3.5 Bounded Context Software Architecture Component Level Diagrams**](#2615-bounded-context-software-architecture-component-level-diagrams)
+        - [**2.6.3.6 Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
+             - [**2.6.3.6.1 Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
+             - [**2.6.3.6.2 Bounded Context Database Design Diagram**](#26162-bounded-context-database-design-diagram)
+    - [**2.6.4 Bounded Context: Workshop**](#261-bounded-context-bounded-context-workshop)
+        - [**2.6.4.1 Domain Layer**](#2611-domain-laye>)
+        - [**2.6.4.2 Interface Layer**](#2612-interface-layer)
+        - [**2.6.4.3 Application Layer**](#2613-application-layer)
+        - [**2.6.4.4 Infrastructure Layer**](#2614-infrastructure-layer)
+        - [**2.6.4.5 Bounded Context Software Architecture Component Level Diagrams**](#2615-bounded-context-software-architecture-component-level-diagrams)
+        - [**2.6.4.6 Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
+             - [**2.6.4.6.1 Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
+             - [**2.6.4.6.2 Bounded Context Database Design Diagram**](#26162-bounded-context-database-design-diagram)
+    - [**2.6.5 Bounded Context: Payment**](#261-bounded-context-bounded-context-payment)
+        - [**2.6.5.1 Domain Layer**](#2611-domain-laye>)
+        - [**2.6.5.2 Interface Layer**](#2612-interface-layer)
+        - [**2.6.5.3 Application Layer**](#2613-application-layer)
+        - [**2.6.5.4 Infrastructure Layer**](#2614-infrastructure-layer)
+        - [**2.6.5.5 Bounded Context Software Architecture Component Level Diagrams**](#2615-bounded-context-software-architecture-component-level-diagrams)
+        - [**2.6.5.6 Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
+             - [**2.6.5.6.1 Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
+             - [**2.6.5.6.2 Bounded Context Database Design Diagram**](#26162-bounded-context-database-design-diagram)
+    - [**2.6.6 Bounded Context: Identity & Access Management (IAM)**](#261-bounded-context-bounded-context-IAM)
+        - [**2.6.6.1 Domain Layer**](#2611-domain-laye>)
+        - [**2.6.6.2 Interface Layer**](#2612-interface-layer)
+        - [**2.6.6.3 Application Layer**](#2613-application-layer)
+        - [**2.6.6.4 Infrastructure Layer**](#2614-infrastructure-layer)
+        - [**2.6.6.5 Bounded Context Software Architecture Component Level Diagrams**](#2615-bounded-context-software-architecture-component-level-diagrams)
+        - [**2.6.6.6 Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
+             - [**2.6.6.6.1 Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
+             - [**2.6.6.6.2 Bounded Context Database Design Diagram**](#26162-bounded-context-database-design-diagram)
 
 - [ **Capítulo III: Solution UI/UX Design** ](#-capítulo-iii-solution-ui/ux-design)
   - [**3.1. Product design**](#31-product-design)
@@ -242,3 +289,10 @@ tecnologías de ingeniería de software.</td>
 </tr>
 </tbody></table>
 </br></br>
+
+# Objetivos SMART
+
+**Rafael Andres Vivanco Salazar**: 
+* Obtener una certificación internacional en AWS Cloud Practitioner en un plazo máximo de 18 meses después de mi graduación, dedicando al menos 6 horas semanales de estudio autodidacta y aplicando los conocimientos adquiridos en proyectos personales y laborales, con el fin de fortalecer mi perfil profesional en computación en la nube.
+
+* Integrarme en una empresa de desarrollo de software antes de cumplir un año de egresado, participando en al menos tres proyectos colaborativos en entornos ágiles (Scrum o Kanban) que me permitan aplicar mis competencias técnicas y mejorar mis habilidades de trabajo en equipo y comunicación profesional.
