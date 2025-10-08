@@ -96,49 +96,49 @@ En conjunto, esta paleta cromática refuerza la identidad moderna, confiable y f
       <tr>
         <td>Heading 01</td>
         <td>Títulos principales, encabezados generales</td>
-        <td>Inter Medium</td>
+        <td>Roboto Flex</td>
         <td>70 px</td>
         <td>84 px</td>
       </tr>
       <tr>
         <td>Heading 02</td>
         <td>Secciones destacadas y subtítulos</td>
-        <td>Inter Medium</td>
+        <td>Roboto Flex</td>
         <td>40 px</td>
         <td>52 px</td>
       </tr>
       <tr>
         <td>Heading 03</td>
         <td>Bloques de contenido intermedio</td>
-        <td>Inter Medium</td>
+        <td>Roboto Flex</td>
         <td>25 px</td>
         <td>34 px</td>
       </tr>
       <tr>
         <td>Large Text Bold</td>
         <td>Textos de énfasis o botones principales</td>
-        <td>Inter Bold</td>
+        <td>Roboto</td>
         <td>25 px</td>
         <td>34 px</td>
       </tr>
       <tr>
         <td>Medium Text Bold</td>
         <td>Subtítulos o texto destacado secundario</td>
-        <td>Inter Bold</td>
+        <td>Roboto</td>
         <td>18 px</td>
         <td>30 px</td>
       </tr>
       <tr>
         <td>Normal Text Bold</td>
         <td>Texto informativo o párrafos breves</td>
-        <td>Inter Bold</td>
+        <td>Roboto</td>
         <td>16 px</td>
         <td>24 px</td>
       </tr>
       <tr>
         <td>Small Text Bold</td>
         <td>Etiquetas, menús o elementos de interfaz compactos</td>
-        <td>Inter Bold</td>
+        <td>Roboto</td>
         <td>14 px</td>
         <td>21 px</td>
       </tr>
