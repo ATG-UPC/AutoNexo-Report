@@ -296,3 +296,23 @@ tecnologías de ingeniería de software.</td>
 * Obtener una certificación internacional en AWS Cloud Practitioner en un plazo máximo de 18 meses después de mi graduación, dedicando al menos 6 horas semanales de estudio autodidacta y aplicando los conocimientos adquiridos en proyectos personales y laborales, con el fin de fortalecer mi perfil profesional en computación en la nube.
 
 * Integrarme en una empresa de desarrollo de software antes de cumplir un año de egresado, participando en al menos tres proyectos colaborativos en entornos ágiles (Scrum o Kanban) que me permitan aplicar mis competencias técnicas y mejorar mis habilidades de trabajo en equipo y comunicación profesional.
+
+**Cruz Ibarra, Victor Andres**: 
+* Alcanzar un puesto como ingeniero de software full stack en una empresa tecnológica dentro de los primeros 10 meses después de graduarme, completando tres proyectos personales que integren frontend (Angular o React) y backend (Node.js o Java Spring Boot), y publicándolos en mi portafolio profesional en GitHub y LinkedIn.
+
+* Fortalecer mis competencias en gestión de proyectos ágiles obteniendo la certificación Scrum Master en un plazo máximo de un año tras la graduación, participando en al menos dos equipos de desarrollo con metodología Scrum para aplicar los conocimientos adquiridos y mejorar mi liderazgo técnico.
+
+**Roman Esteban, Henry Kalet**: 
+* Obtener la certificación internacional Professional Scrum Master (PSM I) en un plazo máximo de 9 meses después de la graduación, dedicando 5 horas semanales al estudio de metodologías ágiles y aplicando los conocimientos adquiridos en al menos un proyecto académico o freelance que utilice la metodología Scrum.
+
+* Desarrollar habilidades de liderazgo y gestión de equipos ágiles participando como Scrum Master en tres proyectos colaborativos durante el primer año posterior a la graduación, con el fin de mejorar la eficiencia del equipo en al menos un 20% mediante la implementación de retrospectivas efectivas y seguimiento de métricas ágiles (velocidad y burndown chart).
+
+**Solano Armas, Angelo Hector**: 
+* Convertirme en desarrollador backend especializado en Python y bases de datos SQL en un plazo de 12 meses después de graduarme, completando al menos dos certificaciones en tecnologías backend (como Django y PostgreSQL) y participando en un proyecto freelance o de código abierto que me permita aplicar mis conocimientos en entornos reales.
+
+* Mejorar mis habilidades de comunicación y colaboración profesional al participar activamente en comunidades tecnológicas y eventos de networking (al menos cuatro durante el primer año de egresado), con el fin de ampliar mi red de contactos y fortalecer mi capacidad para trabajar eficazmente en equipos multidisciplinarios.
+
+**Iglesias Pérez, Sergio Sebastián**: 
+* Conseguir un puesto como desarrollador front-end junior en una empresa tecnológica dentro de los seis meses posteriores a la graduación, fortaleciendo mis conocimientos en Angular y React mediante la finalización de dos cursos especializados online y la creación de un portafolio con al menos tres proyectos web personales.
+
+* Desarrollar mis habilidades de trabajo en equipo y liderazgo técnico participando en al menos dos proyectos colaborativos de código abierto durante el primer año de egresada, contribuyendo con un mínimo de cinco commits significativos por proyecto, para mejorar mi experiencia profesional y visibilidad en comunidades de desarrollo.
