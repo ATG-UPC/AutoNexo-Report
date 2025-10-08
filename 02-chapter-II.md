@@ -2253,7 +2253,7 @@ En esta sección se expone la arquitectura de software de la solución Red Carga
 #### 2.5.3.1 Software Architecture Context Level Diagrams
 El siguiente diagrama muestra de manera general Autonexo conectado con los sistemas externos y los usuarios que intervienen
 <br>
-<img alt="Context-Diagram" src="assets\chapter-II-assets\structurizr-101398-SystemContext-001.png" />
+<img alt="Context-Diagram" src="assets\chapter-II-assets\c4\structurizr-101398-SystemContext-001.png" />
 
 #### 2.5.3.2 Software Architecture Container Level Diagrams
 El diagrama C2 profundiza en el sistema y representa la arquitectura general del software, destacando las principales tecnologías empleadas y la manera en que estas se interconectan.
@@ -2274,7 +2274,6 @@ El siguiente diagrama muestra los contenedores del sistema Autonexo desplegados 
 <img alt="Deployment-Diagram-2" src="assets\chapter-II-assets\c4\structurizr-101398-Deployment-002.png" />
 
 ## 2.6 Tactical-Level Domain-Driven Design
-<br>
 
 ### **2.6.1. Bounded Context: Vehicle&Maintenance**
 
@@ -2740,21 +2739,22 @@ Implementaciones de persistencia y adaptadores externos.
 <img alt="Component-Workshops" src="assets\chapter-II-assets\components\structurizr-101398-Component-002.png" />
 
 #### 2.6.2.6 Bounded Context Software Architecture Code Level Diagrams
-<br>
 
 ##### 2.6.2.6.1 Bounded Context Domain Layer Class Diagrams
-<br>
+
 <img alt="Class-Workshop" src="assets\chapter-II-assets\bc\class-trusting.png" />
 
 ##### 2.6.2.6.2 Bounded Context Database Design Diagram
-<br>
+
 <img alt="Database-Workshop" src="assets\chapter-II-assets\bc\db-trusting.png" />
 
 ### **2.6.3. Bounded Context: Matching&Booking**
 
 #### **2.6.3.1. Domain Layer**
 
-Este bounded context cubre desde la solicitud de servicio hasta la creación/confirmación del booking, la gestión de ofertas y reprogramaciones, y la apertura de la service order para el handover hacia Vehicle&Maintenance.  
+
+Este bounded context cubre desde la solicitud de servicio hasta la creación/confirmación del booking, la gestión de ofertas y reprogramaciones, y la apertura de la service order para el handover hacia Vehicle&Maintenance.
+
 ---
 
 ### **Aggregates**
@@ -2989,7 +2989,6 @@ Este bounded context cubre desde la solicitud de servicio hasta la creación/con
 <img alt="Component-Vehicle-Maintenance" src="assets\chapter-II-assets\components\structurizr-101398-Component-003.png"/>
 
 #### 2.6.3.6 Bounded Context Software Architecture Code Level Diagrams
-<br>
 
 ##### 2.6.3.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
@@ -3184,7 +3183,6 @@ Implementaciones de persistencia y adaptadores externos.
 <img alt="Component-Matching-Booking" src="assets\chapter-II-assets\components\structurizr-101398-Component-004.png" />
 
 #### 2.6.4.6 Bounded Context Software Architecture Code Level Diagrams
-<br>
 
 ##### 2.6.4.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
@@ -3357,7 +3355,6 @@ Implementaciones de repositorios y adaptadores externos.
 <img alt="Component-Trust" src="assets\chapter-II-assets\components\structurizr-101398-Component-005.png" />
 
 #### 2.6.5.6 Bounded Context Software Architecture Code Level Diagrams
-<br>
 
 ##### 2.6.5.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
@@ -3643,7 +3640,6 @@ Implementaciones concretas de repositorios y adaptadores.
 <img alt="Component-Suscription" src="assets\chapter-II-assets\components\structurizr-101398-Component-006.png" />
 
 #### 2.6.6.6 Bounded Context Software Architecture Code Level Diagrams
-<br>
 
 ##### 2.6.6.6.1 Bounded Context Domain Layer Class Diagrams
 <br>
@@ -3660,6 +3656,7 @@ Implementaciones concretas de repositorios y adaptadores.
 Este bounded context gestiona la orquestación y entrega de notificaciones en tres canales: **Push, Email y SMS**.  
 Soporta mensajes transaccionales  y mensajes programados
 No incorpora lógica de negocio de otros BCs; consume sus eventos y aplica plantillas, preferencias y políticas de envío.
+
 ---
 
 ### **Aggregates**
