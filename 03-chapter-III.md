@@ -96,49 +96,49 @@ En conjunto, esta paleta cromática refuerza la identidad moderna, confiable y f
       <tr>
         <td>Heading 01</td>
         <td>Títulos principales, encabezados generales</td>
-        <td>Inter Medium</td>
+        <td>Roboto Flex</td>
         <td>70 px</td>
         <td>84 px</td>
       </tr>
       <tr>
         <td>Heading 02</td>
         <td>Secciones destacadas y subtítulos</td>
-        <td>Inter Medium</td>
+        <td>Roboto Flex</td>
         <td>40 px</td>
         <td>52 px</td>
       </tr>
       <tr>
         <td>Heading 03</td>
         <td>Bloques de contenido intermedio</td>
-        <td>Inter Medium</td>
+        <td>Roboto Flex</td>
         <td>25 px</td>
         <td>34 px</td>
       </tr>
       <tr>
         <td>Large Text Bold</td>
         <td>Textos de énfasis o botones principales</td>
-        <td>Inter Bold</td>
+        <td>Roboto</td>
         <td>25 px</td>
         <td>34 px</td>
       </tr>
       <tr>
         <td>Medium Text Bold</td>
         <td>Subtítulos o texto destacado secundario</td>
-        <td>Inter Bold</td>
+        <td>Roboto</td>
         <td>18 px</td>
         <td>30 px</td>
       </tr>
       <tr>
         <td>Normal Text Bold</td>
         <td>Texto informativo o párrafos breves</td>
-        <td>Inter Bold</td>
+        <td>Roboto</td>
         <td>16 px</td>
         <td>24 px</td>
       </tr>
       <tr>
         <td>Small Text Bold</td>
         <td>Etiquetas, menús o elementos de interfaz compactos</td>
-        <td>Inter Bold</td>
+        <td>Roboto</td>
         <td>14 px</td>
         <td>21 px</td>
       </tr>
@@ -971,6 +971,163 @@ Este sistema de navegación integral asegura que los usuarios puedan moverse de 
 
 #### **3.1.4.1. Mobile Applications Wireframes**
 
+__Register Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-wireframe/Register Mechanic W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Recover password__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-wireframe/Recover password Mechanic W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Register Workshop__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-wireframe/Register Workshop W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Home Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-wireframe/Home Mechanic W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>
+
+__Profile Mechanic and Edit__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-wireframe/Profile Mechanic and Edit W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Support and Assistance Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-wireframe/Support and Assitance Mechanic W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Request Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-wireframe/Request Mechanic W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Offer Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-wireframe/Offer W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Service Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-wireframe/Service Mechanic W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Payment Mechanic__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-wireframe/Payment Mechanic W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+<!--__Subscription payment__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/Subscription payment.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+-->
+
+__Register Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Register Owner W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Recover Password Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Recover Password Owner W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Profile and Edit Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Profile and Edit Owner W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Support and Assistance Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Support and Assistance Owner W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Home Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Home Owner W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Vehicles__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Vehicles W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Register Vehicle__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Register Vehicle W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Edit Vehicle__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Edit Vehicle W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Maintenance Log__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Maintenance Log W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Add Maintenance__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Add Maintenance W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Edit Maintenance__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Edit Maintenance W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Workshop Details Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Workshop Details Owner W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Offer Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Offer Owner W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Request Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Request Owner W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div> 
+
+__Payment Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-wireframe/Payment Owner W.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
 #### **3.1.4.2. Mobile Applications Wireflow Diagrams**
 
 #### **3.1.4.3. Mobile Applications Mock-ups**
@@ -978,141 +1135,159 @@ Este sistema de navegación integral asegura que los usuarios puedan moverse de 
 __Register Mechanic__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Register Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-mockup/Register Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>
 
 __Recover password__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Recover password.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-mockup/Recover password Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>
 
 __Register Workshop__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Register Workshop.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-mockup/Register Workshop.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>
 
 __Home Mechanic__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Home Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
-</div>
-
-__Workshop Detail Mechanic__
-
-<div>
-  <p align="center"><img src="assets/chapter-III-assets/Home Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-mockup/Home Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>
 
 __Profile Mechanic and Edit__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Profile Mechanic and Edit.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-mockup/Profile Mechanic and Edit.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
-__Support and Assitance__
+__Support and Assitance Mechanic__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Support and Assitance.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-mockup/Support and Assitance Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
 __Request Mechanic__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Support and Assitance.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-mockup/Request Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
 __Offer Mechanic__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Offer Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-mockup/Offer Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
 __Service Mechanic__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Service Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-mockup/Service Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
-__Payment__
+__Payment Mechanic__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Payment.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/mechanic-mockup/Payment Mechanic.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
-__Subscription payment__
+<!--__Subscription payment__
 
 <div>
   <p align="center"><img src="assets/chapter-III-assets/Subscription payment.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
+-->
 
 __Register Owner__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Register Owner.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Register Owner.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
-__Recover Passaword__
+__Recover Password Owner__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Recover Passaword.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Recover Password Owner.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
-__Profile and Edit__
+__Profile and Edit Owner__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Profile and Edit.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Profile and Edit Owner.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
-__Support and Assistance__
+__Support and Assistance Owner__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Support and Assitance.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Support and Assistance Owner.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Home Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Home Owner.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
 __Vehicles__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Vehicles.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Vehicles.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
 __Register Vehicle__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Register Vehicle.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Register Vehicle.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
 __Edit Vehicle__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Edit Vehicle.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Edit Vehicle.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
 __Maintenance Log__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Maintenance Log.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Maintenance Log.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
 __Add Maintenance__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Add Maintenance.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Add Maintenance.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
 __Edit Maintenance__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Edit Maintenance.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Edit Maintenance.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
-__Workshop Details__
+__Workshop Details Owner__
 
 <div>
-  <p align="center"><img src="assets/chapter-III-assets/Workshop Details.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Workshop Details Owner.png" alt="wireframe-desktop-1.png" width="700px" /></p>
 </div>  
 
+__Offer Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Offer Owner.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
+
+__Request Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Request Owner.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div> 
+
+__Payment Owner__
+
+<div>
+  <p align="center"><img src="assets/chapter-III-assets/owner-mockup/Payment Owner.png" alt="wireframe-desktop-1.png" width="700px" /></p>
+</div>  
 
 #### **3.1.4.4. Mobile Applications User Flow Diagrams**
 
@@ -1412,3 +1587,15 @@ De esta manera, el usuario puede elegir el taller más conveniente antes de real
 </p>
 
 #### **3.1.4.5. Mobile Applications Prototyping**
+
+[Mechanic Prototype](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311064_upc_edu_pe/EUX747Y09zxIpXmVbkCaNYoBnK8niDY1xkbvNpeWkuXdHQ?e=sJjhMF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<p align="center">
+  <img src="assets/chapter-III-assets/mechanic-prototype.png" alt="Prototipo de la app del mecánico" width="720px" />
+</p>
+
+[Owner Prototype](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311064_upc_edu_pe/EbKcPfyzVzVEjt88tIi2edYBGt9elB7THGxPFwt44bkgxg?e=W0wZ8G&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<p align="center">
+  <img src="assets/chapter-III-assets/owner-prototype.png" alt="Prototipo de la app del propietario" width="720px" />
+</p>
