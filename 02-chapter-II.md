@@ -2140,7 +2140,7 @@ El objetivo de la sesión de EventStorming fue realizar una exploración amplia 
 <br>
 - Step 1 – Unstructured Exploration: El equipo colocó en Miro todos los eventos relevantes sin ningún orden, con el fin de vaciar conocimiento y asegurar que ninguna parte del dominio quedara fuera.
 
-<img alt="step1_UnstructuredExploration src="assets\chapter-II-assets\step1_UnsExp.png" />
+<img alt="step1_UnstructuredExploration" src="assets\chapter-II-assets\step1_UnsExp.png" />
 <br>
 
 - Step 2 – Timelines: Los eventos fueron organizados en una línea de tiempo, lo que permitió identificar la secuencia lógica de las acciones
