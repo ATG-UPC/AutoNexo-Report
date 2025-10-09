@@ -289,6 +289,7 @@ tecnologías de ingeniería de software.</td>
 </tr>
 </tbody></table>
 </br></br>
+
 # Objetivos SMART
 
 **Rafael Andres Vivanco Salazar**: 
@@ -315,3 +316,36 @@ tecnologías de ingeniería de software.</td>
 * Conseguir un puesto como desarrollador front-end junior en una empresa tecnológica dentro de los seis meses posteriores a la graduación, fortaleciendo mis conocimientos en Angular y React mediante la finalización de dos cursos especializados online y la creación de un portafolio con al menos tres proyectos web personales.
 
 * Desarrollar mis habilidades de trabajo en equipo y liderazgo técnico participando en al menos dos proyectos colaborativos de código abierto durante el primer año de egresada, contribuyendo con un mínimo de cinco commits significativos por proyecto, para mejorar mi experiencia profesional y visibilidad en comunidades de desarrollo.
+
+
+## Github Collaboration Insights
+
+GitHub proporciona una visualización cronológica (timeline) que muestra la evolución de las ramas principales y los procesos de merge realizados a lo largo del desarrollo. Todas las ramas fueron creadas siguiendo la estructura propuesta por GitFlow, lo que permite mantener una organización clara y coherente del flujo de trabajo dentro del sistema de control de versiones.
+
+Los colaboradores identificados en el repositorio son:
+- Cruz Ibarra, Victor Andres: Elandrehs
+- Solano Armas, Angelo Hector: Angelo5214
+- Iglesias Pérez, Sergio Sebastián: ghostrider101218
+- Roman Esteban, Henry Kalet: kalet123-commit
+- Vivanco Salazar, Rafael Andres: RafaelVivanco
+
+Asimismo, se explican las ramas que tenemos hasta el momento: 
+- main: Aún no se encuentra representada, pues se hace un merge en cada entrega al ser la rama principal del proyecto.
+- develop: Representada por la rama blanca. Se trata de la rama principal para el proceso del desarrollo del proyecto.
+- feature/x: Representada por las ramas inferiores a develop (azul y verde). Se utilizan para el desarrollo de cada uno de los contribuyentes
+
+
+<div>
+  <p><img alt="Network Graph TP" src="assets\chapter-I-assets\network_graph_TP.png" width="700px"/></p>
+</div>
+
+Los siguientes gráficos muestran analíticos en cuanto a los commits que cada integrante del grupo ha estado realizando en el repositorio.
+
+__TP__
+
+<div>
+  <p><img alt="Contributors TP" src="assets\chapter-I-assets\contributors_TP.png" width="700px"/></p>
+</div>
+<div>
+  <p><img alt="Overview TP" src="assets\chapter-I-assets\overview_TP.png" width="700px"/></p>
+</div>
