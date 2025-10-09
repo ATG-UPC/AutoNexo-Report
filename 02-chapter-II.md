@@ -2186,19 +2186,19 @@ A partir de esto, se definieron los bounded contexts:
 #### 2.5.1.2 Domain Message Flows Modeling
 
 **Scenario 1**
-<img alt="scenario-1" src="assets\chapter-II-assets\scenario-1.png" />
+<img alt="scenario-1" src="assets\chapter-II-assets\scenario-1.jpg" />
 <br> <br>
 
 **Scenario 2**
-<img alt="scenario-2" src="assets\chapter-II-assets\scenario-2.png" />
+<img alt="scenario-2" src="assets\chapter-II-assets\scenario-2.jpg" />
 <br> <br>
 
 **Scenario 3**
-<img alt="scenario-3" src="assets\chapter-II-assets\scenario-3.png" />
+<img alt="scenario-3" src="assets\chapter-II-assets\scenario-3.jpg" />
 <br> <br>
 
 **Scenario 4**
-<img alt="scenario-4" src="assets\chapter-II-assets\scenario-4.png" />
+<img alt="scenario-4" src="assets\chapter-II-assets\scenario-4.jpg" />
 <br> <br>
 
 #### 2.5.1.3 Bounded Context Canvases
