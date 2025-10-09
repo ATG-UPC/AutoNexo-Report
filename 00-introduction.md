@@ -289,7 +289,7 @@ tecnologías de ingeniería de software.</td>
 </tr>
 </tbody></table>
 </br></br>
-# Objetivos SMART
+**Objetivos SMART**
 
 **Rafael Andres Vivanco Salazar**: 
 * Obtener una certificación internacional en AWS Cloud Practitioner en un plazo máximo de 18 meses después de mi graduación, dedicando al menos 6 horas semanales de estudio autodidacta y aplicando los conocimientos adquiridos en proyectos personales y laborales, con el fin de fortalecer mi perfil profesional en computación en la nube.
