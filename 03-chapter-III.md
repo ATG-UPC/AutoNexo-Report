@@ -146,7 +146,7 @@ En conjunto, esta paleta cromática refuerza la identidad moderna, confiable y f
   </table>
 
 <p align="center">
-  <img src="assets/chapter-III-assets/Typography.png" alt="Tipografía SwiftPort" width="600px" />
+  <img src="assets/chapter-III-assets/tipography.png" alt="Tipografía SwiftPort" width="600px" />
 </p>
 
   <p>
