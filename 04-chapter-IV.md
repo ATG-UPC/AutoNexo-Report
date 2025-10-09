@@ -292,20 +292,90 @@ Link Trello: [Autonexo - Trello](https://trello.com/b/4uTEBz5O/atg-autonexo)
 
 En esta sección se presentan los avances logrados durante el Sprint 1, enfocados en la implementación de la Landing Page del proyecto AutoNexo. El objetivo de este sprint fue desarrollar los principales componentes de la página web orientada a talleres mecánicos y propietarios de vehículos, asegurando una interfaz clara, responsiva y funcional.
 
-| Repository                    | Branch                    | Commit Id | Commit Message                          | Commit Message Body                                                                                                     | Committed on (Date) |
-| ----------------------------- | ------------------------- | --------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| ATG-UPC/AutoNexo-Landing-Page | feature/landing-content   | 3fa219b   | feat: add main benefits section         | Se añadió la sección principal con texto descriptivo, beneficios clave y botones de llamada a la acción (CTA). *(US01)* | 2025-10-01          |
-| ATG-UPC/AutoNexo-Landing-Page | feature/register-form     | 7c4f2d9   | feat: implement user registration form  | Se creó el formulario de registro con validación básica y estructura responsiva. *(US21)*                               | 2025-10-02          |
-| ATG-UPC/AutoNexo-Landing-Page | feature/faq-support       | 61e3a20   | feat: add FAQ component                 | Se implementó el componente de preguntas frecuentes con diseño colapsable. *(US22)*                                     | 2025-10-03          |
-| ATG-UPC/AutoNexo-Landing-Page | feature/contact-section   | b48df23   | feat: add contact form and store links  | Se añadieron el formulario de contacto y los botones con enlaces de descarga. *(US23)*                                  | 2025-10-04          |
-| ATG-UPC/AutoNexo-Landing-Page | feature/plans-section     | d279b7a   | feat: add pricing plans section         | Se desarrolló la sección de planes de pago para talleres con maquetado responsivo. *(US28)*                             | 2025-10-05          |
-| ATG-UPC/AutoNexo-Landing-Page | feature/mechanic-selector | 94fca31   | feat: add mechanic type selector        | Se implementó el componente que permite seleccionar el tipo de mecánico al registrarse. *(US29)*                        | 2025-10-06          |
-| ATG-UPC/AutoNexo-Landing-Page | feature/workshop-code     | a12b57d   | feat: generate and share workshop code  | Se implementó la funcionalidad para generar y compartir el código de taller. *(US30)*                                   | 2025-10-07          |
-| ATG-UPC/AutoNexo-Landing-Page | feature/navbar            | f57ce4a   | feat: add navigation bar and menu links | Se diseñó y programó la barra de navegación principal, mejorando la accesibilidad entre secciones. *(US32)*             | 2025-10-08          |
-
-
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Landing-Page</td>
+      <td>feature/landing-content</td>
+      <td>3fa219b</td>
+      <td>feat: add main benefits section</td>
+      <td>Se añadió la sección principal con texto descriptivo, beneficios clave y botones de llamada a la acción (CTA). <em>(US01)</em></td>
+      <td>2025-10-01</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Landing-Page</td>
+      <td>feature/register-form</td>
+      <td>7c4f2d9</td>
+      <td>feat: implement user registration form</td>
+      <td>Se creó el formulario de registro con validación básica y estructura responsiva. <em>(US21)</em></td>
+      <td>2025-10-02</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Landing-Page</td>
+      <td>feature/faq-support</td>
+      <td>61e3a20</td>
+      <td>feat: add FAQ component</td>
+      <td>Se implementó el componente de preguntas frecuentes con diseño colapsable. <em>(US22)</em></td>
+      <td>2025-10-03</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Landing-Page</td>
+      <td>feature/contact-section</td>
+      <td>b48df23</td>
+      <td>feat: add contact form and store links</td>
+      <td>Se añadieron el formulario de contacto y los botones con enlaces de descarga. <em>(US23)</em></td>
+      <td>2025-10-04</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Landing-Page</td>
+      <td>feature/plans-section</td>
+      <td>72b26b7</td>
+      <td>feat: add pricing plans section</td>
+      <td>Se desarrolló la sección de planes de pago para talleres con maquetado responsivo. <em>(US28)</em></td>
+      <td>2025-10-05</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/mechanic-selector</td>
+      <td>94fca31</td>
+      <td>feat: add mechanic type selector</td>
+      <td>Se implementó el componente que permite seleccionar el tipo de mecánico al registrarse. <em>(US29)</em></td>
+      <td>2025-10-06</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/workshop-code</td>
+      <td>a12b57d</td>
+      <td>feat: generate and share workshop code</td>
+      <td>Se implementó la funcionalidad para generar y compartir el código de taller. <em>(US30)</em></td>
+      <td>2025-10-07</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/navbar</td>
+      <td>381206e</td>
+      <td>feat: add navigation bar and menu links</td>
+      <td>Se diseñó y programó la barra de navegación principal, mejorando la accesibilidad entre secciones. <em>(US32)</em></td>
+      <td>2025-10-08</td>
+    </tr>
+  </tbody>
+</table>
 
 ##### **4.2.1.4. Testing Suite Evidence for Sprint Review**
+
+Durante el Sprint 1, el equipo de AutoNexo desarrolló y ejecutó un conjunto de pruebas automatizadas y manuales para verificar el correcto funcionamiento de los componentes implementados en la Landing Page y la interfaz inicial de la aplicación móvil.
+
+<table> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Committed on (Date)</th> </tr> </thead> <tbody> <tr> <td>ATG-UPC/AutoNexo-Landing-Page</td> <td>test/landing-benefits</td> <td>f28a1b7</td> <td>test: add unit tests for landing benefits section</td> <td>Se agregaron pruebas unitarias para verificar la correcta visualización del texto principal, beneficios y botones CTA de la Landing Page. <em>(US01)</em></td> <td>2025-10-02</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Landing-Page</td> <td>test/user-register-form</td> <td>a91cbf2</td> <td>test: validate registration form fields</td> <td>Se desarrollaron pruebas para comprobar la validación de campos, formato de correo y respuesta al envío correcto del formulario de registro. <em>(US21)</em></td> <td>2025-10-03</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Landing-Page</td> <td>test/faq-support</td> <td>b82e3c4</td> <td>test: verify FAQ toggle behavior</td> <td>Se probaron los comportamientos de expansión y colapso de los ítems del componente de Preguntas Frecuentes (FAQ). <em>(US22)</em></td> <td>2025-10-04</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Landing-Page</td> <td>test/contact-section</td> <td>d24fa15</td> <td>test: test contact form and store links</td> <td>Se validó el funcionamiento del formulario de contacto y los botones de descarga en las tiendas móviles. <em>(US23)</em></td> <td>2025-10-05</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Landing-Page</td> <td>test/plans-section</td> <td>c41e99b</td> <td>test: ensure pricing plans render correctly</td> <td>Se realizaron pruebas de renderizado y consistencia de contenido en los distintos planes de pago para talleres. <em>(US28)</em></td> <td>2025-10-06</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Landing-Page</td> <td>test/mechanic-type</td> <td>e9ad4f8</td> <td>test: add tests for mechanic type selector</td> <td>Se verificó que el selector de tipo de mecánico muestre correctamente las opciones y guarde la selección del usuario. <em>(US29)</em></td> <td>2025-10-06</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Landing-Page</td> <td>test/workshop-code</td> <td>f63db33</td> <td>test: test generation and sharing of workshop code</td> <td>Se implementaron pruebas unitarias para validar la generación, copia y compartición del código de taller. <em>(US30)</em></td> <td>2025-10-07</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Landing-Page</td> <td>test/navbar</td> <td>ac9b7d2</td> <td>test: verify navigation bar routes and active state</td> <td>Se realizaron pruebas para asegurar que los enlaces de navegación funcionen correctamente y mantengan el estado activo de la sección. <em>(US32)</em></td> <td>2025-10-08</td> </tr> </tbody> </table>
 
 ##### **4.2.1.5. Execution Evidence for Sprint Review**
 
@@ -361,25 +431,102 @@ Este controlador gestiona las operaciones relacionadas con los talleres (Worksho
 
 Principales endpoints:
 
-| **Endpoint**                                | **HTTP Method** | **Descripción**                                                     |
-| ------------------------------------------- | --------------- | ------------------------------------------------------------------- |
-| `/api/v1/workshops`                         | `POST`          | Crea un nuevo taller a partir de los datos del usuario propietario. |
-| `/api/v1/workshops/my-workshop`             | `GET`           | Recupera la información del taller asociado al usuario autenticado. |
-| `/api/v1/workshops/{workshopId}`            | `GET`           | Obtiene la información pública de un taller por su ID.              |
-| `/api/v1/workshops/by-owner/{ownerUserId}`  | `GET`           | Recupera el taller perteneciente a un propietario específico.       |
-| `/api/v1/workshops`                         | `GET`           | Lista todos los talleres activos.                                   |
-| `/api/v1/workshops/by-tag`                  | `GET`           | Filtra los talleres según una etiqueta de capacidad.                |
-| `/api/v1/workshops`                         | `PUT`           | Actualiza la información básica del taller.                         |
-| `/api/v1/workshops/locations`               | `POST`          | Agrega una nueva ubicación al taller.                               |
-| `/api/v1/workshops/service-templates`       | `POST`          | Registra una plantilla de servicio en el taller.                    |
-| `/api/v1/workshops/tags`                    | `POST`          | Añade una etiqueta de capacidad (capability tag) al taller.         |
-| `/api/v1/workshops/tags`                    | `PUT`           | Actualiza el conjunto completo de etiquetas de capacidad.           |
-| `/api/v1/workshops/logo`                    | `POST`          | Carga y actualiza el logotipo del taller (usa Cloudinary).          |
-| `/api/v1/workshops/photos`                  | `POST`          | Agrega una foto al carrusel de imágenes del taller.                 |
-| `/api/v1/workshops/photos/{photoIndex}`     | `DELETE`        | Elimina una foto del carrusel de imágenes del taller.               |
-| `/api/v1/workshops/catalog/categories`      | `GET`           | Obtiene las categorías de servicios disponibles en el catálogo.     |
-| `/api/v1/workshops/catalog/services`        | `GET`           | Obtiene los servicios disponibles del catálogo general.             |
-| `/api/v1/workshops/catalog/capability-tags` | `GET`           | Lista las etiquetas de capacidad disponibles.                       |
+<table>
+  <thead>
+    <tr>
+      <th><strong>Endpoint</strong></th>
+      <th><strong>HTTP Method</strong></th>
+      <th><strong>Descripción</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/workshops</td>
+      <td>POST</td>
+      <td>Crea un nuevo taller a partir de los datos del usuario propietario.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/my-workshop</td>
+      <td>GET</td>
+      <td>Recupera la información del taller asociado al usuario autenticado.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/{workshopId}</td>
+      <td>GET</td>
+      <td>Obtiene la información pública de un taller por su ID.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/by-owner/{ownerUserId}</td>
+      <td>GET</td>
+      <td>Recupera el taller perteneciente a un propietario específico.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops</td>
+      <td>GET</td>
+      <td>Lista todos los talleres activos.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/by-tag</td>
+      <td>GET</td>
+      <td>Filtra los talleres según una etiqueta de capacidad.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops</td>
+      <td>PUT</td>
+      <td>Actualiza la información básica del taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/locations</td>
+      <td>POST</td>
+      <td>Agrega una nueva ubicación al taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/service-templates</td>
+      <td>POST</td>
+      <td>Registra una plantilla de servicio en el taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/tags</td>
+      <td>POST</td>
+      <td>Añade una etiqueta de capacidad (capability tag) al taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/tags</td>
+      <td>PUT</td>
+      <td>Actualiza el conjunto completo de etiquetas de capacidad.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/logo</td>
+      <td>POST</td>
+      <td>Carga y actualiza el logotipo del taller (usa Cloudinary).</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/photos</td>
+      <td>POST</td>
+      <td>Agrega una foto al carrusel de imágenes del taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/photos/{photoIndex}</td>
+      <td>DELETE</td>
+      <td>Elimina una foto del carrusel de imágenes del taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/catalog/categories</td>
+      <td>GET</td>
+      <td>Obtiene las categorías de servicios disponibles en el catálogo.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/catalog/services</td>
+      <td>GET</td>
+      <td>Obtiene los servicios disponibles del catálogo general.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/catalog/capability-tags</td>
+      <td>GET</td>
+      <td>Lista las etiquetas de capacidad disponibles.</td>
+    </tr>
+  </tbody>
+</table>
 
 **B. InvitationController**
 
@@ -387,12 +534,38 @@ Este controlador administra las invitaciones que permiten a los talleres agregar
 
 Principales endpoints:
 
-| **Endpoint**                                 | **HTTP Method** | **Descripción**                                                                |
-| -------------------------------------------- | --------------- | ------------------------------------------------------------------------------ |
-| `/api/v1/invitations/workshops/{workshopId}` | `POST`          | Crea una invitación asociada a un taller específico.                           |
-| `/api/v1/invitations/accept`                 | `POST`          | Permite aceptar una invitación y registrar al usuario como miembro del taller. |
-| `/api/v1/invitations/{code}`                 | `GET`           | Consulta la información de una invitación mediante su código único.            |
-| `/api/v1/invitations/workshops/{workshopId}` | `GET`           | Lista todas las invitaciones emitidas por un taller determinado.               |
+<table>
+  <thead>
+    <tr>
+      <th><strong>Endpoint</strong></th>
+      <th><strong>HTTP Method</strong></th>
+      <th><strong>Descripción</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/invitations/workshops/{workshopId}</td>
+      <td>POST</td>
+      <td>Crea una invitación asociada a un taller específico.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/invitations/accept</td>
+      <td>POST</td>
+      <td>Permite aceptar una invitación y registrar al usuario como miembro del taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/invitations/{code}</td>
+      <td>GET</td>
+      <td>Consulta la información de una invitación mediante su código único.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/invitations/workshops/{workshopId}</td>
+      <td>GET</td>
+      <td>Lista todas las invitaciones emitidas por un taller determinado.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 **C. Seguridad, validación y consistencia**
@@ -452,13 +625,36 @@ Durante el desarrollo del Sprint, todos los integrantes del equipo participaron 
 
 A continuación, se detalla la participación específica de cada miembro del equipo:
 
-| **Nombre**                           | **Actividad**                                                                                                                                                                     |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Cruz Ibarra, Victor Andrés**       | Redacción del contenido principal de la landing page, incluyendo secciones de información general y llamados a la acción (CTAs). Apoyo en la estructura visual de los beneficios. |
-| **Iglesias Pérez, Sergio Sebastián** | Implementación del formulario de registro de usuario (propietario o taller) y validaciones de entrada. Participación en la integración de enlaces entre secciones.                |
-| **Roman Esteban, Henry Kalet**       | Desarrollo de la sección de **Preguntas Frecuentes (FAQ)**, maquetado de los elementos expandibles y redacción de las preguntas base.                                             |
-| **Solano Armas, Angelo Hector**      | Configuración de la **sección de contacto y descarga de la aplicación**, asegurando la funcionalidad de los formularios y enlaces hacia las tiendas móviles.                      |
-| **Vivanco Salazar, Rafael Andrés**   | Diseño e implementación de la **sección de planes de pago para talleres**, mostrando los distintos niveles de suscripción y sus beneficios comparativos.                          |
+<table>
+  <thead>
+    <tr>
+      <th><strong>Nombre</strong></th>
+      <th><strong>Actividad</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Cruz Ibarra, Victor Andrés</strong></td>
+      <td>Redacción del contenido principal de la landing page, incluyendo secciones de información general y llamados a la acción (CTAs). Apoyo en la estructura visual de los beneficios.</td>
+    </tr>
+    <tr>
+      <td><strong>Iglesias Pérez, Sergio Sebastián</strong></td>
+      <td>Implementación del formulario de registro de usuario (propietario o taller) y validaciones de entrada. Participación en la integración de enlaces entre secciones.</td>
+    </tr>
+    <tr>
+      <td><strong>Roman Esteban, Henry Kalet</strong></td>
+      <td>Desarrollo de la sección de <strong>Preguntas Frecuentes (FAQ)</strong>, maquetado de los elementos expandibles y redacción de las preguntas base.</td>
+    </tr>
+    <tr>
+      <td><strong>Solano Armas, Angelo Hector</strong></td>
+      <td>Configuración de la <strong>sección de contacto y descarga de la aplicación</strong>, asegurando la funcionalidad de los formularios y enlaces hacia las tiendas móviles.</td>
+    </tr>
+    <tr>
+      <td><strong>Vivanco Salazar, Rafael Andrés</strong></td>
+      <td>Diseño e implementación de la <strong>sección de planes de pago para talleres</strong>, mostrando los distintos niveles de suscripción y sus beneficios comparativos.</td>
+    </tr>
+  </tbody>
+</table>
 
 ##### Evidencia de colaboración en GitHub
 
