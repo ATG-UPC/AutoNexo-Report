@@ -2201,14 +2201,6 @@ A partir de esto, se definieron los bounded contexts:
 <img alt="scenario-4" src="assets\chapter-II-assets\scenario-4.png" />
 <br> <br>
 
-**Scenario 5**
-<img alt="scenario-5" src="assets\chapter-II-assets\scenario-5.png" />
-<br> <br>
-
-**Scenario 6**
-<img alt="scenario-6" src="assets\chapter-II-assets\scenario-6.png" />
-<br> <br>
-
 #### 2.5.1.3 Bounded Context Canvases
 
 **IAM bounded context canvas**
