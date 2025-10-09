@@ -1130,6 +1130,81 @@ __Payment Owner__
 
 #### **3.1.4.2. Mobile Applications Wireflow Diagrams**
 
+**User goal: Iniciar sesión y acceder al panel principal**
+
+**User persona: Mecánico o jefe de taller**
+
+El usuario inicia en la pantalla Login, donde introduce su correo electrónico y contraseña. En caso de error, el sistema muestra un mensaje de validación ("Invalid credentials").
+Al presionar "Login", se redirige al Home, que muestra las citas programadas, solicitudes pendientes y accesos rápidos a los módulos principales (Request, Offer, Workshop y Service).
+El flujo contempla el acceso al menú lateral mediante el ícono "hamburguesa", desde el cual se pueden abrir secciones secundarias como Profile, Payment, Support and Assistance o Logout.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Login.png" alt="Wireflow - Iniciar sesión y acceder al panel principal" width="800px" />
+</p>
+
+**User goal: Crear una nueva solicitud de servicio**
+
+**User persona: Propietario de vehículo**
+
+Desde la pantalla principal Home, el usuario selecciona la pestaña Request, accediendo al formulario de solicitud.
+Debe ingresar los datos del vehículo, seleccionar el tipo de servicio (Oil change, Brake check, Tire replacement, etc.) y añadir una breve descripción.
+Al presionar "Send Request", la solicitud se registra y aparece una pantalla de confirmación con el mensaje "Request sent successfully".
+Desde ahí, el flujo continúa hacia el estado Pending, donde el usuario puede visualizar el estado de respuesta de los talleres.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Request-owner.png" alt="Wireflow - Crear una nueva solicitud de servicio" width="800px" />
+</p>
+
+**User goal: Enviar una oferta de servicio**
+
+**User persona: Mecánico o jefe de taller**
+
+En la pestaña Request, el mecánico visualiza todas las solicitudes recibidas.
+Al seleccionar una, accede al detalle del vehículo y presiona "Make an Offer".
+El sistema muestra un formulario donde ingresa el precio estimado, fecha y hora de cita, y observaciones adicionales.
+Finalmente, al presionar "Send Offer", aparece la confirmación "Offer sent successfully" y el flujo retorna a la lista de solicitudes actualizada.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Request-Mechanic.png" alt="Wireflow - Enviar una oferta de servicio" width="800px" />
+</p>
+
+**User goal: Registrar mantenimiento completado**
+
+**User persona: Mecánico o jefe de taller**
+
+Desde la pantalla Service, el usuario selecciona "Register Service Order", visualizando un formulario con los campos del vehículo, tipo de mantenimiento, costo y observaciones.
+Tras completar los datos y presionar "Register", el flujo conduce a una pantalla de validación con el mensaje "Service successfully registered".
+Posteriormente, el servicio aparece en la lista de Done, permitiendo revisar los detalles del trabajo finalizado.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Maintenance.png" alt="Wireflow - Registrar mantenimiento completado" width="800px" />
+</p>
+
+**User goal: Consultar historial de mantenimiento**
+
+**User persona: Propietario de vehículo**
+
+El usuario accede desde el menú inferior a la pestaña Service, donde se muestra el historial de mantenimientos realizados.
+Cada tarjeta contiene información resumida del servicio (fecha, taller, costo y estado).
+Al seleccionar una tarjeta, se despliega la vista Service Detail, con datos completos y la opción "Add Maintenance" para registrar nuevas intervenciones.
+El flujo cierra con una confirmación visual ("Maintenance added successfully") y regresa a la vista principal del historial.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Service.png" alt="Wireflow - Consultar historial de mantenimiento" width="800px" />
+</p>
+
+**User goal: Gestionar perfil de usuario y taller**
+
+**User persona: Mecánico o jefe de taller**
+
+Desde el menú lateral, el usuario ingresa a Profile, donde puede editar sus datos personales, cambiar contraseña o acceder a la configuración del taller (Workshop Information).
+En la vista Edit Profile, el wireflow incluye las acciones "Save" y "Cancel", que redirigen respectivamente al perfil actualizado o al estado anterior.
+Si selecciona "Edit Workshop", se despliega el formulario de información comercial y servicios disponibles.
+Al guardar, el flujo muestra el mensaje "Workshop updated successfully", completando la iteración de configuración.
+
+<p align="center">
+  <img src="assets/chapter-III-assets/Profile.png" alt="Wireflow - Gestionar perfil de usuario y taller" width="800px" />
+</p>
 #### **3.1.4.3. Mobile Applications Mock-ups**
 
 __Register Mechanic__
