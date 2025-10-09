@@ -63,6 +63,13 @@
     <td>Todos los integrantes del grupo aportaron</td>
     <td>Reporte, capítulos 1 y 2</td>
   </tr>
+  <tr>
+  <td>TP1</td>
+  <td>08/10/2025</td>
+  <td>Todos los integrantes del grupo aportaron</td>
+  <td>Reporte, capítulos 3, 4, correcciones y landing page</td>
+  
+  </tr>
 </table>
 
 
@@ -101,6 +108,36 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se repartieron 
   </tr>
 </table>
 
+**TP1**
+
+Para el desarrollo del informe correspondiente a la entrega TP1, se repartieron las tareas de la siguiente manera para cada integrante del equipo:
+
+<table border="1">
+  <tr>
+    <th>Integrante</th>
+    <th>Tareas Asignadas</th>
+  </tr>
+  <tr>
+    <td>Victor Andres Cruz Ibarra</td>
+    <td>Correcciones de las observaciones realizadas en el TB1, capítulo 4 del informe</td>
+  </tr>
+  <tr>
+    <td>Rafael Andres Vivanco Salazar</td>
+    <td>Correciones de las observaciones realizadas en el TB1, capítulo 3 y pantallas del bounded context payment en el frontend </td>
+  </tr>
+  <tr>
+    <td>Sergio Sebastián Iglesias Pérez</td>
+    <td>Correciones de las observaciones realizadas en el TB1 y avance del Backend en su respectivo repositorio</td>
+  </tr>
+  <tr>
+    <td>Henry Kalet Esteban Roman</td>
+    <td>Correciones de las observaciones realizadas en el TB1 y el Landing Page en su respectivo repositorio</td>
+  </tr>
+  <tr>
+    <td>Angelo Hector Solano Armas</td>
+    <td>Correciones de las observaciones realizadas en el TB1, las pantallas pertenecientes a los demás bounded context en el frontend</td>
+  </tr>
+</table>
 
 # <font color="skyblue">**Contenido**</font>
 
@@ -289,7 +326,7 @@ tecnologías de ingeniería de software.</td>
 </tr>
 </tbody></table>
 </br></br>
-# Objetivos SMART
+**Objetivos SMART**
 
 **Rafael Andres Vivanco Salazar**: 
 * Obtener una certificación internacional en AWS Cloud Practitioner en un plazo máximo de 18 meses después de mi graduación, dedicando al menos 6 horas semanales de estudio autodidacta y aplicando los conocimientos adquiridos en proyectos personales y laborales, con el fin de fortalecer mi perfil profesional en computación en la nube.
