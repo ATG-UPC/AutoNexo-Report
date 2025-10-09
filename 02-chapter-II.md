@@ -2184,13 +2184,69 @@ A partir de esto, se definieron los bounded contexts:
 - Notifications: Hace referencia a las notificaciones del sistema.
 
 #### 2.5.1.2 Domain Message Flows Modeling
-<br>
+
+**Scenario 1**
+<img alt="scenario-1" src="assets\chapter-II-assets\scenario-1.png" />
+<br> <br>
+
+**Scenario 2**
+<img alt="scenario-2" src="assets\chapter-II-assets\scenario-2.png" />
+<br> <br>
+
+**Scenario 3**
+<img alt="scenario-3" src="assets\chapter-II-assets\scenario-3.png" />
+<br> <br>
+
+**Scenario 4**
+<img alt="scenario-4" src="assets\chapter-II-assets\scenario-4.png" />
+<br> <br>
+
+**Scenario 5**
+<img alt="scenario-5" src="assets\chapter-II-assets\scenario-5.png" />
+<br> <br>
+
+**Scenario 6**
+<img alt="scenario-6" src="assets\chapter-II-assets\scenario-6.png" />
+<br> <br>
 
 #### 2.5.1.3 Bounded Context Canvases
-<br>
+
+**IAM bounded context canvas**
+
+<img alt="IAM" src="assets\chapter-II-assets\bounded-context-canvases\canvases-IAM.png" />
+<br> <br>
+
+**Matching&Booking bounded context canvas**
+
+<img alt="Matching" src="assets\chapter-II-assets\bounded-context-canvases\canvases-matching.png" />
+<br> <br>
+ 
+**Notifications bounded context canvas**
+
+<img alt="Notification" src="assets\chapter-II-assets\bounded-context-canvases\canvases-notification.png" />
+<br> <br>
+
+**Payment bounded context canvas**
+
+<img alt="Payment" src="assets\chapter-II-assets\bounded-context-canvases\canvases-payment.png" />
+<br> <br>
+
+**Trust&Reputation bounded context canvas**
+
+<img alt="Trust" src="assets\chapter-II-assets\bounded-context-canvases\canvases-trust.png" />
+<br> <br>
+
+**Vehicle&Maintenance bounded context canvas**
+
+<img alt="Vehicle" src="assets\chapter-II-assets\bounded-context-canvases\canvases-vehicle.png" />
+<br> <br>
+
+**Workshop bounded context canvas**
+
+<img alt="Workshop" src="assets\chapter-II-assets\bounded-context-canvases\canvases-workshop.png" />
+<br> <br>
 
 ### 2.5.2. Context Mapping
-<br>
 
 El Context Mapping en Domain-Driven Design (DDD) representa explícitamente cómo interactúan los bounded contexts entre sí, definiendo contratos, direcciones de influencia (upstream/downstream) y patrones de integración. Este mapeo permite identificar qué contextos requieren estandarización, cuáles deben protegerse mediante traducción (Anti-Corruption Layer), y dónde preservar independencia para asegurar que cada contexto pueda evolucionar de forma predecible y segura.
 
