@@ -1838,7 +1838,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     </p>
   </td>
   <td>EP08</td>
-</tr>
+
   <tr>
   <td>SP-01</td>
   <td>Investigación de la Integración de Stripe para el Procesamiento de Pagos</td>
@@ -1855,6 +1855,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     <p><strong>Scenario 9 — Tiempo de procesamiento:</strong><br>• Dado que el procesamiento debe ser rápido<br>• Cuando se miden los tiempos de latencia<br>• Entonces los pagos no deben exceder los 3 segundos.</p>
     <p><strong>Scenario 10 — Documentación de integración:</strong><br>• Dado que la integración requiere documentación<br>• Cuando se documentan los pasos de integración<br>• Entonces se debe crear un informe detallado con problemas y soluciones.</p>
     <p><strong>Scenario 11 — Usabilidad del flujo de pago:</strong><br>• Dado que el flujo de pago debe ser fácil de usar<br>• Cuando se prueba con usuarios simulados en entorno de pruebas<br>• Entonces se debe asegurar que la experiencia sea intuitiva, rápida y sin errores.</p>
+    <p><strong>Definition of Done (DoD)</strong><br>• Se documentan los pasos necesarios para integrar Stripe en la plataforma.<br>• El código de prueba (PoC) se sube a una rama del repositorio.<br>• Se presenta un breve informe con conclusiones técnicas y viabilidad.<br>• Los hallazgos se discuten en una sesión de refinamiento del backlog.<br>• El Spike está limitado a 20–24 horas y se completa dentro del sprint.</p>
   </td>
   <td>No corresponde</td>
 </tr>
@@ -1871,6 +1872,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     <p><strong>Scenario 6 — Compatibilidad móvil:</strong><br>• Dado que Autonexo debe ser compatible con dispositivos móviles<br>• Cuando el equipo prueba la integración en dispositivos móviles (iOS/Android)<br>• Entonces deberán garantizar que la localización funcione correctamente en ambas plataformas.</p>
     <p><strong>Scenario 7 — Usabilidad de la interfaz:</strong><br>• Dado que la experiencia del usuario es crucial<br>• Cuando implementen la funcionalidad de localización en las aplicaciones móviles y web<br>• Entonces deberán asegurarse de que la interfaz de usuario sea fácil de usar y eficiente.</p>
     <p><strong>Scenario 8 — Integración backend:</strong><br>• Dado que la integración de Google Maps debe trabajar con el backend<br>• Cuando el equipo verifique la comunicación entre la API de Google Maps y el backend de Autonexo<br>• Entonces deberán asegurarse de que los datos de ubicación se sincronicen correctamente en tiempo real.</p>
+    <p><strong>Definition of Done (DoD)</strong><br>• Se elabora una prueba de concepto funcional con la API de Google Maps.<br>• Se documentan los pasos de integración y requisitos de credenciales.<br>• El informe de hallazgos se comparte con el equipo para evaluación.<br>• Los resultados se utilizan para crear o ajustar historias de usuario futuras.<br>• El Spike está limitado a 16 horas y se completa dentro del sprint.</p>
   </td>
   <td>No corresponde</td>
 </tr>
@@ -1888,6 +1890,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     <p><strong>Scenario 7 — Personalización:</strong><br>• Dado que el equipo ha implementado la función de notificaciones push<br>• Cuando se personaliza el contenido de las notificaciones (como texto, imágenes, botones)<br>• Entonces deberán asegurar que las notificaciones sean personalizables según las necesidades del usuario.</p>
     <p><strong>Scenario 8 — Escalabilidad:</strong><br>• Dado que la plataforma Autonexo puede crecer en número de usuarios<br>• Cuando se evalúe la capacidad de Firebase y otras opciones para manejar un gran volumen de notificaciones<br>• Entonces deberán determinar si el sistema puede escalar eficientemente sin afectar el rendimiento.</p>
     <p><strong>Scenario 9 — Seguridad:</strong><br>• Dado que la seguridad de las notificaciones es crucial<br>• Cuando se revisa la seguridad en el envío de las notificaciones (como autenticación, encriptación)<br>• Entonces deberán garantizar que el sistema de notificaciones cumpla con los estándares de seguridad necesarios.</p>
+    <p><strong>Definition of Done (DoD)</strong><br>• Se implementa un PoC con al menos una tecnología de notificaciones push.<br>• Se documentan ventajas, limitaciones y requisitos de integración.<br>• El informe se presenta y discute en reunión del equipo.<br>• Se derivan historias técnicas para la implementación final.<br>• El Spike está limitado a 12–14 horas y se completa dentro del sprint.</p>
   </td>
   <td>No corresponde</td>
 </tr>
@@ -1905,6 +1908,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     <p><strong>Scenario 7 — Visualización:</strong><br>• Dado que se requiere una visualización clara de los datos de mantenimiento<br>• Cuando se comparen las capacidades de visualización de Power BI y Tableau<br>• Entonces deberán decidir cuál herramienta ofrece las mejores opciones de visualización para facilitar la toma de decisiones.</p>
     <p><strong>Scenario 8 — Integración con base de datos:</strong><br>• Dado que los datos de mantenimiento de Autonexo están almacenados en una base de datos<br>• Cuando el equipo integre Power BI y Tableau con los datos<br>• Entonces deberán asegurar que ambas herramientas puedan acceder a los datos de manera eficiente y sin errores.</p>
     <p><strong>Scenario 9 — Escalabilidad:</strong><br>• Dado que la plataforma Autonexo puede crecer en volumen de datos<br>• Cuando el equipo evalúe la escalabilidad de Power BI y Tableau<br>• Entonces deberán determinar si ambas herramientas pueden manejar el crecimiento futuro de los datos sin afectar el rendimiento.</p>
+    <p><strong>Definition of Done (DoD)</strong><br>• Se realiza una comparación entre al menos dos herramientas de reportes (p. ej. Power BI, Tableau).<br>• Se genera un documento con ventajas, costos y compatibilidad con la plataforma.<br>• El equipo revisa los hallazgos en una sesión técnica o de refinamiento.<br>• Se definen historias de implementación basadas en los resultados.<br>• El Spike está limitado a 10–12 horas y se completa dentro del sprint.</p>
   </td>
   <td>No corresponde</td>
 </tr>
@@ -1921,6 +1925,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     <p><strong>Scenario 6 — Seguridad:</strong><br>• Dado que la seguridad es un factor crítico en la integración de caching<br>• Cuando se revisen las medidas de seguridad de Redis y Memcached (como la encriptación de datos)<br>• Entonces deberán confirmar que la solución de caching cumple con los requisitos de seguridad necesarios.</p>
     <p><strong>Scenario 7 — Consumo de recursos:</strong><br>• Dado que las soluciones de caching deben ser eficientes en el uso de recursos<br>• Cuando se mida el consumo de CPU y memoria al implementar Redis o Memcached<br>• Entonces deberán asegurar que la solución elegida no afecte negativamente los recursos de Autonexo.</p>
     <p><strong>Scenario 8 — Alta disponibilidad:</strong><br>• Dado que la alta disponibilidad es crucial para el sistema de caching<br>• Cuando se simulen fallos en Redis o Memcached<br>• Entonces deberán verificar que la solución seleccionada pueda recuperarse correctamente sin perder datos importantes.</p>
+    <p><strong>Definition of Done (DoD)</strong><br>• Se desarrolla un PoC que evalúe al menos una técnica de caching (Redis, Memcached).<br>• Se documentan resultados de pruebas de rendimiento y configuración básica.<br>• El informe se comparte con el equipo para toma de decisiones técnicas.<br>• Se actualiza el backlog con historias derivadas de los hallazgos.<br>• El Spike está limitado a 14–16 horas y se completa dentro del sprint.</p>
   </td>
   <td>No corresponde</td>
 </tr>
@@ -1937,6 +1942,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     <p><strong>Scenario 6 — Configuraciones de seguridad:</strong><br>• Dado que las configuraciones de seguridad son esenciales en las pruebas de penetración<br>• Cuando el equipo evalúe las configuraciones de seguridad de OWASP ZAP y Burp Suite<br>• Entonces deberán determinar si las herramientas permiten una configuración detallada y personalizada según las necesidades de Autonexo.</p>
     <p><strong>Scenario 7 — Integración en el flujo de desarrollo:</strong><br>• Dado que las pruebas de seguridad deben integrarse con el flujo de desarrollo de Autonexo<br>• Cuando el equipo evalúe cómo OWASP ZAP y Burp Suite se integran con las herramientas y procesos de desarrollo existentes<br>• Entonces deberán garantizar que las herramientas se integren sin interrumpir el flujo de trabajo de desarrollo.</p>
     <p><strong>Scenario 8 — Informes de seguridad:</strong><br>• Dado que los informes de seguridad son cruciales para la corrección de vulnerabilidades<br>• Cuando el equipo revise los informes generados por OWASP ZAP y Burp Suite<br>• Entonces deberán asegurarse de que los informes sean claros, detallados y proporcionen las recomendaciones necesarias para corregir las vulnerabilidades encontradas.</p>
+    <p><strong>Definition of Done (DoD)</strong><br>• Se ejecutan pruebas exploratorias con al menos una herramienta de seguridad (OWASP ZAP, Burp Suite).<br>• Se documentan vulnerabilidades o áreas de mejora detectadas.<br>• Se presenta el informe de resultados en una reunión del equipo.<br>• Se generan historias técnicas para abordar los hallazgos.<br>• El Spike está limitado a 20 horas y se completa dentro del sprint.</p>
   </td>
   <td>No corresponde</td>
 </tr>
@@ -1952,24 +1958,7 @@ Las historias de usuario constituyen una herramienta fundamental para traducir l
     <p><strong>Scenario 5 — Integración con backend:</strong><br>• Dado que la plataforma de suscripciones debe integrarse con el backend de Autonexo<br>• Cuando el equipo evalúe la facilidad de integración de Recurly y Stripe Billing con el backend (Spring Boot)<br>• Entonces deberán garantizar que ambas plataformas se integren de manera sencilla y eficiente.</p>
     <p><strong>Scenario 6 — Seguridad en pagos:</strong><br>• Dado que la seguridad es fundamental en los pagos recurrentes<br>• Cuando el equipo revise las medidas de seguridad de Recurly y Stripe Billing<br>• Entonces deberán garantizar que ambas plataformas cumplan con los estándares de seguridad necesarios, como PCI-DSS.</p>
     <p><strong>Scenario 7 — Reportes de suscripciones:</strong><br>• Dado que es necesario gestionar los datos de clientes y suscripciones<br>• Cuando se utilicen las herramientas de reportes de Recurly y Stripe Billing<br>• Entonces deberán asegurarse de que las plataformas generen informes detallados y fáciles de usar sobre las suscripciones.</p>
-  </td>
-  <td>No corresponde</td>
-</tr>
-<tr>
-  <td>SP-08</td>
-  <td>Investigación de API de Localización para Mejorar la Búsqueda de Mecánicos</td>
-  <td>Como equipo de desarrollo, quiero investigar APIs de localización como Google Maps, Mapbox o Here para mejorar la búsqueda de mecánicos cercanos, ofreciendo una experiencia más eficiente y precisa a los conductores.</td>
-  <td>
-    <p><strong>Scenario 1 — Comparación de APIs:</strong><br>• Dado que el equipo ha considerado APIs como Google Maps, Mapbox o Here<br>• Cuando investiguen las características y opciones de integración de cada API<br>• Entonces deberán seleccionar la mejor API para la localización en Autonexo.</p>
-    <p><strong>Scenario 2 — Prueba con Google Maps:</strong><br>• Dado que el equipo ha implementado la API de Google Maps para la localización<br>• Cuando realicen pruebas de búsqueda de mecánicos cercanos<br>• Entonces deberán asegurarse de que la función de localización sea precisa y eficiente.</p>
-    <p><strong>Scenario 3 — Prueba con Mapbox:</strong><br>• Dado que el equipo ha implementado la API de Mapbox para la localización<br>• Cuando realicen pruebas de búsqueda de mecánicos cercanos<br>• Entonces deberán asegurarse de que la función de localización sea precisa y eficiente.</p>
-    <p><strong>Scenario 4 — Prueba con Here:</strong><br>• Dado que el equipo ha implementado la API de Here para la localización<br>• Cuando realicen pruebas de búsqueda de mecánicos cercanos<br>• Entonces deberán asegurarse de que la función de localización sea precisa y eficiente.</p>
-    <p><strong>Scenario 5 — Comparación de costos:</strong><br>• Dado que cada API tiene diferentes modelos de precios<br>• Cuando comparen los costos de Google Maps, Mapbox y Here<br>• Entonces deberán decidir cuál API ofrece la mejor relación calidad-precio para la plataforma.</p>
-    <p><strong>Scenario 6 — Facilidad de integración:</strong><br>• Dado que Google Maps, Mapbox y Here tienen implementaciones y configuraciones distintas<br>• Cuando el equipo evalúe la facilidad de integración de cada API con la plataforma Autonexo<br>• Entonces deberán determinar cuál API es más sencilla de implementar y mantener.</p>
-    <p><strong>Scenario 7 — Escalabilidad:</strong><br>• Dado que la plataforma Autonexo puede crecer en volumen de usuarios y mecánicos<br>• Cuando el equipo evalúe la escalabilidad de Google Maps, Mapbox y Here<br>• Entonces deberán asegurarse de que todas las APIs puedan manejar un gran volumen de solicitudes sin afectar el rendimiento.</p>
-    <p><strong>Scenario 8 — Precisión en ubicaciones:</strong><br>• Dado que la precisión es clave en la búsqueda de mecánicos cercanos<br>• Cuando el equipo pruebe las APIs de Google Maps, Mapbox y Here en diferentes ubicaciones<br>• Entonces deberán asegurarse de que todas las APIs proporcionen ubicaciones precisas y fiables.</p>
-    <p><strong>Scenario 9 — Compatibilidad móvil:</strong><br>• Dado que las aplicaciones de Autonexo están disponibles en dispositivos móviles<br>• Cuando el equipo evalúe la compatibilidad de Google Maps, Mapbox y Here con dispositivos móviles (iOS/Android)<br>• Entonces deberán asegurarse de que todas las APIs funcionen correctamente en plataformas móviles.</p>
-    <p><strong>Scenario 10 — Funcionalidades adicionales:</strong><br>• Dado que tanto Google Maps, Mapbox y Here ofrecen características adicionales (como rutas optimizadas, tráfico en tiempo real, etc.)<br>• Cuando el equipo explore estas características<br>• Entonces deberán decidir si alguna de estas funcionalidades adicionales es relevante y útil para la plataforma Autonexo.</p>
+    <p><strong>Definition of Done (DoD)</strong><br>• Se revisa la documentación de Stripe Billing u otras plataformas similares.<br>• Se elabora una prueba de concepto básica para pagos recurrentes o membresías.<br>• Se documentan conclusiones y recomendaciones técnicas.<br>• Se comparte el informe en una sesión de refinamiento o revisión del backlog.<br>• El Spike está limitado a 12–14 horas y se completa dentro del sprint.</p>
   </td>
   <td>No corresponde</td>
 </tr>
