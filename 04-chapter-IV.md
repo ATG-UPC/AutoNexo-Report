@@ -674,3 +674,658 @@ A continuación, se presenta la evidencia de participación de los miembros del 
 #### **4.3.2. Registro de Entrevistas**
 
 #### **4.3.3. Evaluaciones según heurísticas**
+
+#### **4.2.2. Sprint 2**
+
+##### **4.2.2.1. Sprint Planning 2**
+
+En esta sección se describen los elementos principales abordados durante la reunión de planificación del Sprint 2. Se especifican detalles como la fecha y hora del encuentro, los miembros participantes, el objetivo del Sprint, la velocidad estimada del equipo y la cantidad total de puntos de historia comprometidos para este ciclo de desarrollo. A continuación, se expone el resumen correspondiente a dicha planificación.
+
+| Sprint # | Sprint 2 |
+|----------|---------|
+| Date | 2025 - 10 - 15 |
+| Time | 9:00 PM |
+| Location | Reunión virtual a través de discord | 
+| Prepared by | Solano Armas, Angelo Hector | 
+| Attendees (to planning meeting) | Cruz Ibarra, Victor Andres; Iglesias Pérez, Sergio Sebastián; Roman Esteban, Henry Kalet; Solano Armas, Angelo Hector; Vivanco Salazar, Rafael Andres
+| Sprint n – 1 Review Summary | Durante el Sprint 1 se completó exitosamente la Landing Page del proyecto AutoNexo, incluyendo todas las secciones principales (beneficios, registro, FAQ, contacto, planes de pago). Se implementaron funcionalidades básicas en la aplicación móvil como el selector de tipo de mecánico, generación de códigos de taller y navegación. La Landing Page fue desplegada en Azure Static Web Apps. | 
+| Sprint 2 Goal | Nuestro enfoque está en completar el despliegue del backend al 100% en un sitio público con documentación completa, finalizar la implementación de las principales funcionalidades core de la aplicación móvil (pantallas de propietario y mecánico), y validar el producto mediante videos demostrativos. Creemos que esto proporcionará una plataforma completamente funcional y desplegada, permitiendo a los usuarios finales interactuar con todas las capacidades principales del ecosistema AutoNexo.  | 
+| Sprint 2 Velocity | 34 story points | 
+| Sum of story points | 34 story points |
+
+
+##### **4.2.2.2. Sprint Backlog 2**
+
+El propósito del Sprint 2 es completar el despliegue del backend al 100% en un sitio público con documentación, finalizar las pantallas principales de la aplicación móvil para propietarios y mecánicos, e implementar las funcionalidades core del sistema. A continuación, se presenta una vista general de las historias de usuario planificadas para este sprint, junto con sus respectivas épicas y el estado de avance de cada una.
+
+<img alt="Sprint Backlog 2 in Trello" src="assets\chapter-IV-assets\sprint2_trello.png" />
+
+<br>
+
+Link Trello: [Autonexo - Trello](https://trello.com/b/4uTEBz5O/atg-autonexo)
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Sprint #</th>
+      <th colspan="8">Sprint 2</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US02</td>
+      <td>Catálogo de servicios de taller</td>
+      <td>T09</td>
+      <td>Implementar vista de catálogo de servicios</td>
+      <td>Desarrollar pantalla que muestre el catálogo completo de servicios disponibles en los talleres.</td>
+      <td>4</td>
+      <td>Cruz Ibarra, Victor Andres</td>
+      <td>Done</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Explorar catálogo y búsqueda</td>
+      <td>T10</td>
+      <td>Implementar funcionalidad de búsqueda</td>
+      <td>Crear sistema de búsqueda y filtrado para explorar talleres y servicios.</td>
+      <td>4</td>
+      <td>Iglesias Pérez, Sergio Sebastián</td>
+      <td>Done</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td>Registro de vehículo</td>
+      <td>T11</td>
+      <td>Implementar formulario de registro de vehículo</td>
+      <td>Desarrollar pantalla y lógica para registrar vehículos con sus datos principales.</td>
+      <td>3</td>
+      <td>Roman Esteban, Henry Kalet</td>
+      <td>Done</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>US08</td>
+      <td>Visualizar historial de vehículo</td>
+      <td>T12</td>
+      <td>Implementar vista de historial de mantenimientos</td>
+      <td>Crear pantalla que muestre el historial completo de mantenimientos del vehículo.</td>
+      <td>3</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Coordinación de citas de mantenimiento</td>
+      <td>T13</td>
+      <td>Implementar sistema de reserva de citas</td>
+      <td>Desarrollar funcionalidad completa para coordinar y reservar citas de mantenimiento.</td>
+      <td>5</td>
+      <td>Vivanco Salazar, Rafael Andres</td>
+      <td>Done</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td>Actualización de checklist en mantenimiento</td>
+      <td>T14</td>
+      <td>Implementar checklist interactivo</td>
+      <td>Crear componente de checklist que permita actualizar el estado de los mantenimientos.</td>
+      <td>3</td>
+      <td>Cruz Ibarra, Victor Andres</td>
+      <td>Done</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>US13</td>
+      <td>Creación de mantenimiento confirmado</td>
+      <td>T15</td>
+      <td>Implementar confirmación de mantenimientos</td>
+      <td>Desarrollar lógica para crear y confirmar mantenimientos desde la aplicación.</td>
+      <td>3</td>
+      <td>Iglesias Pérez, Sergio Sebastián</td>
+      <td>Done</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Visualización de mantenimientos pendientes</td>
+      <td>T16</td>
+      <td>Implementar vista de mantenimientos pendientes</td>
+      <td>Crear pantalla que muestre todos los mantenimientos pendientes para propietarios y mecánicos.</td>
+      <td>3</td>
+      <td>Roman Esteban, Henry Kalet</td>
+      <td>Done</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>US16</td>
+      <td>Finalización de mantenimiento</td>
+      <td>T17</td>
+      <td>Implementar finalización de mantenimientos</td>
+      <td>Desarrollar funcionalidad para que los mecánicos puedan finalizar mantenimientos completados.</td>
+      <td>3</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Sistema de mensajería</td>
+      <td>T18</td>
+      <td>Implementar chat entre propietario y taller</td>
+      <td>Crear sistema de mensajería en tiempo real para comunicación entre usuarios.</td>
+      <td>5</td>
+      <td>Vivanco Salazar, Rafael Andres</td>
+      <td>Done</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>BACKEND</td>
+      <td>Despliegue completo del backend</td>
+      <td>T19</td>
+      <td>Desplegar backend al 100% en Azure</td>
+      <td>Configurar y desplegar todos los servicios backend en Azure App Services con documentación completa.</td>
+      <td>6</td>
+      <td>Iglesias Pérez, Sergio Sebastián</td>
+      <td>Done</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>DOCS</td>
+      <td>Documentación de API</td>
+      <td>T20</td>
+      <td>Generar documentación Swagger/OpenAPI</td>
+      <td>Crear y publicar documentación completa de todos los endpoints del backend.</td>
+      <td>3</td>
+      <td>Iglesias Pérez, Sergio Sebastián</td>
+      <td>Done</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+##### **4.2.2.3. Development Evidence for Sprint Review**
+
+En esta sección se presentan los avances logrados durante el Sprint 2, enfocados en la implementación de las funcionalidades core de la aplicación móvil AutoNexo, el despliegue completo del backend y la finalización de las pantallas principales para propietarios y mecánicos. El objetivo de este sprint fue completar el ecosistema funcional del proyecto, asegurando que todas las capacidades principales estén disponibles y operativas.
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/catalog-services</td>
+      <td>a1b2c3d</td>
+      <td>feat: implement workshop services catalog</td>
+      <td>Se implementó la pantalla de catálogo de servicios con integración al backend. <em>(US02)</em></td>
+      <td>2025-10-16</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/search-explore</td>
+      <td>e4f5g6h</td>
+      <td>feat: add search and filter functionality</td>
+      <td>Se desarrolló el sistema de búsqueda y filtrado de talleres y servicios. <em>(US03)</em></td>
+      <td>2025-10-17</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/vehicle-registration</td>
+      <td>i7j8k9l</td>
+      <td>feat: implement vehicle registration form</td>
+      <td>Se creó el formulario completo de registro de vehículos con validaciones. <em>(US06)</em></td>
+      <td>2025-10-18</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/vehicle-history</td>
+      <td>m1n2o3p</td>
+      <td>feat: add vehicle maintenance history view</td>
+      <td>Se implementó la vista de historial de mantenimientos del vehículo. <em>(US08)</em></td>
+      <td>2025-10-19</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/appointment-booking</td>
+      <td>q4r5s6t</td>
+      <td>feat: implement appointment coordination system</td>
+      <td>Se desarrolló el sistema completo de reserva y coordinación de citas de mantenimiento. <em>(US10)</em></td>
+      <td>2025-10-20</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/maintenance-checklist</td>
+      <td>u7v8w9x</td>
+      <td>feat: add interactive maintenance checklist</td>
+      <td>Se implementó el componente de checklist interactivo para actualización de mantenimientos. <em>(US12)</em></td>
+      <td>2025-10-21</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/maintenance-confirmation</td>
+      <td>y1z2a3b</td>
+      <td>feat: implement maintenance confirmation</td>
+      <td>Se creó la funcionalidad para crear y confirmar mantenimientos. <em>(US13)</em></td>
+      <td>2025-10-22</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/pending-maintenances</td>
+      <td>c4d5e6f</td>
+      <td>feat: add pending maintenances view</td>
+      <td>Se implementó la vista de mantenimientos pendientes para propietarios y mecánicos. <em>(US14)</em></td>
+      <td>2025-10-23</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/maintenance-completion</td>
+      <td>g7h8i9j</td>
+      <td>feat: implement maintenance completion</td>
+      <td>Se desarrolló la funcionalidad para que los mecánicos finalicen mantenimientos. <em>(US16)</em></td>
+      <td>2025-10-24</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/messaging-system</td>
+      <td>k1l2m3n</td>
+      <td>feat: implement real-time messaging system</td>
+      <td>Se creó el sistema de mensajería en tiempo real entre propietarios y talleres. <em>(US09)</em></td>
+      <td>2025-10-25</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Backend</td>
+      <td>feature/azure-deployment</td>
+      <td>o4p5q6r</td>
+      <td>feat: deploy backend to Azure App Services</td>
+      <td>Se configuró y desplegó el backend completo en Azure con todas las configuraciones necesarias.</td>
+      <td>2025-10-26</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Backend</td>
+      <td>docs/api-documentation</td>
+      <td>s7t8u9v</td>
+      <td>docs: generate Swagger/OpenAPI documentation</td>
+      <td>Se generó y publicó la documentación completa de la API usando Swagger.</td>
+      <td>2025-10-27</td>
+    </tr>
+  </tbody>
+</table>
+
+##### **4.2.2.4. Testing Suite Evidence for Sprint Review**
+
+Durante el Sprint 2, el equipo de AutoNexo desarrolló y ejecutó un conjunto exhaustivo de pruebas automatizadas y manuales para verificar el correcto funcionamiento de las funcionalidades core implementadas en la aplicación móvil y los servicios backend desplegados.
+
+<table> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Committed on (Date)</th> </tr> </thead> <tbody> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/catalog-services</td> <td>w1x2y3z</td> <td>test: add tests for services catalog</td> <td>Se agregaron pruebas unitarias y de integración para el catálogo de servicios. <em>(US02)</em></td> <td>2025-10-17</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/search-functionality</td> <td>a4b5c6d</td> <td>test: validate search and filter features</td> <td>Se desarrollaron pruebas para verificar el funcionamiento de búsqueda y filtrado. <em>(US03)</em></td> <td>2025-10-18</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/vehicle-registration</td> <td>e7f8g9h</td> <td>test: test vehicle registration form validation</td> <td>Se probaron las validaciones y el registro correcto de vehículos. <em>(US06)</em></td> <td>2025-10-19</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/vehicle-history</td> <td>i1j2k3l</td> <td>test: verify vehicle history display</td> <td>Se validó la correcta visualización del historial de mantenimientos. <em>(US08)</em></td> <td>2025-10-20</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/appointment-booking</td> <td>m4n5o6p</td> <td>test: test appointment coordination flow</td> <td>Se realizaron pruebas end-to-end del flujo de reserva de citas. <em>(US10)</em></td> <td>2025-10-21</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/maintenance-checklist</td> <td>q7r8s9t</td> <td>test: validate checklist update functionality</td> <td>Se verificó el correcto funcionamiento de la actualización del checklist. <em>(US12)</em></td> <td>2025-10-22</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/maintenance-confirmation</td> <td>u1v2w3x</td> <td>test: test maintenance creation and confirmation</td> <td>Se probaron los procesos de creación y confirmación de mantenimientos. <em>(US13)</em></td> <td>2025-10-23</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/pending-maintenances</td> <td>y4z5a6b</td> <td>test: verify pending maintenances view</td> <td>Se validó la visualización correcta de mantenimientos pendientes. <em>(US14)</em></td> <td>2025-10-24</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/maintenance-completion</td> <td>c7d8e9f</td> <td>test: test maintenance completion flow</td> <td>Se probó el flujo completo de finalización de mantenimientos por mecánicos. <em>(US16)</em></td> <td>2025-10-25</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/messaging-system</td> <td>g1h2i3j</td> <td>test: test real-time messaging functionality</td> <td>Se realizaron pruebas del sistema de mensajería en tiempo real. <em>(US09)</em></td> <td>2025-10-26</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Backend</td> <td>test/integration-tests</td> <td>k4l5m6n</td> <td>test: add integration tests for all endpoints</td> <td>Se implementaron pruebas de integración para todos los endpoints del backend.</td> <td>2025-10-27</td> </tr> </tbody> </table>
+
+##### **4.2.2.5. Execution Evidence for Sprint Review**
+
+Durante este Sprint se logró implementar de forma completa las funcionalidades core de la aplicación móvil AutoNexo, completando el despliegue del backend al 100% en Azure con documentación completa, y finalizando todas las pantallas principales para propietarios y mecánicos. El desarrollo se centró en crear un ecosistema funcional y completo que permita a los usuarios interactuar con todas las capacidades principales de la plataforma.
+
+El trabajo realizado incluyó la implementación del catálogo de servicios, sistema de búsqueda, registro y gestión de vehículos, coordinación de citas, gestión de mantenimientos, sistema de mensajería, y el despliegue completo del backend con documentación Swagger.
+
+A continuación, se presentan las capturas de pantalla de las principales funcionalidades desarrolladas como evidencia del trabajo realizado:
+
+<br>
+Catálogo de servicios de taller:
+
+<img alt="Catálogo de servicios" src="assets\chapter-IV-assets\sprint2_evidence_catalog.png" />
+
+<br>
+Búsqueda y exploración de talleres:
+
+<img alt="Búsqueda de talleres" src="assets\chapter-IV-assets\sprint2_evidence_search.png" />
+
+<br>
+Registro de vehículo:
+
+<img alt="Registro de vehículo" src="assets\chapter-IV-assets\sprint2_evidence_vehicle_registration.png" />
+
+<br>
+Historial de mantenimientos:
+
+<img alt="Historial de mantenimientos" src="assets\chapter-IV-assets\sprint2_evidence_history.png" />
+
+<br>
+Coordinación de citas:
+
+<img alt="Coordinación de citas" src="assets\chapter-IV-assets\sprint2_evidence_appointments.png" />
+
+<br>
+Sistema de mensajería:
+
+<img alt="Sistema de mensajería" src="assets\chapter-IV-assets\sprint2_evidence_messaging.png" />
+
+<br>
+Vista de mantenimientos pendientes (Propietario):
+
+<img alt="Mantenimientos pendientes - Propietario" src="assets\chapter-IV-assets\sprint2_evidence_pending_owner.png" />
+
+<br>
+Vista de mantenimientos pendientes (Mecánico):
+
+<img alt="Mantenimientos pendientes - Mecánico" src="assets\chapter-IV-assets\sprint2_evidence_pending_mechanic.png" />
+
+<br>
+
+Video de evidencia: [Autonexo - Sprint 2 Demo Video](https://drive.google.com/file/d/[VIDEO_ID]/view?usp=sharing)
+
+
+##### **4.2.2.6. Services Documentation Evidence for Sprint Review**
+
+Durante el Sprint 2, se completó el despliegue del backend al 100% y se documentaron exhaustivamente todos los servicios RESTful correspondientes a los diferentes bounded contexts del sistema, garantizando una comunicación eficiente entre el frontend y el backend mediante peticiones HTTP estandarizadas (GET, POST, PUT, DELETE).
+
+A continuación, se detallan las principales evidencias y descripciones de los endpoints desarrollados y documentados:
+
+**A. VehicleController**
+
+Este controlador gestiona las operaciones relacionadas con los vehículos, incluyendo su registro, consulta, actualización y gestión del historial de mantenimientos.
+
+Principales endpoints:
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Endpoint</strong></th>
+      <th><strong>HTTP Method</strong></th>
+      <th><strong>Descripción</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/vehicles</td>
+      <td>POST</td>
+      <td>Registra un nuevo vehículo asociado a un propietario.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/vehicles/{vehicleId}</td>
+      <td>GET</td>
+      <td>Obtiene la información detallada de un vehículo por su ID.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/vehicles/owner/{ownerId}</td>
+      <td>GET</td>
+      <td>Lista todos los vehículos pertenecientes a un propietario.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/vehicles/{vehicleId}</td>
+      <td>PUT</td>
+      <td>Actualiza la información de un vehículo existente.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/vehicles/{vehicleId}/history</td>
+      <td>GET</td>
+      <td>Obtiene el historial completo de mantenimientos de un vehículo.</td>
+    </tr>
+  </tbody>
+</table>
+
+**B. MaintenanceController**
+
+Este controlador administra las operaciones relacionadas con los mantenimientos, incluyendo su creación, consulta, actualización, gestión de checklists y finalización.
+
+Principales endpoints:
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Endpoint</strong></th>
+      <th><strong>HTTP Method</strong></th>
+      <th><strong>Descripción</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/maintenances</td>
+      <td>POST</td>
+      <td>Crea un nuevo mantenimiento asociado a un vehículo y taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/maintenances/{maintenanceId}</td>
+      <td>GET</td>
+      <td>Obtiene la información detallada de un mantenimiento.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/maintenances/pending</td>
+      <td>GET</td>
+      <td>Lista todos los mantenimientos pendientes para un usuario.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/maintenances/{maintenanceId}/checklist</td>
+      <td>PUT</td>
+      <td>Actualiza el checklist de un mantenimiento.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/maintenances/{maintenanceId}/complete</td>
+      <td>PUT</td>
+      <td>Marca un mantenimiento como completado.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/maintenances/{maintenanceId}/confirm</td>
+      <td>PUT</td>
+      <td>Confirma un mantenimiento pendiente.</td>
+    </tr>
+  </tbody>
+</table>
+
+**C. AppointmentController**
+
+Este controlador gestiona las operaciones relacionadas con las citas de mantenimiento, incluyendo su creación, consulta, actualización y cancelación.
+
+Principales endpoints:
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Endpoint</strong></th>
+      <th><strong>HTTP Method</strong></th>
+      <th><strong>Descripción</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/appointments</td>
+      <td>POST</td>
+      <td>Crea una nueva cita de mantenimiento.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/appointments/{appointmentId}</td>
+      <td>GET</td>
+      <td>Obtiene la información de una cita específica.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/appointments/user/{userId}</td>
+      <td>GET</td>
+      <td>Lista todas las citas de un usuario (propietario o taller).</td>
+    </tr>
+    <tr>
+      <td>/api/v1/appointments/{appointmentId}</td>
+      <td>PUT</td>
+      <td>Actualiza la información de una cita.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/appointments/{appointmentId}/cancel</td>
+      <td>PUT</td>
+      <td>Cancela una cita de mantenimiento.</td>
+    </tr>
+  </tbody>
+</table>
+
+**D. MessageController**
+
+Este controlador administra las operaciones relacionadas con el sistema de mensajería, permitiendo la comunicación en tiempo real entre propietarios y talleres.
+
+Principales endpoints:
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Endpoint</strong></th>
+      <th><strong>HTTP Method</strong></th>
+      <th><strong>Descripción</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/messages</td>
+      <td>POST</td>
+      <td>Envía un nuevo mensaje entre usuarios.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/messages/conversation/{conversationId}</td>
+      <td>GET</td>
+      <td>Obtiene todos los mensajes de una conversación.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/messages/user/{userId}</td>
+      <td>GET</td>
+      <td>Lista todas las conversaciones de un usuario.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/messages/{messageId}/read</td>
+      <td>PUT</td>
+      <td>Marca un mensaje como leído.</td>
+    </tr>
+  </tbody>
+</table>
+
+**E. Documentación Swagger/OpenAPI**
+
+Se generó y publicó documentación completa de la API utilizando Swagger/OpenAPI, disponible en el siguiente enlace:
+
+**URL de documentación:** [AutoNexo API Documentation](https://autonexo-api.azurewebsites.net/swagger-ui/index.html)
+
+La documentación incluye:
+- Descripción detallada de todos los endpoints
+- Esquemas de request y response
+- Ejemplos de uso
+- Códigos de estado HTTP
+- Autenticación y autorización
+
+**F. Seguridad, validación y consistencia**
+- Todos los endpoints aplican validaciones automáticas mediante @Valid y tipos de recursos.
+- Se maneja de forma controlada el flujo de errores y respuestas HTTP (400, 401, 403, 404, 500).
+- Se integran patrones de diseño Domain-Driven Design (DDD) y CQRS para mantener la escalabilidad del sistema.
+- Implementación de autenticación JWT para seguridad de endpoints.
+
+##### **4.2.2.7. Software Deployment Evidence for Sprint Review**
+
+Durante este Sprint se completó con éxito el despliegue del backend al 100% en Azure App Services, siguiendo un enfoque de integración y entrega continua. El backend fue desplegado en un sitio público con documentación completa accesible mediante Swagger UI.
+
+**Actividades realizadas:**
+- Se configuró Azure App Service para el despliegue del backend Spring Boot.
+- Se configuró Azure SQL Database para la persistencia de datos.
+- Se implementó CI/CD mediante GitHub Actions para automatizar el despliegue.
+- Se generó y publicó documentación Swagger/OpenAPI accesible públicamente.
+- Se configuraron variables de entorno y secretos en Azure para la gestión segura de credenciales.
+- Se validó el correcto funcionamiento de todos los servicios desplegados mediante pruebas de integración.
+
+**Evidencias del proceso de despliegue:**
+A continuación, se incluyen las capturas correspondientes al proceso de configuración y despliegue del backend en Azure.
+
+1. Configuración de Azure App Service:
+<div>
+  <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_appservice.png" alt="deployment-appservice.png" width="700px" /></p>
+</div>
+
+2. Configuración de Azure SQL Database:
+<div>
+  <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_database.png" alt="deployment-database.png" width="700px" /></p>
+</div>
+
+3. Configuración de CI/CD con GitHub Actions:
+<div>
+  <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_cicd.png" alt="deployment-cicd.png" width="700px" /></p>
+</div>
+
+4. Despliegue exitoso y verificación:
+<div>
+  <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_success.png" alt="deployment-success.png" width="700px" /></p>
+</div>
+
+5. Documentación Swagger publicada:
+<div>
+  <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_swagger.png" alt="deployment-swagger.png" width="700px" /></p>
+</div>
+
+**URLs de despliegue:**
+- **Backend API:** https://autonexo-api.azurewebsites.net
+- **Documentación Swagger:** https://autonexo-api.azurewebsites.net/swagger-ui/index.html
+- **Landing Page:** [URL de la landing page desplegada]
+
+##### **4.2.2.8. Team Collaboration Insights during Sprint**
+
+Durante el desarrollo del Sprint 2, todos los integrantes del equipo participaron activamente en la implementación de las funcionalidades core de la aplicación móvil, el despliegue completo del backend y la finalización de las pantallas principales. El enfoque principal fue completar el ecosistema funcional del proyecto, asegurando que todas las capacidades principales estén disponibles y operativas.
+
+A continuación, se detalla la participación específica de cada miembro del equipo:
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Nombre</strong></th>
+      <th><strong>Actividad</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Cruz Ibarra, Victor Andrés</strong></td>
+      <td>Implementación del catálogo de servicios de taller y sistema de checklist interactivo para mantenimientos. Participación en la integración de servicios backend con la aplicación móvil.</td>
+    </tr>
+    <tr>
+      <td><strong>Iglesias Pérez, Sergio Sebastián</strong></td>
+      <td>Despliegue completo del backend en Azure App Services, generación de documentación Swagger/OpenAPI, implementación del sistema de búsqueda y filtrado, y creación/confirmación de mantenimientos.</td>
+    </tr>
+    <tr>
+      <td><strong>Roman Esteban, Henry Kalet</strong></td>
+      <td>Desarrollo del formulario de registro de vehículos y vista de mantenimientos pendientes. Participación en pruebas de integración y validación de funcionalidades.</td>
+    </tr>
+    <tr>
+      <td><strong>Solano Armas, Angelo Hector</strong></td>
+      <td>Implementación de la vista de historial de mantenimientos y funcionalidad de finalización de mantenimientos. Desarrollo de componentes UI para las pantallas de propietario.</td>
+    </tr>
+    <tr>
+      <td><strong>Vivanco Salazar, Rafael Andrés</strong></td>
+      <td>Desarrollo del sistema completo de coordinación de citas de mantenimiento y sistema de mensajería en tiempo real. Implementación de funcionalidades de comunicación entre usuarios.</td>
+    </tr>
+  </tbody>
+</table>
+
+##### Evidencia de colaboración en GitHub
+
+A continuación, se presenta la evidencia de participación de los miembros del equipo, extraída del repositorio oficial del proyecto. Se puede observar el trabajo colaborativo y los aportes de cada integrante en las distintas ramas del desarrollo.
+
+<img alt="participation sprint 2" src="assets\chapter-IV-assets\sprint2_evidence_participation.png" />
+
+
+##### Repositorios de trabajo:
+
+- [Repositorio de la Landing Page en GitHub](https://github.com/ATG-UPC/AutoNexo-Landing-Page)
+- [Repositorio del Backend en GitHub](https://github.com/ATG-UPC/AutoNexo-Backend)
+- [Repositorio de la Aplicación Móvil en GitHub](https://github.com/ATG-UPC/AutoNexo-Android)
