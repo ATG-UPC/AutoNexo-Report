@@ -1019,27 +1019,17 @@ Sistema de pago:
 <br>
 
 <br>
-Vista de mantenimientos pendientes (Propietario):
+Vista de servicios recibidos (Mecánico):
 
-<img alt="Mantenimientos pendientes - Propietario" src="assets\chapter-IV-assets\sprint2_evidence_pending_owner.png" />
-
-<br>
-Vista de mantenimientos pendientes (Mecánico):
-
-<img alt="Mantenimientos pendientes - Mecánico" src="assets\chapter-IV-assets\sprint2_evidence_pending_mechanic.png" />
-
-<br>
-
-Vista de mantenimientos pendientes (Propietario):
-
-<img alt="Mantenimientos pendientes - Propietario" src="assets\chapter-IV-assets\sprint2_evidence_pending_owner.png" />
+<img alt="Mantenimientos pendientes - Propietario" src="assets\chapter-IV-assets\sprint2_evidence_services_mechanic.png" />
 
 <br>
 Vista de mantenimientos pendientes (Mecánico):
 
-<img alt="Mantenimientos pendientes - Mecánico" src="assets\chapter-IV-assets\sprint2_evidence_pending_mechanic.png" />
+<img alt="Mantenimientos pendientes - Mecánico" src="assets\chapter-IV-assets\sprint2_evidence_offers_mechanic.png" />
 
 <br>
+
 
 Video de evidencia: [Autonexo - Sprint 2 Demo Video](https://drive.google.com/drive/folders/1cm5FJjK9crdP5qNHeuj-Ghukw7DCB6Ai?usp=drive_link)
 
