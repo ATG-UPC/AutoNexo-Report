@@ -1019,14 +1019,14 @@ Sistema de pago:
 <br>
 
 <br>
-Vista de servicios recibidos (Mecánico):
+Vista de taller registrado (Mecánico):
 
-<img alt="Mantenimientos pendientes - Propietario" src="assets\chapter-IV-assets\sprint2_evidence_services_mechanic.png" />
+<img alt="Mantenimientos pendientes - Propietario" src="assets\chapter-IV-assets\sprint2_evidence_workshopp_mechanic.png" />
 
 <br>
-Vista de mantenimientos pendientes (Mecánico):
+Vista de servicios pendientes (Mecánico):
 
-<img alt="Mantenimientos pendientes - Mecánico" src="assets\chapter-IV-assets\sprint2_evidence_offers_mechanic.png" />
+<img alt="Mantenimientos pendientes - Mecánico" src="assets\chapter-IV-assets\sprint2_evidence_service_mechanic.png" />
 
 <br>
 
