@@ -827,20 +827,9 @@ Link Trello: [Autonexo - Trello](https://trello.com/b/4uTEBz5O/atg-autonexo)
       <td>3</td>
     </tr>
     <tr>
-      <td>US09</td>
-      <td>Sistema de mensajería</td>
-      <td>T18</td>
-      <td>Implementar chat entre propietario y taller</td>
-      <td>Crear sistema de mensajería en tiempo real para comunicación entre usuarios.</td>
-      <td>5</td>
-      <td>Vivanco Salazar, Rafael Andres</td>
-      <td>Done</td>
-      <td>5</td>
-    </tr>
-    <tr>
       <td>BACKEND</td>
       <td>Despliegue completo del backend</td>
-      <td>T19</td>
+      <td>T18</td>
       <td>Desplegar backend al 100% en Azure</td>
       <td>Configurar y desplegar todos los servicios backend en Azure App Services con documentación completa.</td>
       <td>6</td>
@@ -851,7 +840,7 @@ Link Trello: [Autonexo - Trello](https://trello.com/b/4uTEBz5O/atg-autonexo)
     <tr>
       <td>DOCS</td>
       <td>Documentación de API</td>
-      <td>T20</td>
+      <td>T19</td>
       <td>Generar documentación Swagger/OpenAPI</td>
       <td>Crear y publicar documentación completa de todos los endpoints del backend.</td>
       <td>3</td>
@@ -953,14 +942,6 @@ En esta sección se presentan los avances logrados durante el Sprint 2, enfocado
       <td>2025-10-24</td>
     </tr>
     <tr>
-      <td>ATG-UPC/AutoNexo-Android</td>
-      <td>feature/messaging-system</td>
-      <td>k1l2m3n</td>
-      <td>feat: implement real-time messaging system</td>
-      <td>Se creó el sistema de mensajería en tiempo real entre propietarios y talleres. <em>(US09)</em></td>
-      <td>2025-10-25</td>
-    </tr>
-    <tr>
       <td>ATG-UPC/AutoNexo-Backend</td>
       <td>feature/azure-deployment</td>
       <td>o4p5q6r</td>
@@ -1035,7 +1016,7 @@ Vista de mantenimientos pendientes (Mecánico):
 
 <br>
 
-Video de evidencia: [Autonexo - Sprint 2 Demo Video](https://drive.google.com/file/d/[VIDEO_ID]/view?usp=sharing)
+Video de evidencia: [Autonexo - Sprint 2 Demo Video](https://drive.google.com/drive/folders/1cm5FJjK9crdP5qNHeuj-Ghukw7DCB6Ai?usp=drive_link)
 
 
 ##### **4.2.2.6. Services Documentation Evidence for Sprint Review**
@@ -1220,7 +1201,8 @@ Principales endpoints:
 
 Se generó y publicó documentación completa de la API utilizando Swagger/OpenAPI, disponible en el siguiente enlace:
 
-**URL de documentación:** [AutoNexo API Documentation](https://autonexo-api.azurewebsites.net/swagger-ui/index.html)
+**URL de documentación:** [AutoNexo API Documentation](https://autonexo-backend-akcsb5avacemdwh7.canadacentral-01.azurewebsites.net/swagger-ui/index.html
+)
 
 La documentación incluye:
 - Descripción detallada de todos los endpoints
@@ -1276,9 +1258,9 @@ A continuación, se incluyen las capturas correspondientes al proceso de configu
 </div>
 
 **URLs de despliegue:**
-- **Backend API:** https://autonexo-api.azurewebsites.net
-- **Documentación Swagger:** https://autonexo-api.azurewebsites.net/swagger-ui/index.html
-- **Landing Page:** [URL de la landing page desplegada]
+- **Backend API:** [https://autonexo-api.azurewebsites.net](https://autonexo-backend-akcsb5avacemdwh7.canadacentral-01.azurewebsites.net/swagger-ui/index.html
+)
+- **Landing Page:** [https://mango-sea-0eee8590f.1.azurestaticapps.net/#]
 
 ##### **4.2.2.8. Team Collaboration Insights during Sprint**
 
