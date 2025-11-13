@@ -827,20 +827,9 @@ Link Trello: [Autonexo - Trello](https://trello.com/b/4uTEBz5O/atg-autonexo)
       <td>3</td>
     </tr>
     <tr>
-      <td>US09</td>
-      <td>Sistema de mensajería</td>
-      <td>T18</td>
-      <td>Implementar chat entre propietario y taller</td>
-      <td>Crear sistema de mensajería en tiempo real para comunicación entre usuarios.</td>
-      <td>5</td>
-      <td>Vivanco Salazar, Rafael Andres</td>
-      <td>Done</td>
-      <td>5</td>
-    </tr>
-    <tr>
       <td>BACKEND</td>
       <td>Despliegue completo del backend</td>
-      <td>T19</td>
+      <td>T18</td>
       <td>Desplegar backend al 100% en Azure</td>
       <td>Configurar y desplegar todos los servicios backend en Azure App Services con documentación completa.</td>
       <td>6</td>
@@ -851,7 +840,7 @@ Link Trello: [Autonexo - Trello](https://trello.com/b/4uTEBz5O/atg-autonexo)
     <tr>
       <td>DOCS</td>
       <td>Documentación de API</td>
-      <td>T20</td>
+      <td>T19</td>
       <td>Generar documentación Swagger/OpenAPI</td>
       <td>Crear y publicar documentación completa de todos los endpoints del backend.</td>
       <td>3</td>
@@ -953,14 +942,6 @@ En esta sección se presentan los avances logrados durante el Sprint 2, enfocado
       <td>2025-10-24</td>
     </tr>
     <tr>
-      <td>ATG-UPC/AutoNexo-Android</td>
-      <td>feature/messaging-system</td>
-      <td>k1l2m3n</td>
-      <td>feat: implement real-time messaging system</td>
-      <td>Se creó el sistema de mensajería en tiempo real entre propietarios y talleres. <em>(US09)</em></td>
-      <td>2025-10-25</td>
-    </tr>
-    <tr>
       <td>ATG-UPC/AutoNexo-Backend</td>
       <td>feature/azure-deployment</td>
       <td>o4p5q6r</td>
@@ -994,12 +975,19 @@ El trabajo realizado incluyó la implementación del catálogo de servicios, sis
 A continuación, se presentan las capturas de pantalla de las principales funcionalidades desarrolladas como evidencia del trabajo realizado:
 
 <br>
-Catálogo de servicios de taller:
 
-<img alt="Catálogo de servicios" src="assets\chapter-IV-assets\sprint2_evidence_catalog.png" />
+Ofertas de mantenimiento:
+
+<img alt="Ofertas src="assets\chapter-IV-assets\sprint2_evidence_offer.png" />
 
 <br>
-Búsqueda y exploración de talleres:
+
+Peticiones de servicios:
+
+<img alt="Servicios" src="assets\chapter-IV-assets\sprint2_evidence_service.png" />
+
+<br>
+Búsqueda y registro de talleres:
 
 <img alt="Búsqueda de talleres" src="assets\chapter-IV-assets\sprint2_evidence_search.png" />
 
@@ -1019,9 +1007,16 @@ Coordinación de citas:
 <img alt="Coordinación de citas" src="assets\chapter-IV-assets\sprint2_evidence_appointments.png" />
 
 <br>
-Sistema de mensajería:
+Sistema de calificación:
 
-<img alt="Sistema de mensajería" src="assets\chapter-IV-assets\sprint2_evidence_messaging.png" />
+<img alt="Reviews" src="assets\chapter-IV-assets\sprint2_evidence_review.png" />
+
+<br>
+Sistema de pago:
+
+<img alt="Payment" src="assets\chapter-IV-assets\sprint2_evidence_payment.png" />
+
+<br>
 
 <br>
 Vista de mantenimientos pendientes (Propietario):
@@ -1035,7 +1030,18 @@ Vista de mantenimientos pendientes (Mecánico):
 
 <br>
 
-Video de evidencia: [Autonexo - Sprint 2 Demo Video](https://drive.google.com/file/d/[VIDEO_ID]/view?usp=sharing)
+Vista de mantenimientos pendientes (Propietario):
+
+<img alt="Mantenimientos pendientes - Propietario" src="assets\chapter-IV-assets\sprint2_evidence_pending_owner.png" />
+
+<br>
+Vista de mantenimientos pendientes (Mecánico):
+
+<img alt="Mantenimientos pendientes - Mecánico" src="assets\chapter-IV-assets\sprint2_evidence_pending_mechanic.png" />
+
+<br>
+
+Video de evidencia: [Autonexo - Sprint 2 Demo Video](https://drive.google.com/drive/folders/1cm5FJjK9crdP5qNHeuj-Ghukw7DCB6Ai?usp=drive_link)
 
 
 ##### **4.2.2.6. Services Documentation Evidence for Sprint Review**
@@ -1220,7 +1226,8 @@ Principales endpoints:
 
 Se generó y publicó documentación completa de la API utilizando Swagger/OpenAPI, disponible en el siguiente enlace:
 
-**URL de documentación:** [AutoNexo API Documentation](https://autonexo-api.azurewebsites.net/swagger-ui/index.html)
+**URL de documentación:** [AutoNexo API Documentation](https://autonexo-backend-akcsb5avacemdwh7.canadacentral-01.azurewebsites.net/swagger-ui/index.html
+)
 
 La documentación incluye:
 - Descripción detallada de todos los endpoints
@@ -1250,35 +1257,22 @@ Durante este Sprint se completó con éxito el despliegue del backend al 100% en
 **Evidencias del proceso de despliegue:**
 A continuación, se incluyen las capturas correspondientes al proceso de configuración y despliegue del backend en Azure.
 
-1. Configuración de Azure App Service:
-<div>
-  <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_appservice.png" alt="deployment-appservice.png" width="700px" /></p>
-</div>
-
-2. Configuración de Azure SQL Database:
-<div>
-  <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_database.png" alt="deployment-database.png" width="700px" /></p>
-</div>
-
-3. Configuración de CI/CD con GitHub Actions:
-<div>
-  <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_cicd.png" alt="deployment-cicd.png" width="700px" /></p>
-</div>
-
-4. Despliegue exitoso y verificación:
+1. Despliegue exitoso y verificación:
 <div>
   <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_success.png" alt="deployment-success.png" width="700px" /></p>
 </div>
 
-5. Documentación Swagger publicada:
+2. Documentación Swagger publicada:
 <div>
   <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_swagger.png" alt="deployment-swagger.png" width="700px" /></p>
 </div>
 
+<br>
+
 **URLs de despliegue:**
-- **Backend API:** https://autonexo-api.azurewebsites.net
-- **Documentación Swagger:** https://autonexo-api.azurewebsites.net/swagger-ui/index.html
-- **Landing Page:** [URL de la landing page desplegada]
+- **Backend API:** [https://autonexo-api.azurewebsites.net](https://autonexo-backend-akcsb5avacemdwh7.canadacentral-01.azurewebsites.net/swagger-ui/index.html
+)
+- **Landing Page:** [https://mango-sea-0eee8590f.1.azurestaticapps.net/#]
 
 ##### **4.2.2.8. Team Collaboration Insights during Sprint**
 
@@ -1321,7 +1315,18 @@ A continuación, se detalla la participación específica de cada miembro del eq
 
 A continuación, se presenta la evidencia de participación de los miembros del equipo, extraída del repositorio oficial del proyecto. Se puede observar el trabajo colaborativo y los aportes de cada integrante en las distintas ramas del desarrollo.
 
-<img alt="participation sprint 2" src="assets\chapter-IV-assets\sprint2_evidence_participation.png" />
+<br>
+
+Backend:
+
+<img alt="participation sprint 2" src="assets\chapter-IV-assets\sprint2_evidence_participation_backend.png" />
+
+<br>
+
+Reporte:
+<img alt="participation sprint 2" src="assets\chapter-IV-assets\sprint2_evidence_participation_report.png" />
+
+<br>
 
 
 ##### Repositorios de trabajo:
