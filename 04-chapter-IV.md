@@ -975,12 +975,19 @@ El trabajo realizado incluyó la implementación del catálogo de servicios, sis
 A continuación, se presentan las capturas de pantalla de las principales funcionalidades desarrolladas como evidencia del trabajo realizado:
 
 <br>
-Catálogo de servicios de taller:
 
-<img alt="Catálogo de servicios" src="assets\chapter-IV-assets\sprint2_evidence_catalog.png" />
+Ofertas de mantenimiento:
+
+<img alt="Ofertas src="assets\chapter-IV-assets\sprint2_evidence_offer.png" />
 
 <br>
-Búsqueda y exploración de talleres:
+
+Peticiones de servicios:
+
+<img alt="Servicios" src="assets\chapter-IV-assets\sprint2_evidence_service.png" />
+
+<br>
+Búsqueda y registro de talleres:
 
 <img alt="Búsqueda de talleres" src="assets\chapter-IV-assets\sprint2_evidence_search.png" />
 
@@ -1000,11 +1007,29 @@ Coordinación de citas:
 <img alt="Coordinación de citas" src="assets\chapter-IV-assets\sprint2_evidence_appointments.png" />
 
 <br>
-Sistema de mensajería:
+Sistema de calificación:
 
-<img alt="Sistema de mensajería" src="assets\chapter-IV-assets\sprint2_evidence_messaging.png" />
+<img alt="Reviews" src="assets\chapter-IV-assets\sprint2_evidence_review.png" />
 
 <br>
+Sistema de pago:
+
+<img alt="Payment" src="assets\chapter-IV-assets\sprint2_evidence_payment.png" />
+
+<br>
+
+<br>
+Vista de mantenimientos pendientes (Propietario):
+
+<img alt="Mantenimientos pendientes - Propietario" src="assets\chapter-IV-assets\sprint2_evidence_pending_owner.png" />
+
+<br>
+Vista de mantenimientos pendientes (Mecánico):
+
+<img alt="Mantenimientos pendientes - Mecánico" src="assets\chapter-IV-assets\sprint2_evidence_pending_mechanic.png" />
+
+<br>
+
 Vista de mantenimientos pendientes (Propietario):
 
 <img alt="Mantenimientos pendientes - Propietario" src="assets\chapter-IV-assets\sprint2_evidence_pending_owner.png" />
@@ -1232,30 +1257,17 @@ Durante este Sprint se completó con éxito el despliegue del backend al 100% en
 **Evidencias del proceso de despliegue:**
 A continuación, se incluyen las capturas correspondientes al proceso de configuración y despliegue del backend en Azure.
 
-1. Configuración de Azure App Service:
-<div>
-  <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_appservice.png" alt="deployment-appservice.png" width="700px" /></p>
-</div>
-
-2. Configuración de Azure SQL Database:
-<div>
-  <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_database.png" alt="deployment-database.png" width="700px" /></p>
-</div>
-
-3. Configuración de CI/CD con GitHub Actions:
-<div>
-  <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_cicd.png" alt="deployment-cicd.png" width="700px" /></p>
-</div>
-
-4. Despliegue exitoso y verificación:
+1. Despliegue exitoso y verificación:
 <div>
   <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_success.png" alt="deployment-success.png" width="700px" /></p>
 </div>
 
-5. Documentación Swagger publicada:
+2. Documentación Swagger publicada:
 <div>
   <p align="center"><img src="assets\chapter-IV-assets\sprint2_deployment_swagger.png" alt="deployment-swagger.png" width="700px" /></p>
 </div>
+
+<br>
 
 **URLs de despliegue:**
 - **Backend API:** [https://autonexo-api.azurewebsites.net](https://autonexo-backend-akcsb5avacemdwh7.canadacentral-01.azurewebsites.net/swagger-ui/index.html
@@ -1303,7 +1315,18 @@ A continuación, se detalla la participación específica de cada miembro del eq
 
 A continuación, se presenta la evidencia de participación de los miembros del equipo, extraída del repositorio oficial del proyecto. Se puede observar el trabajo colaborativo y los aportes de cada integrante en las distintas ramas del desarrollo.
 
-<img alt="participation sprint 2" src="assets\chapter-IV-assets\sprint2_evidence_participation.png" />
+<br>
+
+Backend:
+
+<img alt="participation sprint 2" src="assets\chapter-IV-assets\sprint2_evidence_participation_backend.png" />
+
+<br>
+
+Reporte:
+<img alt="participation sprint 2" src="assets\chapter-IV-assets\sprint2_evidence_participation_report.png" />
+
+<br>
 
 
 ##### Repositorios de trabajo:
