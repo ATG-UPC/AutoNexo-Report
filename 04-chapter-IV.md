@@ -978,7 +978,7 @@ A continuación, se presentan las capturas de pantalla de las principales funcio
 
 Ofertas de mantenimiento:
 
-<img alt="Ofertas src="assets\chapter-IV-assets\sprint2_evidence_offer.png" />
+<img alt="Ofertas" src="assets\chapter-IV-assets\sprint2_evidence_offer.png" />
 
 <br>
 
@@ -1324,6 +1324,7 @@ Backend:
 <br>
 
 Reporte:
+
 <img alt="participation sprint 2" src="assets\chapter-IV-assets\sprint2_evidence_participation_report.png" />
 
 <br>
