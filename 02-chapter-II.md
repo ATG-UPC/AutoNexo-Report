@@ -2194,37 +2194,37 @@ A partir de esto, se definieron los bounded contexts:
 
 **IAM bounded context canvas**
 
-<img alt="IAM" src="assets\chapter-II-assets\bounded-context-canvases\canvases-IAM.png" />
+<img alt="IAM" src="assets\chapter-II-assets\bounded-context-canvases\canvases-IAM-c.png" />
 <br> <br>
 
 **Matching&Booking bounded context canvas**
 
-<img alt="Matching" src="assets\chapter-II-assets\bounded-context-canvases\canvases-matching.png" />
+<img alt="Matching" src="assets\chapter-II-assets\bounded-context-canvases\canvases-matching-c.png" />
 <br> <br>
  
 **Notifications bounded context canvas**
 
-<img alt="Notification" src="assets\chapter-II-assets\bounded-context-canvases\canvases-notification.png" />
+<img alt="Notification" src="assets\chapter-II-assets\bounded-context-canvases\canvases-notification-c.png" />
 <br> <br>
 
 **Payment bounded context canvas**
 
-<img alt="Payment" src="assets\chapter-II-assets\bounded-context-canvases\canvases-payment.png" />
+<img alt="Payment" src="assets\chapter-II-assets\bounded-context-canvases\canvases-payment-c.png" />
 <br> <br>
 
 **Trust&Reputation bounded context canvas**
 
-<img alt="Trust" src="assets\chapter-II-assets\bounded-context-canvases\canvases-trust.png" />
+<img alt="Trust" src="assets\chapter-II-assets\bounded-context-canvases\canvases-trust-c.png" />
 <br> <br>
 
 **Vehicle&Maintenance bounded context canvas**
 
-<img alt="Vehicle" src="assets\chapter-II-assets\bounded-context-canvases\canvases-vehicle.png" />
+<img alt="Vehicle" src="assets\chapter-II-assets\bounded-context-canvases\canvases-vehicle-c.png" />
 <br> <br>
 
 **Workshop bounded context canvas**
 
-<img alt="Workshop" src="assets\chapter-II-assets\bounded-context-canvases\canvases-workshop.png" />
+<img alt="Workshop" src="assets\chapter-II-assets\bounded-context-canvases\canvases-workshop-c.png" />
 <br> <br>
 
 ### 2.5.2. Context Mapping
