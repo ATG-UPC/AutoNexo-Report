@@ -50,9 +50,28 @@
 
 # <font color="skyblue">**Registro de Versiones del Informe**</font>
 
-| Versión | Fecha      | Autor                          | Descripción de modificación      |
-|---------|------------|--------------------------------|----------------------------------|
-| TB1     | 07/09/2025 | Todos los integrantes del grupo aportaron  | Reporte, capítulos 1, 2, 3 y 4|
+<table border="1">
+  <tr>
+    <th>Versión</th>
+    <th>Fecha</th>
+    <th>Autor</th>
+    <th>Descripción de modificación</th>
+  </tr>
+  <tr>
+    <td>TB1</td>
+    <td>07/09/2025</td>
+    <td>Todos los integrantes del grupo aportaron</td>
+    <td>Reporte, capítulos 1 y 2</td>
+  </tr>
+  <tr>
+  <td>TP1</td>
+  <td>08/10/2025</td>
+  <td>Todos los integrantes del grupo aportaron</td>
+  <td>Reporte, capítulos 3, 4, correcciones y landing page</td>
+  
+  </tr>
+</table>
+
 
 # <font color="skyblue">**Project Report Collaboration Insights**</font>
 
@@ -62,13 +81,63 @@ Enlace de la organización del proyecto: https://github.com/ATG-UPC
 
 Para el desarrollo del informe correspondiente a la entrega TB1, se repartieron las tareas de la siguiente manera para cada integrante del equipo:
 
-|Integrante|Tareas Asignadas|
-|-|-|
-|Victor Andres Cruz Ibarra| |
-|Rafael Andres Vivanco Salazar| |
-|Sergio Sebastián Iglesias Pérez | |
-|Henry Kalet Esteban Roman | |
-|Angelo Hector Solano Armas| |
+<table border="1">
+  <tr>
+    <th>Integrante</th>
+    <th>Tareas Asignadas</th>
+  </tr>
+  <tr>
+    <td>Victor Andres Cruz Ibarra</td>
+    <td>Descripción de la Startup, Perfiles de integrantes del equipo, Lean UX Problem Statements, Lean UX Assumptions, User Stories, Impact Mapping, Product Backlog, Application Layer, Infrastructure Layer</td>
+  </tr>
+  <tr>
+    <td>Rafael Andres Vivanco Salazar</td>
+    <td>Antecedentes y problemática, Lean UX Hypothesis Statements, Lean UX Canvas, EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Software Architecture Component Level Diagrams, Software Architecture Code Level Diagrams</td>
+  </tr>
+  <tr>
+    <td>Sergio Sebastián Iglesias Pérez</td>
+    <td>Segmentos objetivo, Análisis competitivo, Estrategias frente a competidores, Bounded Context Canvases, Context Mapping, Software Architecture Context Level Diagrams, Software Architecture Container Level Diagrams</td>
+  </tr>
+  <tr>
+    <td>Henry Kalet Esteban Roman</td>
+    <td>Diseño de entrevistas, Registro de entrevistas, Análisis de entrevistas, Software Architecture Deployment Diagrams</td>
+  </tr>
+  <tr>
+    <td>Angelo Hector Solano Armas</td>
+    <td>Needfinding, User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping, Ubiquitous Language, Bounded Context: <Bounded Context Name>, Domain Layer, Interface Layer</td>
+  </tr>
+</table>
+
+**TP1**
+
+Para el desarrollo del informe correspondiente a la entrega TP1, se repartieron las tareas de la siguiente manera para cada integrante del equipo:
+
+<table border="1">
+  <tr>
+    <th>Integrante</th>
+    <th>Tareas Asignadas</th>
+  </tr>
+  <tr>
+    <td>Victor Andres Cruz Ibarra</td>
+    <td>Correcciones de las observaciones realizadas en el TB1, capítulo 4 del informe</td>
+  </tr>
+  <tr>
+    <td>Rafael Andres Vivanco Salazar</td>
+    <td>Correciones de las observaciones realizadas en el TB1, capítulo 3 y pantallas del bounded context payment en el frontend </td>
+  </tr>
+  <tr>
+    <td>Sergio Sebastián Iglesias Pérez</td>
+    <td>Correciones de las observaciones realizadas en el TB1 y avance del Backend en su respectivo repositorio</td>
+  </tr>
+  <tr>
+    <td>Henry Kalet Esteban Roman</td>
+    <td>Correciones de las observaciones realizadas en el TB1 y el Landing Page en su respectivo repositorio</td>
+  </tr>
+  <tr>
+    <td>Angelo Hector Solano Armas</td>
+    <td>Correciones de las observaciones realizadas en el TB1, las pantallas pertenecientes a los demás bounded context en el frontend</td>
+  </tr>
+</table>
 
 # <font color="skyblue">**Contenido**</font>
 
@@ -77,6 +146,8 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se repartieron 
 - [**Contenido**](#contenido)
     - [Tabla de contenidos](#tabla-de-contenidos)
 - [**Student Outcome**](#student-outcome)
+- [**Objetivos SMART**](#objetivos-smart)
+
 - [ **Capítulo I: Presentación** ](#-capítulo-i-presentación)
   - [**1.1. Startup Profile**](#11-startup-profile)
     - [**1.1.1. Descripción de la Startup**](#111-descripción-de-la-startup)
@@ -119,7 +190,7 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se repartieron 
         - [**2.5.3.2 Software Architecture Container Level Diagrams**](#2532-software-architecture-container-level-diagrams)
         - [**2.5.3.3 Software Architecture Deployment Diagrams**](#2533-software-architecture-deployment-diagrams)
   - [**2.6 Tactical-Level Domain-Driven Design**](#26-tactical-level-domain-driven-design)
-    - [**2.6.1 Bounded Context: Bounded Context Name**](#261-bounded-context:-bounded-context-name)
+    - [**2.6.1 Bounded Context: Vehicle&Maintenance**](#261-bounded-context-bounded-context-vehicle-maintenance)
         - [**2.6.1.1 Domain Layer**](#2611-domain-laye>)
         - [**2.6.1.2 Interface Layer**](#2612-interface-layer)
         - [**2.6.1.3 Application Layer**](#2613-application-layer)
@@ -128,6 +199,51 @@ Para el desarrollo del informe correspondiente a la entrega TB1, se repartieron 
         - [**2.6.1.6 Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
              - [**2.6.1.6.1 Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
              - [**2.6.1.6.2 Bounded Context Database Design Diagram**](#26162-bounded-context-database-design-diagram)
+    - [**2.6.2 Bounded Context: Trusting&Reputation**](#261-bounded-context-bounded-context-trusting-reputation)
+        - [**2.6.2.1 Domain Layer**](#2611-domain-laye>)
+        - [**2.6.2.2 Interface Layer**](#2612-interface-layer)
+        - [**2.6.2.3 Application Layer**](#2613-application-layer)
+        - [**2.6.2.4 Infrastructure Layer**](#2614-infrastructure-layer)
+        - [**2.6.2.5 Bounded Context Software Architecture Component Level Diagrams**](#2615-bounded-context-software-architecture-component-level-diagrams)
+        - [**2.6.2.6 Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
+             - [**2.6.2.6.1 Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
+             - [**2.6.2.6.2 Bounded Context Database Design Diagram**](#26162-bounded-context-database-design-diagram)
+    - [**2.6.3 Bounded Context: Matching&Booking**](#261-bounded-context-bounded-context-matching-booking)
+        - [**2.6.3.1 Domain Layer**](#2611-domain-laye>)
+        - [**2.6.3.2 Interface Layer**](#2612-interface-layer)
+        - [**2.6.3.3 Application Layer**](#2613-application-layer)
+        - [**2.6.3.4 Infrastructure Layer**](#2614-infrastructure-layer)
+        - [**2.6.3.5 Bounded Context Software Architecture Component Level Diagrams**](#2615-bounded-context-software-architecture-component-level-diagrams)
+        - [**2.6.3.6 Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
+             - [**2.6.3.6.1 Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
+             - [**2.6.3.6.2 Bounded Context Database Design Diagram**](#26162-bounded-context-database-design-diagram)
+    - [**2.6.4 Bounded Context: Workshop**](#261-bounded-context-bounded-context-workshop)
+        - [**2.6.4.1 Domain Layer**](#2611-domain-laye>)
+        - [**2.6.4.2 Interface Layer**](#2612-interface-layer)
+        - [**2.6.4.3 Application Layer**](#2613-application-layer)
+        - [**2.6.4.4 Infrastructure Layer**](#2614-infrastructure-layer)
+        - [**2.6.4.5 Bounded Context Software Architecture Component Level Diagrams**](#2615-bounded-context-software-architecture-component-level-diagrams)
+        - [**2.6.4.6 Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
+             - [**2.6.4.6.1 Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
+             - [**2.6.4.6.2 Bounded Context Database Design Diagram**](#26162-bounded-context-database-design-diagram)
+    - [**2.6.5 Bounded Context: Payment**](#261-bounded-context-bounded-context-payment)
+        - [**2.6.5.1 Domain Layer**](#2611-domain-laye>)
+        - [**2.6.5.2 Interface Layer**](#2612-interface-layer)
+        - [**2.6.5.3 Application Layer**](#2613-application-layer)
+        - [**2.6.5.4 Infrastructure Layer**](#2614-infrastructure-layer)
+        - [**2.6.5.5 Bounded Context Software Architecture Component Level Diagrams**](#2615-bounded-context-software-architecture-component-level-diagrams)
+        - [**2.6.5.6 Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
+             - [**2.6.5.6.1 Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
+             - [**2.6.5.6.2 Bounded Context Database Design Diagram**](#26162-bounded-context-database-design-diagram)
+    - [**2.6.6 Bounded Context: Identity & Access Management (IAM)**](#261-bounded-context-bounded-context-IAM)
+        - [**2.6.6.1 Domain Layer**](#2611-domain-laye>)
+        - [**2.6.6.2 Interface Layer**](#2612-interface-layer)
+        - [**2.6.6.3 Application Layer**](#2613-application-layer)
+        - [**2.6.6.4 Infrastructure Layer**](#2614-infrastructure-layer)
+        - [**2.6.6.5 Bounded Context Software Architecture Component Level Diagrams**](#2615-bounded-context-software-architecture-component-level-diagrams)
+        - [**2.6.6.6 Bounded Context Software Architecture Code Level Diagrams**](#2616-bounded-context-software-architecture-code-level-diagrams)
+             - [**2.6.6.6.1 Bounded Context Domain Layer Class Diagrams**](#26161-bounded-context-domain-layer-class-diagrams)
+             - [**2.6.6.6.2 Bounded Context Database Design Diagram**](#26162-bounded-context-database-design-diagram)
 
 - [ **Capítulo III: Solution UI/UX Design** ](#-capítulo-iii-solution-ui/ux-design)
   - [**3.1. Product design**](#31-product-design)
@@ -197,16 +313,75 @@ conocimientos necesarios para su
 desarrollo profesional y en especial para
 su proyecto en soluciones de ingeniería
 de software </td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Andres Cruz: <br> TB1: <br> <br>Angelo Solano: <br> TB1: <br> <br>Henry Esteban: <br> TB1: <br> <br>Rafael Vivanco: <br> TB1: <br> <br>Sergio Iglesias  <br> TB1: <br> </td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: </td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><b>Andres Cruz:</b> <br> TB1: <br> Al desarrollar la descripción de la startup y estructurar el Product Backlog con herramientas como Lean UX e Impact Mapping, actualicé mis conocimientos en metodologías ágiles y arquitectura de software, lo cual fortalece mis capacidades para aplicar soluciones en proyectos reales de ingeniería de software. <br> <b>Angelo Solano:</b> <br> TB1: <br> Al realizar Needfinding, User Personas, Journey Maps y modelar la capa de dominio, actualicé mis conocimientos sobre experiencia de usuario y diseño de software en capas, lo que me permitió integrar la visión del usuario con la solución técnica en el proyecto. <br><b>Henry Esteban: </b> <br> TB1: <br> Mediante el diseño, registro y análisis de entrevistas, y la construcción del Deployment Diagram, reforcé mis conocimientos sobre técnicas de recolección de requerimientos y despliegue de software, actualizando competencias claves para el desarrollo de proyectos de ingeniería. <br><b>Rafael Vivanco:</b><br> TB1: <br> Al analizar los segmentos objetivos, la competencia y mapear los contextos, actualicé mis conocimientos en análisis estratégico y en arquitectura de software a nivel de contenedores y contexto, lo que me permitió integrar tanto la visión de negocio como la técnica en el proyecto. <br><b>Sergio Iglesias </b><br> TB1: <br> Al analizar los segmentos objetivos, la competencia y mapear los contextos, actualicé mis conocimientos en análisis estratégico y en arquitectura de software a nivel de contenedores y contexto, lo que me permitió integrar tanto la visión de negocio como la técnica en el proyecto. <br><br><b>Víctor Andrés Cruz Ibarra:</b> <br> TP1: <br> Al desarrollar el Product Design, las Style Guidelines y la Information Architecture de AutoNexo, actualicé mis conocimientos en diseño de interfaces, jerarquización de información y aplicación de guías visuales modernas. Esto fortaleció mi comprensión sobre la relación entre estética y usabilidad en proyectos de ingeniería de software. <br><br><b>Ángelo Héctor Solano Armas:</b> <br> TP1: <br> Al diseñar la experiencia UX/UI móvil, crear wireframes, mock-ups y prototipos, actualicé mis conocimientos sobre herramientas de diseño interactivo y metodologías centradas en el usuario, fortaleciendo mi habilidad para transformar requerimientos funcionales en experiencias digitales efectivas. <br><br><b>Henry Kalet Esteban Román:</b> <br> TP1: <br> Mediante la configuración de software, la implementación de la landing page y la aplicación móvil, reforcé mis conocimientos sobre control de versiones, despliegue y gestión de entornos de desarrollo. La corrección de entregas previas me permitió actualizar conceptos sobre integración continua y metodologías ágiles aplicadas a proyectos reales. <br><br><b>Rafael Andrés Vivanco Salazar:</b> <br> TP1: <br> En la elaboración de sistemas de organización, etiquetado, SEO y Sprint Planning, actualicé mis conocimientos en arquitectura de información, optimización web y planificación ágil, consolidando mi capacidad para integrar la perspectiva técnica con la estrategia de desarrollo. <br><br><b>Sergio Sebastián Iglesias Pérez:</b> <br> TP1: <br> Mediante la creación de Mobile Applications Wireflow y User Flow Diagrams, además de evidencias de Testing Suite y Deployment, actualicé mis conocimientos en pruebas de software y despliegue, fortaleciendo mis competencias en control de calidad y desarrollo móvil. </td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: <br> Como grupo, actualizamos y fortalecimos nuestros conocimientos en metodologías ágiles, diseño de experiencia de usuario y arquitectura de software en diferentes niveles. Cada integrante aplicó conceptos actualizados que permitieron enriquecer el proyecto y avanzar en una solución más profesional y estructurada. <br><br>TP1: <br> Como grupo, actualizamos y fortalecimos nuestros conocimientos en metodologías ágiles, diseño de experiencia de usuario y arquitectura de software en distintos niveles. Cada integrante aplicó conceptos actualizados que permitieron enriquecer el proyecto y avanzar hacia una solución más profesional, estructurada y alineada con las buenas prácticas de la ingeniería de software. </td>
 </tr>
 <tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Reconoce la necesidad del
 aprendizaje permanente para el
 desempeño profesional y el desarrollo
 de proyectos en soluciones de
 tecnologías de ingeniería de software.</td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">Andres Cruz: <br> TB1: <br> <br>Angelo Solano: <br> TB1: <br> <br>Henry Esteban: <br> TB1: <br> <br>Rafael Vivanco: <br> TB1: <br> <br>Sergio Iglesias  <br> TB1: <br> </td>
-<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: </td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal"><b>Andres Cruz:</b> <br> TB1: <br> Comprendí que siempre debo seguir aprendiendo sobre nuevas metodologías ágiles, backlog prioritization y herramientas de arquitectura, ya que estas prácticas evolucionan constantemente y son esenciales para responder a las demandas cambiantes de la industria. <br><b>Angelo Solano: </b><br> TB1: <br> Trabajar en la definición de usuarios, journey maps y en la capa de interfaz me permitió reconocer que el aprendizaje permanente es fundamental para mantenerme actualizado en metodologías de diseño centrado en el usuario y en tecnologías de desarrollo de software.<br><b>Henry Esteban: </b> <br> TB1: <br> Durante la preparación y análisis de entrevistas reconocí que el aprendizaje permanente es clave para perfeccionar técnicas de levantamiento de información y adaptación de arquitecturas de despliegue a entornos modernos de software.<br><b>Rafael Vivanco:</b><br> TB1: <br> Al aplicar técnicas avanzadas de modelado de dominios, reconocí la importancia del aprendizaje continuo para mantenerme actualizado en arquitecturas modernas y metodologías de diseño que impactan directamente en la calidad de los proyectos de software.<br><b>Sergio Iglesias </b><br> TB1: <br> Al investigar sobre context mapping y estrategias frente a competidores, entendí que el aprendizaje permanente es necesario para responder a escenarios competitivos y tecnológicos que cambian rápidamente en la industria del software.<br><br><b>Víctor Andrés Cruz Ibarra:</b> <br> TP1: <br> Comprendí que el aprendizaje permanente es esencial para mantenerme actualizado en tendencias de diseño digital, guías de estilo y herramientas de prototipado, necesarias para responder a los cambios tecnológicos del entorno profesional. <br><br><b>Ángelo Héctor Solano Armas:</b> <br> TP1: <br> Durante el desarrollo del prototipo móvil, comprendí la importancia de mantener una mejora continua en conocimientos de UX Research, UI Trends y herramientas colaborativas, reconociendo que el aprendizaje constante es la base del crecimiento profesional. <br><br><b>Henry Kalet Esteban Román:</b> <br> TP1: <br> Al enfrentar desafíos en la configuración e implementación, reconocí que el aprendizaje permanente es fundamental para adaptarme a nuevas tecnologías, frameworks y prácticas DevOps, garantizando un mejor desempeño profesional. <br><br><b>Rafael Andrés Vivanco Salazar:</b> <br> TP1: <br> Reconocí la importancia del aprendizaje continuo al trabajar en arquitectura de información y SEO, comprendiendo que la evolución de los algoritmos y frameworks exige actualización constante para mantener la competitividad en el desarrollo de soluciones sostenibles. <br><br><b>Sergio Sebastián Iglesias Pérez:</b> <br> TP1: <br> Durante la implementación de flujos de usuario y pruebas de software, reconocí que el aprendizaje permanente es necesario para adaptarme a metodologías y herramientas cambiantes, lo que refuerza mi compromiso con la mejora técnica continua. </td>
+<td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:top;word-break:normal">TB1: <br> Reconocimos como equipo la importancia del aprendizaje permanente en ingeniería de software. Las herramientas, metodologías y técnicas que aplicamos en esta entrega (desde entrevistas y journey maps hasta diagramas arquitectónicos y event storming) nos mostraron que el conocimiento en este campo evoluciona constantemente, y que debemos mantenernos en actualización continua para garantizar soluciones de calidad en proyectos reales. <br><br>TP1: <br> El grupo reconoció la necesidad del aprendizaje permanente como parte esencial del desarrollo profesional. La diversidad de tareas abordadas permitió evidenciar que las tecnologías, metodologías ágiles y prácticas de diseño evolucionan constantemente, por lo que la actualización continua resulta indispensable para mantener la calidad e innovación en las soluciones de software. </td>
 </tr>
 </tbody></table>
 </br></br>
+
+# Objetivos SMART
+
+**Rafael Andres Vivanco Salazar**: 
+* Obtener una certificación internacional en AWS Cloud Practitioner en un plazo máximo de 18 meses después de mi graduación, dedicando al menos 6 horas semanales de estudio autodidacta y aplicando los conocimientos adquiridos en proyectos personales y laborales, con el fin de fortalecer mi perfil profesional en computación en la nube.
+
+* Integrarme en una empresa de desarrollo de software antes de cumplir un año de egresado, participando en al menos tres proyectos colaborativos en entornos ágiles (Scrum o Kanban) que me permitan aplicar mis competencias técnicas y mejorar mis habilidades de trabajo en equipo y comunicación profesional.
+
+**Cruz Ibarra, Victor Andres**: 
+* Alcanzar un puesto como ingeniero de software full stack en una empresa tecnológica dentro de los primeros 10 meses después de graduarme, completando tres proyectos personales que integren frontend (Angular o React) y backend (Node.js o Java Spring Boot), y publicándolos en mi portafolio profesional en GitHub y LinkedIn.
+
+* Fortalecer mis competencias en gestión de proyectos ágiles obteniendo la certificación Scrum Master en un plazo máximo de un año tras la graduación, participando en al menos dos equipos de desarrollo con metodología Scrum para aplicar los conocimientos adquiridos y mejorar mi liderazgo técnico.
+
+**Roman Esteban, Henry Kalet**: 
+* Obtener la certificación internacional Professional Scrum Master (PSM I) en un plazo máximo de 9 meses después de la graduación, dedicando 5 horas semanales al estudio de metodologías ágiles y aplicando los conocimientos adquiridos en al menos un proyecto académico o freelance que utilice la metodología Scrum.
+
+* Desarrollar habilidades de liderazgo y gestión de equipos ágiles participando como Scrum Master en tres proyectos colaborativos durante el primer año posterior a la graduación, con el fin de mejorar la eficiencia del equipo en al menos un 20% mediante la implementación de retrospectivas efectivas y seguimiento de métricas ágiles (velocidad y burndown chart).
+
+**Solano Armas, Angelo Hector**: 
+* Convertirme en desarrollador backend especializado en Python y bases de datos SQL en un plazo de 12 meses después de graduarme, completando al menos dos certificaciones en tecnologías backend (como Django y PostgreSQL) y participando en un proyecto freelance o de código abierto que me permita aplicar mis conocimientos en entornos reales.
+
+* Mejorar mis habilidades de comunicación y colaboración profesional al participar activamente en comunidades tecnológicas y eventos de networking (al menos cuatro durante el primer año de egresado), con el fin de ampliar mi red de contactos y fortalecer mi capacidad para trabajar eficazmente en equipos multidisciplinarios.
+
+**Iglesias Pérez, Sergio Sebastián**: 
+* Conseguir un puesto como desarrollador front-end junior en una empresa tecnológica dentro de los seis meses posteriores a la graduación, fortaleciendo mis conocimientos en Angular y React mediante la finalización de dos cursos especializados online y la creación de un portafolio con al menos tres proyectos web personales.
+
+* Desarrollar mis habilidades de trabajo en equipo y liderazgo técnico participando en al menos dos proyectos colaborativos de código abierto durante el primer año de egresada, contribuyendo con un mínimo de cinco commits significativos por proyecto, para mejorar mi experiencia profesional y visibilidad en comunidades de desarrollo.
+
+## Github Collaboration Insights
+
+GitHub proporciona una visualización cronológica (timeline) que muestra la evolución de las ramas principales y los procesos de merge realizados a lo largo del desarrollo. Todas las ramas fueron creadas siguiendo la estructura propuesta por GitFlow, lo que permite mantener una organización clara y coherente del flujo de trabajo dentro del sistema de control de versiones.
+
+Los colaboradores identificados en el repositorio son:
+- Cruz Ibarra, Victor Andres: Elandrehs
+- Solano Armas, Angelo Hector: Angelo5214
+- Iglesias Pérez, Sergio Sebastián: ghostrider101218
+- Roman Esteban, Henry Kalet: kalet123-commit
+- Vivanco Salazar, Rafael Andres: RafaelVivanco
+
+Asimismo, se explican las ramas que tenemos hasta el momento: 
+- main: Aún no se encuentra representada, pues se hace un merge en cada entrega al ser la rama principal del proyecto.
+- develop: Representada por la rama blanca. Se trata de la rama principal para el proceso del desarrollo del proyecto.
+- feature/x: Representada por las ramas inferiores a develop (azul y verde). Se utilizan para el desarrollo de cada uno de los contribuyentes
+
+
+<div>
+  <p><img alt="Network Graph TP" src="assets\chapter-I-assets\network_graph_TP.png" width="700px"/></p>
+</div>
+
+Los siguientes gráficos muestran analíticos en cuanto a los commits que cada integrante del grupo ha estado realizando en el repositorio.
+
+__TP__
+
+<div>
+  <p><img alt="Contributors TP" src="assets\chapter-I-assets\contributors_TP.png" width="700px"/></p>
+</div>
+<div>
+  <p><img alt="Overview TP" src="assets\chapter-I-assets\overview_TP.png" width="700px"/></p>
+</div>
