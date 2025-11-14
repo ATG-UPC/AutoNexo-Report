@@ -64,11 +64,16 @@
     <td>Reporte, capítulos 1 y 2</td>
   </tr>
   <tr>
-  <td>TP1</td>
-  <td>08/10/2025</td>
-  <td>Todos los integrantes del grupo aportaron</td>
-  <td>Reporte, capítulos 3, 4, correcciones y landing page</td>
-  
+    <td>TP1</td>
+    <td>08/10/2025</td>
+    <td>Todos los integrantes del grupo aportaron</td>
+    <td>Reporte, capítulos 3, 4, correcciones y landing page</td>
+  </tr>
+  <tr>
+    <td>TB2</td>
+    <td>13/11/2025</td>
+    <td>Todos los integrantes del grupo</td>
+    <td>Avance de pantallas (Kotlin/Dart), implementación y despliegue del backend, correcciones de reporte y presentación, documentación del Sprint 2</td>
   </tr>
 </table>
 
@@ -138,6 +143,38 @@ Para el desarrollo del informe correspondiente a la entrega TP1, se repartieron 
     <td>Correciones de las observaciones realizadas en el TB1, las pantallas pertenecientes a los demás bounded context en el frontend</td>
   </tr>
 </table>
+
+**TB2**
+
+Para el desarrollo del informe correspondiente a la entrega TB2, se repartieron las tareas de la siguiente manera para cada integrante del equipo:
+
+<table border="1">
+  <tr>
+    <th>Integrante</th>
+    <th>Tareas Asignadas</th>
+  </tr>
+  <tr>
+    <td>Victor Andres Cruz Ibarra</td>
+    <td>Avance de pantallas para la aplicación en Kotlin, corrección de observaciones en la presentación, corrección de observaciones en el reporte, documentación del Sprint 2</td>
+  </tr>
+  <tr>
+    <td>Henry Kalet Esteban Román</td>
+    <td>Registro de versiones para la TB2 dentro del informe, corrección de observaciones en el reporte, corrección de observaciones en la presentación, documentación del Sprint 2</td>
+  </tr>
+  <tr>
+    <td>Rafael Andres Vivanco Salazar</td>
+    <td>Avance de pantallas para la aplicación en Kotlin, corrección de observaciones en el reporte, corrección de observaciones en la presentación, documentación del Sprint 2</td>
+  </tr>
+  <tr>
+    <td>Angelo Hector Solano Armas</td>
+    <td>Avance de pantallas para la aplicación en Kotlin, avance de pantallas para la aplicación en Dart, documentación del Sprint 2</td>
+  </tr>
+  <tr>
+    <td>Iglesias Pérez, Sergio Sebastián</td>
+    <td>Implementación del backend en Spring Java, despliegue del backend, documentación del Sprint 2</td>
+  </tr>
+</table>
+
 
 # <font color="skyblue">**Contenido**</font>
 
