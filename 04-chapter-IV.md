@@ -1031,7 +1031,7 @@ Vista de servicios pendientes (Mecánico):
 <br>
 
 
-Video de evidencia: [Autonexo - Sprint 2 Demo Video](https://drive.google.com/drive/folders/1cm5FJjK9crdP5qNHeuj-Ghukw7DCB6Ai?usp=drive_link)
+Video de evidencia: Autonexo - Sprint 2 Demo Video : https://drive.google.com/drive/folders/19MwIHCQTW0TaCgJVSmqp9dNQMGim-ayI?usp=sharing
 
 
 ##### **4.2.2.6. Services Documentation Evidence for Sprint Review**
