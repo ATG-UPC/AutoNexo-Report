@@ -1,10 +1,12 @@
 # <center>Project Report</center>
 <p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Ingeniería de Software - 2025-20</strong><br>
-    <strong>Aplicaciones para Dispositivos Móviles - 1798</strong><br>
-    <strong>Profesor: Jorge Luis Mayta Guillermo</strong><br>
+    <strong style="font-size: 1.7em;">Universidad Peruana de Ciencias Aplicadas</strong><br>
+    <strong style="font-size: 1.7em;">Ingeniería de Software</strong><br>
+    <strong>Periodo: 2025-20</strong>
+    <strong>1ACC0238 | Aplicaciones para Dispositivos Móviles</strong><br>
+    <strong>NRC : 1798</strong>
+    <strong>Docente: Jorge Luis Mayta Guillermo</strong><br>
     <br><strong>Informe del Trabajo Final</strong>
 </p>
 
