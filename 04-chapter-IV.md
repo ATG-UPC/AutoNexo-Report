@@ -671,9 +671,286 @@ A continuación, se presenta la evidencia de participación de los miembros del 
 
 #### **4.3.1. Diseño de Entrevistas**
 
+Se realizó investigación cualitativa mediante entrevistas de validación con usuarios de los segmentos objetivo del proyecto: mecánicos/talleres y conductores de vehículos. El objetivo fue validar la funcionalidad, usabilidad y experiencia de usuario de la aplicación móvil AutoNexo y el landing page, identificando áreas de mejora y confirmando que la solución cumple con las expectativas y necesidades de los usuarios.
+
+Se desarrollaron dos bloques de preguntas diferenciados por el segmento objetivo, enfocadas en validar la interacción con el landing page y la aplicación móvil. Las preguntas buscaron recopilar tanto información objetiva (funcionalidades utilizadas, flujos completados) como información subjetiva (percepciones, satisfacción, dificultades encontradas y sugerencias de mejora).
+
+#### Segmento 1: Propietarios de vehículos
+
+**Preguntas sobre el Landing Page**
+
+1. ¿Qué información del landing page te resultó más útil o interesante?
+2. ¿La información presentada te ayudó a entender qué es AutoNexo y cómo puede beneficiarte?
+3. ¿Encontraste fácilmente las secciones de registro y descarga de la aplicación?
+4. ¿Qué mejoras sugerirías para el landing page?
+
+**Preguntas sobre la Aplicación Móvil - Funcionalidades Principales**
+
+1. ¿Cómo calificarías la facilidad de registro e inicio de sesión en la aplicación?
+2. ¿Fue intuitivo el proceso de registro de tu vehículo?
+3. ¿La navegación entre las diferentes secciones de la aplicación te resultó clara y fácil de usar?
+4. ¿Cómo evaluarías el proceso de crear una solicitud de mantenimiento?
+5. ¿La visualización de ofertas de mantenimiento te resultó útil y comprensible?
+6. ¿Cómo calificarías el proceso de reservar una cita de mantenimiento?
+7. ¿La visualización del historial de mantenimientos de tu vehículo cumple con tus expectativas?
+8. ¿El sistema de mensajería con los talleres te resultó fácil de usar?
+9. ¿Cómo evaluarías el proceso de pago de servicios?
+10. ¿La funcionalidad de calificación y reseñas te parece útil?
+
+**Preguntas sobre Usabilidad y Experiencia**
+
+1. ¿Encontraste algún problema o dificultad al usar la aplicación?
+2. ¿Qué funcionalidad te gustaría que tuviera la aplicación y actualmente no tiene?
+3. ¿Recomendarías AutoNexo a otros propietarios de vehículos? ¿Por qué?
+4. ¿Cómo calificarías tu experiencia general con la aplicación (del 1 al 5)?
+5. ¿Qué aspectos de la aplicación te gustaron más?
+6. ¿Qué aspectos de la aplicación te gustaron menos o mejorarías?
+
+#### Segmento 2: Mecánicos/Talleres
+
+**Preguntas sobre el Landing Page**
+
+1. ¿Qué información del landing page te resultó más útil o interesante?
+2. ¿La información sobre los planes de pago para talleres te resultó clara?
+3. ¿Encontraste fácilmente las secciones de registro y descarga de la aplicación?
+4. ¿Qué mejoras sugerirías para el landing page?
+
+**Preguntas sobre la Aplicación Móvil - Funcionalidades Principales**
+
+1. ¿Cómo calificarías la facilidad de registro e inicio de sesión en la aplicación?
+2. ¿Fue intuitivo el proceso de registro y configuración de tu taller?
+3. ¿La navegación entre las diferentes secciones de la aplicación te resultó clara y fácil de usar?
+4. ¿Cómo evaluarías el proceso de crear una oferta de mantenimiento?
+5. ¿La visualización de solicitudes de servicio disponibles te resultó útil?
+6. ¿Cómo calificarías el proceso de gestionar las reservas de servicios?
+7. ¿La funcionalidad de gestión de empleados e invitaciones te resultó fácil de usar?
+8. ¿El sistema de actualización de checklist durante el mantenimiento te resultó práctico?
+9. ¿Cómo evaluarías el proceso de finalizar un mantenimiento?
+10. ¿La visualización del historial de servicios realizados cumple con tus expectativas?
+11. ¿El sistema de mensajería con los propietarios te resultó fácil de usar?
+12. ¿Cómo evaluarías el proceso de gestión de suscripciones y pagos?
+
+**Preguntas sobre Usabilidad y Experiencia**
+
+1. ¿Encontraste algún problema o dificultad al usar la aplicación?
+2. ¿Qué funcionalidad te gustaría que tuviera la aplicación y actualmente no tiene?
+3. ¿Recomendarías AutoNexo a otros talleres o mecánicos? ¿Por qué?
+4. ¿Cómo calificarías tu experiencia general con la aplicación (del 1 al 5)?
+5. ¿Qué aspectos de la aplicación te gustaron más?
+6. ¿Qué aspectos de la aplicación te gustaron menos o mejorarías?
+
 #### **4.3.2. Registro de Entrevistas**
 
+**Segmento 1: Propietarios de vehículos**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>1</td>
+    <th>Nombre</th>
+    <td>[Nombre del entrevistado]</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>[Edad]</td>
+    <th>Distrito</th>
+    <td>[Distrito]</td>
+  </tr>
+  <tr>
+    <th>Fecha de entrevista</th>
+    <td colspan="3">[Fecha]</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-IV-assets/validation_interview_1_owner.jpg" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        [Descripción detallada de las observaciones del entrevistado durante la interacción con el landing page y la aplicación móvil, incluyendo funcionalidades probadas, dificultades encontradas, aspectos positivos y sugerencias de mejora.]
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="[URL del video en OneDrive]">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        [Timing de la entrevista]
+    </td>
+  </tr>
+</table>
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>2</td>
+    <th>Nombre</th>
+    <td>[Nombre del entrevistado]</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>[Edad]</td>
+    <th>Distrito</th>
+    <td>[Distrito]</td>
+  </tr>
+  <tr>
+    <th>Fecha de entrevista</th>
+    <td colspan="3">[Fecha]</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-IV-assets/validation_interview_2_owner.jpg" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        [Descripción detallada de las observaciones del entrevistado durante la interacción con el landing page y la aplicación móvil, incluyendo funcionalidades probadas, dificultades encontradas, aspectos positivos y sugerencias de mejora.]
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="[URL del video en OneDrive]">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        [Timing de la entrevista]
+    </td>
+  </tr>
+</table>
+<br>
+
+**Segmento 2: Mecánicos/Talleres**
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>3</td>
+    <th>Nombre</th>
+    <td>[Nombre del entrevistado]</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>[Edad]</td>
+    <th>Distrito</th>
+    <td>[Distrito]</td>
+  </tr>
+  <tr>
+    <th>Fecha de entrevista</th>
+    <td colspan="3">[Fecha]</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-IV-assets/validation_interview_3_mechanic.jpg" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        [Descripción detallada de las observaciones del entrevistado durante la interacción con el landing page y la aplicación móvil, incluyendo funcionalidades probadas, dificultades encontradas, aspectos positivos y sugerencias de mejora.]
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="[URL del video en OneDrive]">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        [Timing de la entrevista]
+    </td>
+  </tr>
+</table>
+<br>
+
+<table border="1">
+  <tr>
+    <th>Entrevista</th>
+    <td>4</td>
+    <th>Nombre</th>
+    <td>[Nombre del entrevistado]</td>
+  </tr>
+  <tr>
+    <th>Edad</th>
+    <td>[Edad]</td>
+    <th>Distrito</th>
+    <td>[Distrito]</td>
+  </tr>
+  <tr>
+    <th>Fecha de entrevista</th>
+    <td colspan="3">[Fecha]</td>
+  </tr>
+  <tr>
+    <th>Captura de la entrevista: <img src="assets/chapter-IV-assets/validation_interview_4_mechanic.jpg" alt="Captura de la entrevista" width="200"></th>
+    <td colspan="3">
+        [Descripción detallada de las observaciones del entrevistado durante la interacción con el landing page y la aplicación móvil, incluyendo funcionalidades probadas, dificultades encontradas, aspectos positivos y sugerencias de mejora.]
+    </td>
+  </tr>
+  <tr>
+    <th>URL de la grabación</th>
+    <td colspan="3">
+      <a href="[URL del video en OneDrive]">
+        Ver grabación
+      </a>
+    </td>
+  </tr>
+  <tr>
+   <th>Timing</th>
+    <td colspan="3">
+        [Timing de la entrevista]
+    </td>
+  </tr>
+</table>
+
 #### **4.3.3. Evaluaciones según heurísticas**
+
+En esta sección se presentan las evaluaciones realizadas según las heurísticas de usabilidad, arquitectura de información y diseño inclusivo para cada sesión de evaluación con usuarios.
+
+**Heurísticas de Usabilidad (Nielsen)**
+
+Para cada entrevista se evaluaron los siguientes aspectos:
+
+1. **Visibilidad del estado del sistema**: El sistema debe mantener informados a los usuarios sobre lo que está ocurriendo mediante retroalimentación apropiada dentro de un tiempo razonable.
+2. **Correspondencia entre el sistema y el mundo real**: El sistema debe hablar el lenguaje de los usuarios, con palabras, frases y conceptos familiares al usuario.
+3. **Control y libertad del usuario**: Los usuarios a menudo eligen funciones por error y necesitan una "salida de emergencia" claramente marcada.
+4. **Consistencia y estándares**: Los usuarios no deben tener que preguntarse si palabras, situaciones o acciones diferentes significan lo mismo.
+5. **Prevención de errores**: Mejor que un buen mensaje de error es un diseño cuidadoso que previene que ocurra el problema.
+6. **Reconocimiento en lugar de recuerdo**: Minimizar la carga de memoria del usuario haciendo visibles objetos, acciones y opciones.
+7. **Flexibilidad y eficiencia de uso**: Los aceleradores pueden acelerar la interacción para el usuario experto.
+8. **Diseño estético y minimalista**: Los diálogos no deben contener información que sea irrelevante o raramente necesaria.
+9. **Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores**: Los mensajes de error deben expresarse en lenguaje claro, indicar el problema y sugerir una solución.
+10. **Ayuda y documentación**: Aunque es mejor si el sistema puede usarse sin documentación, puede ser necesario proporcionar ayuda y documentación.
+
+**Arquitectura de Información**
+
+Se evaluaron los siguientes aspectos:
+
+1. **Organización**: La estructura y organización de la información en la aplicación.
+2. **Navegación**: La facilidad para moverse entre diferentes secciones y funcionalidades.
+3. **Etiquetado**: La claridad y consistencia de las etiquetas y nombres utilizados.
+4. **Búsqueda**: La capacidad de encontrar información específica dentro de la aplicación.
+
+**Diseño Inclusivo**
+
+Se evaluaron los siguientes aspectos:
+
+1. **Accesibilidad**: La aplicación debe ser accesible para usuarios con diferentes capacidades.
+2. **Diversidad de usuarios**: Consideración de diferentes perfiles de usuarios y sus necesidades.
+3. **Inclusión de diferentes contextos de uso**: La aplicación debe funcionar en diferentes situaciones y contextos.
+
+**Evaluación por Entrevista**
+
+Para cada entrevista realizada, se documentará:
+
+- **Resumen de observaciones**: Principales hallazgos durante la interacción con el landing page y la aplicación móvil.
+- **Evaluación de heurísticas**: Calificación y comentarios sobre cada heurística evaluada.
+- **Problemas identificados**: Lista de problemas encontrados durante la evaluación.
+- **Recomendaciones de mejora**: Sugerencias específicas para mejorar la experiencia de usuario.
+- **Calificación general**: Evaluación general de la experiencia de usuario.
+
+[Nota: Esta sección se completará con los resultados específicos de cada entrevista una vez que se realicen las sesiones de validación con usuarios.]
 
 #### **4.2.2. Sprint 2**
 
@@ -1325,3 +1602,722 @@ Reporte:
 - [Repositorio de la Landing Page en GitHub](https://github.com/ATG-UPC/AutoNexo-Landing-Page)
 - [Repositorio del Backend en GitHub](https://github.com/ATG-UPC/AutoNexo-Backend)
 - [Repositorio de la Aplicación Móvil en GitHub](https://github.com/ATG-UPC/AutoNexo-Android)
+
+#### **4.2.3. Sprint 3**
+
+##### **4.2.3.1. Sprint Planning 3**
+
+En esta sección se describen los elementos principales abordados durante la reunión de planificación del Sprint 3. Se especifican detalles como la fecha y hora del encuentro, los miembros participantes, el objetivo del Sprint, la velocidad estimada del equipo y la cantidad total de puntos de historia comprometidos para este ciclo de desarrollo. A continuación, se expone el resumen correspondiente a dicha planificación.
+
+| Sprint # | Sprint 3 |
+|----------|---------|
+| Date | 2025 - 11 - 01 |
+| Time | 8:00 PM |
+| Location | Reunión virtual a través de discord | 
+| Prepared by | Solano Armas, Angelo Hector | 
+| Attendees (to planning meeting) | Cruz Ibarra, Victor Andres; Iglesias Pérez, Sergio Sebastián; Roman Esteban, Henry Kalet; Solano Armas, Angelo Hector; Vivanco Salazar, Rafael Andres
+| Sprint n – 1 Review Summary | Durante el Sprint 2 se completó exitosamente el despliegue del backend al 100% en Azure con documentación Swagger completa, se implementaron las funcionalidades core de la aplicación móvil (catálogo de servicios, búsqueda, registro de vehículos, historial, citas, checklist, mantenimientos pendientes y finalización), y se finalizaron las pantallas principales para propietarios y mecánicos. El backend fue desplegado en Azure App Services con documentación completa accesible públicamente. | 
+| Sprint 3 Goal | Nuestro enfoque está en completar la implementación de los bounded contexts de Offer, Request y Service Booking, así como avanzar en los bounded contexts de Payment y Workshop. Además, implementaremos el diseño completo en Android para las features de perfil, autenticación, home, matching y payment, y desarrollaremos las funcionalidades equivalentes en Flutter (home, vehicle management, maintenance history, service request, offer, reviews, bookings, workshop profile). Creemos que esto proporcionará una experiencia de usuario completa y pulida en ambas plataformas móviles, permitiendo a los usuarios interactuar con todas las capacidades avanzadas del ecosistema AutoNexo.  | 
+| Sprint 3 Velocity | 42 story points | 
+| Sum of story points | 42 story points |
+
+
+##### **4.2.3.2. Sprint Backlog 3**
+
+El propósito del Sprint 3 es completar la implementación de los bounded contexts de Offer, Request y Service Booking, avanzar en los bounded contexts de Payment y Workshop, implementar el diseño completo en Android para las features principales, y desarrollar las funcionalidades equivalentes en Flutter. A continuación, se presenta una vista general de las historias de usuario planificadas para este sprint, junto con sus respectivas épicas y el estado de avance de cada una.
+
+<img alt="Sprint Backlog 3 in Trello" src="assets\chapter-IV-assets\sprint3_trello.png" />
+
+<br>
+
+Link Trello: [Autonexo - Trello](https://trello.com/b/4uTEBz5O/atg-autonexo)
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Sprint #</th>
+      <th colspan="8">Sprint 3</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="7">Work Item / Task</th>
+    </tr>
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (hours)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US04</td>
+      <td>Gestión de ofertas de mantenimiento</td>
+      <td>T20</td>
+      <td>Implementar bounded context de Offer</td>
+      <td>Desarrollar funcionalidad completa para crear, gestionar y retirar ofertas de mantenimiento por parte de talleres.</td>
+      <td>5</td>
+      <td>Cruz Ibarra, Victor Andres</td>
+      <td>Done</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Gestión de solicitudes de servicio</td>
+      <td>T21</td>
+      <td>Implementar bounded context de Request</td>
+      <td>Crear sistema completo para gestionar solicitudes de servicio desde propietarios hacia talleres.</td>
+      <td>5</td>
+      <td>Iglesias Pérez, Sergio Sebastián</td>
+      <td>Done</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Reserva de servicios (Service Booking)</td>
+      <td>T22</td>
+      <td>Implementar bounded context de Service Booking</td>
+      <td>Desarrollar funcionalidad para reservar servicios y gestionar reservas entre propietarios y talleres.</td>
+      <td>6</td>
+      <td>Vivanco Salazar, Rafael Andres</td>
+      <td>Done</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td>Gestión de pagos y suscripciones</td>
+      <td>T23</td>
+      <td>Implementar bounded context de Payment</td>
+      <td>Desarrollar sistema de pagos y gestión de suscripciones para talleres.</td>
+      <td>5</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>US17</td>
+      <td>Gestión completa de taller</td>
+      <td>T24</td>
+      <td>Implementar bounded context de Workshop</td>
+      <td>Completar funcionalidades de gestión de taller incluyendo ubicaciones, empleados, invitaciones y configuración.</td>
+      <td>6</td>
+      <td>Roman Esteban, Henry Kalet</td>
+      <td>Done</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>US18</td>
+      <td>Autenticación y gestión de perfil</td>
+      <td>T25</td>
+      <td>Implementar feature de Auth y Profile en Android</td>
+      <td>Desarrollar pantallas completas de autenticación (login, registro, recuperación de contraseña) y gestión de perfil con diseño implementado.</td>
+      <td>4</td>
+      <td>Cruz Ibarra, Victor Andres</td>
+      <td>Done</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>US19</td>
+      <td>Pantalla Home y navegación</td>
+      <td>T26</td>
+      <td>Implementar feature de Home en Android</td>
+      <td>Crear pantalla principal con navegación inferior y lateral, integrando todas las secciones principales.</td>
+      <td>3</td>
+      <td>Iglesias Pérez, Sergio Sebastián</td>
+      <td>Done</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>US20</td>
+      <td>Sistema de matching y ofertas</td>
+      <td>T27</td>
+      <td>Implementar feature de Matching en Android</td>
+      <td>Desarrollar funcionalidad de matching entre solicitudes y ofertas, incluyendo visualización y gestión.</td>
+      <td>4</td>
+      <td>Vivanco Salazar, Rafael Andres</td>
+      <td>Done</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>FLUTTER</td>
+      <td>Implementación en Flutter</td>
+      <td>T28</td>
+      <td>Desarrollar features principales en Flutter</td>
+      <td>Implementar home, vehicle management, maintenance history, service request, offer, reviews, bookings y workshop profile en Flutter.</td>
+      <td>8</td>
+      <td>Solano Armas, Angelo Hector</td>
+      <td>Done</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+
+##### **4.2.3.3. Development Evidence for Sprint Review**
+
+En esta sección se presentan los avances logrados durante el Sprint 3, enfocados en la implementación completa de los bounded contexts de Offer, Request y Service Booking, el avance en los bounded contexts de Payment y Workshop, la implementación del diseño completo en Android para las features principales, y el desarrollo de funcionalidades equivalentes en Flutter. El objetivo de este sprint fue completar el ecosistema funcional avanzado del proyecto, asegurando que todas las capacidades principales estén disponibles y operativas en ambas plataformas móviles.
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Backend</td>
+      <td>feature/offer-bounded-context</td>
+      <td>f1a2b3c</td>
+      <td>feat: implement offer bounded context</td>
+      <td>Se implementó el bounded context completo de Offer con endpoints para crear, gestionar y retirar ofertas de mantenimiento. <em>(US04)</em></td>
+      <td>2025-11-02</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Backend</td>
+      <td>feature/request-bounded-context</td>
+      <td>d4e5f6g</td>
+      <td>feat: implement request bounded context</td>
+      <td>Se desarrolló el bounded context completo de Request para gestionar solicitudes de servicio desde propietarios hacia talleres. <em>(US05)</em></td>
+      <td>2025-11-03</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Backend</td>
+      <td>feature/service-booking-bounded-context</td>
+      <td>h7i8j9k</td>
+      <td>feat: implement service booking bounded context</td>
+      <td>Se implementó el bounded context de Service Booking para reservar servicios y gestionar reservas. <em>(US11)</em></td>
+      <td>2025-11-05</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Backend</td>
+      <td>feature/payment-bounded-context</td>
+      <td>l1m2n3o</td>
+      <td>feat: implement payment bounded context</td>
+      <td>Se desarrolló el bounded context de Payment con gestión de pagos y suscripciones para talleres. <em>(US15)</em></td>
+      <td>2025-11-06</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Backend</td>
+      <td>feature/workshop-bounded-context</td>
+      <td>p4q5r6s</td>
+      <td>feat: complete workshop bounded context</td>
+      <td>Se completó el bounded context de Workshop con gestión de ubicaciones, empleados, invitaciones y configuración. <em>(US17)</em></td>
+      <td>2025-11-07</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/auth-profile-design</td>
+      <td>t7u8v9w</td>
+      <td>feat: implement auth and profile features with design</td>
+      <td>Se implementaron las pantallas completas de autenticación y gestión de perfil con diseño aplicado. <em>(US18)</em></td>
+      <td>2025-11-08</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/home-navigation</td>
+      <td>x1y2z3a</td>
+      <td>feat: implement home screen with navigation</td>
+      <td>Se creó la pantalla principal con navegación inferior y lateral integrando todas las secciones. <em>(US19)</em></td>
+      <td>2025-11-09</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/matching-offers</td>
+      <td>b4c5d6e</td>
+      <td>feat: implement matching and offers system</td>
+      <td>Se desarrolló la funcionalidad de matching entre solicitudes y ofertas con visualización y gestión completa. <em>(US20)</em></td>
+      <td>2025-11-10</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/payment-subscription</td>
+      <td>f7g8h9i</td>
+      <td>feat: implement payment and subscription features</td>
+      <td>Se implementaron las funcionalidades de pago y gestión de suscripciones en la aplicación móvil. <em>(US15)</em></td>
+      <td>2025-11-11</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Android</td>
+      <td>feature/workshop-management</td>
+      <td>j1k2l3m</td>
+      <td>feat: implement workshop management features</td>
+      <td>Se desarrollaron las funcionalidades completas de gestión de taller incluyendo ubicaciones, empleados e invitaciones. <em>(US17)</em></td>
+      <td>2025-11-12</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Flutter</td>
+      <td>feature/flutter-home</td>
+      <td>n4o5p6q</td>
+      <td>feat: implement home screen in Flutter</td>
+      <td>Se implementó la pantalla principal de home en Flutter con navegación integrada.</td>
+      <td>2025-11-13</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Flutter</td>
+      <td>feature/flutter-vehicle-management</td>
+      <td>r7s8t9u</td>
+      <td>feat: implement vehicle management in Flutter</td>
+      <td>Se desarrolló la funcionalidad de gestión de vehículos en Flutter.</td>
+      <td>2025-11-14</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Flutter</td>
+      <td>feature/flutter-maintenance-history</td>
+      <td>v1w2x3y</td>
+      <td>feat: implement maintenance history in Flutter</td>
+      <td>Se implementó la vista de historial de mantenimientos en Flutter.</td>
+      <td>2025-11-15</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Flutter</td>
+      <td>feature/flutter-service-request</td>
+      <td>z4a5b6c</td>
+      <td>feat: implement service request in Flutter</td>
+      <td>Se desarrolló la funcionalidad de solicitudes de servicio en Flutter.</td>
+      <td>2025-11-16</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Flutter</td>
+      <td>feature/flutter-offer-reviews-bookings</td>
+      <td>d7e8f9g</td>
+      <td>feat: implement offer, reviews and bookings in Flutter</td>
+      <td>Se implementaron las funcionalidades de ofertas, reseñas y reservas en Flutter.</td>
+      <td>2025-11-17</td>
+    </tr>
+    <tr>
+      <td>ATG-UPC/AutoNexo-Flutter</td>
+      <td>feature/flutter-workshop-profile</td>
+      <td>h1i2j3k</td>
+      <td>feat: implement workshop profile in Flutter</td>
+      <td>Se desarrolló el perfil de taller completo en Flutter.</td>
+      <td>2025-11-18</td>
+    </tr>
+  </tbody>
+</table>
+
+##### **4.2.3.4. Testing Suite Evidence for Sprint Review**
+
+Durante el Sprint 3, el equipo de AutoNexo desarrolló y ejecutó un conjunto exhaustivo de pruebas automatizadas y manuales para verificar el correcto funcionamiento de los bounded contexts implementados, las features de Android con diseño aplicado y las funcionalidades desarrolladas en Flutter.
+
+<table> <thead> <tr> <th>Repository</th> <th>Branch</th> <th>Commit Id</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Committed on (Date)</th> </tr> </thead> <tbody> <tr> <td>ATG-UPC/AutoNexo-Backend</td> <td>test/offer-bounded-context</td> <td>l4m5n6o</td> <td>test: add tests for offer bounded context</td> <td>Se agregaron pruebas unitarias y de integración para el bounded context de Offer. <em>(US04)</em></td> <td>2025-11-03</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Backend</td> <td>test/request-bounded-context</td> <td>p7q8r9s</td> <td>test: add tests for request bounded context</td> <td>Se desarrollaron pruebas para verificar el funcionamiento del bounded context de Request. <em>(US05)</em></td> <td>2025-11-04</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Backend</td> <td>test/service-booking-bounded-context</td> <td>t1u2v3w</td> <td>test: add tests for service booking bounded context</td> <td>Se probaron las funcionalidades del bounded context de Service Booking. <em>(US11)</em></td> <td>2025-11-06</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Backend</td> <td>test/payment-bounded-context</td> <td>x4y5z6a</td> <td>test: add tests for payment bounded context</td> <td>Se validaron las funcionalidades de pago y suscripciones. <em>(US15)</em></td> <td>2025-11-07</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Backend</td> <td>test/workshop-bounded-context</td> <td>b7c8d9e</td> <td>test: add tests for workshop bounded context</td> <td>Se verificaron las funcionalidades completas de gestión de taller. <em>(US17)</em></td> <td>2025-11-08</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/auth-profile-features</td> <td>f1g2h3i</td> <td>test: test auth and profile features</td> <td>Se realizaron pruebas de las funcionalidades de autenticación y perfil. <em>(US18)</em></td> <td>2025-11-09</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/home-navigation</td> <td>j4k5l6m</td> <td>test: test home screen and navigation</td> <td>Se validó el funcionamiento de la pantalla principal y navegación. <em>(US19)</em></td> <td>2025-11-10</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/matching-offers</td> <td>n7o8p9q</td> <td>test: test matching and offers system</td> <td>Se probaron las funcionalidades de matching y gestión de ofertas. <em>(US20)</em></td> <td>2025-11-11</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Android</td> <td>test/payment-subscription</td> <td>r1s2t3u</td> <td>test: test payment and subscription features</td> <td>Se validaron las funcionalidades de pago y suscripciones en Android. <em>(US15)</em></td> <td>2025-11-12</td> </tr> <tr> <td>ATG-UPC/AutoNexo-Flutter</td> <td>test/flutter-features</td> <td>v4w5x6y</td> <td>test: add tests for Flutter features</td> <td>Se implementaron pruebas para las funcionalidades desarrolladas en Flutter.</td> <td>2025-11-19</td> </tr> </tbody> </table>
+
+##### **4.2.3.5. Execution Evidence for Sprint Review**
+
+Durante este Sprint se logró implementar de forma completa los bounded contexts de Offer, Request y Service Booking, avanzar significativamente en los bounded contexts de Payment y Workshop, implementar el diseño completo en Android para las features principales (auth, profile, home, matching, payment, workshop), y desarrollar las funcionalidades equivalentes en Flutter. El desarrollo se centró en crear un ecosistema funcional avanzado y completo que permita a los usuarios interactuar con todas las capacidades principales de la plataforma en ambas plataformas móviles.
+
+El trabajo realizado incluyó la implementación de los bounded contexts backend, el diseño completo de las features de Android, la funcionalidad de matching entre solicitudes y ofertas, el sistema de pagos y suscripciones, la gestión completa de talleres, y el desarrollo paralelo en Flutter de las funcionalidades principales.
+
+A continuación, se presentan las capturas de pantalla de las principales funcionalidades desarrolladas como evidencia del trabajo realizado:
+
+<br>
+
+Pantalla de autenticación (Login):
+
+<img alt="Login" src="assets\chapter-IV-assets\sprint3_evidence_login.png" />
+
+<br>
+
+Pantalla de registro:
+
+<img alt="Registro" src="assets\chapter-IV-assets\sprint3_evidence_register.png" />
+
+<br>
+
+Pantalla Home con navegación:
+
+<img alt="Home" src="assets\chapter-IV-assets\sprint3_evidence_home.png" />
+
+<br>
+
+Gestión de perfil:
+
+<img alt="Perfil" src="assets\chapter-IV-assets\sprint3_evidence_profile.png" />
+
+<br>
+
+Sistema de ofertas:
+
+<img alt="Ofertas" src="assets\chapter-IV-assets\sprint3_evidence_offers.png" />
+
+<br>
+
+Solicitudes de servicio:
+
+<img alt="Solicitudes" src="assets\chapter-IV-assets\sprint3_evidence_requests.png" />
+
+<br>
+
+Gestión de taller:
+
+<img alt="Taller" src="assets\chapter-IV-assets\sprint3_evidence_workshop.png" />
+
+<br>
+
+Sistema de pagos y suscripciones:
+
+<img alt="Pagos" src="assets\chapter-IV-assets\sprint3_evidence_payment.png" />
+
+<br>
+
+Reservas de servicios:
+
+<img alt="Reservas" src="assets\chapter-IV-assets\sprint3_evidence_bookings.png" />
+
+<br>
+
+Video de evidencia: Autonexo - Sprint 3 Demo Video : https://drive.google.com/drive/folders/[FOLDER_ID]?usp=sharing
+
+##### **4.2.3.6. Services Documentation Evidence for Sprint Review**
+
+Durante el Sprint 3, se completaron e implementaron los bounded contexts de Offer, Request, Service Booking, Payment y Workshop, documentándose exhaustivamente todos los servicios RESTful correspondientes, garantizando una comunicación eficiente entre el frontend y el backend mediante peticiones HTTP estandarizadas (GET, POST, PUT, DELETE).
+
+A continuación, se detallan las principales evidencias y descripciones de los endpoints desarrollados y documentados:
+
+**A. OfferController**
+
+Este controlador gestiona las operaciones relacionadas con las ofertas de mantenimiento, incluyendo su creación, consulta, actualización y retiro.
+
+Principales endpoints:
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Endpoint</strong></th>
+      <th><strong>HTTP Method</strong></th>
+      <th><strong>Descripción</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/offers</td>
+      <td>POST</td>
+      <td>Crea una nueva oferta de mantenimiento por parte de un taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/offers/{offerId}</td>
+      <td>GET</td>
+      <td>Obtiene la información detallada de una oferta específica.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/offers/my-offers</td>
+      <td>GET</td>
+      <td>Lista todas las ofertas creadas por el taller autenticado.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/offers/{offerId}</td>
+      <td>PUT</td>
+      <td>Actualiza la información de una oferta existente.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/offers/{offerId}/withdraw</td>
+      <td>PUT</td>
+      <td>Retira una oferta de mantenimiento.</td>
+    </tr>
+  </tbody>
+</table>
+
+**B. RequestController**
+
+Este controlador administra las operaciones relacionadas con las solicitudes de servicio, incluyendo su creación, consulta y gestión.
+
+Principales endpoints:
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Endpoint</strong></th>
+      <th><strong>HTTP Method</strong></th>
+      <th><strong>Descripción</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/requests</td>
+      <td>POST</td>
+      <td>Crea una nueva solicitud de servicio por parte de un propietario.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/requests/{requestId}</td>
+      <td>GET</td>
+      <td>Obtiene la información detallada de una solicitud específica.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/requests/my-requests</td>
+      <td>GET</td>
+      <td>Lista todas las solicitudes creadas por el propietario autenticado.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/requests/available</td>
+      <td>GET</td>
+      <td>Lista todas las solicitudes disponibles para los talleres.</td>
+    </tr>
+  </tbody>
+</table>
+
+**C. BookingController**
+
+Este controlador gestiona las operaciones relacionadas con las reservas de servicios, incluyendo su creación, consulta, actualización y cancelación.
+
+Principales endpoints:
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Endpoint</strong></th>
+      <th><strong>HTTP Method</strong></th>
+      <th><strong>Descripción</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/bookings</td>
+      <td>POST</td>
+      <td>Crea una nueva reserva de servicio.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/bookings/{bookingId}</td>
+      <td>GET</td>
+      <td>Obtiene la información de una reserva específica.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/bookings/my-bookings</td>
+      <td>GET</td>
+      <td>Lista todas las reservas del usuario autenticado.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/bookings/{bookingId}</td>
+      <td>PUT</td>
+      <td>Actualiza la información de una reserva.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/bookings/{bookingId}/cancel</td>
+      <td>PUT</td>
+      <td>Cancela una reserva de servicio.</td>
+    </tr>
+  </tbody>
+</table>
+
+**D. PaymentController**
+
+Este controlador administra las operaciones relacionadas con los pagos y suscripciones, incluyendo su creación, consulta y gestión.
+
+Principales endpoints:
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Endpoint</strong></th>
+      <th><strong>HTTP Method</strong></th>
+      <th><strong>Descripción</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/payments</td>
+      <td>POST</td>
+      <td>Crea un nuevo pago asociado a un servicio.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/payments/{paymentId}</td>
+      <td>GET</td>
+      <td>Obtiene la información detallada de un pago.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/payments/my-payments</td>
+      <td>GET</td>
+      <td>Lista todos los pagos del usuario autenticado.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/subscriptions</td>
+      <td>POST</td>
+      <td>Crea una nueva suscripción para un taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/subscriptions/my-subscription</td>
+      <td>GET</td>
+      <td>Obtiene la información de la suscripción del taller autenticado.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/subscriptions/{subscriptionId}</td>
+      <td>PUT</td>
+      <td>Actualiza la información de una suscripción.</td>
+    </tr>
+  </tbody>
+</table>
+
+**E. WorkshopController (Ampliado)**
+
+Este controlador gestiona las operaciones relacionadas con los talleres, incluyendo gestión de ubicaciones, empleados e invitaciones.
+
+Endpoints adicionales implementados:
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Endpoint</strong></th>
+      <th><strong>HTTP Method</strong></th>
+      <th><strong>Descripción</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/workshops/invitations</td>
+      <td>POST</td>
+      <td>Crea una invitación para agregar un empleado al taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/invitations/{code}</td>
+      <td>GET</td>
+      <td>Obtiene la información de una invitación por código.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/invitations/accept</td>
+      <td>POST</td>
+      <td>Acepta una invitación y agrega al usuario como empleado del taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/employees</td>
+      <td>GET</td>
+      <td>Lista todos los empleados de un taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/employees/{employeeId}/activate</td>
+      <td>PUT</td>
+      <td>Activa un empleado del taller.</td>
+    </tr>
+    <tr>
+      <td>/api/v1/workshops/employees/{employeeId}/deactivate</td>
+      <td>PUT</td>
+      <td>Desactiva un empleado del taller.</td>
+    </tr>
+  </tbody>
+</table>
+
+**F. Documentación Swagger/OpenAPI**
+
+Se actualizó y publicó la documentación completa de la API incluyendo todos los nuevos endpoints, disponible en el siguiente enlace:
+
+**URL de documentación:** [AutoNexo API Documentation](https://autonexo-backend-akcsb5avacemdwh7.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
+
+La documentación incluye:
+- Descripción detallada de todos los endpoints nuevos
+- Esquemas de request y response actualizados
+- Ejemplos de uso para los nuevos bounded contexts
+- Códigos de estado HTTP
+- Autenticación y autorización
+
+**G. Seguridad, validación y consistencia**
+- Todos los endpoints aplican validaciones automáticas mediante @Valid y tipos de recursos.
+- Se maneja de forma controlada el flujo de errores y respuestas HTTP (400, 401, 403, 404, 500).
+- Se integran patrones de diseño Domain-Driven Design (DDD) y CQRS para mantener la escalabilidad del sistema.
+- Implementación de autenticación JWT para seguridad de endpoints.
+
+##### **4.2.3.7. Software Deployment Evidence for Sprint Review**
+
+Durante este Sprint se mantuvo y actualizó el despliegue del backend en Azure App Services con los nuevos bounded contexts implementados, siguiendo un enfoque de integración y entrega continua. El backend fue actualizado con todas las nuevas funcionalidades y documentación completa accesible mediante Swagger UI.
+
+**Actividades realizadas:**
+- Se actualizó el despliegue del backend en Azure App Services con los nuevos bounded contexts.
+- Se validó el correcto funcionamiento de todos los nuevos servicios mediante pruebas de integración.
+- Se actualizó la documentación Swagger/OpenAPI con todos los nuevos endpoints.
+- Se configuraron las variables de entorno necesarias para los nuevos servicios.
+- Se realizaron pruebas de carga y rendimiento para los nuevos endpoints.
+
+**Evidencias del proceso de despliegue:**
+
+A continuación, se incluyen las capturas correspondientes al proceso de actualización y despliegue del backend en Azure.
+
+1. Despliegue exitoso de nuevos bounded contexts:
+
+<div>
+  <p align="center"><img src="assets\chapter-IV-assets\sprint3_deployment_success.png" alt="deployment-success.png" width="700px" /></p>
+</div>
+
+2. Documentación Swagger actualizada:
+
+<div>
+  <p align="center"><img src="assets\chapter-IV-assets\sprint3_deployment_swagger.png" alt="deployment-swagger.png" width="700px" /></p>
+</div>
+
+<br>
+
+**URLs de despliegue:**
+- **Backend API:** [https://autonexo-backend-akcsb5avacemdwh7.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://autonexo-backend-akcsb5avacemdwh7.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
+- **Landing Page:** [https://mango-sea-0eee8590f.1.azurestaticapps.net/#]
+
+##### **4.2.3.8. Team Collaboration Insights during Sprint**
+
+Durante el desarrollo del Sprint 3, todos los integrantes del equipo participaron activamente en la implementación de los bounded contexts de Offer, Request y Service Booking, el avance en los bounded contexts de Payment y Workshop, la implementación del diseño completo en Android para las features principales, y el desarrollo de funcionalidades equivalentes en Flutter. El enfoque principal fue completar el ecosistema funcional avanzado del proyecto, asegurando que todas las capacidades principales estén disponibles y operativas en ambas plataformas móviles.
+
+A continuación, se detalla la participación específica de cada miembro del equipo:
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Nombre</strong></th>
+      <th><strong>Actividad</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Cruz Ibarra, Victor Andrés</strong></td>
+      <td>Implementación del bounded context de Offer, desarrollo de las features de autenticación y perfil en Android con diseño aplicado. Participación en la integración de servicios backend con la aplicación móvil.</td>
+    </tr>
+    <tr>
+      <td><strong>Iglesias Pérez, Sergio Sebastián</strong></td>
+      <td>Implementación del bounded context de Request, desarrollo de la pantalla Home con navegación en Android, y actualización de la documentación Swagger/OpenAPI con los nuevos endpoints.</td>
+    </tr>
+    <tr>
+      <td><strong>Roman Esteban, Henry Kalet</strong></td>
+      <td>Completar el bounded context de Workshop con gestión de ubicaciones, empleados e invitaciones. Desarrollo de funcionalidades de gestión de taller en Android.</td>
+    </tr>
+    <tr>
+      <td><strong>Solano Armas, Angelo Hector</strong></td>
+      <td>Implementación del bounded context de Payment con gestión de pagos y suscripciones, desarrollo de funcionalidades de pago en Android, y desarrollo de features principales en Flutter (home, vehicle management, maintenance history, service request, offer, reviews, bookings, workshop profile).</td>
+    </tr>
+    <tr>
+      <td><strong>Vivanco Salazar, Rafael Andrés</strong></td>
+      <td>Implementación del bounded context de Service Booking para reservar servicios y gestionar reservas, desarrollo del sistema de matching entre solicitudes y ofertas en Android, y participación en pruebas de integración.</td>
+    </tr>
+  </tbody>
+</table>
+
+##### Evidencia de colaboración en GitHub
+
+A continuación, se presenta la evidencia de participación de los miembros del equipo, extraída del repositorio oficial del proyecto. Se puede observar el trabajo colaborativo y los aportes de cada integrante en las distintas ramas del desarrollo.
+
+<br>
+
+Backend:
+
+<img alt="participation sprint 3" src="assets\chapter-IV-assets\sprint3_evidence_participation_backend.png" />
+
+<br>
+
+Android:
+
+<img alt="participation sprint 3" src="assets\chapter-IV-assets\sprint3_evidence_participation_android.png" />
+
+<br>
+
+Flutter:
+
+<img alt="participation sprint 3" src="assets\chapter-IV-assets\sprint3_evidence_participation_flutter.png" />
+
+<br>
+
+##### Repositorios de trabajo:
+
+- [Repositorio de la Landing Page en GitHub](https://github.com/ATG-UPC/AutoNexo-Landing-Page)
+- [Repositorio del Backend en GitHub](https://github.com/ATG-UPC/AutoNexo-Backend)
+- [Repositorio de la Aplicación Móvil Android en GitHub](https://github.com/ATG-UPC/AutoNexo-Android)
+- [Repositorio de la Aplicación Móvil Flutter en GitHub](https://github.com/ATG-UPC/AutoNexo-Flutter)
