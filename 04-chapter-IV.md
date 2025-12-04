@@ -1922,59 +1922,39 @@ A continuación, se presentan las capturas de pantalla de las principales funcio
 
 Pantalla de autenticación (Login):
 
-<img alt="Login" src="assets\chapter-IV-assets\sprint3_evidence_login.png" />
+<img alt="Login" src="assets/chapter-IV-assets/Iniciar.png" />
 
 <br>
 
 Pantalla de registro:
 
-<img alt="Registro" src="assets\chapter-IV-assets\sprint3_evidence_register.png" />
+<img alt="Registro" src="assets/chapter-IV-assets/Registro.png" />
 
 <br>
 
 Pantalla Home con navegación:
 
-<img alt="Home" src="assets\chapter-IV-assets\sprint3_evidence_home.png" />
+<img alt="Home" src="assets/chapter-IV-assets/Login.png" />
 
 <br>
 
 Gestión de perfil:
 
-<img alt="Perfil" src="assets\chapter-IV-assets\sprint3_evidence_profile.png" />
+<img alt="Perfil" src="assets/chapter-IV-assets/Perfil.png" />
 
 <br>
-
-Sistema de ofertas:
-
-<img alt="Ofertas" src="assets\chapter-IV-assets\sprint3_evidence_offers.png" />
-
-<br>
-
-Solicitudes de servicio:
-
-<img alt="Solicitudes" src="assets\chapter-IV-assets\sprint3_evidence_requests.png" />
-
-<br>
-
-Gestión de taller:
-
-<img alt="Taller" src="assets\chapter-IV-assets\sprint3_evidence_workshop.png" />
 
 <br>
 
 Sistema de pagos y suscripciones:
 
-<img alt="Pagos" src="assets\chapter-IV-assets\sprint3_evidence_payment.png" />
+<img alt="Pagos" src="assets\chapter-IV-assets/Pagos.png" />
+
+
 
 <br>
 
-Reservas de servicios:
-
-<img alt="Reservas" src="assets\chapter-IV-assets\sprint3_evidence_bookings.png" />
-
-<br>
-
-Video de evidencia: Autonexo - Sprint 3 Demo Video : https://drive.google.com/drive/folders/[FOLDER_ID]?usp=sharing
+Video de evidencia: Autonexo - Sprint 3 Demo Video : https://drive.google.com/drive/folders/1rQoI7fwtVrntl1jeGQ1cc_cXpP7fWdzK?usp=sharing
 
 ##### **4.2.3.6. Services Documentation Evidence for Sprint Review**
 
@@ -2239,13 +2219,13 @@ A continuación, se incluyen las capturas correspondientes al proceso de actuali
 1. Despliegue exitoso de nuevos bounded contexts:
 
 <div>
-  <p align="center"><img src="assets\chapter-IV-assets\sprint3_deployment_success.png" alt="deployment-success.png" width="700px" /></p>
+  <p align="center"><img src="assets\chapter-IV-assets/FireBase.jpg" alt="deployment-success.png" width="700px" /></p>
 </div>
 
 2. Documentación Swagger actualizada:
 
 <div>
-  <p align="center"><img src="assets\chapter-IV-assets\sprint3_deployment_swagger.png" alt="deployment-swagger.png" width="700px" /></p>
+  <p align="center"><img src="assets\chapter-IV-assets/Swagger.png" alt="deployment-swagger.png" width="700px" /></p>
 </div>
 
 <br>
@@ -2299,19 +2279,19 @@ A continuación, se presenta la evidencia de participación de los miembros del 
 
 Backend:
 
-<img alt="participation sprint 3" src="assets\chapter-IV-assets\sprint3_evidence_participation_backend.png" />
+<img alt="participation sprint 3" src="assets\chapter-IV-assets/Backend.png" />
 
 <br>
 
 Android:
 
-<img alt="participation sprint 3" src="assets\chapter-IV-assets\sprint3_evidence_participation_android.png" />
+<img alt="participation sprint 3" src="assets\chapter-IV-assets/Andrroid.png" />
 
 <br>
 
 Flutter:
 
-<img alt="participation sprint 3" src="assets\chapter-IV-assets\sprint3_evidence_participation_flutter.png" />
+<img alt="participation sprint 3" src="assets\chapter-IV-assets/Flutter.png" />
 
 <br>
 
