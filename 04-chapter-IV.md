@@ -748,28 +748,28 @@ Se desarrollaron dos bloques de preguntas diferenciados por el segmento objetivo
     <th>Entrevista</th>
     <td>1</td>
     <th>Nombre</th>
-    <td>[Nombre del entrevistado]</td>
+    <td>[Freddy Fernandez Camacho]</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>[Edad]</td>
+    <td>22</td>
     <th>Distrito</th>
-    <td>[Distrito]</td>
+    <td>Ate</td>
   </tr>
   <tr>
     <th>Fecha de entrevista</th>
-    <td colspan="3">[Fecha]</td>
+    <td colspan="3">5/12/25</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-IV-assets/validation_interview_1_owner.jpg" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-IV-assets/Entrevista3.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        [Descripción detallada de las observaciones del entrevistado durante la interacción con el landing page y la aplicación móvil, incluyendo funcionalidades probadas, dificultades encontradas, aspectos positivos y sugerencias de mejora.]
+        Freddy Camacho, conductor habitual con un Hyundai Elantra 2016, señaló que su principal problema es la falta de talleres confiables con precios justos. Durante la interacción con el landing page, dijo que le pareció claro, pero que algunas secciones podrían resaltar más los beneficios. En la aplicación móvil, completó fácilmente el registro y la creación de una solicitud de mantenimiento. Destacó la utilidad del comparador de mecánicos y la claridad del historial. Tuvo ligeras dudas al navegar entre ofertas, pero encontró intuitivo el proceso de reserva. Consideró útil el sistema de mensajes y el proceso de pago digital. Sugirió incluir una opción de filtros avanzados por repuestos y tiempos estimados de servicio.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="[URL del video en OneDrive]">
+      <a href="[https://drive.google.com/drive/folders/1rQoI7fwtVrntl1jeGQ1cc_cXpP7fWdzK?usp=sharing]">
         Ver grabación
       </a>
     </td>
@@ -777,7 +777,7 @@ Se desarrollaron dos bloques de preguntas diferenciados por el segmento objetivo
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        [Timing de la entrevista]
+        [12:37-18:27]
     </td>
   </tr>
 </table>
@@ -788,28 +788,28 @@ Se desarrollaron dos bloques de preguntas diferenciados por el segmento objetivo
     <th>Entrevista</th>
     <td>2</td>
     <th>Nombre</th>
-    <td>[Nombre del entrevistado]</td>
+    <td>Diego Ignacio Ricra Falla</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>[Edad]</td>
+    <td>20</td>
     <th>Distrito</th>
-    <td>[Distrito]</td>
+    <td>La molina</td>
   </tr>
   <tr>
     <th>Fecha de entrevista</th>
-    <td colspan="3">[Fecha]</td>
+    <td colspan="3">05/12/25</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-IV-assets/validation_interview_2_owner.jpg" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-IV-assets/Entrevista4.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        [Descripción detallada de las observaciones del entrevistado durante la interacción con el landing page y la aplicación móvil, incluyendo funcionalidades probadas, dificultades encontradas, aspectos positivos y sugerencias de mejora.]
+        Diego Ignacio, dueño de un Kia Picanto 2018, comentó que suele tener dificultades para entender precios y saber si un taller es confiable. El landing page le pareció moderno y bien organizado, aunque recomendó destacar más el botón de “Descargar App”. En la aplicación móvil, completó sin problemas el registro y la creación de una solicitud. Destacó la claridad del proceso de comparación de mecánicos y el diseño de las pantallas. Le gustó que las ofertas muestren fotografías, precios y tiempos estimados. Sugirió añadir un sistema de recordatorios automáticos más visible. Calificó la experiencia como rápida, confiable y “muy completa para alguien que no sabe de mecánica”.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="[URL del video en OneDrive]">
+      <a href="[https://drive.google.com/drive/folders/1rQoI7fwtVrntl1jeGQ1cc_cXpP7fWdzK?usp=sharing]">
         Ver grabación
       </a>
     </td>
@@ -817,7 +817,7 @@ Se desarrollaron dos bloques de preguntas diferenciados por el segmento objetivo
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        [Timing de la entrevista]
+        [18:25-25:09]
     </td>
   </tr>
 </table>
@@ -830,28 +830,28 @@ Se desarrollaron dos bloques de preguntas diferenciados por el segmento objetivo
     <th>Entrevista</th>
     <td>3</td>
     <th>Nombre</th>
-    <td>[Nombre del entrevistado]</td>
+    <td>Maria Fernanda Esteban Román</td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>[Edad]</td>
+    <td>25</td>
     <th>Distrito</th>
-    <td>[Distrito]</td>
+    <td>Ate</td>
   </tr>
   <tr>
     <th>Fecha de entrevista</th>
-    <td colspan="3">[Fecha]</td>
+    <td colspan="3">05/11/25</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-IV-assets/validation_interview_3_mechanic.jpg" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-IV-assets/Entrevista1.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        [Descripción detallada de las observaciones del entrevistado durante la interacción con el landing page y la aplicación móvil, incluyendo funcionalidades probadas, dificultades encontradas, aspectos positivos y sugerencias de mejora.]
+        María, mecánica con 12 años de experiencia, aseguró que su mayor dificultad es llevar un control ordenado del historial de cada vehículo y coordinar con varios clientes simultáneamente. El landing page le pareció claro y profesional. Dentro de la app, valoró especialmente el registro de solicitudes, la vista tipo panel y el checklist de mantenimiento. Comentó que la app reduciría errores y mejoraría la trazabilidad de los mantenimientos. Le resultó muy útil recibir “alertas automáticas de próximos servicios” y sugirió incluir estadísticas más detalladas de productividad del taller. Consideró que la app le permitiría ahorrar tiempo en comunicación y administración.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="[URL del video en OneDrive]">
+      <a href="[https://drive.google.com/drive/folders/1rQoI7fwtVrntl1jeGQ1cc_cXpP7fWdzK?usp=sharing]">
         Ver grabación
       </a>
     </td>
@@ -859,7 +859,7 @@ Se desarrollaron dos bloques de preguntas diferenciados por el segmento objetivo
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        [Timing de la entrevista]
+        [00:00-06:26]
     </td>
   </tr>
 </table>
@@ -870,28 +870,28 @@ Se desarrollaron dos bloques de preguntas diferenciados por el segmento objetivo
     <th>Entrevista</th>
     <td>4</td>
     <th>Nombre</th>
-    <td>[Nombre del entrevistado]</td>
+    <td>Amir Castro </td>
   </tr>
   <tr>
     <th>Edad</th>
-    <td>[Edad]</td>
+    <td>20</td>
     <th>Distrito</th>
-    <td>[Distrito]</td>
+    <td>San Isidro</td>
   </tr>
   <tr>
     <th>Fecha de entrevista</th>
-    <td colspan="3">[Fecha]</td>
+    <td colspan="3">11/05/25</td>
   </tr>
   <tr>
-    <th>Captura de la entrevista: <img src="assets/chapter-IV-assets/validation_interview_4_mechanic.jpg" alt="Captura de la entrevista" width="200"></th>
+    <th>Captura de la entrevista: <img src="assets/chapter-IV-assets/Entrevista2.png" alt="Captura de la entrevista" width="200"></th>
     <td colspan="3">
-        [Descripción detallada de las observaciones del entrevistado durante la interacción con el landing page y la aplicación móvil, incluyendo funcionalidades probadas, dificultades encontradas, aspectos positivos y sugerencias de mejora.]
+        Amir, especialista en mecánica pesada y dueño de un pequeño taller, señaló que su problema principal es depender de WhatsApp para coordinar clientes y no tener un historial centralizado por placa. El landing page le resultó sencillo y directo. En la app, registró su taller, configuró empleados y gestionó una solicitud sin dificultades. Resaltó la importancia del checklist, el flujo de finalización del servicio y la mensajería integrada. Sugirió mejorar la visibilidad de promociones de talleres y ofrecer reportes financieros mensuales. Destacó que “la app ahorra tiempo y mejora la formalidad del taller”.
     </td>
   </tr>
   <tr>
     <th>URL de la grabación</th>
     <td colspan="3">
-      <a href="[URL del video en OneDrive]">
+      <a href="[https://drive.google.com/drive/folders/1rQoI7fwtVrntl1jeGQ1cc_cXpP7fWdzK?usp=sharing]">
         Ver grabación
       </a>
     </td>
@@ -899,7 +899,7 @@ Se desarrollaron dos bloques de preguntas diferenciados por el segmento objetivo
   <tr>
    <th>Timing</th>
     <td colspan="3">
-        [Timing de la entrevista]
+        [06-12:37]
     </td>
   </tr>
 </table>
@@ -950,7 +950,6 @@ Para cada entrevista realizada, se documentará:
 - **Recomendaciones de mejora**: Sugerencias específicas para mejorar la experiencia de usuario.
 - **Calificación general**: Evaluación general de la experiencia de usuario.
 
-[Nota: Esta sección se completará con los resultados específicos de cada entrevista una vez que se realicen las sesiones de validación con usuarios.]
 
 #### **4.2.2. Sprint 2**
 
@@ -1626,7 +1625,7 @@ En esta sección se describen los elementos principales abordados durante la reu
 
 El propósito del Sprint 3 es completar la implementación de los bounded contexts de Offer, Request y Service Booking, avanzar en los bounded contexts de Payment y Workshop, implementar el diseño completo en Android para las features principales, y desarrollar las funcionalidades equivalentes en Flutter. A continuación, se presenta una vista general de las historias de usuario planificadas para este sprint, junto con sus respectivas épicas y el estado de avance de cada una.
 
-<img alt="Sprint Backlog 3 in Trello" src="assets\chapter-IV-assets\sprint3_trello.png" />
+<img alt="Sprint Backlog 3 in Trello" src="assets\chapter-IV-assets/sprint1_trello.png" />
 
 <br>
 
